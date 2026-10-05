@@ -1261,3 +1261,18 @@
       - **이미지 본문 (2번째 textarea)**: `"(Photo by PhilipRomano via Wikimedia Commons (CC BY-SA 4.0))"`
       - 이미지 출처: `"Photo by PhilipRomano via Wikimedia Commons (CC BY-SA 4.0)"`
     * **송출 결과**: `articles.php`를 통해 **DRAFT 상태로 송출 성공 (`Article ID: 26995`, `Image ID: 14827`, `Status: draft`)** 확인 완료.
+
+
+## [2026-10-05-9] 불필요한 임시/테스트 파일 및 캐시 정리 완료
+- **작업자**: Antigravity
+- **작업 내용**:
+  - 사용자 승인에 따라 시스템 운영 및 파이프라인과 무관한 과거 임시/단발성 파일 및 캐시 전수 정리:
+    * `medi.md`: 의약학 전문 RSS 피드 매뉴얼 (기 설정 반영 완료에 따른 안전 삭제).
+    * `scratch/*`: 과거 단발성 피드 조사 및 임시 테스트 스크립트 전량 정리 (`test_publish_parentherald.py`, `verify_medi_rss.py` 등 6개 파일).
+    * `__pycache__/*`: 과거 리팩토링 스크립트의 잔여 컴파일 바이트코드 29개 파일 정리.
+    * `logs/`: 과거 임시 이미지(`temp_test.jpg`), 0바이트 빈 로그(`test.log`, `test_domain.log`, `travel_telegram.log`), 더미 로그(`site_a.log`, `site_b.log`, `site_c.log`, `app.log`) 8개 파일 정리.
+    * `data/temp_sources/`: 과거 8월 단발성 테스트 소스 2개 파일(`autoworldnews_test_src.txt`, `scienceworldreport_live_test.txt`) 정리.
+    * `data/`: 1회성 검증 결과 json(`medi_rss_verification_result.json`) 및 빈 테스트 파일 정리.
+  - Crontab 정기 스케줄, 텔레그램 데몬, 15개 매체 설정, 필수 DB/캐시 데이터는 100% 온전하게 보존.
+- **검증 결과**:
+  - 단위 테스트 17종 전수 100% PASS (Green).
