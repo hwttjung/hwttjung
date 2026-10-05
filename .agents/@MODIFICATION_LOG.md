@@ -1242,3 +1242,22 @@
       - 이미지 내용: `"(Photo by PhilipRomano via Wikimedia Commons (CC BY-SA 4.0))"`
       - 이미지 출처: `"Photo by PhilipRomano via Wikimedia Commons (CC BY-SA 4.0)"`
     * **송출 결과**: `articles.php`를 통해 **DRAFT 상태로 송출 성공 (`Article ID: 26994`, `Image ID: 14826`, `Status: draft`)** 확인 완료.
+
+
+## [2026-10-05-8] 어드민 이미지 본문(2번째 필드) 저작자 크레딧(({credit})) 반영 완료
+- **작업자**: Antigravity
+- **작업 내용**:
+  - 어드민 CMS 웹화면의 `Edit Images` 팝업 2번째 필드(이미지 본문)에 기사 요약문이 노출되고 크레딧이 누락되던 현상 완벽 해결.
+  - 어드민 PHP 백엔드(`articles.php`)가 썸네일 이미지 레코드 생성 시 `summary` 파라미터 값을 이미지 내용으로 직접 복사/주입하는 동작 메커니즘을 규명.
+  - `core/publishing/article_publisher.py` 내 `publish()`에서 `summary` 필드에 괄호로 감싼 저작자 크레딧(`f"({img_credit})"`)을 매핑하여, 어드민 이미지 상세 및 팝업창 2번째 본문 textarea에 크레딧이 정확하게 출력되도록 옵션 2번 반영 완료.
+- **검증 결과**:
+  - **단위 테스트 17종 전수 100% PASS (Green)**: `tests/test_cost_and_image_pipeline.py`.
+  - **celebeat 매체 실전 기사 작성 및 어드민 DRAFT 실송출 검증 (Constitution 규칙 17조)**:
+    * **타겟 매체**: `celebeat` (https://admin.celebeat.com/api/v1/)
+    * **기사 제목**: `"Zendaya Reflects on Artistic Growth and the Power of Red Carpet Storytelling"`
+    * **카테고리**: `news` (id: 1)
+    * **대표 이미지 메타데이터**:
+      - 이미지 제목: `"Zendaya Reflects on Artistic Growth and the Power of Red Carpet Storytelling"`
+      - **이미지 본문 (2번째 textarea)**: `"(Photo by PhilipRomano via Wikimedia Commons (CC BY-SA 4.0))"`
+      - 이미지 출처: `"Photo by PhilipRomano via Wikimedia Commons (CC BY-SA 4.0)"`
+    * **송출 결과**: `articles.php`를 통해 **DRAFT 상태로 송출 성공 (`Article ID: 26995`, `Image ID: 14827`, `Status: draft`)** 확인 완료.

@@ -184,7 +184,7 @@ class ArticlePublisher:
         fields = {
             "title": clean_title,
             "content": self._clean_text(article_data["content"]),
-            "summary": self._clean_text(article_data.get("summary", "")),
+            "summary": formatted_caption if formatted_caption else self._clean_text(article_data.get("summary", "")),
             "categories[]": [selected_cat], # match repetitive param categories[]
             "thumbnail_url": img_url,
             "seo_tags": self._clean_text(article_data.get("seo_tags", "")),
