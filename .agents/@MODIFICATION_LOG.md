@@ -1218,3 +1218,27 @@
       - **경량화 결과**: `iiurlwidth=1280` 적용으로 이미지 용량 **483,864 bytes (472.52 KB)** — 1MB 한도 내 완벽 수용.
     * **대표 이미지**: `https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Zendaya-byPhilipRomano.jpg/1280px-Zendaya-byPhilipRomano.jpg` (`Photo by PhilipRomano via Wikimedia Commons (CC BY-SA 4.0)`)
     * **송출 결과**: `articles.php`를 통해 **DRAFT 상태로 송출 성공 (`Article ID: 26993`, `Image ID: 14825`, `Status: draft`)** 확인 완료.
+
+
+## [2026-10-05-7] 이미지 메타데이터 매핑 최적화 (제목: 기사제목 유지, 내용: ({credit}) 괄호 포맷 주입)
+- **작업자**: Antigravity
+- **작업 내용**:
+  - `core/publishing/article_publisher.py` 내 이미지 메타데이터 송출 규격 개편:
+    * **이미지 제목 (`im_title`, `thumbnail_title`, `name`)**: 기사 제목(`clean_title`) 그대로 매핑하여 기사와의 관련성을 명확화하고 파일명(`filename`) 인코딩도 기사 제목 안전 문자열로 유지.
+    * **이미지 내용 (`im_content`, `thumbnail_caption`, `caption`)**: 기사 요약이나 본문 설명 대신 괄호로 감싼 저작자 크레딧(`f"({img_credit})"`)을 주입하여 어드민 이미지 상세 및 팝업창에서 저작권 표기가 확실히 드러나도록 조치.
+    * **이미지 출처 (`im_credit`, `thumbnail_credit`, `credit`)**: `img_credit` 원본 문자열 명시적 바인딩.
+    * `publish()` (일반 articles.php multipart) 및 `publish_via_ingest()` (Ingest API) 양대 송출 파이프라인에 동일 규격 완벽 일원화.
+    * 기사 본문(Article Content)은 별도 캡션 태그를 삽입하지 않고 원본 본문 그대로 유지.
+- **검증 결과**:
+  - **단위 테스트 17종 전수 100% PASS (Green)**: `tests/test_cost_and_image_pipeline.py`.
+  - **celebeat 매체 실전 기사 작성 및 어드민 DRAFT 실송출 검증 (Constitution 규칙 17조)**:
+    * **타겟 매체**: `celebeat` (https://admin.celebeat.com/api/v1/)
+    * **기사 제목**: `"Zendaya Reflects on Artistic Evolution and the Power of Red Carpet Storytelling"`
+    * **카테고리**: `news` (id: 1)
+    * **인물 사진 탐색 결과**:
+      - 1순위 인명 `Zendaya`: 위키미디어 고화질 세로형 인물 사진(`File:Zendaya-byPhilipRomano2.jpg`, 비율 0.67) 9.5점 예외 채택 성공.
+    * **대표 이미지 메타데이터**:
+      - 이미지 제목: `"Zendaya Reflects on Artistic Evolution and the Power of Red Carpet Storytelling"`
+      - 이미지 내용: `"(Photo by PhilipRomano via Wikimedia Commons (CC BY-SA 4.0))"`
+      - 이미지 출처: `"Photo by PhilipRomano via Wikimedia Commons (CC BY-SA 4.0)"`
+    * **송출 결과**: `articles.php`를 통해 **DRAFT 상태로 송출 성공 (`Article ID: 26994`, `Image ID: 14826`, `Status: draft`)** 확인 완료.

@@ -177,15 +177,30 @@ class ArticlePublisher:
             logger = get_domain_logger(domain_key)
             logger.warning(f"[{domain_key}] Failed to resolve category_id from cache: {e}")
 
+        clean_title = self._clean_text(article_data["title"])
+        formatted_caption = f"({img_credit})" if img_credit else ""
+
         # 4. Prepare fields and files for multipart/form-data with clean text (quotes fix)
         fields = {
-            "title": self._clean_text(article_data["title"]),
+            "title": clean_title,
             "content": self._clean_text(article_data["content"]),
             "summary": self._clean_text(article_data.get("summary", "")),
             "categories[]": [selected_cat], # match repetitive param categories[]
             "thumbnail_url": img_url,
             "seo_tags": self._clean_text(article_data.get("seo_tags", "")),
-            "idempotency_key": idempotency_key
+            "idempotency_key": idempotency_key,
+            # [이미지 메타데이터 명시 매핑 - 제목: 기사제목, 내용: ({credit}), 출처: credit]
+            "im_title": clean_title,
+            "image_title": clean_title,
+            "thumbnail_title": clean_title,
+            "im_content": formatted_caption,
+            "image_caption": formatted_caption,
+            "thumbnail_caption": formatted_caption,
+            "caption": formatted_caption,
+            "im_credit": img_credit,
+            "image_credit": img_credit,
+            "thumbnail_credit": img_credit,
+            "credit": img_credit
         }
         if category_id is not None:
             fields["category_id"] = category_id
@@ -444,10 +459,11 @@ class ArticlePublisher:
         
         images = []
         if img_url:
+            formatted_caption = f"({img_credit})" if img_credit else ""
             images.append({
                 "url": img_url,
                 "name": title_clean[:100],
-                "caption": f"Image credit: {img_credit}"[:200],
+                "caption": formatted_caption[:200],
                 "credit": img_credit
             })
             
