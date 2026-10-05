@@ -1,0 +1,39 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env.*
+!.env.template
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Logs & Diagnostics
+logs/
+*.log
+
+# Runtime Data & Temporary Files
+data/local_articles/
+data/generated_articles/
+data/temp_sources/
+data/*.lock
+data/published_history.json
+data/reservation.json
+data/test_dup_history.json
+data/travel_pool_state.json
+data/medi_rss_verification_result.json
+scratch/
+
+# IDE & OS Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

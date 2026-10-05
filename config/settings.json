@@ -1,0 +1,25 @@
+{
+  "system": {
+    "environment": "development",
+    "debug": true,
+    "user_agent": "AI-Article-Publisher/1.0"
+  },
+  "ai_model": {
+    "provider": "gemini",
+    "model_name": "gemini-3.1-flash-lite",
+    "temperature": 0.6,
+    "top-p": 0.75,
+    "frequency_penalty": 0.3,
+    "presence_penalty": 0.25,
+    "max_tokens": 1024
+  },
+  "scheduler": {
+    "interval_minutes": 60,
+    "run_on_startup": true
+  },
+  "api_options": {
+    "rate_limit_per_minute": 30,
+    "retry_attempts": 3,
+    "retry_backoff_factor": 2.0
+  }
+}

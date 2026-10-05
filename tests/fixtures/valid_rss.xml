@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Hermetic Test Science Wire</title>
+    <link>https://example.com/science</link>
+    <description>Static test fixture for hermetic unit testing</description>
+    <item>
+      <title>Astronomers Discover Habitable Zone Exoplanet Around Nearby Star</title>
+      <link>https://example.com/science/exoplanet-discovery-2026</link>
+      <pubDate>Mon, 28 Sep 2026 14:00:00 +0000</pubDate>
+      <description><![CDATA[Researchers have detected a terrestrial rocky planet located in the circumstellar habitable zone of a red dwarf star 15 light-years away.]]></description>
+    </item>
+    <item>
+      <title>Quantum Computer Solves Complex Materials Simulation in Seconds</title>
+      <link>https://example.com/science/quantum-materials-simulation</link>
+      <pubDate>Tue, 29 Sep 2026 09:30:00 +0000</pubDate>
+      <description>A 1000-qubit processor has accurately predicted the molecular behavior of a novel room-temperature superconductor candidate.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Malformed Test Wire</title>
+    <link>https://example.com/malformed</link>
+    <item>
+      <!-- Missing link and pubDate -->
+      <title>Malformed Item Without Proper Metadata</title>
+      <description>This item lacks link and publication timestamp.</description>
+    </item>
+    <item>
+      <title>Valid Item In Mixed Feed</title>
+      <link>https://example.com/valid-item</link>
+      <pubDate>Tue, 29 Sep 2026 10:00:00 +0000</pubDate>
+      <description>This is valid and should be retained.</description>
+    </item>
+  </channel>
+</rss>

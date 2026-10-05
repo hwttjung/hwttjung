@@ -1,0 +1,75 @@
+{
+  "description": "Clicky Web Analytics API Credentials for 14 sites. Replace the demo credentials with your actual site_id and sitekey.",
+  "sites": [
+    {
+      "domain": "scienceworldreport",
+      "site_id": "101510020",
+      "sitekey": "7af5946957857fc1"
+    },
+    {
+      "domain": "latinoshealth",
+      "site_id": "101510024",
+      "sitekey": "4f0436d44705b443"
+    },
+    {
+      "domain": "autoworldnews",
+      "site_id": "101510025",
+      "sitekey": "17579efc2e541d68"
+    },
+    {
+      "domain": "youthhealthmag",
+      "site_id": "101510026",
+      "sitekey": "e9402f9a63ea4310"
+    },
+    {
+      "domain": "newseveryday",
+      "site_id": "101510028",
+      "sitekey": "04ba4dcf01f4c142"
+    },
+    {
+      "domain": "celebeat",
+      "site_id": "101510030",
+      "sitekey": "b9e761d289ba95d0"
+    },
+    {
+      "domain": "boomsbeat",
+      "site_id": "101510033",
+      "sitekey": "1097361b3c0d4dd1"
+    },
+    {
+      "domain": "sportsworldreport",
+      "site_id": "101510027",
+      "sitekey": "e56a3e0715884b3c"
+    },
+    {
+      "domain": "jobsnhire",
+      "site_id": "101510031",
+      "sitekey": "46984893efe9671a"
+    },
+    {
+      "domain": "franchiseherald",
+      "site_id": "101510021",
+      "sitekey": "da95efd0ec62f320"
+    },
+    {
+      "domain": "mobilenapps",
+      "site_id": "101510022",
+      "sitekey": "44bd05b64e8c163b"
+    },
+    {
+      "domain": "parentherald",
+      "site_id": "101510023",
+      "sitekey": "c445b51f661e9c94"
+    },
+    {
+      "domain": "booksnreview",
+      "site_id": "101510029",
+      "sitekey": "29b58e9e0c718ab8"
+    },
+    {
+      "domain": "foodworldnews",
+      "site_id": "101510032",
+      "sitekey": "55dbb7ccdb9fbb20"
+    }
+  ]
+}
