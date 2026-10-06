@@ -1,0 +1,699 @@
+{
+  "286783": {
+    "article_id": "286783",
+    "headline": "Tesla’s Cybercab Won’t Let Kids Ride, Even With Parents in Tow",
+    "image_url": "https://images.unsplash.com/photo-1755820201549-4266b8d8cb0c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxUZXNsYSUyMEN5YmVyY2FiJTIwZnV0dXJpc3RpYyUyMGNhcnxlbnwwfHx8fDE3ODg2MjE5OTd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
+    "source_urls": [
+      "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "60ce97d6b5ca7614928efd6b56c2869c2d34d130ad2dec36e23edb083d6b93d7",
+    "category": "funny",
+    "created_at": "2026-09-05T15:26:39.292884",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2026-12-04T15:26:39.292884"
+  },
+  "60097": {
+    "article_id": "60097",
+    "headline": "Louisa Young Revives the Cazalet Chronicles in The Golden Hours",
+    "image_url": "https://images.unsplash.com/photo-1754138739830-25716c817f30?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8VGhlJTIwR29sZGVuJTIwSG91cnMlMjBMb3Vpc2ElMjBZb3VuZyUyMGJvb2slMjBjb3ZlcnxlbnwwfHx8fDE3ODg2MjM3MzN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/04/the-golden-hours-by-louisa-young-review-this-continuation-of-the-cazalet-chronicles-is-a-total-delight",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/04/the-golden-hours-by-louisa-young-review-this-continuation-of-the-cazalet-chronicles-is-a-total-delight"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "bd86f6a5e04fd70f8996082c319643fc6ba6229904e87c22c938a7538a06148b",
+    "category": "book-news",
+    "created_at": "2026-09-05T15:55:35.887387",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T15:55:35.887387"
+  },
+  "53911": {
+    "article_id": "53911",
+    "headline": "Genetic Testing and Breast Cancer Risk: What Young Adults Should Know",
+    "image_url": "https://images.unsplash.com/photo-1758691462119-792279713969?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8Z2VuZXRpYyUyMHRlc3RpbmclMjBtZWRpY2FsJTIwY29uc3VsdGF0aW9ufGVufDB8fHx8MTc4ODYyNTM5MHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/04/well/brca-gene-test-breast-cancer.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/04/well/brca-gene-test-breast-cancer.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4233f4bb69bcc27fc455111a4a74d899d3e79dd3c62793a54257e2d4a3c303fe",
+    "category": "body",
+    "created_at": "2026-09-05T16:23:11.886646",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T16:23:11.886646"
+  },
+  "40342": {
+    "article_id": "40342",
+    "headline": "Toyota Highlander EV Facing Further Production Delays",
+    "image_url": "https://images.unsplash.com/photo-1600462456909-5d0014aa313d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxUb3lvdGElMjBlbGVjdHJpYyUyMFNVViUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc4ODYyODg5NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.motor1.com/news/807181/toyota-highlander-ev-delayed-again/",
+    "source_urls": [
+      "https://www.motor1.com/news/807181/toyota-highlander-ev-delayed-again/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ae3ab7d42f66ad6cc24108ce785106de942028407969e216fc63c495ffa66f5f",
+    "category": "green-cars",
+    "created_at": "2026-09-05T17:21:37.360842",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2026-12-04T17:21:37.360842"
+  },
+  "236010": {
+    "article_id": "236010",
+    "headline": "Robust Labor Market Data Fuels Expectations for September Federal Reserve Rate Hike",
+    "image_url": "https://images.unsplash.com/photo-1651340981821-b519ad14da7c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxGZWRlcmFsJTIwUmVzZXJ2ZSUyMGludGVyZXN0JTIwcmF0ZXMlMjBzdG9jayUyMG1hcmtldHxlbnwwfHx8fDE3ODg2MzA2MjF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bloomberg.com/news/videos/2026-09-05/jobs-surge-raises-odds-of-september-fed-hike-video",
+    "source_urls": [
+      "https://www.bloomberg.com/news/videos/2026-09-05/jobs-surge-raises-odds-of-september-fed-hike-video"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e2718f821f133d0f1d1fe3b9ae057efc59f81d53d94a26b44658cd90076fadc2",
+    "category": "biz-tech",
+    "created_at": "2026-09-05T17:50:23.812852",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-04T17:50:23.812852"
+  },
+  "237241": {
+    "article_id": "237241",
+    "headline": "Are Modern School Wellness Policies Missing the Root Causes of Student Stress?",
+    "image_url": "https://images.unsplash.com/photo-1728743264705-776882fce48d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8c3R1ZGVudCUyMHN0cmVzcyUyMGluJTIwY2xhc3Nyb29tfGVufDB8fHx8MTc4ODYzMjM3MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://edsurge.com/news/are-schools-inadvertently-making-students-more-stressed",
+    "source_urls": [
+      "https://edsurge.com/news/are-schools-inadvertently-making-students-more-stressed"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a54565bbed600ffb037b644c66fc0236309eeac97b616e365a94aa2c3f523727",
+    "category": "school",
+    "created_at": "2026-09-05T18:19:34.202083",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-04T18:19:34.202083"
+  },
+  "28273": {
+    "article_id": "28273",
+    "headline": "Novartis Heart Drug Pelacarsen Fails to Meet Clinical Trial Endpoints",
+    "image_url": "https://images.unsplash.com/photo-1631558554184-319c88f4f8a4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8Y2FyZGlvbG9neSUyMHJlc2VhcmNoJTIwY2xpbmljYWwlMjB0cmlhbHxlbnwwfHx8fDE3ODg2MzQwNTN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/04/science/heart-drug-fails-novartis-pelacarsen.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/04/science/heart-drug-fails-novartis-pelacarsen.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "31d6fb710cf0a6fa09be2b0b3f684ed5f63a8813c1d7e6ca5a7f2906e698644c",
+    "category": "news",
+    "created_at": "2026-09-05T18:47:36.722687",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T18:47:36.722687"
+  },
+  "62288": {
+    "article_id": "62288",
+    "headline": "LUX-ZEPLIN Experiment Detects Anomalous Particle Interaction",
+    "image_url": "https://images.unsplash.com/photo-1559030170-7763d2c9be01?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8ZGFyayUyMG1hdHRlciUyMGRldGVjdG9yJTIwbGFib3JhdG9yeXxlbnwwfHx8fDE3ODg2MzU4MDJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260904000313.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260904000313.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "34abb6f30c3b4ada13d7f321b8d9f3f93db08b267dd5e9f5db9c0351e09f29d0",
+    "category": "physics",
+    "created_at": "2026-09-05T19:16:44.281739",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T19:16:44.281739"
+  },
+  "1725348": {
+    "article_id": "1725348",
+    "headline": "Uber Launches Autonomous Robotaxi Trials in London",
+    "image_url": "https://images.unsplash.com/photo-1772171386187-bc14e6cd7804?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8YXV0b25vbW91cyUyMHZlaGljbGUlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc4ODQ2OTc1Nnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/videos/cwyzeyd7peeo?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/videos/cwyzeyd7peeo?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b7fa3cd04f44154001faf8d38b4b78d1039972e561ce4a3d76b0aa9cab3be7a0",
+    "category": "mobile",
+    "created_at": "2026-09-05T19:45:22.781711",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T19:45:22.781711"
+  },
+  "62289": {
+    "article_id": "62289",
+    "headline": "Rustin Kluge Scales Regenerative Farming to Combat Soil Degradation",
+    "image_url": "https://images.unsplash.com/photo-1744726010540-bf318d4a691f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8cmVnZW5lcmF0aXZlJTIwYWdyaWN1bHR1cmUlMjBzb2lsJTIwaGVhbHRofGVufDB8fHx8MTc4ODYzODg5NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/62110/20240908/rustin-kluges-crusade-to-revitalize-american-agriculture.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/62110/20240908/rustin-kluges-crusade-to-revitalize-american-agriculture.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fa661a3a75a0f29ce5cb9ce48967cf664c28272d2621bd3929e770a51b565c5e",
+    "category": "nature-environment",
+    "created_at": "2026-09-05T20:08:18.148995",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T20:08:18.148995"
+  },
+  "28274": {
+    "article_id": "28274",
+    "headline": "Pharaoh Incest Study Reveals Lasting Genetic Lessons on Health",
+    "image_url": "https://images.unsplash.com/photo-1718727556553-427662bf719e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8YW5jaWVudCUyMGVneXB0JTIwZ2VuZXRpY3MlMjBzdHVkeXxlbnwwfHx8fDE3ODg2Mzg5MTN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/6047/20150513/ancient-egypt-mummies-reveal-incest-pharaohs-body-height-shows-married.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/6047/20150513/ancient-egypt-mummies-reveal-incest-pharaohs-body-height-shows-married.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "786568000763b312c11f5af2cea9ff1cdee96a60bda2f999279ff7e5587eae1f",
+    "category": "science-news",
+    "created_at": "2026-09-05T20:08:35.952106",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T20:08:35.952106"
+  },
+  "40343": {
+    "article_id": "40343",
+    "headline": "The Strategic Calculus Behind Chinese Supercar Aspirations",
+    "image_url": "https://images.unsplash.com/photo-1651423402573-684581706574?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8ZWxlY3RyaWMlMjBzdXBlcmNhciUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzg4NjM4OTMyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/opinion/new-cars/why-supercar-elite-arent-scared-chinas-1500bhp-evs",
+    "source_urls": [
+      "https://www.autocar.co.uk/opinion/new-cars/why-supercar-elite-arent-scared-chinas-1500bhp-evs"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6f5ca843d8f50cc245bbf0c5ed05d9862aba2954e6424f4d8210ecea61051ce2",
+    "category": "auto-news",
+    "created_at": "2026-09-05T20:08:54.240157",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-04T20:08:54.240157"
+  },
+  "53912": {
+    "article_id": "53912",
+    "headline": "Beyond Conflict: Recognizing Emotional Withdrawal in Modern Relationships",
+    "image_url": "https://images.unsplash.com/photo-1758522486420-11469ddf49e7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8aGFwcHklMjB5b3VuZyUyMGNvdXBsZSUyMHRhbGtpbmd8ZW58MHx8fHwxNzg4NjM4OTQ3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/marriage-warning-sign-worse-fighting-4-ways-turn-things-around",
+    "source_urls": [
+      "https://www.foxnews.com/health/marriage-warning-sign-worse-fighting-4-ways-turn-things-around"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "cf1b2002fa1cac1d7d7cc5e4d8804beeaae536dedd49c924ca2575cd6cfa33a0",
+    "category": "relationship",
+    "created_at": "2026-09-05T20:09:08.723001",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-04T20:09:08.723001"
+  },
+  "64977": {
+    "article_id": "64977",
+    "headline": "Paramount Warner Bros Merger Settlement Talks Reshape Media Landscape",
+    "image_url": "https://images.unsplash.com/photo-1713948412274-d264923b2d81?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8bWVkaWElMjBpbmR1c3RyeSUyMGJ1c2luZXNzJTIwbmV3c3xlbnwwfHx8fDE3ODg2Mzg5NjJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/64945/20260823/paramount-and-california-initiate-talks-to-resolve-warner-bros-merger-lawsuit.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/64945/20260823/paramount-and-california-initiate-talks-to-resolve-warner-bros-merger-lawsuit.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b3959c2779cc5f828f67151d3ee2b090c066b93d57165254a30a4ae08cca150a",
+    "category": "business",
+    "created_at": "2026-09-05T20:09:24.476258",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T20:09:24.476258"
+  },
+  "26961": {
+    "article_id": "26961",
+    "headline": "Denée Benton Reflects on Creative Style and Artistic Inspirations",
+    "image_url": "https://images.pexels.com/photos/14373292/pexels-photo-14373292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nytimes.com/2026/09/05/arts/television/denee-benton-the-gilded-age.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/05/arts/television/denee-benton-the-gilded-age.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "104efd5e9295ed221c1fb02ec475bd65a3ce89acae05956469971e871dd6fdea",
+    "category": "style",
+    "created_at": "2026-09-05T20:09:40.579831",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T20:09:40.579831"
+  },
+  "286784": {
+    "article_id": "286784",
+    "headline": "Lisa Blackpink Redefines Global Stardom as Solo Powerhouse in 2026",
+    "image_url": "https://images.pexels.com/photos/30473689/pexels-photo-30473689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://boomsbeat.com/articles/286268/20211129/30-lovely-facts-lisa-blackpink-fan-know.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/286268/20211129/30-lovely-facts-lisa-blackpink-fan-know.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b21d8d73e4d5d86d26079ea8e0b0d9fcf1baacc30e1f95ce8a33b7027501b442",
+    "category": "trending-news",
+    "created_at": "2026-09-05T20:09:57.063529",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T20:09:57.063529"
+  },
+  "109941": {
+    "article_id": "109941",
+    "headline": "Jeremy Lin Injury Legacy and the Evolution of NBA Playoff Recovery",
+    "image_url": "https://images.pexels.com/photos/20615431/pexels-photo-20615431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://sportsworldreport.com/articles/2089/20120507/jeremy-lin-game-5-95-percent-chance-lin-returns-wednesday-to-knicks-heat-playoff-series-according-to.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/2089/20120507/jeremy-lin-game-5-95-percent-chance-lin-returns-wednesday-to-knicks-heat-playoff-series-according-to.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d5073a492a808be2cda6fb464f560747863ba44eda5a255b0895f8f6a6658bba",
+    "category": "nba",
+    "created_at": "2026-09-05T20:10:14.793868",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2026-12-04T20:10:14.793868"
+  },
+  "60137": {
+    "article_id": "60137",
+    "headline": "Internal Locus of Control Strategies for Career Advancement in 2026",
+    "image_url": "https://images.unsplash.com/photo-1758518731296-20e24e58846f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBjYXJlZXIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3ODg2MzkwMzB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://jobsnhire.com/articles/60113/20260830/internal-locus-control-predictor-career-longevity-leadership-success.htm",
+    "source_urls": [
+      "https://jobsnhire.com/articles/60113/20260830/internal-locus-control-predictor-career-longevity-leadership-success.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c758f0eae656fce5d5f67cd31f29fabfe2a7af4268a6993e7c153578c1fda03a",
+    "category": "leadership",
+    "created_at": "2026-09-05T20:10:32.646931",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-04T20:10:32.646931"
+  },
+  "60098": {
+    "article_id": "60098",
+    "headline": "New Voices in Poetry: A Review of Recent Collections by Bramwell and Esfandiari-Denney",
+    "image_url": "https://images.unsplash.com/photo-1713124893231-4e4abba39bbb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8Y29udGVtcG9yYXJ5JTIwcG9ldHJ5JTIwY29sbGVjdGlvbiUyMHJldmlld3xlbnwwfHx8fDE3ODg2MzkxMTl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/04/the-best-recent-poetry-review-roundup",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/04/the-best-recent-poetry-review-roundup"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "541362fd6b218e12bcad8f323c87c92084ef7edf244ff91d2bb38de7287a0f96",
+    "category": "book-reviews",
+    "created_at": "2026-09-05T20:12:02.624268",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T20:12:02.624268"
+  },
+  "62290": {
+    "article_id": "62290",
+    "headline": "Fog Dome Phenomena Reveal Complex Localized Atmospheric Inversions",
+    "image_url": "https://images.unsplash.com/photo-1666901945662-43ffd105eddb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxhdG1vc3BoZXJpYyUyMHRlbXBlcmF0dXJlJTIwaW52ZXJzaW9ufGVufDB8fHx8MTc4ODY0NjkzNnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/53815/20161207/rare-natural-phenomenon-aliens-hiding-alien-presence-on-earth-weather-experts-natural-mystery-fog-dome.h",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/53815/20161207/rare-natural-phenomenon-aliens-hiding-alien-presence-on-earth-weather-experts-natural-mystery-fog-dome.h"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "04e5be1d539ec428b631c6d7919db1161dfbf975ccfc7de4b73b09dff28f923b",
+    "category": "nature-environment",
+    "created_at": "2026-09-05T22:22:17.939627",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:22:17.939627"
+  },
+  "28275": {
+    "article_id": "28275",
+    "headline": "Genetically Modified Pig Kidney Serves as Successful Bridge to Human Transplant",
+    "image_url": "https://images.unsplash.com/photo-1559757175-0828e13882ed?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxraWRuZXklMjB0cmFuc3BsYW50JTIwbWVkaWNhbCUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzg4NjQ2OTUyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/03/well/pig-kidney-bridge-transplant.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/03/well/pig-kidney-bridge-transplant.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "92cd53a83640392e9890194b6acb73fb7d466742f6d2d3acd0162ec9f9416dcd",
+    "category": "news",
+    "created_at": "2026-09-05T22:22:34.902545",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:22:34.902545"
+  },
+  "40344": {
+    "article_id": "40344",
+    "headline": "Renault 5 Strategic Updates Target Competitive B-Segment EV Market",
+    "image_url": "https://images.unsplash.com/photo-1666333384860-ea7cb581461a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8UmVuYXVsdCUyMDUlMjBlbGVjdHJpYyUyMGNhciUyMDIwMjZ8ZW58MHx8fHwxNzg4NjQ2OTY4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/40314/20260830/renault-5-receives-range-boost-and-battery-updates-in-mid-cycle-refresh.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/40314/20260830/renault-5-receives-range-boost-and-battery-updates-in-mid-cycle-refresh.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1a30c7d0fc41a46b2b8efc700c72ea26f9662037ceefc9cc560c4d3990caa68c",
+    "category": "green-cars",
+    "created_at": "2026-09-05T22:22:50.969083",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:22:50.969083"
+  },
+  "53913": {
+    "article_id": "53913",
+    "headline": "Bone Health Habits: Why Your Coffee and Tea Choices Matter for the Future",
+    "image_url": "https://images.unsplash.com/photo-1604868656455-10bee3938915?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHx0ZWVuJTIwZHJpbmtpbmclMjB0ZWElMjBvciUyMGNvZmZlZXxlbnwwfHx8fDE3ODg2NDY5ODV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/daily-coffee-habit-taking-toll-bones-new-study-suggests",
+    "source_urls": [
+      "https://www.foxnews.com/health/daily-coffee-habit-taking-toll-bones-new-study-suggests"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3f0b970adacbe2f0d2ac746bd2d951e52e733539f2db0b02ced86687f3c20af9",
+    "category": "teenHeath",
+    "created_at": "2026-09-05T22:23:07.313835",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:23:07.313835"
+  },
+  "64978": {
+    "article_id": "64978",
+    "headline": "Arsal Border Security Evolution Reshapes Lebanese Military Strategy",
+    "image_url": "https://images.unsplash.com/photo-1597326436876-e13bb5bd7448?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxMZWJhbm9uJTIwYm9yZGVyJTIwc2VjdXJpdHklMjAyMDI2fGVufDB8fHx8MTc4ODY0NzAwMHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/238/20140804/lebanese-army-clashes-syrian-militants-arsal.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/238/20140804/lebanese-army-clashes-syrian-militants-arsal.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "aa27b345b8196e49c18a0cb735ffd1e98f65655a96a6c5f85daebeca4dcae6d0",
+    "category": "business",
+    "created_at": "2026-09-05T22:23:21.949229",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:23:21.949229"
+  },
+  "26962": {
+    "article_id": "26962",
+    "headline": "Kiefer Sutherland and Al Pacino Face Off in First Look at 'Father Joe'",
+    "image_url": "https://images.unsplash.com/photo-1749090324225-04b0f52b3c55?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxLaWVmZXIlMjBTdXRoZXJsYW5kJTIwRmF0aGVyJTIwSm9lJTIwVmVuaWNlJTIwRmlsbSUyMEZlc3RpdmFsfGVufDB8fHx8MTc4ODY0NzAxNXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://deadline.com/2026/09/father-joe-first-clip-kiefer-sutherland-rebel-priest-1237069049/",
+    "source_urls": [
+      "https://deadline.com/2026/09/father-joe-first-clip-kiefer-sutherland-rebel-priest-1237069049/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fae1c239fa95ed320edd82c7a0dd7c0b15deadc82c35abeb8e7db470d4e256e3",
+    "category": "news",
+    "created_at": "2026-09-05T22:23:37.913138",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:23:37.913138"
+  },
+  "286785": {
+    "article_id": "286785",
+    "headline": "Dwight Howard Redefines Post-NBA Life Through Global Viral Stardom",
+    "image_url": "https://images.unsplash.com/photo-1578354966767-c1394255d69a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8RHdpZ2h0JTIwSG93YXJkJTIwYmFza2V0YmFsbCUyMHBlcnNvbmFsaXR5fGVufDB8fHx8MTc4ODY0NzAzNnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://boomsbeat.com/articles/284924/20190515/30-fascinating-facts-that-every-fan-should-know-about-dwight-howard.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/284924/20190515/30-fascinating-facts-that-every-fan-should-know-about-dwight-howard.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8841c8c742146b49311dd6261ba4924a07211a9ec09775a421a7c4c360065682",
+    "category": "trending-news",
+    "created_at": "2026-09-05T22:23:59.610195",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:23:59.610195"
+  },
+  "109942": {
+    "article_id": "109942",
+    "headline": "Leeds United Tactical Evolution: Why Farke is Betting on Squad Depth",
+    "image_url": "https://images.unsplash.com/photo-1502796653588-06c1d24ad1dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxMZWVkcyUyMFVuaXRlZCUyMHRyYWluaW5nJTIwc2Vzc2lvbiUyMDIwMjZ8ZW58MHx8fHwxNzg4NjQ3MDUzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/109906/20260826/farke-eyes-potential-elvedi-debut-as-leeds-united-rotates-squad-for-forest-clash.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/109906/20260826/farke-eyes-potential-elvedi-debut-as-leeds-united-rotates-squad-for-forest-clash.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "bac0c1b52e38d870228d6379cc01b72211469e561443cfbe7bb9b35f637a32cc",
+    "category": "soccer",
+    "created_at": "2026-09-05T22:24:15.388414",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:24:15.388414"
+  },
+  "60138": {
+    "article_id": "60138",
+    "headline": "The Hidden Economic Costs of Workforce Reductions",
+    "image_url": "https://images.unsplash.com/photo-1758518729685-f88df7890776?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBtZWV0aW5nfGVufDB8fHx8MTc4ODY0NzA2N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/bill-fotsch/the-hidden-costs-of-layoffs-are-bigger-than-most-companies-admit/91398566",
+    "source_urls": [
+      "https://www.inc.com/bill-fotsch/the-hidden-costs-of-layoffs-are-bigger-than-most-companies-admit/91398566"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f70272bd8f6a0479c1f34c608e301c7739a29b4c0c2a2553844ad1488b7fadc7",
+    "category": "management",
+    "created_at": "2026-09-05T22:24:30.523563",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-04T22:24:30.523563"
+  },
+  "236011": {
+    "article_id": "236011",
+    "headline": "De-dollarization Strategies Reshape Emerging Market Trade Flows",
+    "image_url": "https://images.unsplash.com/photo-1745509267945-b25cbb4d50ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8Z2xvYmFsJTIwZWNvbm9teSUyMHRyYWRlJTIwY2hhcnRzfGVufDB8fHx8MTc4ODY0NzA4M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/235994/20260830/iran-shifts-economic-strategy-amid-trade-decline-de-dollarization-push.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/235994/20260830/iran-shifts-economic-strategy-amid-trade-decline-de-dollarization-push.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5a1a79ef47d2adb538692264489e4468173f9a438ffc25bed9f7766f2cc6a050",
+    "category": "biz-tech",
+    "created_at": "2026-09-05T22:24:45.359668",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:24:45.359668"
+  },
+  "60099": {
+    "article_id": "60099",
+    "headline": "Dave Eggers' Contrapposto Emerges as a Standout Read in August Literary Roundup",
+    "image_url": "https://images.pexels.com/photos/3847617/pexels-photo-3847617.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/03/what-were-reading-irvine-welsh-janice-hallett-and-guardian-readers-on-the-books-they-enjoyed-in-august",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/03/what-were-reading-irvine-welsh-janice-hallett-and-guardian-readers-on-the-books-they-enjoyed-in-august"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c1da47189d6aa04cc6cc05a804e3691632421c03e746d56c2a48d758a2493ef6",
+    "category": "book-news",
+    "created_at": "2026-09-05T22:25:44.957957",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:25:44.957957"
+  },
+  "62291": {
+    "article_id": "62291",
+    "headline": "NASA Schedules Coverage for Progress 96 Cargo Mission to International Space Station",
+    "image_url": "https://images.unsplash.com/photo-1584852498908-85e3e7bb303a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxJbnRlcm5hdGlvbmFsJTIwU3BhY2UlMjBTdGF0aW9uJTIwcmVzdXBwbHklMjBtaXNzaW9ufGVufDB8fHx8MTc4ODY0Nzc3Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
+    "source_urls": [
+      "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "daaf3e370e62e4099e0c3740ee44e0598d23cf8619e077d2ac29e5caed5873c5",
+    "category": "space-the-future",
+    "created_at": "2026-09-05T22:36:13.795611",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:36:13.795611"
+  },
+  "28276": {
+    "article_id": "28276",
+    "headline": "UCLA Researchers Identify Metabolic and Neural Drivers of Human Brain Development",
+    "image_url": "https://images.unsplash.com/photo-1631563019676-dade0dbdb8fc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8aHVtYW4lMjBicmFpbiUyMGRldmVsb3BtZW50JTIwcmVzZWFyY2h8ZW58MHx8fHwxNzg4NjQ3Nzg4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260904000308.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260904000308.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "66568830633c75996b697e25e5c520df96ae584009dd24477ebb5092a45089f0",
+    "category": "science-news",
+    "created_at": "2026-09-05T22:36:30.336722",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:36:30.336722"
+  },
+  "40345": {
+    "article_id": "40345",
+    "headline": "Super-SUV Showdown: Porsche Cayenne Electric Faces Premium EV Rivals",
+    "image_url": "https://images.unsplash.com/photo-1517942491415-4fc176d3c2f7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxQb3JzY2hlJTIwQ2F5ZW5uZSUyMEVsZWN0cmljJTIwU1VWfGVufDB8fHx8MTc4ODY0NzgwMXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/electric-cars/super-suv-showdown-porsche-cayenne-ev-vs-polestar-and-bmw",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/electric-cars/super-suv-showdown-porsche-cayenne-ev-vs-polestar-and-bmw"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "105911675c58d14904b1b607dce22e82f70de49d5b4f4d41adff2a7260c295b3",
+    "category": "auto-news",
+    "created_at": "2026-09-05T22:36:42.658817",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-04T22:36:42.658817"
+  },
+  "53914": {
+    "article_id": "53914",
+    "headline": "Building Rotational Strength: A Key Pillar for Youth Athletic Development",
+    "image_url": "https://images.unsplash.com/photo-1609576878587-eace214088a6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8dGVlbmFnZXIlMjB3b3JraW5nJTIwb3V0JTIwaW4lMjBneW18ZW58MHx8fHwxNzg4NjQ3ODE2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/05/well/move/rotational-strength-power-exercises.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/05/well/move/rotational-strength-power-exercises.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "31c2ccbf3382bd5634cca59ee75a1cddd05da11640d3e84d595067816b968a2f",
+    "category": "body",
+    "created_at": "2026-09-05T22:36:57.707821",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:36:57.707821"
+  },
+  "286786": {
+    "article_id": "286786",
+    "headline": "Fall Out Boy Evolution: From Parking Lot Gigs to Modern Icons",
+    "image_url": "https://images.unsplash.com/photo-1760574763124-4110cbd6e104?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxGYWxsJTIwT3V0JTIwQm95JTIwYmFuZHxlbnwwfHx8fDE3ODg2NDc4NTZ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://boomsbeat.com/articles/277512/20170903/30-fascinating-facts-you-probably-didn-t-know-about-fall-out-boy.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/277512/20170903/30-fascinating-facts-you-probably-didn-t-know-about-fall-out-boy.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f9aa3766931734169195e6c163f735a49fa0dc7b25a03b113cdd61189590074d",
+    "category": "trending-news",
+    "created_at": "2026-09-05T22:37:38.891890",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:37:38.891890"
+  },
+  "109943": {
+    "article_id": "109943",
+    "headline": "Coco Gauff Advances to Fourth Round at 2026 US Open as American Seeds Fall",
+    "image_url": "https://images.pexels.com/photos/14679136/pexels-photo-14679136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.skysports.com/tennis/news/12040/13582102/us-open-coco-gauff-progresses-to-fourth-round-while-compatriots-taylor-fritz-amanda-anisimova-madison-keys-knocked-out",
+    "source_urls": [
+      "https://www.skysports.com/tennis/news/12040/13582102/us-open-coco-gauff-progresses-to-fourth-round-while-compatriots-taylor-fritz-amanda-anisimova-madison-keys-knocked-out"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "aa3b06bfbb9695658d5e273a46467319cb9e8e962fae42fe585091c3ed1e720e",
+    "category": "tennis",
+    "created_at": "2026-09-05T22:37:57.048203",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:37:57.048203"
+  },
+  "60139": {
+    "article_id": "60139",
+    "headline": "Labor Market Strength Triggers Debate Over Federal Reserve Rate Policy",
+    "image_url": "https://images.pexels.com/photos/36984939/pexels-photo-36984939.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "39273ff7c508f6bfa3481c0137c1dc833b45866b5749431eff700c92bd9da177",
+    "category": "finance",
+    "created_at": "2026-09-05T22:38:11.014051",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:38:11.014051"
+  },
+  "236012": {
+    "article_id": "236012",
+    "headline": "Rising Employee Financial Stress Impacts Corporate Productivity and Bottom Lines",
+    "image_url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBvZmZpY2UlMjBtZWV0aW5nfGVufDB8fHx8MTc4ODY0NzA2N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/tony-manganiello/your-employees-money-stress-could-be-costing-your-business/91398397",
+    "source_urls": [
+      "https://www.inc.com/tony-manganiello/your-employees-money-stress-could-be-costing-your-business/91398397"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "25c8286e224563c97a9c3c01d21f251415c7dd79aa3fe90aeed40b7bced1903d",
+    "category": "franchise-news",
+    "created_at": "2026-09-05T22:38:23.146042",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-04T22:38:23.146042"
+  },
+  "60100": {
+    "article_id": "60100",
+    "headline": "Kevin Powers Reflects on the Literary Influences Shaping His Craft",
+    "image_url": "https://images.unsplash.com/photo-1676989880574-6be39345d345?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxLZXZpbiUyMFBvd2VycyUyMGF1dGhvciUyMHBvcnRyYWl0fGVufDB8fHx8MTc4ODY0Nzk1OXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/04/kevin-powers-i-was-ready-to-abandon-infinite-jest-a-thousand-times",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/04/kevin-powers-i-was-ready-to-abandon-infinite-jest-a-thousand-times"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6776a734b0559352617cbf2fbca738603fb6eb65c117b482d7fd10548a2574a0",
+    "category": "authors",
+    "created_at": "2026-09-05T22:39:21.819278",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T22:39:21.819278"
+  },
+  "40346": {
+    "article_id": "40346",
+    "headline": "NHTSA Opens Investigation into Tesla Cybercab Design Compliance",
+    "image_url": "https://images.unsplash.com/photo-1585011664470-1ec8b69fdd47?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8VGVzbGElMjBDeWJlcmNhYiUyMGF1dG9ub21vdXMlMjB2ZWhpY2xlfGVufDB8fHx8MTc4ODcwMzc1Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/04/business/tesla-cybercab-nhtsa-investigation.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/04/business/tesla-cybercab-nhtsa-investigation.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f60e35d490fe019eeadffa456b2872f0ead339386b7c2513312298b08cedcbd7",
+    "category": "tech-biz",
+    "created_at": "2026-09-06T14:09:14.943267",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T14:09:14.943267"
+  },
+  "60101": {
+    "article_id": "60101",
+    "headline": "Gloria Steinem, Iconic Author and Feminist Pioneer, Dies at 92",
+    "image_url": "https://images.unsplash.com/photo-1632165223069-93b8f8861ed0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8R2xvcmlhJTIwU3RlaW5lbSUyMGF1dGhvciUyMHBvcnRyYWl0fGVufDB8fHx8MTc4ODcwNjUzN3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-groundbreaking-feminist-campaigner-dies-aged-92",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/03/gloria-steinem-groundbreaking-feminist-campaigner-dies-aged-92"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2199e60b62c51b7ef4bb64fd7f21d155bfd0b242a1a3117f50699a5e5c06ff80",
+    "category": "biography-memoir",
+    "created_at": "2026-09-06T14:55:39.835757",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T14:55:39.835757"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "40386#autoworldnews": {
+    "article_id": "40386",
+    "site_id": "autoworldnews",
+    "status": "published",
+    "published_at": "2026-10-05T15:00:29.051251",
+    "published_url": "/articles/40386/20261005/hyundai-launches-ioniq-3-with-aggressive-pricing-to-challenge-electric-hatchback-market.htm",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2027-01-03T15:00:29.051251"
+  },
+  "53950#youthhealthmag": {
+    "article_id": "53950",
+    "site_id": "youthhealthmag",
+    "status": "published",
+    "published_at": "2026-10-05T15:00:56.998103",
+    "published_url": "/articles/53950/20261005/new-research-into-brain-signals-reveals-how-we-master-new-skills.htm",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2027-01-03T15:00:56.998103"
+  },
+  "65006#newseveryday": {
+    "article_id": "65006",
+    "site_id": "newseveryday",
+    "status": "published",
+    "published_at": "2026-10-05T15:01:21.422628",
+    "published_url": "/articles/65006/20261005/leadership-shifts-at-openai-renew-debate-over-ai-safety-governance.htm",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2027-01-03T15:01:21.422628"
+  },
+  "26991#celebeat": {
+    "article_id": "26991",
+    "site_id": "celebeat",
+    "status": "published",
+    "published_at": "2026-10-05T15:01:44.185679",
+    "published_url": "/articles/26991/20261005/anne-hathaway-dominates-2026-box-office-with-third-consecutive-number-one-opening.htm",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2027-01-03T15:01:44.185679"
+  },
+  "109978#sportsworldreport": {
+    "article_id": "109978",
+    "site_id": "sportsworldreport",
+    "status": "published",
+    "published_at": "2026-10-05T15:02:59.702304",
+    "published_url": "/articles/109978/20261005/ben-whittaker-faces-scrutiny-after-challenging-bout-against-conor-wallace.htm",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2027-01-03T15:02:59.702304"
+  },
+  "60172#jobsnhire": {
+    "article_id": "60172",
+    "site_id": "jobsnhire",
+    "status": "published",
+    "published_at": "2026-10-05T15:03:42.072833",
+    "published_url": "https://cms.jobsnhire.com/adm/article/edit?a_id=60172",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2027-01-03T15:03:42.072833"
+  },
+  "236049#franchiseherald": {
+    "article_id": "236049",
+    "site_id": "franchiseherald",
+    "status": "published",
+    "published_at": "2026-10-05T15:04:12.198004",
+    "published_url": "https://cms.franchiseherald.com/adm/article/edit?a_id=236049",
+    "retry_count": 0,
+    "mode": "trend",
+    "error": null,
+    "expires_at": "2027-01-03T15:04:12.198004"
+  },
+  "1725382#mobilenapps": {
+    "article_id": "1725382",
+    "site_id": "mobilenapps",
+    "status": "published",
+    "published_at": "2026-10-05T15:04:37.715815",
+    "published_url": "https://cms.mobilenapps.com/adm/article/edit?a_id=1725382",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2027-01-03T15:04:37.715815"
+  },
+  "60137#booksnreview": {
+    "article_id": "60137",
+    "site_id": "booksnreview",
+    "status": "published",
+    "published_at": "2026-10-05T15:05:13.553828",
+    "published_url": "https://cms.booksnreview.com/adm/article/edit?a_id=60137",
+    "retry_count": 0,
+    "mode": "trend",
+    "error": null,
+    "expires_at": "2027-01-03T15:05:13.553828"
+  }
+}

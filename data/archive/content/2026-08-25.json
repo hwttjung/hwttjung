@@ -1,0 +1,665 @@
+{
+  "53877": {
+    "article_id": "53877",
+    "headline": "Sleep Duration Linked to Biological Aging: Why Consistency Matters for Young Adults",
+    "image_url": "https://images.unsplash.com/photo-1545257417-536f41629719?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8dGVlbmFnZXIlMjBzbGVlcGluZyUyMHNvdW5kbHl8ZW58MHx8fHwxNzg3NTkwNzUyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260823094156.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260823094156.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "60f93c747ddb497551fa1d10e4d3d427418a29f1186525510d89fb9042fc9144",
+    "category": "livingHealthy",
+    "created_at": "2026-08-24T16:59:16.234422",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T16:59:16.234422"
+  },
+  "40307": {
+    "article_id": "40307",
+    "headline": "Suzuki Unveils e-Sky: Affordable Electric City Car Set for UK Debut in 2027",
+    "image_url": "https://images.pexels.com/photos/14401653/pexels-photo-14401653.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.autocar.co.uk/car-news/electric-cars/first-look-suzuki-e-sky-sub-%C2%A320k-ev-due-uk-next-year",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/electric-cars/first-look-suzuki-e-sky-sub-%C2%A320k-ev-due-uk-next-year"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "53e9fdcbb0dde8cff883f66ba062a57df4c147e3d3c797a0f1d9e8ba3971ce4f",
+    "category": "green-cars",
+    "created_at": "2026-08-24T17:18:05.298289",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T17:18:05.298289"
+  },
+  "62252": {
+    "article_id": "62252",
+    "headline": "NASA Clears Nancy Grace Roman Space Telescope for August 30 Launch",
+    "image_url": "https://images.pexels.com/photos/31968492/pexels-photo-31968492.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260823094140.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260823094140.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "54d47382ed7d3cec44553e825319e367b53499b088c5f0b13a807d1909d00eaf",
+    "category": "physics",
+    "created_at": "2026-08-24T17:37:27.728905",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T17:37:27.728905"
+  },
+  "286750": {
+    "article_id": "286750",
+    "headline": "The Birdfy Nest Duo Turns Your Backyard Into a Reality TV Show",
+    "image_url": "https://images.unsplash.com/photo-1709157342894-0aab7c3f0f88?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8c21hcnQlMjBiaXJkJTIwZmVlZGVyJTIwY2FtZXJhfGVufDB8fHx8MTc4NzU5NDE5NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/review/birdfy-nest-duo/",
+    "source_urls": [
+      "https://www.wired.com/review/birdfy-nest-duo/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "caae7034e7e0a1a712e406cedb385cde9656006327ad5e68129cd27c19184155",
+    "category": "cool",
+    "created_at": "2026-08-24T17:56:38.019043",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T17:56:38.019043"
+  },
+  "235976": {
+    "article_id": "235976",
+    "headline": "Trump Administration Targets Global Supply Chains with New Anti-Iran Sanctions",
+    "image_url": "https://images.unsplash.com/photo-1736469312652-e35f14660dcc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8aW50ZXJuYXRpb25hbCUyMHRyYWRlJTIwYW5kJTIwc2FuY3Rpb25zfGVufDB8fHx8MTc4NzU5NTI4Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cnbc.com/2026/08/24/trump-iran-economy-sanctions-china-bessent.html",
+    "source_urls": [
+      "https://www.cnbc.com/2026/08/24/trump-iran-economy-sanctions-china-bessent.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c834c8548f2236120a2a942fbc0d46f45dcdbdcd5c6540f5706f04a7994ff2c3",
+    "category": "biz-tech",
+    "created_at": "2026-08-24T18:14:45.714678",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T18:14:45.714678"
+  },
+  "28238": {
+    "article_id": "28238",
+    "headline": "Experimental Compound Shows Promise in Reducing Body Fat While Preserving Muscle",
+    "image_url": "https://images.unsplash.com/photo-1614934273038-8829c68de36c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8bWV0YWJvbGljJTIwaGVhbHRoJTIwcmVzZWFyY2h8ZW58MHx8fHwxNzg3NTk2NDE4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260823014953.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260823014953.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3ac0cbb4742d71abfa4faaf302ccdf7fd2cf835777f1a41b44149e56f31f8799",
+    "category": "science-news",
+    "created_at": "2026-08-24T18:33:41.122932",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T18:33:41.122932"
+  },
+  "81521": {
+    "article_id": "81521",
+    "headline": "Pesticide Exposure in Honeybee Queens Threatens Future Colony Sustainability",
+    "image_url": "https://images.unsplash.com/photo-1635072231197-2cca553c90cb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8aG9uZXliZWUlMjBjb2xvbnklMjBoZWFsdGh8ZW58MHx8fHwxNzg3NTk3NTcyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260821012224.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260821012224.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0ea513c6c05db1a3cb34d17e226233e6d64b9e74652d9771363d12e3b5531003",
+    "category": "safety",
+    "created_at": "2026-08-24T18:52:54.872940",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T18:52:54.872940"
+  },
+  "60104": {
+    "article_id": "60104",
+    "headline": "Arbitrator Orders Washington Post to Reinstate Columnist Karen Attiah",
+    "image_url": "https://images.unsplash.com/photo-1557804506-e969d7b32a4b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxqb3VybmFsaXN0JTIwYXQlMjB3b3JrfGVufDB8fHx8MTc4NzU5ODY5NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/24/business/washington-post-karen-attiah.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/24/business/washington-post-karen-attiah.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "29bb423dae21fe2bb630f4901383986b015d8117fd198285b6f3bcc948da945a",
+    "category": "media",
+    "created_at": "2026-08-24T19:11:37.333899",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:11:37.333899"
+  },
+  "62253": {
+    "article_id": "62253",
+    "headline": "Anki Cozmo Legacy Defines Future of Affective AI Companionship",
+    "image_url": "https://images.unsplash.com/photo-1538491247542-5da27794bc65?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8c29jaWFsJTIwcm9ib3RpY3MlMjByZXNlYXJjaHxlbnwwfHx8fDE3ODc1OTk4MTV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/50146/20161017/ankis-cozmo-robot-the-179-pet-which-breathes-life-into-the-toys.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/50146/20161017/ankis-cozmo-robot-the-179-pet-which-breathes-life-into-the-toys.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c71b5346cea31a8069c97cfdbe001f64d76d41e607d1708f146f9c7b0001904c",
+    "category": "tech",
+    "created_at": "2026-08-24T19:30:17.190808",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:30:17.190808"
+  },
+  "28239": {
+    "article_id": "28239",
+    "headline": "Easy Tiger Corp and the Rise of Politically Charged Merchandise",
+    "image_url": "https://images.unsplash.com/photo-1778161073197-3c627fb44e62?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8cG9saXRpY2FsJTIwc2F0aXJlJTIwaW4lMjByZXRhaWx8ZW58MHx8fHwxNzg3NTk5ODMzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/25840/20170219/donald-trump-skid-stained-underwear-now-available-at-u-k-s-easy-tiger-corp-website.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/25840/20170219/donald-trump-skid-stained-underwear-now-available-at-u-k-s-easy-tiger-corp-website.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d9906e3d715cb9076e69b6637b6f8b20726a34d373263fb9b36257d62233a650",
+    "category": "trending-news",
+    "created_at": "2026-08-24T19:30:36.484760",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:30:36.484760"
+  },
+  "40308": {
+    "article_id": "40308",
+    "headline": "Land Rover Series 1 Legacy Drives Modern Heritage Restoration Trends",
+    "image_url": "https://images.unsplash.com/photo-1669616927657-5ded4a05eaec?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxMYW5kJTIwUm92ZXIlMjBTZXJpZXMlMjAxJTIwY2xhc3NpYyUyMHJlc3RvcmF0aW9ufGVufDB8fHx8MTc4NzU5OTg1NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/16452/20160408/land-rover-goes-back-1948-roots-reborn-series-1-release.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/16452/20160408/land-rover-goes-back-1948-roots-reborn-series-1-release.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "16cdcb079a7dcdc7dcebc24fb1738dbb3321a2be5ad498eaefda7ce2a3e8fa58",
+    "category": "auto-news",
+    "created_at": "2026-08-24T19:30:55.987440",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:30:55.987440"
+  },
+  "53878": {
+    "article_id": "53878",
+    "headline": "The Lisa Project: Breaking the Cycle of Domestic Trauma in Youth",
+    "image_url": "https://images.unsplash.com/photo-1781722321115-bb3dcfd224cd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHx5b3V0aCUyMG1lbnRhbCUyMGhlYWx0aCUyMGF3YXJlbmVzc3xlbnwwfHx8fDE3ODc1OTk4NzF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://youthhealthmag.com/articles/4483/20141209/the-lisa-project-little-girl-calls-911-as-her-mother-was-beaten-up-by-her-stepfather.htm",
+    "source_urls": [
+      "https://youthhealthmag.com/articles/4483/20141209/the-lisa-project-little-girl-calls-911-as-her-mother-was-beaten-up-by-her-stepfather.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e4393468e18e9f44754a3dd954db572e28f54c005dc88f548d08ababafdfe36a",
+    "category": "mentalHealth",
+    "created_at": "2026-08-24T19:31:13.505017",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:31:13.505017"
+  },
+  "237211": {
+    "article_id": "237211",
+    "headline": "Prosecutor and Mother of Three Christina Hines Launches Congressional Bid in Michigan",
+    "image_url": "https://images.unsplash.com/photo-1769755449051-5e90bc9cd691?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8Q2hyaXN0aW5hJTIwSGluZXMlMjBjb25ncmVzc2lvbmFsJTIwY2FtcGFpZ258ZW58MHx8fHwxNzg3NTk5ODkwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/career-money/work-and-motherhood/christina-hines/",
+    "source_urls": [
+      "https://mother.ly/career-money/work-and-motherhood/christina-hines/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c709dc8a52db85ef6d91eb0e39c0c78b91521719187f5021e4949c27ab3837fe",
+    "category": "moms",
+    "created_at": "2026-08-24T19:31:33.559401",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:31:33.559401"
+  },
+  "64948": {
+    "article_id": "64948",
+    "headline": "Michelle Obama Legacy Reshapes Modern Museum Outreach Strategies",
+    "image_url": "https://images.unsplash.com/photo-1707495805709-bd63472f64bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8bW9kZXJuJTIwbXVzZXVtJTIwY29tbXVuaXR5JTIwZW5nYWdlbWVudHxlbnwwfHx8fDE3ODc1OTk4OTl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/15897/20150507/michelle-obama-museums-places-white-people.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/15897/20150507/michelle-obama-museums-places-white-people.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9c2c1a738da7d81682c4d5bee5034798476bdfe5fa4b7a7d8da4cce3e6ad0ecf",
+    "category": "social-trends",
+    "created_at": "2026-08-24T19:31:42.321245",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:31:42.321245"
+  },
+  "26931": {
+    "article_id": "26931",
+    "headline": "Outcast Legacy: How the 2015 Action Epic Shaped Modern Global Cinema",
+    "image_url": "https://images.unsplash.com/photo-1607464490333-3f13b5226394?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8Tmljb2xhcyUyMENhZ2UlMjBhY3Rpb24lMjBtb3ZpZXxlbnwwfHx8fDE3ODc1OTk5MjR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://celebeat.com/tags/outcast-2015-movie",
+    "source_urls": [
+      "https://celebeat.com/tags/outcast-2015-movie"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "300469c83fe7cc2d229fb0cde92f0054d749915dba67a800f0e6455fc401163e",
+    "category": "news",
+    "created_at": "2026-08-24T19:32:06.841830",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:32:06.841830"
+  },
+  "286751": {
+    "article_id": "286751",
+    "headline": "Gary Busey Remains Hollywood’s Most Unpredictable Icon",
+    "image_url": "https://images.unsplash.com/photo-1574338452491-25741493323e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8R2FyeSUyMEJ1c2V5JTIwYWN0aW5nJTIwY2FyZWVyfGVufDB8fHx8MTc4NzU5OTk0NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://boomsbeat.com/articles/48178/20150923/50-facts-didn-t-know-actor-gary-busey.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/48178/20150923/50-facts-didn-t-know-actor-gary-busey.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4f3bd068fdc662dd4605b9171bcf3af641a624acfa6678bcab38e8af2a7ec06f",
+    "category": "people",
+    "created_at": "2026-08-24T19:32:26.522855",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:32:26.522855"
+  },
+  "109905": {
+    "article_id": "109905",
+    "headline": "SportsWorldReport Sets New Standard for Real-Time Athletic Coverage in 2026",
+    "image_url": "https://images.unsplash.com/photo-1740727263092-553a4f6364ee?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8c3BvcnRzJTIwam91cm5hbGlzbSUyMGRpZ2l0YWwlMjBtZWRpYXxlbnwwfHx8fDE3ODc1OTk5NjF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/aboutus/contact_us.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/aboutus/contact_us.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5dbea19165a13f6c4ece09b9dbd92481ccc23a67841314e00712c181e8447943",
+    "category": "news",
+    "created_at": "2026-08-24T19:32:43.169997",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:32:43.169997"
+  },
+  "60105": {
+    "article_id": "60105",
+    "headline": "Zero-Sum Thinking Inhibits Career Growth in Modern Workplaces",
+    "image_url": "https://images.unsplash.com/photo-1573164574511-73c773193279?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBjYXJlZXIlMjBncm93dGglMjBhbmQlMjBjb2xsYWJvcmF0aW9ufGVufDB8fHx8MTc4NzU5OTk4MHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://jobsnhire.com/articles/58490/20240417/zero-sum-thinking-another-person-s-light-doesn-t-dim.htm",
+    "source_urls": [
+      "https://jobsnhire.com/articles/58490/20240417/zero-sum-thinking-another-person-s-light-doesn-t-dim.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "39419c2a4fc10f936c2628be360ed91624298fbcae92af8e05d8219d7eff3dd6",
+    "category": "management",
+    "created_at": "2026-08-24T19:33:02.897026",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-22T19:33:02.897026"
+  },
+  "235977": {
+    "article_id": "235977",
+    "headline": "Casual Dining Franchises Face Real Estate Pressures Amid Market Shifts",
+    "image_url": "https://images.unsplash.com/photo-1564759224907-65b945ff0e84?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8Y2FzdWFsJTIwZGluaW5nJTIwbWFya2V0JTIwdHJlbmRzJTIwMjAyNnxlbnwwfHx8fDE3ODc1OTk5OTl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/77613/20240508/iconic-melting-pot-chain-closing-21-years-leaving-60-locations.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/77613/20240508/iconic-melting-pot-chain-closing-21-years-leaving-60-locations.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "604b6244b8a618bcff49bbd7c09ecc9a5071fce0ee6e2289634a7e72d0eecf8e",
+    "category": "franchise-news",
+    "created_at": "2026-08-24T19:33:22.319292",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:33:22.319292"
+  },
+  "1725312": {
+    "article_id": "1725312",
+    "headline": "Flock Safety Network Fragmentation Impacts Mobile Surveillance Utility",
+    "image_url": "https://images.unsplash.com/photo-1528312635006-8ea0bc49ec63?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxzdXJ2ZWlsbGFuY2UlMjB0ZWNobm9sb2d5JTIwbmV0d29ya3xlbnwwfHx8fDE3ODc2MDAwMTh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mobilenapps.com/articles/1725299/20260817/wisconsin-municipalities-withdraw-flock-safety-network-raising-data-value-concerns.htm",
+    "source_urls": [
+      "https://mobilenapps.com/articles/1725299/20260817/wisconsin-municipalities-withdraw-flock-safety-network-raising-data-value-concerns.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8225ff6092a1b3a08b960619be1a6f6d61676c639ec619dae4850ecdd17db7cd",
+    "category": "security",
+    "created_at": "2026-08-24T19:33:40.201536",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:33:40.201536"
+  },
+  "237212": {
+    "article_id": "237212",
+    "headline": "Matt Fraser Balances National Tour with Priorities of Fatherhood",
+    "image_url": "https://images.unsplash.com/photo-1763013259233-7437b524ce1b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxNYXR0JTIwRnJhc2VyJTIwcHN5Y2hpYyUyMG1lZGl1bSUyMGZhbWlseSUyMGxpZmV8ZW58MHx8fHwxNzg3NjAwMDM1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://parentherald.com/articles/237210/20260824/matt-fraser-fatherhood-greatest-reminder-not-wait-live.htm",
+    "source_urls": [
+      "https://parentherald.com/articles/237210/20260824/matt-fraser-fatherhood-greatest-reminder-not-wait-live.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "49b0d2552f8be8c8bfd12e36cc4ff036d92fc4861ac02664cc52bd85f92f557b",
+    "category": "celebrity-dads",
+    "created_at": "2026-08-24T19:33:58.192760",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:33:58.192760"
+  },
+  "60064": {
+    "article_id": "60064",
+    "headline": "Haunting Adeline Redefines Dark Romance Market Trends",
+    "image_url": "https://images.unsplash.com/photo-1661886407906-4ae979419ca8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxkYXJrJTIwcm9tYW5jZSUyMG5vdmVsJTIwYWVzdGhldGljc3xlbnwwfHx8fDE3ODc2MDAwNjR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://booksnreview.com/articles/19220/20240309/haunting-adeline-h-d-carlton-book-review-dark-romantic-tale.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/19220/20240309/haunting-adeline-h-d-carlton-book-review-dark-romantic-tale.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "08cf0fc4b7d94f9e970fb6039b435646cc62efc228eae1614d9fc238fc6b8ac0",
+    "category": "romance",
+    "created_at": "2026-08-24T19:34:30.839185",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:34:30.839185"
+  },
+  "81522": {
+    "article_id": "81522",
+    "headline": "Organic Spinach Recall: How to Identify Affected Batches and Stay Safe",
+    "image_url": "https://images.unsplash.com/photo-1634731201932-9bd92839bea2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8b3JnYW5pYyUyMHNwaW5hY2glMjBzYWZldHl8ZW58MHx8fHwxNzg3NjAwMDg1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://foodworldnews.com/articles/81518/20260821/major-organic-spinach-recall-issued-over-listeria-concerns.htm",
+    "source_urls": [
+      "https://foodworldnews.com/articles/81518/20260821/major-organic-spinach-recall-issued-over-listeria-concerns.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "cf5ee1d5ea082cfe7cedaea462fc0be2710f793738720d903870b311d511f0d0",
+    "category": "food-recalls",
+    "created_at": "2026-08-24T19:34:47.931639",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T19:34:47.931639"
+  },
+  "64949": {
+    "article_id": "64949",
+    "headline": "Disney’s ABC Challenges FCC License Threats in Landmark Legal Battle",
+    "image_url": "https://images.unsplash.com/photo-1527874594978-ee4f8a05b4c1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxGQ0MlMjBtZWRpYSUyMHJlZ3VsYXRpb24lMjBsZWdhbCUyMG5ld3N8ZW58MHx8fHwxNzg3NjAxMDA4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.forbes.com/sites/howardhomonoff/2026/08/24/disneys-abc-sues-fcc-and-can-lean-on-decades-of-deregulation/",
+    "source_urls": [
+      "https://www.forbes.com/sites/howardhomonoff/2026/08/24/disneys-abc-sues-fcc-and-can-lean-on-decades-of-deregulation/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "642fb8753e3f0d945edc8a53229e328d04f51617c896664553a56b77f4de715e",
+    "category": "business",
+    "created_at": "2026-08-24T19:50:11.285710",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "RELATED",
+    "expires_at": "2026-11-22T19:50:11.285710"
+  },
+  "1725313": {
+    "article_id": "1725313",
+    "headline": "Banking Security Shift: Glide.id Introduces Cryptographic Authentication to Replace SMS Codes",
+    "image_url": "https://images.unsplash.com/photo-1544725121-be3bf52e2dc8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBiYW5raW5nJTIwc2VjdXJpdHklMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc4NzYwMzMxOHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/tech/bank-may-stop-texting-six-digit-codes",
+    "source_urls": [
+      "https://www.foxnews.com/tech/bank-may-stop-texting-six-digit-codes"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e2c245c8bf91bb711f6c056abdc82faabfec40904a65f539bfa56bbcc2988253",
+    "category": "mobile",
+    "created_at": "2026-08-24T20:28:41.139768",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T20:28:41.139768"
+  },
+  "fail_1787604446_172": {
+    "article_id": "fail_1787604446_172",
+    "headline": "Rays vs. Tigers: Statistical Projections and Betting Analysis for August 24",
+    "image_url": "https://images.unsplash.com/photo-1623947454404-c5efce008360?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxNTEIlMjBiYXNlYmFsbCUyMGdhbWUlMjBhY3Rpb258ZW58MHx8fHwxNzg3NjA0NDQ1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/betting/news/rays-tigers-prediction-odds-line-start-time-2026-mlb-picks-for-monday-august-24-2026/",
+    "source_urls": [
+      "https://www.cbssports.com/betting/news/rays-tigers-prediction-odds-line-start-time-2026-mlb-picks-for-monday-august-24-2026/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a1243e8fcafb29503ff1475c291667d8a48e6ece66aa755a0fd6758d83b9721e",
+    "category": "mlb",
+    "created_at": "2026-08-24T20:47:26.811669",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-22T20:47:26.811669"
+  },
+  "109906": {
+    "article_id": "109906",
+    "headline": "Farke Eyes Potential Elvedi Debut as Leeds United Rotates Squad for Forest Clash",
+    "image_url": "https://images.unsplash.com/photo-1747200581783-1b613b75d589?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8TGVlZHMlMjBVbml0ZWQlMjBmb290YmFsbCUyMHRyYWluaW5nfGVufDB8fHx8MTc4NzYwNDQ2Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.skysports.com/football/live-blog/12040/13353569/leeds-united-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+    "source_urls": [
+      "https://www.skysports.com/football/live-blog/12040/13353569/leeds-united-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "33f6e91bb5a876d84c70c6a6e9dc1d956b0bc431339cf11e1d019ef9774b7163",
+    "category": "soccer",
+    "created_at": "2026-08-24T20:47:44.728890",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T20:47:44.728890"
+  },
+  "60065": {
+    "article_id": "60065",
+    "headline": "Marlon James Explores the Costs of Silence in Booker-Longlisted The Disappearers",
+    "image_url": "https://images.pexels.com/photos/4904548/pexels-photo-4904548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/aug/24/the-disappearers-by-marlon-james-review-a-scorching-expose-of-homophobia-in-jamaica"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "803eaee5e2b2274ee615ef25ce29856dcee94ccddca5ba5027146fbf7a0d65b8",
+    "category": "book-reviews",
+    "created_at": "2026-08-24T21:06:43.257209",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T21:06:43.257209"
+  },
+  "62254": {
+    "article_id": "62254",
+    "headline": "Could Removing Irrational Numbers Rewrite the Rules of Quantum Physics?",
+    "image_url": "https://images.unsplash.com/photo-1780956184940-3497d86dcc90?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8cXVhbnR1bSUyMHBoeXNpY3MlMjB0aGVvcnl8ZW58MHx8fHwxNzg3NjA1Njk0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.newscientist.com/article/2584541-why-banishing-irrational-numbers-could-trigger-a-revolution-in-quantum-theory/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+    "source_urls": [
+      "https://www.newscientist.com/article/2584541-why-banishing-irrational-numbers-could-trigger-a-revolution-in-quantum-theory/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6effe2448a955a05d024d823e27279e32899561079c24662603ed660b6b10651",
+    "category": "physics",
+    "created_at": "2026-08-24T21:08:17.142153",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T21:08:17.142153"
+  },
+  "286752": {
+    "article_id": "286752",
+    "headline": "Topeka Father Shocks Dinner Guests With Sudden Werewolf Theory",
+    "image_url": "https://images.unsplash.com/photo-1683538007978-ec84fe958c27?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8ZnVubnklMjBmYW1pbHklMjBkaW5uZXIlMjBjb252ZXJzYXRpb258ZW58MHx8fHwxNzg3NjA3MjAyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://theonion.com/dad-stuns-family-with-proclamation-he-believes-in-werewolves/",
+    "source_urls": [
+      "https://theonion.com/dad-stuns-family-with-proclamation-he-believes-in-werewolves/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "24536184f79758665c8664cd807ded137165170c38bb5693b9e635afa0caced5",
+    "category": "funny",
+    "created_at": "2026-08-24T21:33:24.167016",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T21:33:24.167016"
+  },
+  "53879": {
+    "article_id": "53879",
+    "headline": "The Changing Landscape of Men’s Cosmetic Health and Aging",
+    "image_url": "https://images.unsplash.com/photo-1570554520913-ce2192a74574?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxtZW4lMjBncm9vbWluZyUyMHNraW5jYXJlJTIwcHJvZmVzc2lvbmFsfGVufDB8fHx8MTc4NzYwODcyN3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/men-face-new-pressure-stay-hot-age-not-just-living-longer",
+    "source_urls": [
+      "https://www.foxnews.com/health/men-face-new-pressure-stay-hot-age-not-just-living-longer"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8c95c1ae846b6cc173df2f87f501415058f5c858c883810a6d7dbeea77dd4e3e",
+    "category": "skin-anti-aging",
+    "created_at": "2026-08-24T21:58:49.408020",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-22T21:58:49.408020"
+  },
+  "28240": {
+    "article_id": "28240",
+    "headline": "Common Medications May Leave Lasting Impact on Gut Microbiome, Study Finds",
+    "image_url": "https://images.unsplash.com/photo-1706201320746-68284fe3d72d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8Z3V0JTIwbWljcm9iaW9tZSUyMHJlc2VhcmNofGVufDB8fHx8MTc4NzYxMDMzN3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260824065605.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260824065605.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2c3384ef473cfc1381e66595548f67ab4e1b5ab82b3b7cfdda006170d109cd4c",
+    "category": "science-news",
+    "created_at": "2026-08-24T22:25:38.904299",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T22:25:38.904299"
+  },
+  "60066": {
+    "article_id": "60066",
+    "headline": "Luke Harding Examines the Geopolitics of Power in New Book Betrayal",
+    "image_url": "https://images.pexels.com/photos/3847704/pexels-photo-3847704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/aug/24/betrayal-by-luke-harding-review-is-donald-trump-a-russian-asset",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/aug/24/betrayal-by-luke-harding-review-is-donald-trump-a-russian-asset"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "46f7b93286a07ab259b571e1ba59933acbdbff51fbbd70cd9e8bb48ea14ce919",
+    "category": "book-news",
+    "created_at": "2026-08-24T22:51:26.605834",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-22T22:51:26.605834"
+  },
+  "235978": {
+    "article_id": "235978",
+    "headline": "Agricultural Economic Shift: Landowners Pivot as Crop Prices Decline",
+    "image_url": "https://images.unsplash.com/photo-1692369584496-3216a88f94c1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8YWdyaWN1bHR1cmFsJTIwYnVzaW5lc3MlMjBpbnZlc3RtZW50fGVufDB8fHx8MTc4NzYxMzQyMXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/24/business/farmers-land-value-crop-prices-iowa.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/24/business/farmers-land-value-crop-prices-iowa.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d9b3e875f5a5d6ccf0086c489a83867282e7afda71cc4ebb36f8a423cb7137a0",
+    "category": "biz-tech",
+    "created_at": "2026-08-24T23:17:05.154135",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-22T23:17:05.154135"
+  },
+  "81523": {
+    "article_id": "81523",
+    "headline": "Behind the Bar: How Mixologists Are Navigating the Persistent Spritz Trend",
+    "image_url": "https://images.unsplash.com/photo-1647776112336-72f4c30fafc1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxiYXJ0ZW5kZXIlMjBtYWtpbmclMjBjb2NrdGFpbHN8ZW58MHx8fHwxNzg3NjE0OTcxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/24/dining/drinks/spritz-bartenders.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/24/dining/drinks/spritz-bartenders.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ac1b95baab8d89bfd6708441837fe29d1d2f06689e5248a6be96b4585f89f59d",
+    "category": "people-in-food",
+    "created_at": "2026-08-24T23:42:55.127254",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-22T23:42:55.127254"
+  },
+  "1725314": {
+    "article_id": "1725314",
+    "headline": "AliExpress Caught Using Inaudible Ultrasonic Signals for Browser Fingerprinting",
+    "image_url": "https://images.unsplash.com/photo-1587401427975-977e8db50b22?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8Y3liZXJzZWN1cml0eSUyMHByaXZhY3klMjBtb2JpbGUlMjB0cmFja2luZ3xlbnwwfHx8fDE3ODc2MTgwMDJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers/",
+    "source_urls": [
+      "https://arstechnica.com/security/2026/08/aliexpress-caught-fingerprinting-visitors-after-sending-inaudible-sounds-to-browsers/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0a7f11cd8b2aaea53eb8228116b7bf64ebe48db4f21b02b28012b16a632de205",
+    "category": "security",
+    "created_at": "2026-08-25T00:33:25.447412",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T00:33:25.447412"
+  },
+  "60106": {
+    "article_id": "60106",
+    "headline": "Graduate Job Vacancies Plummet by Nearly 50% in Annual Decline",
+    "image_url": "https://images.unsplash.com/photo-1565034946487-077786996e27?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8Z3JhZHVhdGUlMjBqb2IlMjBtYXJrZXR8ZW58MHx8fHwxNzg3NjIyNzAxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/crerd8l3pw5o?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/crerd8l3pw5o?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a69a2915133ee8a8c4571436160f0b8ccb1d0a3390032a2ceff0adcce7110c5e",
+    "category": "graduates",
+    "created_at": "2026-08-25T01:51:43.638095",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T01:51:43.638095"
+  },
+  "40309": {
+    "article_id": "40309",
+    "headline": "Volvo Shifts Strategy Toward Long-Range PHEVs Amid EV Adoption Slowdown",
+    "image_url": "https://images.unsplash.com/photo-1665682603227-ffd183f04940?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxWb2x2byUyMHBsdWctaW4lMjBoeWJyaWQlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc4NzYyNDI4NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/new-cars/volvo-pledges-long-range-phevs-can-be-%E2%80%9Cused-intended%E2%80%9D",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/new-cars/volvo-pledges-long-range-phevs-can-be-%E2%80%9Cused-intended%E2%80%9D"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1612af5b40c581394349b3334443bda0ee1367e25c1c23acb17890440730d119",
+    "category": "green-cars",
+    "created_at": "2026-08-25T02:18:05.990399",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T02:18:05.990399"
+  },
+  "109907": {
+    "article_id": "109907",
+    "headline": "Chelsea Secure Narrow Victory Over Fulham in Xabi Alonso's Premier League Debut",
+    "image_url": "https://images.pexels.com/photos/28517856/pexels-photo-28517856.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.skysports.com/football/fulham-vs-chelsea/report/559453",
+    "source_urls": [
+      "https://www.skysports.com/football/fulham-vs-chelsea/report/559453"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c76945673b687c5465fd6cbbfbeb35f020ee84e2ef5a8d9628486365f5bd207e",
+    "category": "world-football",
+    "created_at": "2026-08-25T02:44:28.720150",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T02:44:28.720150"
+  }
+}

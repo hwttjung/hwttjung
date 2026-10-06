@@ -1,0 +1,682 @@
+{
+  "62310": {
+    "article_id": "62310",
+    "headline": "Antacids and Long-Term Health Risks: Reevaluating Proton Pump Inhibitors in 2026",
+    "image_url": "https://images.unsplash.com/photo-1582719471863-f4c7006280cd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8Z2FzdHJvaW50ZXN0aW5hbCUyMGhlYWx0aCUyMHJlc2VhcmNofGVufDB8fHx8MTc5MDYxMTk5N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/57369/20170224/antacids-cause-liver-damage-study-suggests.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/57369/20170224/antacids-cause-liver-damage-study-suggests.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4d3d03afe8daa24900bc6b99e80ba6cf9e11c06e48126068eab64fec378e5d9a",
+    "category": "health-medicine",
+    "created_at": "2026-09-28T16:13:19.611799",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:13:19.611799"
+  },
+  "28288": {
+    "article_id": "28288",
+    "headline": "Microbiome Diversity Boosts Immunity: How Fiber Intake Shapes Long-Term Health",
+    "image_url": "https://images.unsplash.com/photo-1610415946035-bad6fc9f5b8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxoZWFsdGh5JTIwcGxhbnQlMjBiYXNlZCUyMGRpZXR8ZW58MHx8fHwxNzkwNjEyMDE3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/28255/20260910/plant-based-fiber-intake-linked-to-enhanced-microbiome-diversity-in-new-clinical-study.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/28255/20260910/plant-based-fiber-intake-linked-to-enhanced-microbiome-diversity-in-new-clinical-study.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "768c6906894974087e21802781791dcdaff25cb52b5b6122270ea196f204753d",
+    "category": "science-news",
+    "created_at": "2026-09-28T16:13:40.417486",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:13:40.417486"
+  },
+  "40362": {
+    "article_id": "40362",
+    "headline": "Genesis Accelerates Global Luxury Shift as European Rivals Face Market Headwinds",
+    "image_url": "https://images.unsplash.com/photo-1746625124974-326e054095f6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxsdXh1cnklMjBlbGVjdHJpYyUyMGNhciUyMGRlc2lnbnxlbnwwfHx8fDE3OTA2MTIwNDJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/40328/20260919/genesis-emerges-as-a-strategic-threat-to-traditional-european-luxury-leaders.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/40328/20260919/genesis-emerges-as-a-strategic-threat-to-traditional-european-luxury-leaders.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c1c4cfb20bb116d064a1c3265587bae28b601e8715ab6b029cfca9be6e49351e",
+    "category": "auto-news",
+    "created_at": "2026-09-28T16:14:04.448574",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-27T16:14:04.448574"
+  },
+  "53927": {
+    "article_id": "53927",
+    "headline": "Melatonin Risks: Why Teens Should Rethink Nightly Sleep Aids",
+    "image_url": "https://images.unsplash.com/photo-1585577529540-a8095ea25427?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHx0ZWVuYWdlciUyMHNsZWVwaW5nJTIwaW4lMjBiZWR8ZW58MHx8fHwxNzkwNjEyMDY0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://youthhealthmag.com/articles/53896/20260922/long-term-melatonin-use-linked-to-increased-heart-failure-risk-in-new-study.htm",
+    "source_urls": [
+      "https://youthhealthmag.com/articles/53896/20260922/long-term-melatonin-use-linked-to-increased-heart-failure-risk-in-new-study.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "acbede756a7a7c82ff5a958b6c9d2ea89c9202827a64299355cec5a8a5469e58",
+    "category": "teenHeath",
+    "created_at": "2026-09-28T16:14:26.535478",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:14:26.535478"
+  },
+  "64988": {
+    "article_id": "64988",
+    "headline": "Steel Tariffs Disrupt North American Supply Chains as Trade War Intensifies",
+    "image_url": "https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxzdGVlbCUyMG1hbnVmYWN0dXJpbmclMjBmYWN0b3J5fGVufDB8fHx8MTc5MDYxMjA4N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/64967/20260922/canada-u-s-trade-tensions-escalate-amid-steel-tariff-dispute.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/64967/20260922/canada-u-s-trade-tensions-escalate-amid-steel-tariff-dispute.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e28d441e8f90d3d4927cbe1a31f65a86f98a2e65cc2274bf89494c918cdd4b63",
+    "category": "business",
+    "created_at": "2026-09-28T16:14:48.278621",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:14:48.278621"
+  },
+  "26973": {
+    "article_id": "26973",
+    "headline": "Charlotte Collet Transforms Modern Minimalism Through Architectural Styling",
+    "image_url": "https://images.unsplash.com/photo-1627130697816-4d71dbfe6a5b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBtaW5pbWFsaXN0JTIwZmFzaGlvbiUyMHN0eWxlfGVufDB8fHx8MTc5MDYxMjEwNnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://celebeat.com/articles/26913/20260819/the-art-of-the-edit-how-stylist-charlotte-collet-is-redefining-modern-minimalism.htm",
+    "source_urls": [
+      "https://celebeat.com/articles/26913/20260819/the-art-of-the-edit-how-stylist-charlotte-collet-is-redefining-modern-minimalism.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d153fa8cf89d0a840206d359e4eb7da6bf91d7378531ffc557b7e926752544e5",
+    "category": "style",
+    "created_at": "2026-09-28T16:15:09.170431",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:15:09.170431"
+  },
+  "286800": {
+    "article_id": "286800",
+    "headline": "Alice Walton Redefines Legacy Beyond the Walmart Empire",
+    "image_url": "https://images.pexels.com/photos/7491611/pexels-photo-7491611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://boomsbeat.com/articles/284807/20190403/30-fascinating-things-about-alice-walton-we-bet-you-never-knew-before.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/284807/20190403/30-fascinating-things-about-alice-walton-we-bet-you-never-knew-before.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "95e18c4eabfb8acddac80efcc3fa3631c7f1986c7a76d0d3b85e83607eaa95a6",
+    "category": "people",
+    "created_at": "2026-09-28T16:15:32.069750",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:15:32.069750"
+  },
+  "109958": {
+    "article_id": "109958",
+    "headline": "Carlos Alcaraz Reshapes 2026 ATP Tour Dynamics Following Injury Return",
+    "image_url": "https://images.unsplash.com/photo-1646343252502-b91481139927?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8Q2FybG9zJTIwQWxjYXJheiUyMHRlbm5pcyUyMG1hdGNofGVufDB8fHx8MTc5MDYxMjE3Nnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/109919/20260919/carlos-alcaraz-redefines-us-open-title-defense-after-wrist-recovery.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/109919/20260919/carlos-alcaraz-redefines-us-open-title-defense-after-wrist-recovery.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f8ad81de181bb15074d27ec6655fb70c0693eeb494cb8cd58fe25707f9260d12",
+    "category": "tennis",
+    "created_at": "2026-09-28T16:16:19.959889",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2026-12-27T16:16:19.959889"
+  },
+  "60152": {
+    "article_id": "60152",
+    "headline": "SmartSweets Founder Tara Bosch Redefines Startup Leadership Post-Exit",
+    "image_url": "https://images.unsplash.com/photo-1758519289066-93959ca85213?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxlbnRyZXByZW5ldXJzaGlwJTIwYnVzaW5lc3MlMjBncm93dGglMjBzdHJhdGVneXxlbnwwfHx8fDE3OTA2MTIxOTd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://jobsnhire.com/articles/60120/20260919/after-360-million-smartsweets-exit-tara-bosch-pivots-community-driven-entrepreneurship.htm",
+    "source_urls": [
+      "https://jobsnhire.com/articles/60120/20260919/after-360-million-smartsweets-exit-tara-bosch-pivots-community-driven-entrepreneurship.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3ef4493d2107798698791b8aef8461c47b978cc92dc3859c330eaafd2c5bea59",
+    "category": "entrepreneurs",
+    "created_at": "2026-09-28T16:16:39.728497",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:16:39.728497"
+  },
+  "236026": {
+    "article_id": "236026",
+    "headline": "Sazerac Strategy Signals Long-Term Bet on Premium Spirits Consolidation",
+    "image_url": "https://images.unsplash.com/photo-1542835497-a6813df96ed9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHx3aGlza2V5JTIwZGlzdGlsbGVyeSUyMHByb2R1Y3Rpb258ZW58MHx8fHwxNzkwNjEyMjIwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/235971/20260923/sazerac-expands-kentucky-footprint-amid-strategic-industry-consolidation.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/235971/20260923/sazerac-expands-kentucky-footprint-amid-strategic-industry-consolidation.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6469a39fc3c4971383525c69f27f5eb54d9134f60a0512d3351037d1ac6fcba3",
+    "category": "franchise-news",
+    "created_at": "2026-09-28T16:17:02.754243",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:17:02.754243"
+  },
+  "1725359": {
+    "article_id": "1725359",
+    "headline": "DetectifAI Launches On-Device Voice Authentication to Combat Deepfake Scams",
+    "image_url": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwc2VjdXJpdHklMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc5MDYxMjIzNnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
+    "source_urls": [
+      "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1d343f1ec70393316ef44be4e1454b5284d4c6ce40cce938ca23aab341524b01",
+    "category": "security",
+    "created_at": "2026-09-28T16:17:18.387603",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:17:18.387603"
+  },
+  "237248": {
+    "article_id": "237248",
+    "headline": "Childhood Vaccination Policy Shifts: Navigating the New Federal Executive Order",
+    "image_url": "https://images.pexels.com/photos/6642314/pexels-photo-6642314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://parentherald.com/articles/237182/20260812/president-trump-signs-executive-order-addressing-childhood-vaccination-policies.htm",
+    "source_urls": [
+      "https://parentherald.com/articles/237182/20260812/president-trump-signs-executive-order-addressing-childhood-vaccination-policies.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fd63b2a743e6b3fe423491574e7f6ae1608686952390b7273f0335dbfebad0e6",
+    "category": "parent-buzz",
+    "created_at": "2026-09-28T16:17:39.952026",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:17:39.952026"
+  },
+  "60114": {
+    "article_id": "60114",
+    "headline": "Josh Hawley Book The Awakenings Fuels Ongoing Debate on National Identity",
+    "image_url": "https://images.unsplash.com/photo-1558283039-d1afe675ddd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8cG9saXRpY2FsJTIwYm9vayUyMGFuYWx5c2lzfGVufDB8fHx8MTc5MDYxMjI4OHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://booksnreview.com/articles/19513/20240522/senator-josh-hawley-pens-new-book-awakenings-advocating-religious-revival.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/19513/20240522/senator-josh-hawley-pens-new-book-awakenings-advocating-religious-revival.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9a10ff8b5d147640a5f6a6814b90c446d513d9b50d780b59583f045c7d72ef4a",
+    "category": "political-science",
+    "created_at": "2026-09-28T16:18:11.184185",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:18:11.184185"
+  },
+  "81540": {
+    "article_id": "81540",
+    "headline": "Black Plastic Containers: How to Identify Safe Food Packaging",
+    "image_url": "https://images.unsplash.com/photo-1547908068-4aa4fd647a8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxmb29kJTIwc2FmZXR5JTIwcGxhc3RpYyUyMGNvbnRhaW5lcnN8ZW58MHx8fHwxNzkwNjEyMzA5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://foodworldnews.com/articles/81254/20260222/truth-about-black-plastic-food-containers-food-safety-measures-you-should-know.htm",
+    "source_urls": [
+      "https://foodworldnews.com/articles/81254/20260222/truth-about-black-plastic-food-containers-food-safety-measures-you-should-know.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5183aaf6a27ca5a0b2830b67b3265355632d15b52a1d21c897acbce307e993bb",
+    "category": "safety",
+    "created_at": "2026-09-28T16:18:31.692717",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T16:18:31.692717"
+  },
+  "62311": {
+    "article_id": "62311",
+    "headline": "Cosmic Geometry: New Insights into the Infinite Nature of the Universe",
+    "image_url": "https://images.unsplash.com/photo-1711992635223-ad1ad38f7329?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxjb3NtaWMlMjBtaWNyb3dhdmUlMjBiYWNrZ3JvdW5kJTIwcmFkaWF0aW9ufGVufDB8fHx8MTc5MDYxNTA1M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260927225041.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260927225041.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1fa8d2785dbd758600534aa74b3944f360e8fe88424bdc0ac3d15312ff9b48c3",
+    "category": "space-the-future",
+    "created_at": "2026-09-28T17:04:15.806145",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T17:04:15.806145"
+  },
+  "236027": {
+    "article_id": "236027",
+    "headline": "U.S. and China Announce Tariff Reductions on $60 Billion in Goods",
+    "image_url": "https://images.unsplash.com/photo-1594571603435-0b192ab6dafa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8Z2xvYmFsJTIwdHJhZGUlMjBzaGlwcGluZyUyMGNvbnRhaW5lcnxlbnwwfHx8fDE3OTA2MTYyMDN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/28/business/china-us-summit-tariffs.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/28/business/china-us-summit-tariffs.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "45df211896705e72908626269d368915aacb69b7470e2af1ab9b2466d81c6afd",
+    "category": "biz-tech",
+    "created_at": "2026-09-28T17:23:28.017648",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T17:23:28.017648"
+  },
+  "64989": {
+    "article_id": "64989",
+    "headline": "Goodman Group Scraps Sydney Data Center Project Amid Regulatory Shifts",
+    "image_url": "https://images.unsplash.com/photo-1484253292651-6e940b0a0e26?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxkYXRhJTIwY2VudGVyJTIwY29uc3RydWN0aW9ufGVufDB8fHx8MTc5MDYxODQ3MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/c6n9wrqpj4yqo?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/c6n9wrqpj4yqo?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ef585eefc3bc1e5b43c2cf0aaf91be76126651f088204fb5dbd15da6ec173ea1",
+    "category": "tech",
+    "created_at": "2026-09-28T18:01:14.163348",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T18:01:14.163348"
+  },
+  "26974": {
+    "article_id": "26974",
+    "headline": "Taylor Swift Sets All-Time Record at 2026 MTV Video Music Awards",
+    "image_url": "https://images.unsplash.com/photo-1668626317130-02228b116fd9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxUYXlsb3IlMjBTd2lmdCUyME1UViUyMFZNQXMlMjAyMDI2fGVufDB8fHx8MTc5MDYxOTYxMHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/c8ly403p1rwpo?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/c8ly403p1rwpo?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2069eba4fc7d5f6d69d199757ded5a5d5a90d7874b8405cef5cab29517f40207",
+    "category": "news",
+    "created_at": "2026-09-28T18:20:13.226027",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T18:20:13.226027"
+  },
+  "60115": {
+    "article_id": "60115",
+    "headline": "Tomi Adeyemi Asserts Creative Ownership with New Novel The Siren",
+    "image_url": "https://images.unsplash.com/photo-1623065691913-e9a650810efd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxUb21pJTIwQWRleWVtaSUyMFRoZSUyMFNpcmVuJTIwYXV0aG9yfGVufDB8fHx8MTc5MDYyMDczMHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/27/tomi-adeyemi-on-the-film-of-her-hit-novel-children-of-blood-and-bone-i-dont-plan-to-watch-it",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/27/tomi-adeyemi-on-the-film-of-her-hit-novel-children-of-blood-and-bone-i-dont-plan-to-watch-it"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "35d5ddea605095d7ee6d5f0b263f0baee524ddd5c9907623f8d8859fc2b6f609",
+    "category": "authors",
+    "created_at": "2026-09-28T18:38:53.417647",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T18:38:53.417647"
+  },
+  "60153": {
+    "article_id": "60153",
+    "headline": "Stelco to Suspend Steel Operations in Hamilton Amid Trade Disruptions",
+    "image_url": "https://images.unsplash.com/photo-1610896813398-6e965b3cc1b3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8c3RlZWwlMjBtYW51ZmFjdHVyaW5nJTIwcGxhbnR8ZW58MHx8fHwxNzkwNjIxODU1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bloomberg.com/news/articles/2026-09-28/cliffs-s-stelco-set-to-idle-some-steel-operations-on-tariff-woes",
+    "source_urls": [
+      "https://www.bloomberg.com/news/articles/2026-09-28/cliffs-s-stelco-set-to-idle-some-steel-operations-on-tariff-woes"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e24e7690f51cd21efa5dcc2626974d4265778a7370f8e0fed5d81aa24581ca65",
+    "category": "business",
+    "created_at": "2026-09-28T18:57:38.513326",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T18:57:38.513326"
+  },
+  "109959": {
+    "article_id": "109959",
+    "headline": "SportsLine AI Releases Same-Game Parlay Predictions for Eagles vs. Bears Monday Night Football",
+    "image_url": "https://images.unsplash.com/photo-1556764420-e37ef4cdfa5c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxORkwlMjBNb25kYXklMjBOaWdodCUyMEZvb3RiYWxsJTIwc3RhZGl1bXxlbnwwfHx8fDE3OTA2MjI5Njd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/betting/news/eagles-bears-sgp-monday-night-football-same-game-parlay-ai-picks-bets-player-props/",
+    "source_urls": [
+      "https://www.cbssports.com/betting/news/eagles-bears-sgp-monday-night-football-same-game-parlay-ai-picks-bets-player-props/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c62ae7fe5be9f5d2dccc46946cf460ec0b818e36b68d75e780ca86e7d579309b",
+    "category": "nfl",
+    "created_at": "2026-09-28T19:16:09.330422",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-27T19:16:09.330422"
+  },
+  "53928": {
+    "article_id": "53928",
+    "headline": "Short Bursts of Jogging Linked to Enhanced Mood and Focus in Young Adults",
+    "image_url": "https://images.unsplash.com/photo-1588740916845-5a1e87cf006d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8dGVlbmFnZXIlMjBqb2dnaW5nJTIwb3V0ZG9vcnN8ZW58MHx8fHwxNzkwNjI0MDkxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/scientists-reveal-surprisingly-easy-exercise-boost-mood-10-minutes",
+    "source_urls": [
+      "https://www.foxnews.com/health/scientists-reveal-surprisingly-easy-exercise-boost-mood-10-minutes"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1782009af1bbcfa1f2abc600d41e22a13546fa344f886cf39939c91574525d63",
+    "category": "diet-fitness",
+    "created_at": "2026-09-28T19:34:53.583090",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T19:34:53.583090"
+  },
+  "28289": {
+    "article_id": "28289",
+    "headline": "Medical Experts Caution Against High-Dose GLP-1 Usage for Metabolic Health",
+    "image_url": "https://images.unsplash.com/photo-1732900490015-a5167a642998?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMXx8d2VpZ2h0JTIwbG9zcyUyMG1lZGljYXRpb24lMjBzYWZldHl8ZW58MHx8fHwxNzkwNjI1MjEwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/popular-weight-loss-drugs-atomic-bomb-high-doses-doctor-warns",
+    "source_urls": [
+      "https://www.foxnews.com/health/popular-weight-loss-drugs-atomic-bomb-high-doses-doctor-warns"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b9a01b7bcb0751cd3d26f5086b43c2888760ede454dd0e9c0d99c4a8dc010460",
+    "category": "news",
+    "created_at": "2026-09-28T19:53:33.017062",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-27T19:53:33.017062"
+  },
+  "1725360": {
+    "article_id": "1725360",
+    "headline": "Security Alert: Malicious Browser Extensions Found Hijacking AI Assistants",
+    "image_url": "https://images.unsplash.com/photo-1590971862391-06cac0657603?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8Y3liZXJzZWN1cml0eSUyMGJyb3dzZXIlMjBleHRlbnNpb24lMjBwcm90ZWN0aW9ufGVufDB8fHx8MTc5MDYyNjI3M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/tech/malicious-browser-extensions-hijack-ai-assistants",
+    "source_urls": [
+      "https://www.foxnews.com/tech/malicious-browser-extensions-hijack-ai-assistants"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "48c60218be37013d60374500d8dfd65920a72b80780faeb296f0d46cd7529925",
+    "category": "news",
+    "created_at": "2026-09-28T20:11:15.941505",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T20:11:15.941505"
+  },
+  "81541": {
+    "article_id": "81541",
+    "headline": "Forest Flavors Emerge as the Latest Culinary Trend in Beverage and Snack Markets",
+    "image_url": "https://images.unsplash.com/photo-1658681418476-9230961e4905?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8Ym90YW5pY2FsJTIwaW5ncmVkaWVudHMlMjBpbiUyMGZvb2QlMjBhbmQlMjBiZXZlcmFnZXN8ZW58MHx8fHwxNzkwNjI3NDE5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/28/dining/forest-flavors-alpine-foraging.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/28/dining/forest-flavors-alpine-foraging.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "21c50800e197ff4fc3d66e0e8c158a842fb52bff6620fd18fe7c5cda0d4686ca",
+    "category": "new-food-items",
+    "created_at": "2026-09-28T20:30:22.986943",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T20:30:22.986943"
+  },
+  "286801": {
+    "article_id": "286801",
+    "headline": "AI Experts and Nostradamus: Why the Internet is Obsessing Over Tech Prophecies",
+    "image_url": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwZnV0dXJpc3RpYyUyMHJvYm90fGVufDB8fHx8MTc5MDYyODUzM3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.boredpanda.com/anthropic-ceo-warning-nostradamus-prediction/",
+    "source_urls": [
+      "https://www.boredpanda.com/anthropic-ceo-warning-nostradamus-prediction/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7791cf26318308fc79808e04e15b66ba6a04223066a97afd021e01bc6162e088",
+    "category": "meme",
+    "created_at": "2026-09-28T20:48:54.913908",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T20:48:54.913908"
+  },
+  "40363": {
+    "article_id": "40363",
+    "headline": "Subaru Debuts WRX GD25 and BRZ ZC15 Anniversary Editions with Chassis Enhancements",
+    "image_url": "https://images.unsplash.com/photo-1739341265318-97a93829830d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxTdWJhcnUlMjBXUlglMjBwZXJmb3JtYW5jZSUyMGNhcnxlbnwwfHx8fDE3OTA2Mjk3MzV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.jalopnik.com/2271306/subaru-wrx-gd25-brz-zc15-anniversary-editions-bad-names-sick-wing/",
+    "source_urls": [
+      "https://www.jalopnik.com/2271306/subaru-wrx-gd25-brz-zc15-anniversary-editions-bad-names-sick-wing/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9757ece50c075a24e0254e11fcfa389593a4af26306341e6ee073e6840cff9a9",
+    "category": "auto-reviews",
+    "created_at": "2026-09-28T21:08:56.880185",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:08:56.880185"
+  },
+  "62312": {
+    "article_id": "62312",
+    "headline": "James Webb Telescope Data Reveals Narrow Window for Giant Planet Formation",
+    "image_url": "https://images.pexels.com/photos/12498804/pexels-photo-12498804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260925093158.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260925093158.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4c933285958247dffdb35f43b8e85bae9c0783ed68b9b76e9b852ad9836b1137",
+    "category": "nature-environment",
+    "created_at": "2026-09-28T21:15:16.802145",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:15:16.802145"
+  },
+  "28290": {
+    "article_id": "28290",
+    "headline": "Ketogenic Diet Metabolic Benefits: A Clinical Guide to Liver Health",
+    "image_url": "https://images.unsplash.com/photo-1636044731923-6a80c14ec1c5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMXx8a2V0b2dlbmljJTIwZGlldCUyMGhlYWx0aCUyMGJlbmVmaXRzfGVufDB8fHx8MTc5MDYzMDEzMnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/28260/20260922/ketogenic-diet-shows-significant-efficacy-in-reducing-liver-fat-clinical-trial-finds.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/28260/20260922/ketogenic-diet-shows-significant-efficacy-in-reducing-liver-fat-clinical-trial-finds.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a3e8d2a2b781888d4a70116d51bc68039b18a32b8b010f5ea73527bb469bc6ab",
+    "category": "healthy-habits",
+    "created_at": "2026-09-28T21:15:34.909423",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:15:34.909423"
+  },
+  "40364": {
+    "article_id": "40364",
+    "headline": "Formula 1 Engineering Evolution: How Aerodynamic Shifts Redefined Modern Performance",
+    "image_url": "https://images.unsplash.com/photo-1767655181607-c663d3e292fe?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8Zm9ybXVsYSUyMDElMjBhZXJvZHluYW1pYyUyMGVuZ2luZWVyaW5nfGVufDB8fHx8MTc5MDYzMDE1NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/35590/20170324/formula-1-rule-changes-new-cars-better-specs.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/35590/20170324/formula-1-rule-changes-new-cars-better-specs.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b56911504c0d4c07889affcbc5b51ebd814a06a94989f2e9dd1822c28014b0eb",
+    "category": "tech-biz",
+    "created_at": "2026-09-28T21:15:56.239034",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:15:56.239034"
+  },
+  "53929": {
+    "article_id": "53929",
+    "headline": "Bio-fortified Spirulina Provides New Vitamin B12 Source for Plant-Based Teens",
+    "image_url": "https://images.unsplash.com/photo-1764776951509-ec8319ce7cd2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8c3BpcnVsaW5hJTIwaGVhbHRoJTIwYmVuZWZpdHN8ZW58MHx8fHwxNzkwNjMwMTczfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://youthhealthmag.com/articles/53895/20260922/new-bio-fortified-spirulina-offers-sustainable-vitamin-b12-source-for-teens.htm",
+    "source_urls": [
+      "https://youthhealthmag.com/articles/53895/20260922/new-bio-fortified-spirulina-offers-sustainable-vitamin-b12-source-for-teens.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5444b2dd62d843a88d0b1ea29ece3f8fe72dc71df9e30582560f2dad9393189d",
+    "category": "nutrition-food",
+    "created_at": "2026-09-28T21:16:15.469005",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:16:15.469005"
+  },
+  "64990": {
+    "article_id": "64990",
+    "headline": "Celebrities Over 40 Redefine Longevity in Modern Entertainment",
+    "image_url": "https://images.unsplash.com/photo-1788323918049-6cd33ed0b91f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8Y2VsZWJyaXR5JTIwcmVkJTIwY2FycGV0JTIwMjAyNnxlbnwwfHx8fDE3OTA2MzAyMDF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/34946/20160331/40-hottest-celebrities-whos-over-photos.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/34946/20160331/40-hottest-celebrities-whos-over-photos.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "eab098f2d07a04876e7d0360269cd0064b66358a325db8e97fa66c15b756c4c9",
+    "category": "entertainment",
+    "created_at": "2026-09-28T21:16:43.575767",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:16:43.575767"
+  },
+  "286802": {
+    "article_id": "286802",
+    "headline": "Kevin Richardson: Why the Backstreet Boys Legend Remains the Ultimate Pop Icon",
+    "image_url": "https://images.pexels.com/photos/8734777/pexels-photo-8734777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://boomsbeat.com/articles/286124/20210601/30-killer-facts-kevin-richardson-missed-before.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/286124/20210601/30-killer-facts-kevin-richardson-missed-before.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "dbea5af93996e4004bbb4dda11eff868fff0834c5c00d52fff1fa5df21bcee8e",
+    "category": "people",
+    "created_at": "2026-09-28T21:17:16.667445",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:17:16.667445"
+  },
+  "109960": {
+    "article_id": "109960",
+    "headline": "Wes Welker Legacy: How the Slot Receiver Evolution Redefined NFL Offenses",
+    "image_url": "https://images.unsplash.com/photo-1617051283810-d09ef5f944ea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8V2VzJTIwV2Vsa2VyJTIwTkZMJTIwY2FyZWVyJTIwaGlnaGxpZ2h0c3xlbnwwfHx8fDE3OTA2MzAyNzh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/19320/20130808/denver-broncos-rumors-wes-welker-admits-bill-belichick-feud-claims.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/19320/20130808/denver-broncos-rumors-wes-welker-admits-bill-belichick-feud-claims.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "17ce54eeea158969bd1818ff49f71f815ed620d7ad6391c0b146306425eede85",
+    "category": "nfl",
+    "created_at": "2026-09-28T21:18:00.868479",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:18:00.868479"
+  },
+  "60154": {
+    "article_id": "60154",
+    "headline": "Shook Research Suspension Triggers Career Branding Crisis for Wealth Managers",
+    "image_url": "https://images.unsplash.com/photo-1758518727929-4506fc031e1c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8ZmluYW5jaWFsJTIwYWR2aXNvciUyMHByb2Zlc3Npb25hbCUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc5MDYzMDI5N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://jobsnhire.com/articles/60109/20260826/forbes-suspends-shook-research-rankings-amid-internal-financial-probe.htm",
+    "source_urls": [
+      "https://jobsnhire.com/articles/60109/20260826/forbes-suspends-shook-research-rankings-amid-internal-financial-probe.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a2fd04a28df0d3916af11725b129d2d90b73fd39abaac1a6ce9b20716c7ab217",
+    "category": "finance",
+    "created_at": "2026-09-28T21:18:19.513196",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:18:19.513196"
+  },
+  "236028": {
+    "article_id": "236028",
+    "headline": "Casual Dining Franchises Pivot to Smaller Footprints Amid Real Estate Squeeze",
+    "image_url": "https://images.unsplash.com/photo-1569096651661-820d0de8b4ab?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8Y29tbWVyY2lhbCUyMHJlYWwlMjBlc3RhdGUlMjB0cmVuZHMlMjByZXN0YXVyYW50fGVufDB8fHx8MTc5MDYzMDMxN3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/235977/20260927/casual-dining-franchises-face-real-estate-pressures-amid-market-shifts.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/235977/20260927/casual-dining-franchises-face-real-estate-pressures-amid-market-shifts.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "eb499ab4cbd798c8b2c17dea004abf43df00d72e0092d20eedca6f2cac639101",
+    "category": "guide",
+    "created_at": "2026-09-28T21:18:39.186527",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-27T21:18:39.186527"
+  },
+  "1725361": {
+    "article_id": "1725361",
+    "headline": "Boox Unveils Picco: A New Ultra-Portable E-Reader for Mobile Users",
+    "image_url": "https://images.unsplash.com/photo-1698376621013-c22a62d865b7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxCb294JTIwUGljY28lMjBlLXJlYWRlciUyMDIwMjZ8ZW58MHx8fHwxNzkwNjMwMzMyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/boox-picco-announcement-2026/",
+    "source_urls": [
+      "https://www.wired.com/story/boox-picco-announcement-2026/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f97362d558f2e15cd0ebbe349b7e515242cba23ba002252e0f207cdfd327a10f",
+    "category": "mobile",
+    "created_at": "2026-09-28T21:18:54.702678",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:18:54.702678"
+  },
+  "237249": {
+    "article_id": "237249",
+    "headline": "Christina Hines Campaign Highlights Growing Influence of Parent-Advocates in Congress",
+    "image_url": "https://images.pexels.com/photos/6172613/pexels-photo-6172613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://parentherald.com/articles/237211/20260918/prosecutor-mother-three-christina-hines-launches-congressional-bid-michigan.htm",
+    "source_urls": [
+      "https://parentherald.com/articles/237211/20260918/prosecutor-mother-three-christina-hines-launches-congressional-bid-michigan.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c186cfc9fd19c685729096e6be8f495591040af7a801c19138e06e8a620bf2d1",
+    "category": "parent-buzz",
+    "created_at": "2026-09-28T21:19:13.004650",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:19:13.004650"
+  },
+  "60116": {
+    "article_id": "60116",
+    "headline": "Vatican Archive Revelations Reshape Historical Non-Fiction Publishing",
+    "image_url": "https://images.pexels.com/photos/35098073/pexels-photo-35098073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://booksnreview.com/articles/19142/20240220/vatican-archive-prefect-unveils-centuries-secrets-new-book-secretum.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/19142/20240220/vatican-archive-prefect-unveils-centuries-secrets-new-book-secretum.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5f9c8e9abca302e96f6bf725da8fe79d1eb1c5bbb409b5114766913e7253304c",
+    "category": "history",
+    "created_at": "2026-09-28T21:19:33.684554",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-27T21:19:33.684554"
+  },
+  "81542": {
+    "article_id": "81542",
+    "headline": "New Study Examines Link Between Almond Consumption and Sleep Quality",
+    "image_url": "https://images.unsplash.com/photo-1430163393927-3dab9af7ea38?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8YWxtb25kcyUyMG51dHJpdGlvbiUyMGhlYWx0aHklMjBmb29kfGVufDB8fHx8MTc5MDYzMDQwMnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foodpolitics.com/2026/09/industry-funded-study-of-the-week-almonds-and-sleep/",
+    "source_urls": [
+      "https://www.foodpolitics.com/2026/09/industry-funded-study-of-the-week-almonds-and-sleep/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "eec2eefd6dae7a9f0c1d6629230fccc8df04024110850fef0720e5eac99fdec8",
+    "category": "tips",
+    "created_at": "2026-09-28T21:20:07.569108",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-27T21:20:07.569108"
+  }
+}

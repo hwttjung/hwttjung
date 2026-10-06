@@ -1,0 +1,155 @@
+{
+  "40386": {
+    "article_id": "40386",
+    "headline": "Hyundai Launches Ioniq 3 with Aggressive Pricing to Challenge Electric Hatchback Market",
+    "image_url": "https://images.unsplash.com/photo-1647934441921-4ed1e182e4b3?w=1600&q=80&ar=16:9&fit=crop",
+    "seed_url": "https://www.autocar.co.uk/car-news/electric-cars/hyundai-ioniq-3-undercuts-key-rivals-%C2%A318k-starting-price",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/electric-cars/hyundai-ioniq-3-undercuts-key-rivals-%C2%A318k-starting-price"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5bac54cca37dcd5f0ab4503a068c4fa3fa5ce5195dca4563c90fd9083a261008",
+    "category": "tech-biz",
+    "created_at": "2026-10-05T15:00:29.050844",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2027-01-03T15:00:29.050844"
+  },
+  "53950": {
+    "article_id": "53950",
+    "headline": "New Research Into Brain Signals Reveals How We Master New Skills",
+    "image_url": "https://images.unsplash.com/photo-1711409645921-ef3db0501f96?w=1600&q=80&ar=16:9&fit=crop",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/10/261002080034.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/10/261002080034.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "48b083290b97c22f07247061ac08b9ad895883f49ff0c4111f03c504dd26483a",
+    "category": "life",
+    "created_at": "2026-10-05T15:00:56.997504",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2027-01-03T15:00:56.997504"
+  },
+  "65006": {
+    "article_id": "65006",
+    "headline": "Leadership Shifts at OpenAI Renew Debate Over AI Safety Governance",
+    "image_url": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?w=1600&q=80&ar=16:9&fit=crop",
+    "seed_url": "https://www.nytimes.com/2026/10/05/business/dealbook/ai-safety-openai.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/10/05/business/dealbook/ai-safety-openai.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c0a4f2cba4742ee7b04362925b7ff01fe901bfcc575c904d0528e45dee534299",
+    "category": "tech",
+    "created_at": "2026-10-05T15:01:21.422074",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2027-01-03T15:01:21.422074"
+  },
+  "26991": {
+    "article_id": "26991",
+    "headline": "Anne Hathaway Dominates 2026 Box Office With Third Consecutive Number One Opening",
+    "image_url": "https://images.pexels.com/photos/7991505/pexels-photo-7991505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nytimes.com/2026/10/04/movies/anne-hathaway-verity-odyssey-devil-wears-prada.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/10/04/movies/anne-hathaway-verity-odyssey-devil-wears-prada.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b8594162a3da9f0967676e88bee75f3f14115356a215ca9925119cd5b14610c8",
+    "category": "news",
+    "created_at": "2026-10-05T15:01:44.185100",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2027-01-03T15:01:44.185100"
+  },
+  "109978": {
+    "article_id": "109978",
+    "headline": "Ben Whittaker Faces Scrutiny After Challenging Bout Against Conor Wallace",
+    "image_url": "https://images.unsplash.com/photo-1546711076-85a7923432ab?w=1600&q=80&ar=16:9&fit=crop",
+    "seed_url": "https://www.skysports.com/boxing/news/12040/13595418/ben-whittaker-conor-wallace-scare-raises-questions-over-light-heavyweights-title-credentials-says-matthew-macklin",
+    "source_urls": [
+      "https://www.skysports.com/boxing/news/12040/13595418/ben-whittaker-conor-wallace-scare-raises-questions-over-light-heavyweights-title-credentials-says-matthew-macklin"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c2f52277f1e62a25c496443f5e76e950e5c107b1bd1b793b70476308ba9b224c",
+    "category": "world-boxing",
+    "created_at": "2026-10-05T15:02:59.701627",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2027-01-03T15:02:59.701627"
+  },
+  "60172": {
+    "article_id": "60172",
+    "headline": "Corporate Culture Under Fire: The Debate Over Voluntary Seven-Day Workweeks",
+    "image_url": "https://images.unsplash.com/photo-1758520144705-b39e11ff32e3?w=1600&q=80&ar=16:9&fit=crop",
+    "seed_url": "https://www.inc.com/lucia-auerbach/corgi-7-day-workweek-voluntary-experts-say-wrong-question/91412868",
+    "source_urls": [
+      "https://www.inc.com/lucia-auerbach/corgi-7-day-workweek-voluntary-experts-say-wrong-question/91412868"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b6c41efba4f63a874e5b2eebb2fad69cea03e3eda79214eefb33c731e98d79ca",
+    "category": "security",
+    "created_at": "2026-10-05T15:03:42.072159",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2027-01-03T15:03:42.072159"
+  },
+  "236049": {
+    "article_id": "236049",
+    "headline": "Tariff Reductions Between U.S. and China Reshape Global Supply Chains",
+    "image_url": "https://images.unsplash.com/photo-1651341050677-24dba59ce0fd?w=1600&q=80&ar=16:9&fit=crop",
+    "seed_url": "https://franchiseherald.com/articles/236027/20260929/us-china-announce-tariff-reductions-60-billion-goods.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/236027/20260929/us-china-announce-tariff-reductions-60-billion-goods.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0323e4d4b4b0fb48435a340cb4c0a4feb2b6bc3935f5cfa2aa5c8fa5d79a8e2e",
+    "category": "biz-tech",
+    "created_at": "2026-10-05T15:04:12.196910",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2027-01-03T15:04:12.196910"
+  },
+  "1725382": {
+    "article_id": "1725382",
+    "headline": "Essential Portable Power Solutions for Mobile Athletes and Gamers in 2026",
+    "image_url": "https://images.unsplash.com/photo-1614399113305-a127bb2ca893?w=1600&q=80&ar=16:9&fit=crop",
+    "seed_url": "https://www.wired.com/gallery/best-portable-chargers-power-banks/",
+    "source_urls": [
+      "https://www.wired.com/gallery/best-portable-chargers-power-banks/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4b03ac7272a1c9d2d6ae42305461f8fbab174630f17303a0f4d9f4d471fa4f3b",
+    "category": "sports",
+    "created_at": "2026-10-05T15:04:37.714757",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2027-01-03T15:04:37.714757"
+  },
+  "60137": {
+    "article_id": "60137",
+    "headline": "Faye Dunaway and the Literary Legacy of Mommie Dearest",
+    "image_url": "https://images.unsplash.com/flagged/photo-1553906789-3e7757f41ae7?w=1600&q=80&ar=16:9&fit=crop",
+    "seed_url": "https://booksnreview.com/articles/19745/20240715/wire-hangers-scene-happen-new-book-reveals-faye-dunaways-struggles.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/19745/20240715/wire-hangers-scene-happen-new-book-reveals-faye-dunaways-struggles.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d568772bfb03bb5162a3984300b66232d200a53490664ffd838240d7b33a1117",
+    "category": "biography-memoir",
+    "created_at": "2026-10-05T15:05:13.552951",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2027-01-03T15:05:13.552951"
+  }
+}

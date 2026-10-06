@@ -1,0 +1,62 @@
+{
+  "60055#booksnreview": {
+    "article_id": "60055",
+    "site_id": "booksnreview",
+    "status": "published",
+    "published_at": "2026-08-21T20:33:33.309259",
+    "published_url": "https://cms.booksnreview.com/adm/article/edit?a_id=60055",
+    "retry_count": 0,
+    "error": null,
+    "expires_at": "2026-11-19T20:33:33.309259"
+  },
+  "40302#autoworldnews": {
+    "article_id": "40302",
+    "site_id": "autoworldnews",
+    "status": "published",
+    "published_at": "2026-08-21T20:35:54.456084",
+    "published_url": "/articles/40302/20260821/geely-expands-global-footprint-with-monjaro-phev-suv.htm",
+    "retry_count": 0,
+    "error": null,
+    "expires_at": "2026-11-19T20:35:54.456084"
+  },
+  "237204#parentherald": {
+    "article_id": "237204",
+    "site_id": "parentherald",
+    "status": "published",
+    "published_at": "2026-08-21T20:37:41.978071",
+    "published_url": "https://cms.parentherald.com/adm/article/edit?a_id=237204",
+    "retry_count": 0,
+    "error": null,
+    "expires_at": "2026-11-19T20:37:41.978071"
+  },
+  "62247#scienceworldreport": {
+    "article_id": "62247",
+    "site_id": "scienceworldreport",
+    "status": "published",
+    "published_at": "2026-08-21T20:39:38.738759",
+    "published_url": "/articles/62247/20260821/nasa-confirms-impending-decommissioning-of-swift-observatory.htm",
+    "retry_count": 0,
+    "error": null,
+    "expires_at": "2026-11-19T20:39:38.738759"
+  },
+  "109900#sportsworldreport": {
+    "article_id": "109900",
+    "site_id": "sportsworldreport",
+    "status": "published",
+    "published_at": "2026-08-21T20:44:11.889834",
+    "published_url": "/articles/109900/20260821/joe-root-leads-england-to-dominant-victory-over-pakistan-in-headingley-test.htm",
+    "retry_count": 0,
+    "error": null,
+    "expires_at": "2026-11-19T20:44:11.889834"
+  },
+  "53872#youthhealthmag": {
+    "article_id": "53872",
+    "site_id": "youthhealthmag",
+    "status": "published",
+    "published_at": "2026-08-21T20:58:35.962165",
+    "published_url": "/articles/53872/20260821/navigating-treatment-resistant-depression-in-adolescents.htm",
+    "retry_count": 0,
+    "error": null,
+    "expires_at": "2026-11-19T20:58:35.962165"
+  }
+}

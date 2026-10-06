@@ -1,0 +1,155 @@
+{
+  "60110": {
+    "article_id": "60110",
+    "headline": "Jon Ronson Explores Modern Masculinity in Latest Investigative Work 'The Castle'",
+    "image_url": "https://images.unsplash.com/photo-1711185895957-6f10614b1f7e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxKb24lMjBSb25zb24lMjBUaGUlMjBDYXN0bGUlMjBib29rfGVufDB8fHx8MTc4ODg4MTYwOHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/08/the-castle-by-jon-ronson-review-bizarre-tales-of-modern-masculinity",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/08/the-castle-by-jon-ronson-review-bizarre-tales-of-modern-masculinity"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3e7d45fabc4854c32e7b005166fef8dfcd84d5b366e0cb4e14ef51bfa4a29a5f",
+    "category": "book-reviews",
+    "created_at": "2026-09-08T15:33:31.188811",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-07T15:33:31.188811"
+  },
+  "40357": {
+    "article_id": "40357",
+    "headline": "Volkswagen, Tesla and BYD Navigate Global Automotive Market Shifts",
+    "image_url": "https://images.unsplash.com/photo-1566930665082-4ae9dbbb5b6b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxhdXRvbW90aXZlJTIwbWFudWZhY3R1cmluZyUyMGZhY2lsaXR5fGVufDB8fHx8MTc4ODg4MjY3Nnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.jalopnik.com/2252604/volkswagen-downsizing-selling-factory-israeli-arms-manufacturers/",
+    "source_urls": [
+      "https://www.jalopnik.com/2252604/volkswagen-downsizing-selling-factory-israeli-arms-manufacturers/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3b3c5a7f74647fd369b2d0458a5c5d02ecb1eea0d842786892bc91fe014a1b92",
+    "category": "auto-news",
+    "created_at": "2026-09-08T15:51:18.302837",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-07T15:51:18.302837"
+  },
+  "53923": {
+    "article_id": "53923",
+    "headline": "New Genetic Research Links Personality Traits to Teen Health and Life Outcomes",
+    "image_url": "https://images.unsplash.com/photo-1758525861622-f4e7ac86a2d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHx0ZWVuYWdlciUyMHN0dWR5aW5nJTIwYXQlMjBkZXNrfGVufDB8fHx8MTc4ODg4Mzc0NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260907201554.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260907201554.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2d34d2edfc2596d50acfe8636ae37b394266b5a1257943b4bcff6f601c9c7d44",
+    "category": "teenHeath",
+    "created_at": "2026-09-08T16:09:07.128820",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-07T16:09:07.128820"
+  },
+  "109954": {
+    "article_id": "109954",
+    "headline": "Aston Villa Adjusts Starting XI for Champions League Clash Against Club Brugge",
+    "image_url": "https://images.unsplash.com/photo-1712319662500-8d2c199533d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxBc3RvbiUyMFZpbGxhJTIwQ2hhbXBpb25zJTIwTGVhZ3VlJTIwbWF0Y2h8ZW58MHx8fHwxNzg4ODg0NzkxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.skysports.com/football/club-brugge-vs-aston-villa/live/577599",
+    "source_urls": [
+      "https://www.skysports.com/football/club-brugge-vs-aston-villa/live/577599"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "30c55c1d76eea9260df94d01ecde79f89703c6251aaa6d7b0c757f20d21af9b6",
+    "category": "soccer",
+    "created_at": "2026-09-08T16:26:33.319019",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-07T16:26:33.319019"
+  },
+  "28283": {
+    "article_id": "28283",
+    "headline": "New Immune Signal Discovery Offers Hope for Spinal Cord Regeneration",
+    "image_url": "https://images.unsplash.com/photo-1711998164585-a4b4178d812d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxzcGluYWwlMjBjb3JkJTIwcmVnZW5lcmF0aW9uJTIwcmVzZWFyY2h8ZW58MHx8fHwxNzg4ODg1ODc1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260906170136.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260906170136.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "40d52943716d6194fd2ebdfe152de535256e738e7cdcf98b8eadce130409e24f",
+    "category": "news",
+    "created_at": "2026-09-08T16:44:38.409458",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-07T16:44:38.409458"
+  },
+  "1725353": {
+    "article_id": "1725353",
+    "headline": "Samsung Weighs In on Apple’s Expected Entry into the Foldable Smartphone Market",
+    "image_url": "https://images.unsplash.com/photo-1582155783823-8f37f9bcd4ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8Zm9sZGFibGUlMjBzbWFydHBob25lJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3ODg4ODY5MzB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/samsung-advice-for-apple-and-its-upcoming-folding-iphone/",
+    "source_urls": [
+      "https://www.wired.com/story/samsung-advice-for-apple-and-its-upcoming-folding-iphone/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e75f7f629d9693ea9ab81fe4ec00153a35661fe0c4cb9e70b728163018666d86",
+    "category": "news",
+    "created_at": "2026-09-08T17:02:13.286787",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "RELATED",
+    "expires_at": "2026-12-07T17:02:13.286787"
+  },
+  "62303": {
+    "article_id": "62303",
+    "headline": "Dark Matter Mysteries Challenge Theoretical Limits of Cosmic Intelligence",
+    "image_url": "https://images.unsplash.com/photo-1771793920435-7b5ea234ba48?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8ZGFyayUyMG1hdHRlciUyMGRldGVjdGlvbiUyMGV4cGVyaW1lbnR8ZW58MHx8fHwxNzg4ODk4NjM2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/52445/20161119/alien-life-everywhere-%E2%80%93-fabric-universe-dark-matter-astrophysicist.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/52445/20161119/alien-life-everywhere-%E2%80%93-fabric-universe-dark-matter-astrophysicist.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e696de6823f4f9d2e9320368d744039fe72f9b83ac3670da589153916e34c5d1",
+    "category": "physics",
+    "created_at": "2026-09-08T20:17:19.521251",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-07T20:17:19.521251"
+  },
+  "28284": {
+    "article_id": "28284",
+    "headline": "Quidditch Pong Adds Physical Activity to Social Gatherings",
+    "image_url": "https://images.unsplash.com/photo-1629819865658-5c04e5b80f24?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8YWN0aXZlJTIwc29jaWFsJTIwZ2FtZXMlMjBmb3IlMjBhZHVsdHN8ZW58MHx8fHwxNzg4ODk4NjU1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/14711/20151230/tired-usual-beer-pong-try-harry-potter-inspired-quidditch.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/14711/20151230/tired-usual-beer-pong-try-harry-potter-inspired-quidditch.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "49597539ec9c46e6c135dc8e969bee8856bc43eb610c4255d05b9078bfab536d",
+    "category": "healthy-habits",
+    "created_at": "2026-09-08T20:17:36.897435",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-07T20:17:36.897435"
+  },
+  "40358": {
+    "article_id": "40358",
+    "headline": "Chevrolet Bolt Legacy Reshapes Modern EV Manufacturing Standards",
+    "image_url": "https://images.unsplash.com/photo-1672821939350-d55275fde5bb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8ZWxlY3RyaWMlMjB2ZWhpY2xlJTIwbWFudWZhY3R1cmluZ3xlbnwwfHx8fDE3ODg4OTg2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/reporters/johanna-vanessa-anasco/page1.htm",
+    "source_urls": [
+      "https://autoworldnews.com/reporters/johanna-vanessa-anasco/page1.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "30909a44c2d20e6ba870b3d825e1b5b4b61cb9354e3c1e7380f54708fc6eaadf",
+    "category": "tech-biz",
+    "created_at": "2026-09-08T20:17:54.535310",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-07T20:17:54.535310"
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "40365": {
+    "article_id": "40365",
+    "headline": "Brazil’s Automotive Shift: A Blueprint for Localizing Chinese EV Production",
+    "image_url": "https://images.unsplash.com/photo-1716191300020-b52dec5b70a8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxlbGVjdHJpYyUyMHZlaGljbGUlMjBtYW51ZmFjdHVyaW5nJTIwcGxhbnR8ZW58MHx8fHwxNzkwNzA0MTAxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/business-manufacturing/what-europe-could-learn-brazils-laboratory-chinese-car-production",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/business-manufacturing/what-europe-could-learn-brazils-laboratory-chinese-car-production"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "285e83245684aaaaa4ea78ef73cffe55aa20998917cdd47b96e27262f2d81545",
+    "category": "auto-news",
+    "created_at": "2026-09-29T17:48:24.703451",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-28T17:48:24.703451"
+  },
+  "60155": {
+    "article_id": "60155",
+    "headline": "Fed Official Signals Potential Rate Hikes as Labor Market Seeks Stability",
+    "image_url": "https://images.unsplash.com/photo-1771736007142-e1348a02f006?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxGZWRlcmFsJTIwUmVzZXJ2ZSUyMG1lZXRpbmd8ZW58MHx8fHwxNzkwNzA0MTA3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bloomberg.com/news/videos/2026-09-29/fed-s-barr-more-hikes-likely-needed-to-tame-inflation-video",
+    "source_urls": [
+      "https://www.bloomberg.com/news/videos/2026-09-29/fed-s-barr-more-hikes-likely-needed-to-tame-inflation-video"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c7a456eb889ab5a58dcdddf3e9565be055bd6c0904dfde862d294b36677fe519",
+    "category": "business",
+    "created_at": "2026-09-29T17:48:30.610571",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-28T17:48:30.610571"
+  },
+  "109961": {
+    "article_id": "109961",
+    "headline": "Case Keenum Leads Bears to Decisive Victory Over Eagles in Tactical Masterclass",
+    "image_url": "https://images.unsplash.com/photo-1704713611761-e0fbbdecc3e9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxORkwlMjBmb290YmFsbCUyMGdhbWUlMjBhY3Rpb258ZW58MHx8fHwxNzkwNzA0MTExfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/sports/case-keenum-game-3-takeaways-from-bears-culture-defining-win-vs-eagles",
+    "source_urls": [
+      "https://www.foxnews.com/sports/case-keenum-game-3-takeaways-from-bears-culture-defining-win-vs-eagles"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "932330050ea9bafd8210355235ab02f3f4ef67e8ffec6ce1c4e76f13fd50cc6b",
+    "category": "nba",
+    "created_at": "2026-09-29T17:48:34.158680",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-28T17:48:34.158680"
+  },
+  "237250": {
+    "article_id": "237250",
+    "headline": "Debunking Protein Myths: A Guide for Busy Parents",
+    "image_url": "https://images.unsplash.com/photo-1627662235844-6f5d8f54816b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8aGVhbHRoeSUyMGZhbWlseSUyMG51dHJpdGlvbnxlbnwwfHx8fDE3OTA3MDQxMTJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/health-wellness/womens-health/protein-for-women-myths/",
+    "source_urls": [
+      "https://mother.ly/health-wellness/womens-health/protein-for-women-myths/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e12b420098fdffe7ba944a279d7da42eaf641c88e8ce941eee3f80f20c20249d",
+    "category": "health-nutrition",
+    "created_at": "2026-09-29T17:48:35.603716",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T17:48:35.603716"
+  },
+  "62313": {
+    "article_id": "62313",
+    "headline": "SpaceX Starship Achieves First Orbital Milestone in 14th Flight Test",
+    "image_url": "https://images.unsplash.com/photo-1585187012096-3e57104ee03d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8U3BhY2VYJTIwU3RhcnNoaXAlMjBvcmJpdGFsJTIwbGF1bmNofGVufDB8fHx8MTc5MDcwNDExNXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/28/science/space/spacex-starship-first-orbital-flight.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/28/science/space/spacex-starship-first-orbital-flight.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6e011ca4c142b890dbed3f4ab847eb0cfec32419ed487d5c96cc5a3b7d6aeac7",
+    "category": "space-the-future",
+    "created_at": "2026-09-29T17:48:37.503354",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T17:48:37.503354"
+  },
+  "286803": {
+    "article_id": "286803",
+    "headline": "Your Next Business Card Might Just Be Your T-Shirt",
+    "image_url": "https://images.unsplash.com/photo-1783508963062-dc4a03b5a424?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8d2VhcmFibGUlMjB0ZWNobm9sb2d5JTIwZmFzaGlvbnxlbnwwfHx8fDE3OTA3MDQxMjV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/tech/next-connected-device-could-shirt-youre-wearing",
+    "source_urls": [
+      "https://www.foxnews.com/tech/next-connected-device-could-shirt-youre-wearing"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5d8a2d152bf4c622a50515765d58dc460757a354f7b8a7a9bf0f1a335fa6a7ca",
+    "category": "cool",
+    "created_at": "2026-09-29T17:48:47.773980",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T17:48:47.773980"
+  },
+  "53930": {
+    "article_id": "53930",
+    "headline": "Essential Injury Prevention Strategies for Teenage Runners",
+    "image_url": "https://images.unsplash.com/photo-1695918425283-eb385c012b7a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8dGVlbiUyMHJ1bm5lciUyMGluanVyeSUyMHByZXZlbnRpb258ZW58MHx8fHwxNzkwNzA0MTI1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/28/well/move/running-injury-prevention-tips.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/28/well/move/running-injury-prevention-tips.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5f5c90a86f372c2bcd4c6ed3afeaf5bffe42a27a1c63f8f7bbbc5f45ca4528c2",
+    "category": "diet-fitness",
+    "created_at": "2026-09-29T17:48:47.842326",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T17:48:47.842326"
+  },
+  "28291": {
+    "article_id": "28291",
+    "headline": "Popular Joint Supplement Glucosamine Linked to Faster Alzheimer’s Progression",
+    "image_url": "https://images.unsplash.com/photo-1662695086526-112d7959fab4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxicmFpbiUyMGhlYWx0aCUyMGFuZCUyMHN1cHBsZW1lbnRzfGVufDB8fHx8MTc5MDcwNDEyOXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260927033754.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260927033754.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9ce7b1eec539560dfd70e0ec1dc5debee8b1984decb635e0f7c3449bdf30761e",
+    "category": "science-news",
+    "created_at": "2026-09-29T17:48:51.642341",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T17:48:51.642341"
+  },
+  "60117": {
+    "article_id": "60117",
+    "headline": "Louise Kennedy Returns with 'Stations': A New Chapter After 'Trespasses'",
+    "image_url": "https://images.unsplash.com/photo-1618246461210-d9cdb51557a9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxMb3Vpc2UlMjBLZW5uZWR5JTIwYXV0aG9yfGVufDB8fHx8MTc5MDcwNDEzMXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/29/stations-by-louise-kennedy-review-a-superb-follow-up-to-trespasses",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/29/stations-by-louise-kennedy-review-a-superb-follow-up-to-trespasses"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c4640fd6179ab353937e195085c4796b414dd5c31ed4989db2e33558b6629871",
+    "category": "book-news",
+    "created_at": "2026-09-29T17:48:53.604427",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T17:48:53.604427"
+  },
+  "64991": {
+    "article_id": "64991",
+    "headline": "AI Safety Liability Concerns Cloud IPO Prospects for Major Labs",
+    "image_url": "https://images.unsplash.com/photo-1770233621425-5d9ee7a0a700?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHN0b2NrJTIwbWFya2V0fGVufDB8fHx8MTc5MDcwNDEzMXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/28/business/dealbook/ai-safety-risks-ipo.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/28/business/dealbook/ai-safety-risks-ipo.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "016b06e985e9f8c0916d2afea12522c68c1bc000b70335a8c3a1641266a62ced",
+    "category": "business",
+    "created_at": "2026-09-29T17:48:53.768864",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-28T17:48:53.768864"
+  },
+  "1725362": {
+    "article_id": "1725362",
+    "headline": "Lawmaker Alleges Apple Coordinated App Store Removals with Trump Administration",
+    "image_url": "https://images.unsplash.com/photo-1731012189558-c2d035998542?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8QXBwbGUlMjBBcHAlMjBTdG9yZSUyMHBvbGljeXxlbnwwfHx8fDE3OTA3MDQxMzN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://arstechnica.com/tech-policy/2026/09/apple-worked-with-trump-admin-to-remove-ice-tracking-apps-lawmaker-says/",
+    "source_urls": [
+      "https://arstechnica.com/tech-policy/2026/09/apple-worked-with-trump-admin-to-remove-ice-tracking-apps-lawmaker-says/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "728b94c6b9cefca2f6db3310e465836fc93082160cdc259a9be881663519af14",
+    "category": "news",
+    "created_at": "2026-09-29T17:48:56.024068",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T17:48:56.024068"
+  },
+  "236029": {
+    "article_id": "236029",
+    "headline": "U.S. Imposes Import Ban on Select Canadian Dairy and Liquor Products",
+    "image_url": "https://images.unsplash.com/photo-1613690413712-dbe316605644?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8aW50ZXJuYXRpb25hbCUyMHRyYWRlJTIwc2hpcHBpbmclMjBsb2dpc3RpY3N8ZW58MHx8fHwxNzkwNzA0MTM3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/29/business/economy/canada-tariffs-ban.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/29/business/economy/canada-tariffs-ban.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "22caf450c7a7a53ff098c297e3c6959e7037f2cf89557267959e94574e540488",
+    "category": "franchise-news",
+    "created_at": "2026-09-29T17:48:59.468154",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T17:48:59.468154"
+  },
+  "81543": {
+    "article_id": "81543",
+    "headline": "Leaked Correspondence Highlights Debate Over Ultra-Processed Food Regulation",
+    "image_url": "https://images.unsplash.com/photo-1652211955967-99c892925469?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxGREElMjBmb29kJTIwcmVndWxhdGlvbnxlbnwwfHx8fDE3OTA3MDQxNDJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foodpolitics.com/2026/09/rfk-jr-letter-to-david-kesslers-citizens-petition-leaked/",
+    "source_urls": [
+      "https://www.foodpolitics.com/2026/09/rfk-jr-letter-to-david-kesslers-citizens-petition-leaked/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1f023061f50cfa92aaebe140bf5f669f35d7880a42ef5808bec65b157794896c",
+    "category": "safety",
+    "created_at": "2026-09-29T17:49:05.492507",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2026-12-28T17:49:05.492507"
+  },
+  "64992": {
+    "article_id": "64992",
+    "headline": "Anthropic Moves Toward Landmark Public Offering",
+    "image_url": "https://images.unsplash.com/photo-1651341050677-24dba59ce0fd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwc3RvY2slMjBtYXJrZXR8ZW58MHx8fHwxNzkwNzA0MTMxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/29/business/dealbook/anthropic-ipo-filing-s1.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/29/business/dealbook/anthropic-ipo-filing-s1.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8e28a9fa635d0cea570232db1cb1078785dec27e55fd6b20ccdce66768d7e7d1",
+    "category": "tech",
+    "created_at": "2026-09-29T18:10:13.719621",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T18:10:13.719621"
+  },
+  "109962": {
+    "article_id": "109962",
+    "headline": "Manchester City Found Guilty of Serious Financial Breaches by Independent Commission",
+    "image_url": "https://images.unsplash.com/photo-1777715329605-79e61ab03728?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8TWFuY2hlc3RlciUyMENpdHklMjBzdGFkaXVtfGVufDB8fHx8MTc5MDcwNjkwOHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.skysports.com/football/live-blog/12040/13593363/man-city-charges-reaction-and-findings-as-commission-finds-club-guilty-of-all-charges-related-to-serious-financial-breaches",
+    "source_urls": [
+      "https://www.skysports.com/football/live-blog/12040/13593363/man-city-charges-reaction-and-findings-as-commission-finds-club-guilty-of-all-charges-related-to-serious-financial-breaches"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "285e805cdd5059e46a3fc7236f1a8d51673ed01dce8c56f18e2203177b223062",
+    "category": "soccer",
+    "created_at": "2026-09-29T18:35:11.780483",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2026-12-28T18:35:11.780483"
+  },
+  "40366": {
+    "article_id": "40366",
+    "headline": "Geely and Nio Merge Battery Swapping Infrastructure in Strategic Industry Consolidation",
+    "image_url": "https://images.unsplash.com/photo-1567409378873-888d6fa7debc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxlbGVjdHJpYyUyMHZlaGljbGUlMjBjaGFyZ2luZyUyMHN0YXRpb258ZW58MHx8fHwxNzkwNzA4MzMyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/28/business/china-ev-geely-nio.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/28/business/china-ev-geely-nio.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e1c4a831e30d795f348ae6c352556a6b8b5cba082287e6ca46c117870ebd0adf",
+    "category": "tech-biz",
+    "created_at": "2026-09-29T18:58:55.455776",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T18:58:55.455776"
+  },
+  "53931": {
+    "article_id": "53931",
+    "headline": "New Research Links Coffee Consumption to Gut Health and Cognitive Performance in Teens",
+    "image_url": "https://images.unsplash.com/photo-1683294024407-fb552ed3f60f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8dGVlbiUyMGRyaW5raW5nJTIwY29mZmVlJTIwc3R1ZHl8ZW58MHx8fHwxNzkwNzA5Nzg2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260927034331.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260927034331.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b18f782529e3c6706d8d758216f0847df542fc98d1efb3580b05efb2014d309b",
+    "category": "teenHeath",
+    "created_at": "2026-09-29T19:23:08.469637",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:23:08.469637"
+  },
+  "60118": {
+    "article_id": "60118",
+    "headline": "Dorthe Nors Explores the Collision of Science and Solitude in Range",
+    "image_url": "https://images.unsplash.com/photo-1725865296345-00dddb24a942?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8RG9ydGhlJTIwTm9ycyUyMFJhbmdlJTIwYm9vayUyMHJldmlld3xlbnwwfHx8fDE3OTA3MTEyMjh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/28/range-by-dorthe-nors-review-an-astrophysicist-at-odds-with-reality",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/28/range-by-dorthe-nors-review-an-astrophysicist-at-odds-with-reality"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1edb5efab54201a73018fd9baa612e0d374d179fd651d9cb1f71da60557f18eb",
+    "category": "book-reviews",
+    "created_at": "2026-09-29T19:47:10.647397",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:47:10.647397"
+  },
+  "62314": {
+    "article_id": "62314",
+    "headline": "Researchers Develop Light-Controlled Ion Separation for Advanced Material Processing",
+    "image_url": "https://images.unsplash.com/photo-1651651677615-dffb63ae4d62?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8aW9uJTIwZXhjaGFuZ2UlMjBtZW1icmFuZSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzkwNzExNjU1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://phys.org/news/2026-09-electricity-ion-membranes.html",
+    "source_urls": [
+      "https://phys.org/news/2026-09-electricity-ion-membranes.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d65c772c9b6bae0625b2d79b81f94bfcd390fdcb9942537d73cf048289a92876",
+    "category": "energy-particles",
+    "created_at": "2026-09-29T19:54:18.321117",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:54:18.321117"
+  },
+  "28292": {
+    "article_id": "28292",
+    "headline": "New Tick-Borne Virus Identified as Cause of Mysterious Febrile Illness",
+    "image_url": "https://images.unsplash.com/photo-1707079346045-58fed6cde83a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHx0aWNrLWJvcm5lJTIwdmlydXMlMjByZXNlYXJjaHxlbnwwfHx8fDE3OTA3MTE2Nzd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260927225027.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260927225027.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fef3f730a63cc4d9a7e93e33f7fe197bc6458f5e5104809892de754668773f9b",
+    "category": "news",
+    "created_at": "2026-09-29T19:54:40.527578",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:54:40.527578"
+  },
+  "40367": {
+    "article_id": "40367",
+    "headline": "BMW iX3 Range Performance Redefines Neue Klasse Efficiency Standards",
+    "image_url": "https://images.unsplash.com/photo-1666005516806-7784d3243f87?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8Qk1XJTIwaVgzJTIwZWxlY3RyaWMlMjBTVVZ8ZW58MHx8fHwxNzkwNzExNjk0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/40333/20260923/bmw-ix3-demonstrates-long-range-capability-in-739-kilometer-portugal-test.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/40333/20260923/bmw-ix3-demonstrates-long-range-capability-in-739-kilometer-portugal-test.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1e3c6f44ec3c15b21b7e6a6893cd953014e47c57b51e52dc0bb18ab17fcb4c11",
+    "category": "green-cars",
+    "created_at": "2026-09-29T19:54:57.269618",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:54:57.269618"
+  },
+  "53932": {
+    "article_id": "53932",
+    "headline": "Sylvester Stallone Opens Up About Health Struggles Behind Iconic Physique",
+    "image_url": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8aGVhbHRoeSUyMGZpdG5lc3MlMjB0cmFpbmluZ3xlbnwwfHx8fDE3OTA3MTE3MTF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/sylvester-stallone-reveals-surprising-health-struggle-behind-famously-ripped-physique",
+    "source_urls": [
+      "https://www.foxnews.com/health/sylvester-stallone-reveals-surprising-health-struggle-behind-famously-ripped-physique"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "cb93aae4d1e22cf0f6a1ebcb6c23c4020dde6bcf8b657daa61d5af683a5c7a50",
+    "category": "body",
+    "created_at": "2026-09-29T19:55:12.673334",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:55:12.673334"
+  },
+  "64993": {
+    "article_id": "64993",
+    "headline": "Generative AI Reshapes Music Industry Economics Through Strategic Licensing",
+    "image_url": "https://images.unsplash.com/photo-1720962158789-9389a4f399da?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8Z2VuZXJhdGl2ZSUyMGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2UlMjBtdXNpYyUyMGluZHVzdHJ5fGVufDB8fHx8MTc5MDcxMTcyOHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/64963/20260910/music-industry-divided-over-generative-ai-integration-and-copyright-litigation.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/64963/20260910/music-industry-divided-over-generative-ai-integration-and-copyright-litigation.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1068af8531b11ca809b86bfb7b18ec7af7ec1681aea28406ffaeafa07b14b614",
+    "category": "tech",
+    "created_at": "2026-09-29T19:55:30.569905",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:55:30.569905"
+  },
+  "286804": {
+    "article_id": "286804",
+    "headline": "Viral Moments of 2026: Why Broadcast Gaffes Are the New Comedy Gold",
+    "image_url": "https://images.unsplash.com/photo-1613192762190-962aff35330e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMXx8dmlyYWwlMjBpbnRlcm5ldCUyMG1vbWVudHMlMjAyMDI2fGVufDB8fHx8MTc5MDcxMTc2MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://boomsbeat.com/articles/286644/20260113/best-viral-moments-2026-humorous-content-funniest-internet-clips-t.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/286644/20260113/best-viral-moments-2026-humorous-content-funniest-internet-clips-t.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6490c2d552c144852bfdff13a8dd5e649e7126ed86b2bfcb8bdf0235dd3a9cd0",
+    "category": "trending-news",
+    "created_at": "2026-09-29T19:56:03.577065",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:56:03.577065"
+  },
+  "109963": {
+    "article_id": "109963",
+    "headline": "Arsene Wenger and the Evolution of Physicality in the Premier League",
+    "image_url": "https://images.pexels.com/photos/17160689/pexels-photo-17160689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://sportsworldreport.com/articles/13784/20130418/arsenal-manager-arsene-wenger-fan-physical-style-english-premier-league.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/13784/20130418/arsenal-manager-arsene-wenger-fan-physical-style-english-premier-league.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1d207278caeb6801fcce64b717d2c11b90258afe75996d90ae8d0f1bafc1f03e",
+    "category": "world-football",
+    "created_at": "2026-09-29T19:56:47.661669",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-28T19:56:47.661669"
+  },
+  "60156": {
+    "article_id": "60156",
+    "headline": "Prediction Markets Signal Potential Upside in September U.S. Employment Data",
+    "image_url": "https://images.unsplash.com/photo-1640459958548-56c1c6717a40?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8aGlyaW5nJTIwYW5kJTIwbGFib3IlMjBtYXJrZXQlMjB0cmVuZHN8ZW58MHx8fHwxNzkwNzExODIzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cnbc.com/2026/09/29/prediction-market-traders-september-jobs-report-will-beat-estimates.html",
+    "source_urls": [
+      "https://www.cnbc.com/2026/09/29/prediction-market-traders-september-jobs-report-will-beat-estimates.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a43fffa74ae16b9247e051dc6c25bbb9090940d043c3b7358b9d4918081d846c",
+    "category": "news",
+    "created_at": "2026-09-29T19:57:05.647571",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:57:05.647571"
+  },
+  "236030": {
+    "article_id": "236030",
+    "headline": "The Strain Franchise Strategy: How Genre Expansion Drives Media ROI",
+    "image_url": "https://images.unsplash.com/photo-1786683028429-8e7bb5f2d713?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxtZWRpYSUyMGZyYW5jaGlzZSUyMHN0cmF0ZWd5fGVufDB8fHx8MTc5MDcxMTg0MHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/32075/20150715/strain-season-2-premiere-cliffhanger.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/32075/20150715/strain-season-2-premiere-cliffhanger.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "bee0e3c25284ab592b50ff530d5c20d1f1832af50a904d7a395739ad105983c6",
+    "category": "biz-tech",
+    "created_at": "2026-09-29T19:57:22.519559",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:57:22.519559"
+  },
+  "1725363": {
+    "article_id": "1725363",
+    "headline": "Delta Emulator Evolves: Mastering Advanced Features on iOS in 2026",
+    "image_url": "https://images.unsplash.com/photo-1592882030918-13b0bbba14c4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8aXBob25lJTIwcmV0cm8lMjBnYW1pbmd8ZW58MHx8fHwxNzkwNzExODU5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mobilenapps.com/articles/46608/20240507/finding-gba-roms-delta-emulator-handy-guide.htm",
+    "source_urls": [
+      "https://mobilenapps.com/articles/46608/20240507/finding-gba-roms-delta-emulator-handy-guide.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d4b1e5c24089e4b78c4feb70e2591de3b599451799d8266de814a71eabb98a2d",
+    "category": "mobile-games",
+    "created_at": "2026-09-29T19:57:42.242743",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:57:42.242743"
+  },
+  "237251": {
+    "article_id": "237251",
+    "headline": "Toddler Race Series: How to Safely Introduce Your Child to Competitive Play",
+    "image_url": "https://images.unsplash.com/photo-1679555845474-32296fea107e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8dG9kZGxlciUyMHBoeXNpY2FsJTIwYWN0aXZpdHklMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3OTA3MTE4ODJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://parentherald.com/articles/237238/20260904/this-toddler-race-series-just-proved-theres-no-age-too-young-get-kids-moving.htm",
+    "source_urls": [
+      "https://parentherald.com/articles/237238/20260904/this-toddler-race-series-just-proved-theres-no-age-too-young-get-kids-moving.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "219e5f391ffdc2c03c1a8715c915f2b952d5bdb1782d1a2219f3f8ac849644d7",
+    "category": "toddler",
+    "created_at": "2026-09-29T19:58:04.439729",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:58:04.439729"
+  },
+  "60119": {
+    "article_id": "60119",
+    "headline": "Uncovering the Contradictions of the Sixties: A Review of David Kynaston’s Latest History",
+    "image_url": "https://images.unsplash.com/photo-1766421058820-a81a989b3ea3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8RGF2aWQlMjBLeW5hc3RvbiUyMERlZXAlMjBpbnRvJTIwdGhlJTIwU2l4dGllcyUyMHJldmlld3xlbnwwfHx8fDE3OTA3MTE5MDd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/28/deep-into-the-sixties-britain-1965-66-by-david-kynaston-review-beatles-bigots-and-streets-in-the-sky",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/28/deep-into-the-sixties-britain-1965-66-by-david-kynaston-review-beatles-bigots-and-streets-in-the-sky"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c024b68423466a46a9b6c29291ac6caee0758a6bb7e6ae08a2ba7b6d76c236f3",
+    "category": "book-news",
+    "created_at": "2026-09-29T19:58:30.297139",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T19:58:30.297139"
+  },
+  "81544": {
+    "article_id": "81544",
+    "headline": "Coffee Supply Chains Face New Volatility in 2026",
+    "image_url": "https://images.unsplash.com/photo-1654815439629-5e93cb7f74a1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxzdXN0YWluYWJsZSUyMGNvZmZlZSUyMGZhcm1pbmd8ZW58MHx8fHwxNzkwNzExOTI0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://foodworldnews.com/articles/63981/20160104/coffee-surplus-shortages-global-projections.htm",
+    "source_urls": [
+      "https://foodworldnews.com/articles/63981/20160104/coffee-surplus-shortages-global-projections.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9a8f65d993fd641187b823b178a042ba76a72b1f2c56894def7255bd0da15c77",
+    "category": "top-stories",
+    "created_at": "2026-09-29T19:58:47.148243",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-28T19:58:47.148243"
+  },
+  "81545": {
+    "article_id": "81545",
+    "headline": "Culinary Experts Advise Against Mixing Meat and Vegetables on Grill Skewers",
+    "image_url": "https://images.unsplash.com/photo-1777324118360-b6429aeab8dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8Z3JpbGxpbmclMjBza2V3ZXJzJTIwb24lMjBiYXJiZWN1ZXxlbnwwfHx8fDE3OTA3MTI2OTN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://cooking.nytimes.com/article/kebab-meat-veggie-grilling-tips",
+    "source_urls": [
+      "https://cooking.nytimes.com/article/kebab-meat-veggie-grilling-tips"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1fb10224d1ffc00215f996fc88aba0f52dfd9fa36f8115a863ec198eef18e1da",
+    "category": "tips",
+    "created_at": "2026-09-29T20:11:36.006867",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T20:11:36.006867"
+  },
+  "236031": {
+    "article_id": "236031",
+    "headline": "Ford CEO Warns of Competitive Pressure from Chinese Automakers",
+    "image_url": "https://images.unsplash.com/photo-1766405532757-727c813a2f22?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8Z2xvYmFsJTIwYXV0b21vdGl2ZSUyMGluZHVzdHJ5fGVufDB8fHx8MTc5MDcxNDE4NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cnbc.com/2026/09/29/ford-ceo-jim-farley-china-automakers.html",
+    "source_urls": [
+      "https://www.cnbc.com/2026/09/29/ford-ceo-jim-farley-china-automakers.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6fd28de563f1e049c04dd7920fb3ca8a3f7e890dc2de355ea3827ab195dfee37",
+    "category": "franchise-news",
+    "created_at": "2026-09-29T20:36:27.492239",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T20:36:27.492239"
+  },
+  "1725364": {
+    "article_id": "1725364",
+    "headline": "Apple Faces $5.7 Billion Penalty in Vibration Technology Patent Dispute",
+    "image_url": "https://images.unsplash.com/photo-1596558450268-9c27524ba856?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxBcHBsZSUyMGlQaG9uZSUyMGhhcmR3YXJlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3OTA3MTcwOTl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/c6je85n2vyleo?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/c6je85n2vyleo?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "60e5386739d8321d9032e10b3643c9728edc58ba9f3a331af3ca332e694af5a0",
+    "category": "news",
+    "created_at": "2026-09-29T21:25:02.619339",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T21:25:02.619339"
+  },
+  "237252": {
+    "article_id": "237252",
+    "headline": "New Data Reveals Significant Gaps in Healthcare Quality for Women and Mothers",
+    "image_url": "https://images.unsplash.com/photo-1666886573600-61c634663827?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8d29tZW4lMjBoZWFsdGhjYXJlJTIwZG9jdG9yJTIwYXBwb2ludG1lbnR8ZW58MHx8fHwxNzkwNzIwMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/health-wellness/womens-health/gallup-pivotal-report-shows-women-more-likely-to-be-minimized-and-misdiagnosed-by-healthcare-providers/",
+    "source_urls": [
+      "https://mother.ly/health-wellness/womens-health/gallup-pivotal-report-shows-women-more-likely-to-be-minimized-and-misdiagnosed-by-healthcare-providers/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "51013f18ba16c29ebaf1d7d506f94bba8b34f7211dae72fb02236b9633316753",
+    "category": "health-nutrition",
+    "created_at": "2026-09-29T22:14:07.021951",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T22:14:07.021951"
+  },
+  "286805": {
+    "article_id": "286805",
+    "headline": "The Internet Reacts as xAI Secures 'dot.com' Ahead of OpenAI's 'Dots' Launch",
+    "image_url": "https://images.unsplash.com/photo-1782189752463-efbad5b716b8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxFbG9uJTIwTXVzayUyMHhBSSUyMEdyb2slMjB0ZWNobm9sb2d5JTIwbWVtZXxlbnwwfHx8fDE3OTA3MjE0OTl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+    "source_urls": [
+      "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7f95113c6a8f1ab1ea38fa6cd60e628a0656a78c8cc2ffb18390d0d8c3126404",
+    "category": "meme",
+    "created_at": "2026-09-29T22:38:20.846771",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T22:38:20.846771"
+  },
+  "62315": {
+    "article_id": "62315",
+    "headline": "Astronomers Detect Potential Magnetic Field on Exoplanet Beta Pictoris b",
+    "image_url": "https://images.unsplash.com/photo-1658457459792-f4dfe37407ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxleG9wbGFuZXQlMjBtYWduZXRpYyUyMGZpZWxkJTIwc3BhY2V8ZW58MHx8fHwxNzkwNzIyOTQyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/29/science/space/exoplanet-magnetic-field.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/29/science/space/exoplanet-magnetic-field.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d4883d5abc2af1098c9be66223d5400a55a5c928609003d23d5f6b9093beee49",
+    "category": "space-the-future",
+    "created_at": "2026-09-29T23:02:24.958423",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T23:02:24.958423"
+  },
+  "28293": {
+    "article_id": "28293",
+    "headline": "Florida Counties Declare State of Emergency Following Dengue Fever Surge",
+    "image_url": "https://images.unsplash.com/photo-1590754631205-43c68fbe8177?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8ZGVuZ3VlJTIwZmV2ZXIlMjBwcmV2ZW50aW9uJTIwYW5kJTIwbW9zcXVpdG8lMjBjb250cm9sfGVufDB8fHx8MTc5MDcyNDMyMHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/dengue-fever-outbreak-triggers-states-emergency-3-southern-counties",
+    "source_urls": [
+      "https://www.foxnews.com/health/dengue-fever-outbreak-triggers-states-emergency-3-southern-counties"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4ac0f46dbc388111bd3ca574af75bb5496915e3696577459f135ef6761e7b6a1",
+    "category": "science-news",
+    "created_at": "2026-09-29T23:25:22.340661",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-28T23:25:22.340661"
+  }
+}

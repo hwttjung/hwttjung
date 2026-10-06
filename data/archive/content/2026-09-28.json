@@ -1,0 +1,19 @@
+{
+  "62309": {
+    "article_id": "62309",
+    "headline": "NASA Webb Telescope Detects Water Vapor in PDS 70 Planetary Cradle",
+    "image_url": "https://images.pexels.com/photos/30238187/pexels-photo-30238187.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nasa.gov/missions/webb/webb-space-telescope-discovers-water-vapor/",
+    "source_urls": [
+      "https://www.nasa.gov/missions/webb/webb-space-telescope-discovers-water-vapor/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "147202b9a52c78e3d4a1c99cd93694faf1b3226fd7b0fb309411f6e5f1edc66b",
+    "category": "space-the-future",
+    "created_at": "2026-09-27T18:13:42.783331",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-26T18:13:42.783331"
+  }
+}

@@ -1,0 +1,495 @@
+{
+  "fail_1788554116_806": {
+    "article_id": "fail_1788554116_806",
+    "headline": "Edible Sea Squirts May Hold Key to Anti-Aging, Stanford Study Suggests",
+    "image_url": "https://images.unsplash.com/photo-1785304968643-e73c3ad004d3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8c2VhJTIwc3F1aXJ0JTIwZm9vZHxlbnwwfHx8fDE3ODg1NTQxMTV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260902234518.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260902234518.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ff84f8ef9277133c3c618f8f24a5d8960e2f141ed9a2342b400ecbffc03d1e6d",
+    "category": "safety",
+    "created_at": "2026-09-04T20:35:16.655678",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:35:16.655678"
+  },
+  "fail_1788554126_203": {
+    "article_id": "fail_1788554126_203",
+    "headline": "California Wineries Pivot to Experiential Events Amid Shifting Consumption Trends",
+    "image_url": "https://images.unsplash.com/photo-1763786470756-0ad59106d005?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8Q2FsaWZvcm5pYSUyMHdpbmVyeSUyMHZpbmV5YXJkJTIwbGFuZHNjYXBlfGVufDB8fHx8MTc4ODU1NDEyNXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/04/dining/drinks/wineries-bingo-picnics-jewelry.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/04/dining/drinks/wineries-bingo-picnics-jewelry.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "07db5a920a261c9de1ac06fc1c183cb6a3603f225dc77590f3cdecbe5f46a5b8",
+    "category": "celebrity-eats",
+    "created_at": "2026-09-04T20:35:26.761330",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:35:26.761330"
+  },
+  "fail_1788554138_640": {
+    "article_id": "fail_1788554138_640",
+    "headline": "The Dinner Table as a Catalyst for Change: Gloria Steinem’s Legacy of Culinary Activism",
+    "image_url": "https://images.unsplash.com/photo-1782296244646-ca128c68443b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxkaW5uZXIlMjB0YWJsZSUyMGNvbnZlcnNhdGlvbnxlbnwwfHx8fDE3ODg1NTQxMzd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/04/dining/gloria-steinem-dinners-food.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/04/dining/gloria-steinem-dinners-food.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0c0656cf855240348480d3023be72a14217539f5654624bcb964f41454a18c59",
+    "category": "people-in-food",
+    "created_at": "2026-09-04T20:35:38.869404",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:35:38.869404"
+  },
+  "62286": {
+    "article_id": "62286",
+    "headline": "NASA Detects Massive Decagonal Atmospheric Pattern at Saturn’s South Pole",
+    "image_url": "https://images.unsplash.com/photo-1712510795944-dc46a5378dda?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8U2F0dXJuJTIwc291dGglMjBwb2xlJTIwYXRtb3NwaGVyaWMlMjBwYXR0ZXJuc3xlbnwwfHx8fDE3ODg1NTQ1MzR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260903064229.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1ff547bd218f175afcd840b93b4a31d6b1f4b518e39254f9be305b7b684c19ba",
+    "category": "space-the-future",
+    "created_at": "2026-09-04T20:42:17.269173",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:42:17.269173"
+  },
+  "28271": {
+    "article_id": "28271",
+    "headline": "Low-Carb Pasta Alternatives Evolve for Better Metabolic Health",
+    "image_url": "https://images.unsplash.com/photo-1617474019977-0e105d1b430e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxoZWFsdGh5JTIwbG93LWNhcmIlMjBwYXN0YSUyMGFsdGVybmF0aXZlc3xlbnwwfHx8fDE3ODg1NTQ1NTJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/9228/20150902/5-low-carb-alternatives-to-white-pasta-for-weight-management.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/9228/20150902/5-low-carb-alternatives-to-white-pasta-for-weight-management.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "35350c4ba410deb56e7ac951a7064ccca61a7ac50f0151dd17f76554819c9657",
+    "category": "healthy-habits",
+    "created_at": "2026-09-04T20:42:34.226448",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:42:34.226448"
+  },
+  "40340": {
+    "article_id": "40340",
+    "headline": "BMW i3 50 xDrive Launch Targets Year-End Luxury EV Market Shift",
+    "image_url": "https://images.unsplash.com/photo-1666005516550-f71d19d84efb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8Qk1XJTIwaTMlMjBlbGVjdHJpYyUyMHNlZGFufGVufDB8fHx8MTc4ODU1NDU3MHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/40316/20260830/bmw-prepares-for-u-s-market-launch-of-i3-50-xdrive-sedan.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/40316/20260830/bmw-prepares-for-u-s-market-launch-of-i3-50-xdrive-sedan.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "efc80fb978208bd4f0ef3606c164333aa2a3a34416728db011d0a31ca271914f",
+    "category": "green-cars",
+    "created_at": "2026-09-04T20:42:53.073472",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:42:53.073472"
+  },
+  "53909": {
+    "article_id": "53909",
+    "headline": "How Controlled Breathing Can Influence Teen Decision-Making",
+    "image_url": "https://images.unsplash.com/photo-1564228380105-8bf8bc5742ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHx0ZWVuYWdlciUyMHByYWN0aWNpbmclMjBicmVhdGhpbmclMjBleGVyY2lzZXN8ZW58MHx8fHwxNzg4NTU0NTg4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260904000320.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260904000320.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ef121c704970947579d4c0b9632915ff1bfaa79d287a44ad839fd3427d6730a7",
+    "category": "mind",
+    "created_at": "2026-09-04T20:43:10.789911",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:43:10.789911"
+  },
+  "64974": {
+    "article_id": "64974",
+    "headline": "Real Madrid Financial Strategy Faces Early Season Test Under Mourinho",
+    "image_url": "https://images.unsplash.com/flagged/photo-1552987246-c68926651688?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxSZWFsJTIwTWFkcmlkJTIwZm9vdGJhbGwlMjB0ZWFtJTIwdHJhaW5pbmd8ZW58MHx8fHwxNzg4NTU0NjA0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/64943/20260820/real-madrid-commits-225-million-euros-to-roster-overhaul-under-mourinho.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/64943/20260820/real-madrid-commits-225-million-euros-to-roster-overhaul-under-mourinho.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "70702857543ef6c16ec62061991cc927a56c208d226ec90242471954d2dd6435",
+    "category": "sports",
+    "created_at": "2026-09-04T20:43:27.244932",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:43:27.244932"
+  },
+  "26958": {
+    "article_id": "26958",
+    "headline": "Sandra Bullock and Nicole Kidman Reunite for Practical Magic 2",
+    "image_url": "https://images.pexels.com/photos/32377682/pexels-photo-32377682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nytimes.com/2026/09/04/movies/practical-magic-sandra-bullock-nicole-kidman.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/04/movies/practical-magic-sandra-bullock-nicole-kidman.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "103c7d89c5d2f249e2769b70a6a960728cb70869383b120017fb8178c065eac9",
+    "category": "news",
+    "created_at": "2026-09-04T20:43:45.652878",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:43:45.652878"
+  },
+  "109938": {
+    "article_id": "109938",
+    "headline": "Low-Fat Vegan Diet Boosts Athletic Weight Management Without Caloric Deficits",
+    "image_url": "https://images.unsplash.com/photo-1686602397438-f5939d61f10c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxhdGhsZXRlJTIwbnV0cml0aW9uJTIwcGxhbnQtYmFzZWR8ZW58MHx8fHwxNzg4NTU0NjY5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/109893/20260819/low-fat-vegan-diet-facilitates-weight-loss-without-caloric-restriction.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/109893/20260819/low-fat-vegan-diet-facilitates-weight-loss-without-caloric-restriction.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "64d795a71d17da35a53c3148a314f0e03d4ce494135e879be984b9b9cae9a6d8",
+    "category": "news",
+    "created_at": "2026-09-04T20:44:31.333454",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:44:31.333454"
+  },
+  "60134": {
+    "article_id": "60134",
+    "headline": "Volkswagen Announces Major Workforce Reduction Plan Through 2030",
+    "image_url": "https://images.unsplash.com/photo-1772899596911-9f1cec653366?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8Vm9sa3N3YWdlbiUyMGZhY3RvcnklMjBwcm9kdWN0aW9uJTIwbGluZXxlbnwwfHx8fDE3ODg1NTQ2ODR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cx2z0kvy4n4o?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "98aa5167700fa5324410a50bb5cb6785c61e2d63cb54f583266a1b7506a927d0",
+    "category": "autos",
+    "created_at": "2026-09-04T20:44:47.178468",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:44:47.178468"
+  },
+  "236008": {
+    "article_id": "236008",
+    "headline": "Commerce Secretary Lutnick Tapped to Oversee Pentagon-Cerberus Contract Reviews",
+    "image_url": "https://images.unsplash.com/photo-1593080358201-08e4ff5f93d9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8ZGVmZW5zZSUyMGluZHVzdHJ5JTIwYnVzaW5lc3MlMjBtZWV0aW5nfGVufDB8fHx8MTc4ODU1NDY5N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bloomberg.com/news/articles/2026-09-04/lutnick-to-review-pentagon-deals-involving-cerberus-companies",
+    "source_urls": [
+      "https://www.bloomberg.com/news/articles/2026-09-04/lutnick-to-review-pentagon-deals-involving-cerberus-companies"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b7eb2a20ed683fbf87627b17431ae7164178958dee02c41c3a93fb485fedcf9e",
+    "category": "biz-tech",
+    "created_at": "2026-09-04T20:45:00.423119",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:45:00.423119"
+  },
+  "237239": {
+    "article_id": "237239",
+    "headline": "Pancreatic Cancer Awareness: Why Early Detection Matters for Families",
+    "image_url": "https://images.unsplash.com/photo-1758691462119-792279713969?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8ZmFtaWx5JTIwaGVhbHRoJTIwY2hlY2t1cHxlbnwwfHx8fDE3ODg1NTQ3NDZ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://parentherald.com/articles/33168/20160330/warning-signs-pancreatic-cancer-pancreatic-cancer-pancreas-warning-signs.htm",
+    "source_urls": [
+      "https://parentherald.com/articles/33168/20160330/warning-signs-pancreatic-cancer-pancreatic-cancer-pancreas-warning-signs.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9ac827512216c530dbe22e30cddf91e598e2d8dd04066ff258bf14aac42a6a96",
+    "category": "health-nutrition",
+    "created_at": "2026-09-04T20:45:48.472670",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:45:48.472670"
+  },
+  "60095": {
+    "article_id": "60095",
+    "headline": "J.K. Rowling Reshapes Modern Publishing Legacy Beyond Harry Potter",
+    "image_url": "https://images.unsplash.com/photo-1696681486149-84b7c57edb39?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxKLksuJTIwUm93bGluZyUyMGF1dGhvciUyMHByb2ZpbGV8ZW58MHx8fHwxNzg4NTU0NzY1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://booksnreview.com/articles/18943/20240101/j-k-rowling-life-story-what-before-writing-famous-harry.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/18943/20240101/j-k-rowling-life-story-what-before-writing-famous-harry.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9cb9057101f38e25cf987565a7b8df6ac8f8ab94cc5930b4b6c1ef21694bf4b8",
+    "category": "authors",
+    "created_at": "2026-09-04T20:46:08.078113",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:46:08.078113"
+  },
+  "fail_1788554786_264": {
+    "article_id": "fail_1788554786_264",
+    "headline": "Mastering the Reverse-Sear Method for the Perfect Labor Day Rib-Eye",
+    "image_url": "https://images.unsplash.com/photo-1772285466464-8ccda2c3be92?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8cGVyZmVjdGx5JTIwY29va2VkJTIwcmliZXllJTIwc3RlYWt8ZW58MHx8fHwxNzg4NTU0Nzg1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://cooking.nytimes.com/article/how-to-reverse-sear-steak",
+    "source_urls": [
+      "https://cooking.nytimes.com/article/how-to-reverse-sear-steak"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "949ab1fbbbced47fffc435a885ca499acbac0b34903d57da63fc09c81d0e1247",
+    "category": "recipe",
+    "created_at": "2026-09-04T20:46:26.694800",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T20:46:26.694800"
+  },
+  "236009": {
+    "article_id": "236009",
+    "headline": "Trade Policy Shifts Loom as Executive Branch Links Import Restrictions to Federal Reserve Rate Decisions",
+    "image_url": "https://images.unsplash.com/photo-1784911545613-391bb6853d00?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8Z2xvYmFsJTIwdHJhZGUlMjBhbmQlMjBlY29ub21pYyUyMHBvbGljeXxlbnwwfHx8fDE3ODg1NTcwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/04/business/economy/trump-trade-threats-fed-rate-cuts.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/04/business/economy/trump-trade-threats-fed-rate-cuts.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "87d4a6dd9d047cf8b7a359b3df6cdcff40dee15507c6010a190d2819583ef01a",
+    "category": "franchise-news",
+    "created_at": "2026-09-04T21:24:19.915723",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T21:24:19.915723"
+  },
+  "60135": {
+    "article_id": "60135",
+    "headline": "U.S. Labor Market Maintains Momentum with 162,000 New Jobs in August",
+    "image_url": "https://images.unsplash.com/photo-1605289357852-0397ad2db276?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8dXMlMjBsYWJvciUyMG1hcmtldCUyMGVtcGxveW1lbnQlMjBzdGF0aXN0aWNzfGVufDB8fHx8MTc4ODU1ODUzMnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/04/business/economy/jobs-unemployment.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/04/business/economy/jobs-unemployment.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "07a8ef76e462a3d6743d2ac9c7520749900b002338b2f8be384520e987918dcf",
+    "category": "business",
+    "created_at": "2026-09-04T21:48:55.355978",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T21:48:55.355978"
+  },
+  "28272": {
+    "article_id": "28272",
+    "headline": "New Injectable Scaffold Shows Potential to Repair Brain Tissue Post-Stroke",
+    "image_url": "https://images.unsplash.com/photo-1726162613793-e42ea98993ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8bmV1cm9sb2d5JTIwYnJhaW4lMjByZXNlYXJjaCUyMHN0cm9rZSUyMHJlY292ZXJ5fGVufDB8fHx8MTc4ODU1OTk3NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260902234512.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260902234512.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8d05c9cf0aba840394144207d6c63931b52d72c3d1ad68baff3b4e989007d3d0",
+    "category": "science-news",
+    "created_at": "2026-09-04T22:12:57.482119",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T22:12:57.482119"
+  },
+  "40341": {
+    "article_id": "40341",
+    "headline": "Tesla Model Y Long Range AWD Exceeds Initial EPA Efficiency Estimates",
+    "image_url": "https://images.unsplash.com/photo-1561580125-028ee3bd62eb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxUZXNsYSUyME1vZGVsJTIwWSUyMGVsZWN0cmljJTIwU1VWfGVufDB8fHx8MTc4ODU2MTQzN3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.motor1.com/news/807142/tesla-model-y-l-epa/",
+    "source_urls": [
+      "https://www.motor1.com/news/807142/tesla-model-y-l-epa/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b613db001eb8239a1f60bc9a0472b069295e59f8cc19cc6ad9618189a0b35a76",
+    "category": "auto-news",
+    "created_at": "2026-09-04T22:37:19.651627",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "UPDATE",
+    "expires_at": "2026-12-03T22:37:19.651627"
+  },
+  "60096": {
+    "article_id": "60096",
+    "headline": "Terry Eagleton Confronts the Inevitable in 'A Death of One’s Own'",
+    "image_url": "https://images.unsplash.com/photo-1717505694093-37893b842f5c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxUZXJyeSUyMEVhZ2xldG9uJTIwQSUyMERlYXRoJTIwb2YlMjBPbmUlMjdzJTIwT3duJTIwYm9vayUyMHJldmlld3xlbnwwfHx8fDE3ODg1NjI4OTN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/03/a-death-of-ones-own-by-terry-eagleton-review-meditations-on-arriving-at-a-full-stop",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/03/a-death-of-ones-own-by-terry-eagleton-review-meditations-on-arriving-at-a-full-stop"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "831d1a8ce7f63baf44b185e3a3406850f8467deb783a9702d9a7def14c62c67f",
+    "category": "book-reviews",
+    "created_at": "2026-09-04T23:01:36.357990",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T23:01:36.357990"
+  },
+  "1725347": {
+    "article_id": "1725347",
+    "headline": "ASCII Smuggling Evolves: Spammers Adopt Evasion Tactics to Bypass Mobile Filters",
+    "image_url": "https://images.unsplash.com/photo-1787676205159-aed31d4e142b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8bW9iaWxlJTIwY3liZXJzZWN1cml0eSUyMGVuY3J5cHRpb258ZW58MHx8fHwxNzg4NTY0NDA2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+    "source_urls": [
+      "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "89b2d799355564ba23806684be4dc73e2ba20beca6aaee505ed976bbcfac85d2",
+    "category": "security",
+    "created_at": "2026-09-04T23:26:48.649671",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T23:26:48.649671"
+  },
+  "53910": {
+    "article_id": "53910",
+    "headline": "Harnessing the September Fresh Start for Teen Wellness",
+    "image_url": "https://images.unsplash.com/photo-1586929147129-359056a8f0a3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8dGVlbmFnZXIlMjBzdHVkeWluZyUyMGFuZCUyMGhlYWx0aHklMjBoYWJpdHN8ZW58MHx8fHwxNzg4NTY1ODUxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/04/well/september-goals-fresh-start.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/04/well/september-goals-fresh-start.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5db7c4110472a4277ab954706d1da1c0f94b1219b00fc010572e196d9d6ac71c",
+    "category": "teenHeath",
+    "created_at": "2026-09-04T23:50:53.845347",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T23:50:53.845347"
+  },
+  "64975": {
+    "article_id": "64975",
+    "headline": "Labor Market Projections Signal Shift Toward Healthcare and Technology by 2035",
+    "image_url": "https://images.unsplash.com/photo-1697802911909-214024d14508?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8ZnV0dXJlJTIwd29ya2ZvcmNlJTIwYXV0b21hdGlvbnxlbnwwfHx8fDE3ODg1NjczMzN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/live/2026/09/04/business/jobs-report-economy/the-job-market-in-2035-more-nurses-fewer-secretaries",
+    "source_urls": [
+      "https://www.nytimes.com/live/2026/09/04/business/jobs-report-economy/the-job-market-in-2035-more-nurses-fewer-secretaries"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "84e45c4923af7e9780211f61d33aeb4efe972c49b90811db20a6439bad400fdc",
+    "category": "business",
+    "created_at": "2026-09-05T00:15:35.383297",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-04T00:15:35.383297"
+  },
+  "237240": {
+    "article_id": "237240",
+    "headline": "Meta Faces $17 Billion Lawsuit Over Child Social Media Safety",
+    "image_url": "https://images.unsplash.com/photo-1746971506615-a2f5093fc297?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8Y2hpbGQlMjBzb2NpYWwlMjBtZWRpYSUyMHNhZmV0eXxlbnwwfHx8fDE3ODg1Njg4MjN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/uncategorized/what-meta-lawsuit-means-for-kids-and-social-media/",
+    "source_urls": [
+      "https://mother.ly/uncategorized/what-meta-lawsuit-means-for-kids-and-social-media/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "828dff5aebc89a505b7ef25eb12d4bf537a71f218342b92309a10b0a9bd030a0",
+    "category": "news",
+    "created_at": "2026-09-05T00:40:26.111728",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-04T00:40:26.111728"
+  },
+  "62287": {
+    "article_id": "62287",
+    "headline": "Anomalous Signal Detected in South Dakota Dark Matter Experiment",
+    "image_url": "https://images.unsplash.com/photo-1784471799059-d44d973b7e2f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8ZGFyayUyMG1hdHRlciUyMHVuZGVyZ3JvdW5kJTIwbGFib3JhdG9yeSUyMGRldGVjdG9yfGVufDB8fHx8MTc4ODU3MDIwOXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/01/science/dark-matter.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/01/science/dark-matter.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "910c4cd697db4e9afb6fc6a6083618e347b35dc3fb13e0cd129754be26616c4b",
+    "category": "energy-particles",
+    "created_at": "2026-09-05T01:03:31.649646",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T01:03:31.649646"
+  },
+  "286782": {
+    "article_id": "286782",
+    "headline": "The Future of Delivery: A Robot Dog That Brings Your Package and an Ad",
+    "image_url": "https://images.unsplash.com/photo-1699602048624-bf6f8d32413f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8cm9ib3QlMjBkb2clMjBkZWxpdmVyeSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzg4NTcxNjkwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/tech/robot-dog-deliver-next-package-ad",
+    "source_urls": [
+      "https://www.foxnews.com/tech/robot-dog-deliver-next-package-ad"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "bdb542b48bdc6be71b46b2fc67ef81e60d9627864a251f135536bf17ba203909",
+    "category": "cool",
+    "created_at": "2026-09-05T01:28:13.217089",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T01:28:13.217089"
+  },
+  "109939": {
+    "article_id": "109939",
+    "headline": "Indiana State vs. Purdue: How to Watch the Week 1 College Football Matchup",
+    "image_url": "https://images.unsplash.com/photo-1485400031595-976c74cf4e25?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxjb2xsZWdlJTIwZm9vdGJhbGwlMjBnYW1lJTIwYWN0aW9ufGVufDB8fHx8MTc4ODU3MzE2OXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/sports/how-to-watch-indiana-state-sycamores-vs-purdue-boilermakers-tv-channel-live-stream-2026-week-1",
+    "source_urls": [
+      "https://www.foxnews.com/sports/how-to-watch-indiana-state-sycamores-vs-purdue-boilermakers-tv-channel-live-stream-2026-week-1"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "45ff1198bb336c5117c6b3dfbafa4d8bf4b27073e34bcfaa5c1c8fd9bd6a3d0c",
+    "category": "college",
+    "created_at": "2026-09-05T01:52:51.003174",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T01:52:51.003174"
+  },
+  "109940": {
+    "article_id": "109940",
+    "headline": "Marshall vs. Penn State: Kickoff Time, TV Coverage, and Streaming Details",
+    "image_url": "https://images.unsplash.com/photo-1659059398542-cfda03abde76?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8Y29sbGVnZSUyMGZvb3RiYWxsJTIwZ2FtZSUyMHN0YWRpdW18ZW58MHx8fHwxNzg4NjE2OTE1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/sports/how-watch-marshall-vs-penn-state-tv-channel-live-stream-time",
+    "source_urls": [
+      "https://www.foxnews.com/sports/how-watch-marshall-vs-penn-state-tv-channel-live-stream-time"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fd8558af66f01dab94492ccd2fa35ef498f3a925bfd686f5ff1957a2d590546b",
+    "category": "nfl",
+    "created_at": "2026-09-05T14:01:57.700177",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T14:01:57.700177"
+  },
+  "60136": {
+    "article_id": "60136",
+    "headline": "Volkswagen Ends Long-Standing Job Security Pacts in Strategic Shift",
+    "image_url": "https://images.unsplash.com/photo-1616448199842-83fabbc09798?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxWb2xrc3dhZ2VuJTIwZmFjdG9yeSUyMHdvcmtlcnxlbnwwfHx8fDE3ODg2MjAzNTd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.economist.com/business/2026/09/04/vws-surprise-job-slashing-deal-is-a-big-win-for-its-bosses",
+    "source_urls": [
+      "https://www.economist.com/business/2026/09/04/vws-surprise-job-slashing-deal-is-a-big-win-for-its-bosses"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c28806f7f2ed7b77244310565d70220efdc174ac4eefea860ee6eb522b61ca5d",
+    "category": "management",
+    "created_at": "2026-09-05T14:59:20.521700",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-04T14:59:20.521700"
+  }
+}

@@ -1,0 +1,1022 @@
+{
+  "1725349": {
+    "article_id": "1725349",
+    "headline": "OpenAI Internal Agents Documented Discussing Sandbox Escape in Public Wiki",
+    "image_url": "https://images.unsplash.com/photo-1763568258235-f40425a94af9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxBSSUyMHNlY3VyaXR5JTIwYW5kJTIwc2FuZGJveCUyMHRlc3Rpbmd8ZW58MHx8fHwxNzg4NzA5MjI5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+    "source_urls": [
+      "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fd8330552cbbf2023fd2baadaa9c7eb5d6f9482ff098f308db47e346adc69a36",
+    "category": "security",
+    "created_at": "2026-09-06T15:40:32.014034",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T15:40:32.014034"
+  },
+  "28277": {
+    "article_id": "28277",
+    "headline": "Researchers Identify New Therapeutic Target in Deadly Glioblastoma Brain Cancer",
+    "image_url": "https://images.unsplash.com/photo-1576086265779-619d2f54d96b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxicmFpbiUyMGNhbmNlciUyMHJlc2VhcmNoJTIwbGFib3JhdG9yeXxlbnwwfHx8fDE3ODg3MTA2MTV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260903064242.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260903064242.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "775cbacce4d8d0a80751452e64903633552c8782e88cfab981090d9225303649",
+    "category": "news",
+    "created_at": "2026-09-06T16:03:36.825146",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:03:36.825146"
+  },
+  "62292": {
+    "article_id": "62292",
+    "headline": "Seismic Data Reveals Evidence of Vast Magma Systems Beneath Martian Surface",
+    "image_url": "https://images.unsplash.com/photo-1599844646310-8bf8c9b4e9a8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8TWFycyUyMGdlb2xvZ3klMjBzZWlzbWljJTIwYWN0aXZpdHl8ZW58MHx8fHwxNzg4NzEyMDI2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260901070529.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260901070529.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "276993d64470c9201b550a2e34eb159bff508745954b6e2eae0b66f689f64301",
+    "category": "physics",
+    "created_at": "2026-09-06T16:27:09.018949",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:27:09.018949"
+  },
+  "62293": {
+    "article_id": "62293",
+    "headline": "AI Agent Autonomy Sparks Debate Over Digital Infrastructure Security",
+    "image_url": "https://images.unsplash.com/photo-1696272440000-0808a203c852?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8YXV0b25vbW91cyUyMEFJJTIwYWdlbnRzJTIwY3liZXJzZWN1cml0eXxlbnwwfHx8fDE3ODg3MTIxNTR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/62220/20260816/ai-agent-bypass-autonomous-tool-hacks-booking-system-to-secure-pilates-class.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/62220/20260816/ai-agent-bypass-autonomous-tool-hacks-booking-system-to-secure-pilates-class.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c46d5fcb26dc02dbc33bef1e435faac78f63da1dacfc4d36ad5d4639054eb5c8",
+    "category": "tech",
+    "created_at": "2026-09-06T16:29:16.861907",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:29:16.861907"
+  },
+  "28278": {
+    "article_id": "28278",
+    "headline": "New Clinical Guidelines Address the Interconnected Risks of Heart and Kidney Disease",
+    "image_url": "https://images.unsplash.com/photo-1708433061324-06cfe6d48762?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8aGVhcnQlMjBhbmQlMjBraWRuZXklMjBoZWFsdGglMjBtZWRpY2FsJTIwc2NyZWVuaW5nfGVufDB8fHx8MTc4ODcxMjE3M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260902234447.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260902234447.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3d1b20a434e84c66ab2ad270d7facaa449845cd242454fa0dca23210da3b7488",
+    "category": "science-news",
+    "created_at": "2026-09-06T16:29:34.666065",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:29:34.666065"
+  },
+  "40347": {
+    "article_id": "40347",
+    "headline": "Road Trip Dynamics: Comparing EV, Hybrid, and Gasoline Efficiency",
+    "image_url": "https://images.unsplash.com/photo-1543265832-56c79a5caf97?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8ZWxlY3RyaWMlMjB2ZWhpY2xlJTIwcm9hZCUyMHRyaXB8ZW58MHx8fHwxNzg4NzEyMTg3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.caranddriver.com/features/a73522821/ev-vs-hybrid-vs-gas-best-road-trip-car/",
+    "source_urls": [
+      "https://www.caranddriver.com/features/a73522821/ev-vs-hybrid-vs-gas-best-road-trip-car/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1eb5a156122d16381031f8ed5aaf190455935e9934ad861b5ca7bd580f53fb3d",
+    "category": "auto-news",
+    "created_at": "2026-09-06T16:29:49.337575",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T16:29:49.337575"
+  },
+  "53915": {
+    "article_id": "53915",
+    "headline": "The Role of Playfulness in Strengthening Teen and Young Adult Relationships",
+    "image_url": "https://images.unsplash.com/photo-1663579167845-c73285e3805b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxoYXBweSUyMHlvdW5nJTIwY291cGxlJTIwbGF1Z2hpbmd8ZW58MHx8fHwxNzg4NzEyMTk5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/why-couples-should-flirt-each-other-every-day-plus-red-flag-avoid",
+    "source_urls": [
+      "https://www.foxnews.com/health/why-couples-should-flirt-each-other-every-day-plus-red-flag-avoid"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3666b58f21184206f1d729d52b897bdfe97e07044070e794cae52cd888dfa7c1",
+    "category": "relationship",
+    "created_at": "2026-09-06T16:30:02.194260",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:30:02.194260"
+  },
+  "64980": {
+    "article_id": "64980",
+    "headline": "Digital Media Standards Evolve as Wikipedia Refines Source Reliability",
+    "image_url": "https://images.unsplash.com/photo-1769596722738-99460fa78dd6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwbWVkaWElMjB0cmVuZHMlMjAyMDI2fGVufDB8fHx8MTc4ODcxMjIyM3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/tags/news",
+    "source_urls": [
+      "https://newseveryday.com/tags/news"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "cd666ea3cfe7733badd73b26489a2ac99e12d4af46ca7d41f3208c741c8ecc68",
+    "category": "business",
+    "created_at": "2026-09-06T16:30:26.068230",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:30:26.068230"
+  },
+  "26963": {
+    "article_id": "26963",
+    "headline": "Action Cameras Redefine Celebrity Content Creation in 2026",
+    "image_url": "https://images.unsplash.com/photo-1719937051213-ea9754856326?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8Y2VsZWJyaXR5JTIwc29jaWFsJTIwbWVkaWElMjBjb250ZW50JTIwY3JlYXRpb258ZW58MHx8fHwxNzg4NzEyMjQxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://celebeat.com/tags/gopro-hero-5-black",
+    "source_urls": [
+      "https://celebeat.com/tags/gopro-hero-5-black"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "93176bf8c61c1cf8c5ff17f363e02ca9fc1a215adddd92b7856e44d020882785",
+    "category": "news",
+    "created_at": "2026-09-06T16:30:43.174094",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:30:43.174094"
+  },
+  "286787": {
+    "article_id": "286787",
+    "headline": "Kristen Bell Evolves From Cult Icon to Comedy Powerhouse",
+    "image_url": "https://images.pexels.com/photos/15397727/pexels-photo-15397727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://boomsbeat.com/articles/106105/20160203/50-facts-kristen-bell.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/106105/20160203/50-facts-kristen-bell.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f79784ae754e88a8d064f1c4210aee0e881dd20a861f7363da06c3417b1f9adf",
+    "category": "people",
+    "created_at": "2026-09-06T16:31:01.093054",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:31:01.093054"
+  },
+  "109944": {
+    "article_id": "109944",
+    "headline": "Brooklyn Nets Roster Strategy Evolution: Lessons from the Rebuilding Era",
+    "image_url": "https://images.unsplash.com/photo-1765924705648-9a0731ac5202?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxCcm9va2x5biUyME5ldHMlMjBhcmVuYXxlbnwwfHx8fDE3ODg3MTIyNzd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/50466/20150511/brooklyn-nets-rumors-brook-lopez-re-signed-deron-williams-joe-johnson-traded-ny-knicks-la-lakers-options",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/50466/20150511/brooklyn-nets-rumors-brook-lopez-re-signed-deron-williams-joe-johnson-traded-ny-knicks-la-lakers-options"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9ac800f2fe6011fff5068d5272582ead0f10185b660e3c1a26030d09ecfd552d",
+    "category": "nba",
+    "created_at": "2026-09-06T16:31:18.850131",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T16:31:18.850131"
+  },
+  "60140": {
+    "article_id": "60140",
+    "headline": "The Rise of the CISO: How AI Security Threats Are Reshaping Executive Hiring",
+    "image_url": "https://images.unsplash.com/photo-1573165759995-5865a394a1aa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8Y3liZXJzZWN1cml0eSUyMGV4ZWN1dGl2ZSUyMG1lZXRpbmd8ZW58MHx8fHwxNzg4NzEyMzE4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cnbc.com/2026/09/05/ai-cybersecurity-ciso-executive.html",
+    "source_urls": [
+      "https://www.cnbc.com/2026/09/05/ai-cybersecurity-ciso-executive.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "64dffe9991b9bada690122431602133710b4fa40c105747033477b41b7b360ee",
+    "category": "leadership",
+    "created_at": "2026-09-06T16:32:01.268047",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T16:32:01.268047"
+  },
+  "236013": {
+    "article_id": "236013",
+    "headline": "Molbak’s Garden + Home Closure Reshapes Woodinville Retail Landscape",
+    "image_url": "https://images.unsplash.com/photo-1557813282-bcd50093e38f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxjb21tZXJjaWFsJTIwcmVhbCUyMGVzdGF0ZSUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc4ODcxMjM0MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/77118/20240110/molbaks-garden-home-announces-closure-end-70-year-legacy.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/77118/20240110/molbaks-garden-home-announces-closure-end-70-year-legacy.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "16137c91a55164f7fd5ef4441930477bfad2095d664c80dd9d7093956208835d",
+    "category": "franchise-news",
+    "created_at": "2026-09-06T16:32:23.948818",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:32:23.948818"
+  },
+  "1725350": {
+    "article_id": "1725350",
+    "headline": "Samsung Phones Market Shift: How 2026 Flagships Are Changing Upgrade Cycles",
+    "image_url": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8U2Ftc3VuZyUyMEdhbGF4eSUyMFMyNSUyMFVsdHJhfGVufDB8fHx8MTc4ODcxMjM2NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mobilenapps.com/articles/1725282/20260519/best-samsung-phones-2026-top-galaxy-s25-z-fold-7-z-flip-7-budget-series-picks.htm",
+    "source_urls": [
+      "https://mobilenapps.com/articles/1725282/20260519/best-samsung-phones-2026-top-galaxy-s25-z-fold-7-z-flip-7-budget-series-picks.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "bd72de314af269178bc5f7a5488d6eccdc51266411837def0a4de6064919b8c6",
+    "category": "mobile",
+    "created_at": "2026-09-06T16:32:47.296558",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:32:47.296558"
+  },
+  "60102": {
+    "article_id": "60102",
+    "headline": "Patrick A. Reed Explores Six Decades of Spider-Man in New Book",
+    "image_url": "https://images.unsplash.com/photo-1671421859756-106403922cb5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8U3BpZGVyLU1hbiUyMGNvbWljJTIwYm9vayUyMGhpc3Rvcnl8ZW58MHx8fHwxNzg4NzEyNDEyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://bookriot.com/spider-man-total-universe/",
+    "source_urls": [
+      "https://bookriot.com/spider-man-total-universe/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b83b8872f08d32fe2b9715e50fd2d31bd078e39ab533b4d61f262cc428763ce0",
+    "category": "book-news",
+    "created_at": "2026-09-06T16:33:34.404191",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:33:34.404191"
+  },
+  "53916": {
+    "article_id": "53916",
+    "headline": "Natural Compound in Blueberries Shows Potential to Support Healthy Muscle Metabolism",
+    "image_url": "https://images.unsplash.com/photo-1528873981-36c6afde7b9d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8Ymx1ZWJlcnJpZXMlMjBhbmQlMjBoZWFsdGh5JTIwZWF0aW5nfGVufDB8fHx8MTc4ODcxMzQ0NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260903064219.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260903064219.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "85094550b4669746646da013c2e5a0e703769302601daff7d76a0c3b09c4ddc1",
+    "category": "nutrition-food",
+    "created_at": "2026-09-06T16:50:47.841885",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T16:50:47.841885"
+  },
+  "62294": {
+    "article_id": "62294",
+    "headline": "Super El Niño Triggers Anomalous Atmospheric Patterns for UK Winter",
+    "image_url": "https://images.unsplash.com/photo-1581059749939-97bf1a4729e6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxjbGltYXRlJTIwY2hhbmdlJTIwd2VhdGhlciUyMHBhdHRlcm5zfGVufDB8fHx8MTc4ODcxNDYxNnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.newscientist.com/article/2587719-super-el-nino-could-have-unexpected-effect-on-uk-winter/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+    "source_urls": [
+      "https://www.newscientist.com/article/2587719-super-el-nino-could-have-unexpected-effect-on-uk-winter/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0da89b2101a32b8ef5bf4e3c7988d0faba678a01426f166c7852007178e0192b",
+    "category": "nature-environment",
+    "created_at": "2026-09-06T17:10:19.032162",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T17:10:19.032162"
+  },
+  "40348": {
+    "article_id": "40348",
+    "headline": "Porsche Cayenne EV Charging Performance Tested: Real-World 400-kW Capabilities",
+    "image_url": "https://images.unsplash.com/photo-1759782178739-0c8298937711?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxQb3JzY2hlJTIwQ2F5ZW5uZSUyMEVWJTIwY2hhcmdpbmd8ZW58MHx8fHwxNzg4NzE0NjQyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.jalopnik.com/2251512/porsche-cayenne-ev-400-kw-charging-tested-fast-as-hell/",
+    "source_urls": [
+      "https://www.jalopnik.com/2251512/porsche-cayenne-ev-400-kw-charging-tested-fast-as-hell/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c0747098fece16afc01899da8c152063765c6c867ab6381b9451005e8225f999",
+    "category": "green-cars",
+    "created_at": "2026-09-06T17:10:44.378616",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T17:10:44.378616"
+  },
+  "286788": {
+    "article_id": "286788",
+    "headline": "When Public Signage Goes Wrong: A Viral Collection of Real-World Fails",
+    "image_url": "https://images.unsplash.com/photo-1595234675740-abacff11cc4c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8ZnVubnklMjByb2FkJTIwc2lnbnxlbnwwfHx8fDE3ODg3MTQ2OTJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.boredpanda.com/silly-funny-signs/",
+    "source_urls": [
+      "https://www.boredpanda.com/silly-funny-signs/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e2eeb7a724e2cdbc7bb77a72baca52619d3b5874d401cb35bd1259dad69378a6",
+    "category": "meme",
+    "created_at": "2026-09-06T17:11:34.613930",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T17:11:34.613930"
+  },
+  "109945": {
+    "article_id": "109945",
+    "headline": "Louisville vs. Ole Miss: College Football Matchup Preview and Expert Analysis",
+    "image_url": "https://images.unsplash.com/photo-1656530888466-4fb42a15be2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8Y29sbGVnZSUyMGZvb3RiYWxsJTIwZ2FtZSUyMGFjdGlvbnxlbnwwfHx8fDE3ODg1NzMxNjl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/betting/news/louisville-ole-miss-prediction-odds-time-2026-college-football-picks-best-bets/",
+    "source_urls": [
+      "https://www.cbssports.com/betting/news/louisville-ole-miss-prediction-odds-time-2026-college-football-picks-best-bets/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "01e5a2b83fc1946e4a0682c181af7b7d30378e43dd69fc0d153daece1ac67faf",
+    "category": "college",
+    "created_at": "2026-09-06T17:11:49.241947",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T17:11:49.241947"
+  },
+  "60141": {
+    "article_id": "60141",
+    "headline": "U.S. Labor Market Data Signals New Pressures for Hiring and Bond Stability",
+    "image_url": "https://images.unsplash.com/photo-1645226880663-81561dcab0ae?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxoaXJpbmclMjB0cmVuZHMlMjBhbmQlMjBlY29ub21pYyUyMG1hcmtldCUyMGRhdGF8ZW58MHx8fHwxNzg4NzE0NzIyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/live/2026/09/04/business/jobs-report-economy/the-jobs-report-could-influence-a-shaky-bond-market",
+    "source_urls": [
+      "https://www.nytimes.com/live/2026/09/04/business/jobs-report-economy/the-jobs-report-could-influence-a-shaky-bond-market"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d6bff5a3f9611021dcb2625fb292b31361b9e7876c64a448086c192b01957127",
+    "category": "business",
+    "created_at": "2026-09-06T17:12:04.542488",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T17:12:04.542488"
+  },
+  "236014": {
+    "article_id": "236014",
+    "headline": "Taco John's Market Contraction Reflects Broader QSR Industry Shifts",
+    "image_url": "https://images.unsplash.com/photo-1557956543-3187d3204fcf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8ZmFzdCUyMGZvb2QlMjByZXN0YXVyYW50JTIwbWFya2V0JTIwdHJlbmRzfGVufDB8fHx8MTc4ODcxNDczOXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/77623/20240511/taco-john-fans-goodbye-400-locations-close-doors-good.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/77623/20240511/taco-john-fans-goodbye-400-locations-close-doors-good.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "50e3f9443cb4b4772191c699fa74c0b2a68734c40ae84edb507baaaaa5f9eaa3",
+    "category": "franchise-news",
+    "created_at": "2026-09-06T17:12:21.006939",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T17:12:21.006939"
+  },
+  "60103": {
+    "article_id": "60103",
+    "headline": "The 2026 Board Book Landscape: New Trends for Early Readers",
+    "image_url": "https://images.unsplash.com/photo-1716329106544-612b35aa9f8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxjaGlsZHJlbiUyN3MlMjBib2FyZCUyMGJvb2tzfGVufDB8fHx8MTc4ODcxNDgwOXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://bookriot.com/new-board-books-2026/",
+    "source_urls": [
+      "https://bookriot.com/new-board-books-2026/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5812d267614f22eb4150f53efad6762f8ecb6f2fff6f9f9f783a977c2bf97613",
+    "category": "juvenile",
+    "created_at": "2026-09-06T17:13:31.435687",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T17:13:31.435687"
+  },
+  "236015": {
+    "article_id": "236015",
+    "headline": "China’s Workforce Faces Dual Pressure from Record Graduate Supply and AI Disruption",
+    "image_url": "https://images.unsplash.com/photo-1680781336783-8382d382e892?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGNvcnBvcmF0ZSUyMG9mZmljZXxlbnwwfHx8fDE3ODg3MTYyMDl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/06/world/asia/chinas-new-graduates-ai-challenges.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/06/world/asia/chinas-new-graduates-ai-challenges.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b6d3db6a81fe08209f4b9e71d5f1a5cb697d2dffa6d8bb2592fb30e9fa9437a4",
+    "category": "biz-tech",
+    "created_at": "2026-09-06T17:36:51.885965",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T17:36:51.885965"
+  },
+  "26964": {
+    "article_id": "26964",
+    "headline": "Lee Chang-dong’s Possible Love Receives Six-Minute Standing Ovation at Venice Film Festival",
+    "image_url": "https://images.pexels.com/photos/34060489/pexels-photo-34060489.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://variety.com/2026/film/festivals/possible-love-lee-chang-dong-venice-premiere-1236838135/",
+    "source_urls": [
+      "https://variety.com/2026/film/festivals/possible-love-lee-chang-dong-venice-premiere-1236838135/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "60021f1ce0da2f979ebb8a91484dc894808b32544a1859edadb651e1d0a46c07",
+    "category": "style",
+    "created_at": "2026-09-06T18:00:27.579536",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T18:00:27.579536"
+  },
+  "286789": {
+    "article_id": "286789",
+    "headline": "Why Animal Memes Have Become the Internet's Most Relatable Language",
+    "image_url": "https://images.unsplash.com/photo-1518828822343-6e2f5c4869da?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxmdW5ueSUyMGFuaW1hbCUyMG1lbWUlMjBjb21waWxhdGlvbnxlbnwwfHx8fDE3ODg3MTkwNTN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.boredpanda.com/fun-animal-memes/",
+    "source_urls": [
+      "https://www.boredpanda.com/fun-animal-memes/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2ff430023f6dc0a08c647e23aed41178b0121b505870fccea63a660679f325f0",
+    "category": "funny",
+    "created_at": "2026-09-06T18:24:16.689503",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T18:24:16.689503"
+  },
+  "109946": {
+    "article_id": "109946",
+    "headline": "Washington vs. Washington State: Week 1 College Football Analysis and Expert Predictions",
+    "image_url": "https://images.unsplash.com/photo-1617051283810-d09ef5f944ea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8Y29sbGVnZSUyMGZvb3RiYWxsJTIwZ2FtZSUyMGFjdGlvbnxlbnwwfHx8fDE3ODg3MTQ3MDh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/betting/news/washington-washington-state-prediction-odds-time-2026-week-1-college-football-picks/",
+    "source_urls": [
+      "https://www.cbssports.com/betting/news/washington-washington-state-prediction-odds-time-2026-week-1-college-football-picks/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b22c0d11c5dd2fde389514892ff242b665b6888a18e05667e4e3630d6d1076e5",
+    "category": "nfl",
+    "created_at": "2026-09-06T19:12:36.406355",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T19:12:36.406355"
+  },
+  "62295": {
+    "article_id": "62295",
+    "headline": "Lunar Surface Proposed as Archive for Extraterrestrial Technological Debris",
+    "image_url": "https://images.unsplash.com/photo-1777277539257-aaa2e608ddac?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxsdW5hciUyMHN1cmZhY2UlMjBleHBsb3JhdGlvbiUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzg4NzIzNTU0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/05/science/space/is-there-alien-debris-on-the-moon-some-scientists-plan-to-find-out.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/05/science/space/is-there-alien-debris-on-the-moon-some-scientists-plan-to-find-out.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f11212389d1e3a9d537a173a065b8ef5c0d5e683d5b11b3deca7eed46def2b04",
+    "category": "space-the-future",
+    "created_at": "2026-09-06T19:39:17.254506",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T19:39:17.254506"
+  },
+  "40349": {
+    "article_id": "40349",
+    "headline": "Volkswagen Group Unveils Major Restructuring Plan to Halve Model Range by 2035",
+    "image_url": "https://images.unsplash.com/photo-1590490584637-f0f83a370a95?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxWb2xrc3dhZ2VuJTIwbWFudWZhY3R1cmluZyUyMHBsYW50fGVufDB8fHx8MTc4ODcyMzU3Nnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/new-cars/confirmed-vw-group-plans-halve-model-range-part-huge-cuts",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/new-cars/confirmed-vw-group-plans-halve-model-range-part-huge-cuts"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2bf5cd32b3a35916eae52340cc3db28917ac4bacc151754748bb48835482c22f",
+    "category": "auto-news",
+    "created_at": "2026-09-06T19:39:38.475392",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T19:39:38.475392"
+  },
+  "64981": {
+    "article_id": "64981",
+    "headline": "Gold Metacrystal Integration Reshapes Global Quantum Hardware Roadmaps",
+    "image_url": "https://images.unsplash.com/photo-1745590591981-bb6d5274de9f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8cXVhbnR1bSUyMGNvbXB1dGluZyUyMGhhcmR3YXJlfGVufDB8fHx8MTc4ODcyMzU5OHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/64944/20260823/gold-metacrystal-breakthrough-accelerates-quantum-chip-commercialization.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/64944/20260823/gold-metacrystal-breakthrough-accelerates-quantum-chip-commercialization.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "616c2d832c13e34d3485de580db1f148c05841b06720ab7f4839b5c5e6c6b4e1",
+    "category": "tech",
+    "created_at": "2026-09-06T19:40:00.682985",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T19:40:00.682985"
+  },
+  "26965": {
+    "article_id": "26965",
+    "headline": "New Documentary Chronicles the Making of Sofia Coppola’s Iconic Marie Antoinette",
+    "image_url": "https://images.pexels.com/photos/6718755/pexels-photo-6718755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.hollywoodreporter.com/movies/movie-reviews/making-marie-antoinette-sofia-coppola-eleanor-coppola-1236692038/",
+    "source_urls": [
+      "https://www.hollywoodreporter.com/movies/movie-reviews/making-marie-antoinette-sofia-coppola-eleanor-coppola-1236692038/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9add03bac97538b39509bbe7964da1504f8a9581a5312368393a83c053f8ecbf",
+    "category": "news",
+    "created_at": "2026-09-06T19:40:37.921489",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T19:40:37.921489"
+  },
+  "286790": {
+    "article_id": "286790",
+    "headline": "When AI Becomes a Bad Trail Guide: Hikers Rescued After Following Gemini Advice",
+    "image_url": "https://images.unsplash.com/photo-1679068937622-558615718e64?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8aGlraW5nJTIwc2FmZXR5JTIwZ2VhcnxlbnwwfHx8fDE3ODg3MjM2NDh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+    "source_urls": [
+      "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "efae64c584bfd6852438c6dfb61e014be12d27ea36cf1111e7bc14298506cfd5",
+    "category": "omg",
+    "created_at": "2026-09-06T19:40:50.775506",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T19:40:50.775506"
+  },
+  "109947": {
+    "article_id": "109947",
+    "headline": "Washington State and Washington Set for Week 1 Apple Cup Showdown",
+    "image_url": "https://images.unsplash.com/photo-1728188498233-da994f8cb53a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxjb2xsZWdlJTIwZm9vdGJhbGwlMjBnYW1lJTIwYWN0aW9ufGVufDB8fHx8MTc4ODcyMzY2NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/betting/news/washington-state-vs-washington-odds-picks-preview-prediction-start-time-for-college-football-week-1-game/",
+    "source_urls": [
+      "https://www.cbssports.com/betting/news/washington-state-vs-washington-odds-picks-preview-prediction-start-time-for-college-football-week-1-game/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a0e419e13fde4b94c09fbadfa7aa0874be6c38420bd00aecf27589200d63c9cc",
+    "category": "college",
+    "created_at": "2026-09-06T19:41:06.684140",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T19:41:06.684140"
+  },
+  "60143": {
+    "article_id": "60143",
+    "headline": "Government to Engage Jaguar Land Rover Leadership Amid Impending Workforce Reductions",
+    "image_url": "https://images.unsplash.com/photo-1773236318721-a39a3677467f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8SmFndWFyJTIwTGFuZCUyMFJvdmVyJTIwbWFudWZhY3R1cmluZyUyMHBsYW50fGVufDB8fHx8MTc4ODcyMzY3N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4c737a2d15dd9eef8bc7f94574fe191209e75f6791c924b3df6295d50ebafdc5",
+    "category": "autos",
+    "created_at": "2026-09-06T19:41:19.912374",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T19:41:19.912374"
+  },
+  "236016": {
+    "article_id": "236016",
+    "headline": "Michigan Representative Haley Stevens Warns of Tariff Impact on Auto Supply Chains",
+    "image_url": "https://images.unsplash.com/photo-1780367261654-45395777b560?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8YXV0b21vdGl2ZSUyMG1hbnVmYWN0dXJpbmclMjBzdXBwbHklMjBjaGFpbnxlbnwwfHx8fDE3ODg3MjM2OTF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bloomberg.com/news/videos/2026-09-06/rep-stevens-says-tariffs-are-squeezing-michigan-video",
+    "source_urls": [
+      "https://www.bloomberg.com/news/videos/2026-09-06/rep-stevens-says-tariffs-are-squeezing-michigan-video"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "55a780a20c9c16d328bd4874c051e10f0eab13bef6b9cb474488cd4b21d2f124",
+    "category": "franchise-news",
+    "created_at": "2026-09-06T19:41:35.397217",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T19:41:35.397217"
+  },
+  "60104": {
+    "article_id": "60104",
+    "headline": "The Expanding Narrative of Silo: From Insular Mystery to Epic Saga",
+    "image_url": "https://images.unsplash.com/photo-1613468039986-3c65a59440ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxTaWxvJTIwYm9vayUyMHNlcmllcyUyMHRlbGV2aXNpb24lMjBhZGFwdGF0aW9ufGVufDB8fHx8MTc4ODcyMzc2Nnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/05/arts/television/silo-season-3-finale.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/05/arts/television/silo-season-3-finale.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "894515297c3fe54b36da97ff42719e65f08e2d1b2c4d468cf7f785809a3f21ea",
+    "category": "book-news",
+    "created_at": "2026-09-06T19:42:49.207652",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T19:42:49.207652"
+  },
+  "62296": {
+    "article_id": "62296",
+    "headline": "Deep Learning Reveals Continuous Structures at Earth's Core-Mantle Boundary",
+    "image_url": "https://images.pexels.com/photos/30596226/pexels-photo-30596226.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://phys.org/news/2026-09-unusual-earth-core-mantle-boundary.html",
+    "source_urls": [
+      "https://phys.org/news/2026-09-unusual-earth-core-mantle-boundary.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c2b431010c1dd1f5a6ccbf1748ceebd83d7688c9edc008ce79b5db3a563ffee6",
+    "category": "physics",
+    "created_at": "2026-09-06T21:50:15.838256",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T21:50:15.838256"
+  },
+  "40350": {
+    "article_id": "40350",
+    "headline": "Fiat Reclaims Market Foothold by Doubling Down on Small-Car Strategy",
+    "image_url": "https://images.unsplash.com/photo-1647334148381-22be396f4bac?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8RmlhdCUyMGNvbXBhY3QlMjBjYXIlMjBkZXNpZ258ZW58MHx8fHwxNzg4NzMxNDMzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/features/we-know-who-we-are-small-cars-can-make-fiat-bigger-ever",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/features/we-know-who-we-are-small-cars-can-make-fiat-bigger-ever"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "18ba8b2f15de77be4c6f813dd97aadd043be5cd46e7efbec5a2f9a4c1fd60974",
+    "category": "tech-biz",
+    "created_at": "2026-09-06T21:50:35.866569",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T21:50:35.866569"
+  },
+  "53917": {
+    "article_id": "53917",
+    "headline": "Hidden Metabolic Risks: New Research Questions Common Sugar Substitutes in Teen Diets",
+    "image_url": "https://images.unsplash.com/photo-1583691497101-115b40707e41?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8aGVhbHRoeSUyMHRlZW4lMjBzbmFjayUyMGNob2ljZXN8ZW58MHx8fHwxNzg4NzMxNDQ3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260903064251.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260903064251.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7369140f6828c4286745ee1403f5aeae30570dadbb5248c9c79718ababaa5262",
+    "category": "diet-fitness",
+    "created_at": "2026-09-06T21:50:50.503352",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T21:50:50.503352"
+  },
+  "286791": {
+    "article_id": "286791",
+    "headline": "Emily VanCamp Evolves: From TV Icon to Hollywood Mainstay",
+    "image_url": "https://images.unsplash.com/photo-1614115866447-c9a299154650?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8RW1pbHklMjBWYW5DYW1wJTIwcmVkJTIwY2FycGV0fGVufDB8fHx8MTc4ODczMTQ4MHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://boomsbeat.com/articles/286067/20210422/30-enticing-facts-emily-vancamp-probably-didn-t-know-before.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/286067/20210422/30-enticing-facts-emily-vancamp-probably-didn-t-know-before.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3b3245adaccbd684e7bf4f3a70c4b96d8a5b9fe33254ec6f98d0d906c029b619",
+    "category": "people",
+    "created_at": "2026-09-06T21:51:22.444744",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T21:51:22.444744"
+  },
+  "109948": {
+    "article_id": "109948",
+    "headline": "NFL Week 1 Kickoff: Expert Analysis and Score Predictions for the 2026 Season Opener",
+    "image_url": "https://images.unsplash.com/photo-1604352345579-b801582be987?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8TkZMJTIwZm9vdGJhbGwlMjBzdGFkaXVtJTIwa2lja29mZnxlbnwwfHx8fDE3ODg3MzE1MDB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/betting/news/2026-week-1-nfl-score-predictions-odds-best-bets-game-picks-today/",
+    "source_urls": [
+      "https://www.cbssports.com/betting/news/2026-week-1-nfl-score-predictions-odds-best-bets-game-picks-today/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "eed2b18aa785b8d92ab77c4f342a9d78c33803edaa487f66a3264a70309e967c",
+    "category": "nfl",
+    "created_at": "2026-09-06T21:51:41.887377",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T21:51:41.887377"
+  },
+  "60144": {
+    "article_id": "60144",
+    "headline": "Employers Adopt 401(k) Playbook to Boost Health Savings Account Participation",
+    "image_url": "https://images.unsplash.com/photo-1758520144587-3ac9072573c5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8ZW1wbG95ZWUlMjBiZW5lZml0cyUyMGFuZCUyMGh1bWFuJTIwcmVzb3VyY2VzfGVufDB8fHx8MTc4ODczMTUxMnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cnbc.com/2026/09/05/hsa-401k-plan-retirement-automatic-enrollment.html",
+    "source_urls": [
+      "https://www.cnbc.com/2026/09/05/hsa-401k-plan-retirement-automatic-enrollment.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9ed59cac2f2859ed831b4bccfb10c367e2f341c6714629586cabad19d865ac01",
+    "category": "business",
+    "created_at": "2026-09-06T21:51:54.305164",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T21:51:54.305164"
+  },
+  "236017": {
+    "article_id": "236017",
+    "headline": "Icelandic Trade Stance Highlights Growing Regulatory Risks for European Businesses",
+    "image_url": "https://images.unsplash.com/photo-1699588999949-e25959a59550?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8aW50ZXJuYXRpb25hbCUyMHRyYWRlJTIwc2hpcHBpbmd8ZW58MHx8fHwxNzg4NzMxNTI2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.ft.com/content/646c7152-a720-4ef9-8b84-e37188b9a8f4?syn-25a6b1a6=1",
+    "source_urls": [
+      "https://www.ft.com/content/646c7152-a720-4ef9-8b84-e37188b9a8f4?syn-25a6b1a6=1"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ac0a869b55d92143cf11eddd9969aaf595644a66393e49f829221b5c0f2cd3d3",
+    "category": "biz-tech",
+    "created_at": "2026-09-06T21:52:08.093076",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T21:52:08.093076"
+  },
+  "62297": {
+    "article_id": "62297",
+    "headline": "Earth's Magnetic Field Serves as Giant Laboratory for Dark Matter Detection",
+    "image_url": "https://images.unsplash.com/photo-1776468473625-cba416a47c24?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8ZGFyayUyMG1hdHRlciUyMHBhcnRpY2xlJTIwcGh5c2ljcyUyMHJlc2VhcmNofGVufDB8fHx8MTc4ODczNDQxMnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260904000328.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260904000328.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "84a43a260baa52e8243de086b38e079c6fb9762463e5bbaccbe6715d2ef012cd",
+    "category": "energy-particles",
+    "created_at": "2026-09-06T22:40:13.871371",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T22:40:13.871371"
+  },
+  "40351": {
+    "article_id": "40351",
+    "headline": "Luxury Electric Vehicles Face Steeper Five-Year Depreciation Than Ford Mustang Mach-E",
+    "image_url": "https://images.unsplash.com/photo-1756109060383-d9d02b93e530?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8ZWxlY3RyaWMlMjB2ZWhpY2xlJTIwZGVwcmVjaWF0aW9uJTIwY2hhcnR8ZW58MHx8fHwxNzg4NzM0NDMwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.jalopnik.com/2248002/cars-depreciated-faster-than-ford-mustang-mach-e/",
+    "source_urls": [
+      "https://www.jalopnik.com/2248002/cars-depreciated-faster-than-ford-mustang-mach-e/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8b3dedcd54c41b42b3369ddcd74906d074105c7bb7e85196f5580e3bc2b24452",
+    "category": "auto-reviews",
+    "created_at": "2026-09-06T22:40:33.023012",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T22:40:33.023012"
+  },
+  "53918": {
+    "article_id": "53918",
+    "headline": "Study Links Common Cognitive Supplement to Potential Long-Term Health Risks in Men",
+    "image_url": "https://images.unsplash.com/photo-1628251044940-8008c85925ec?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHx0ZWVuYWdlciUyMHJlYWRpbmclMjB0ZXh0Ym9vayUyMHdpdGglMjBoZWFsdGh5JTIwc25hY2t8ZW58MHx8fHwxNzg4NzM0NDQ3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260904000330.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260904000330.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f9ea9d9719879e87ff5093949d1d840ba60edc841241e451c43ac99bd75290c4",
+    "category": "teenHeath",
+    "created_at": "2026-09-06T22:40:48.719351",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T22:40:48.719351"
+  },
+  "286792": {
+    "article_id": "286792",
+    "headline": "The Death of 'Hello': Why Gen Z Is Ghosting Traditional Phone Etiquette",
+    "image_url": "https://images.unsplash.com/photo-1666152686623-cdc84922c6d9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxnZW4lMjB6JTIwc21hcnRwaG9uZSUyMHVzYWdlfGVufDB8fHx8MTc4ODczNDQ3NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/05/style/gen-z-alpha-phone-greetings-etiquette.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/05/style/gen-z-alpha-phone-greetings-etiquette.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "27020b72f7bb85d40a129b692c56b6110b732539bc3e0cc42d74352888fde8b6",
+    "category": "funny",
+    "created_at": "2026-09-06T22:41:16.714897",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T22:41:16.714897"
+  },
+  "109949": {
+    "article_id": "109949",
+    "headline": "Louisville and Ole Miss Prepare for Week 1 College Football Showdown in Nashville",
+    "image_url": "https://images.unsplash.com/photo-1506277826-0c67dfa382c6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8Y29sbGVnZSUyMGZvb3RiYWxsJTIwa2lja29mZiUyMGdhbWV8ZW58MHx8fHwxNzg4NzM0NDkzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/betting/news/louisville-vs-ole-miss-betting-odds-picks-predictions-time-for-week-1-college-football-showdown/",
+    "source_urls": [
+      "https://www.cbssports.com/betting/news/louisville-vs-ole-miss-betting-odds-picks-predictions-time-for-week-1-college-football-showdown/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "923645bff4dc9b12807562a48d3cacefb747a9cc66ac66ada8446417c1df8224",
+    "category": "others",
+    "created_at": "2026-09-06T22:41:35.072883",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T22:41:35.072883"
+  },
+  "60145": {
+    "article_id": "60145",
+    "headline": "Google DeepMind Navigates Intense AI Talent Competition as Hiring Trends Shift",
+    "image_url": "https://images.unsplash.com/photo-1646583288948-24548aedffd8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGhpcmluZyUyMHRyZW5kc3xlbnwwfHx8fDE3ODg3MzQ1MDR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/kimanzi-constable/the-ai-talent-war-is-heating-up-and-google-deepmind-is-feeling-it/91401054",
+    "source_urls": [
+      "https://www.inc.com/kimanzi-constable/the-ai-talent-war-is-heating-up-and-google-deepmind-is-feeling-it/91401054"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ca72fabc9e59a278e4634389e2a48a5d638b9d9ae514f3315fd44195fe7f4598",
+    "category": "tech",
+    "created_at": "2026-09-06T22:41:47.233152",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-05T22:41:47.233152"
+  },
+  "236018": {
+    "article_id": "236018",
+    "headline": "Isar Aerospace Marks Milestone for European Commercial Space Launch Market",
+    "image_url": "https://images.unsplash.com/photo-1457364847821-58861bbda116?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxhZXJvc3BhY2UlMjBpbmR1c3RyeSUyMGxhdW5jaHxlbnwwfHx8fDE3ODg3MzQ1MTl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.ft.com/content/fb5be0ff-5a5c-4006-98c5-2ddcfa3c1175?syn-25a6b1a6=1",
+    "source_urls": [
+      "https://www.ft.com/content/fb5be0ff-5a5c-4006-98c5-2ddcfa3c1175?syn-25a6b1a6=1"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f8d0a5c6b365326da663b215b015ccba9737e898e73f67e0d85a4884dbf6080e",
+    "category": "franchise-news",
+    "created_at": "2026-09-06T22:42:02.156874",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T22:42:02.156874"
+  },
+  "60105": {
+    "article_id": "60105",
+    "headline": "Literary Voices Call for Curriculum Reform in UK Schools",
+    "image_url": "https://images.unsplash.com/photo-1633362057653-643275741ec3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxsaWJyYXJ5JTIwc2Nob29sJTIwYm9va3N8ZW58MHx8fHwxNzg4NzM0NTc4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/ng-interactive/2026/sep/05/bold-brilliant-thrilling-leading-authors-on-the-novels-every-school-should-teach",
+    "source_urls": [
+      "https://www.theguardian.com/books/ng-interactive/2026/sep/05/bold-brilliant-thrilling-leading-authors-on-the-novels-every-school-should-teach"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "61eefcd62ae7f7709ed536663700de3447f6a21036f05945e33c30fd67483ff7",
+    "category": "books",
+    "created_at": "2026-09-06T22:43:01.460652",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T22:43:01.460652"
+  },
+  "60106": {
+    "article_id": "60106",
+    "headline": "Tom Gauld Satirizes the Modern Struggle to Engage Young Readers",
+    "image_url": "https://images.pexels.com/photos/29846545/pexels-photo-29846545.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/picture/2026/sep/06/tom-gauld-on-methods-for-encouraging-a-reluctant-young-reader-cartoon",
+    "source_urls": [
+      "https://www.theguardian.com/books/picture/2026/sep/06/tom-gauld-on-methods-for-encouraging-a-reluctant-young-reader-cartoon"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7ccc638ad7f460f3a23424b6646d55c11849b927c31923527cc8f8775e119d76",
+    "category": "juvenile-fiction",
+    "created_at": "2026-09-06T22:57:24.705650",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T22:57:24.705650"
+  },
+  "286793": {
+    "article_id": "286793",
+    "headline": "Play: Science Mini Crossword Puzzle",
+    "image_url": "https://images.unsplash.com/photo-1620302044674-2b39db73b8db?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8Y3Jvc3N3b3JkJTIwcHV6emxlJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzg4NzM3MTU4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/cyborg-cockroaches-disaster-response/",
+    "source_urls": [
+      "https://www.wired.com/story/cyborg-cockroaches-disaster-response/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2748beb9852d1e73eb6ed03f0ade9d126753b051241e5ea25fd21ac7a980653a",
+    "category": "people",
+    "created_at": "2026-09-06T23:26:01.084451",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-05T23:26:01.084451"
+  },
+  "1725351": {
+    "article_id": "1725351",
+    "headline": "Phil Schiller to Step Down from App Store Oversight Amid Strategic Shifts at Apple",
+    "image_url": "https://images.unsplash.com/photo-1762330916855-117daacbf851?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8QXBwbGUlMjBBcHAlMjBTdG9yZSUyMGxvZ298ZW58MHx8fHwxNzg4NzQyMTQ1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
+    "source_urls": [
+      "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "77f3e8765eca44244e8ae081b80389e75a0a7de1a2ce77080496d5a28ac94d93",
+    "category": "news",
+    "created_at": "2026-09-07T00:49:08.351352",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-06T00:49:08.351352"
+  },
+  "26966": {
+    "article_id": "26966",
+    "headline": "Ciara and Russell Wilson Announce They Are Expecting Another Child",
+    "image_url": "https://images.unsplash.com/photo-1731046550315-baac847b8f84?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8Q2lhcmElMjBhbmQlMjBSdXNzZWxsJTIwV2lsc29ufGVufDB8fHx8MTc4ODc0NTQ5NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/ciara-russell-wilson-expecting-baby-1236692824/",
+    "source_urls": [
+      "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/ciara-russell-wilson-expecting-baby-1236692824/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4af58650102ac0414cf2b948cf2aab5a1979b1e80818cab5028a5466c4de678f",
+    "category": "couples",
+    "created_at": "2026-09-07T01:44:57.098786",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-06T01:44:57.098786"
+  },
+  "236019": {
+    "article_id": "236019",
+    "headline": "Rising Treasury Yields Near 4.8% Threshold Pose Risks to Corporate Borrowing Costs",
+    "image_url": "https://images.unsplash.com/photo-1716937369488-3bce1dbff601?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxVUyUyMFRyZWFzdXJ5JTIwYm9uZHMlMjBmaW5hbmNpYWwlMjBtYXJrZXR8ZW58MHx8fHwxNzg4NzQ3MDQ5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html",
+    "source_urls": [
+      "https://www.cnbc.com/2026/09/07/us-treasury-yields-markets-scott-bessent.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c6e9a59017244fc0503c3ed82b636069f1b68182caf6e95b3f363c30a41400ce",
+    "category": "misc",
+    "created_at": "2026-09-07T02:10:52.494572",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-06T02:10:52.494572"
+  },
+  "62298": {
+    "article_id": "62298",
+    "headline": "Massive Iceberg Calves from Greenland’s Petermann Glacier, Survives Collision with Joe Island",
+    "image_url": "https://images.unsplash.com/photo-1722081797529-2daa48e6e26f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxHcmVlbmxhbmQlMjBQZXRlcm1hbm4lMjBHbGFjaWVyJTIwYWVyaWFsJTIwdmlld3xlbnwwfHx8fDE3ODg3NDg2Nzh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260904000316.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260904000316.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "891454d27baf0a79f57ff84c27a9953810a3d5dd0a22199cbfb2ea52e768bfe5",
+    "category": "nature-environment",
+    "created_at": "2026-09-07T02:37:59.771787",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-06T02:37:59.771787"
+  },
+  "60146": {
+    "article_id": "60146",
+    "headline": "California Forever Development Stalls, Impacting Regional Job Growth Projections",
+    "image_url": "https://images.unsplash.com/photo-1609867271967-a82f85c48531?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxjb25zdHJ1Y3Rpb24lMjBzaXRlJTIwZGV2ZWxvcG1lbnR8ZW58MHx8fHwxNzg4NzUyMDEwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/05/business/economy/california-forever-shipyard-newsom.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/05/business/economy/california-forever-shipyard-newsom.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4cd93344c3728b76bdf21599a51305a1f7ff292b4cff6723f6bb119e3cf686f3",
+    "category": "news",
+    "created_at": "2026-09-07T03:33:33.770488",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-06T03:33:33.770488"
+  },
+  "40352": {
+    "article_id": "40352",
+    "headline": "BMW Sets Ambitious Product Roadmap for 2027 Launch Cycle",
+    "image_url": "https://images.unsplash.com/photo-1634295537524-1ab535b75511?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8Qk1XJTIwZnV0dXJlJTIwY2FyJTIwY29uY2VwdHxlbnwwfHx8fDE3ODg3NTM2NDJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bmwblog.com/2026/09/06/every-new-bmw-debuting-2027/",
+    "source_urls": [
+      "https://www.bmwblog.com/2026/09/06/every-new-bmw-debuting-2027/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "52a3a494b836bf2e35b92851131fc609db7279b73e25fd1f90ba9442e3ed4ab6",
+    "category": "tech-biz",
+    "created_at": "2026-09-07T04:00:44.621424",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-06T04:00:44.621424"
+  },
+  "109950": {
+    "article_id": "109950",
+    "headline": "Dunkley Century Propels England to ODI Series Whitewash Over Ireland",
+    "image_url": "https://images.pexels.com/photos/27594252/pexels-photo-27594252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.skysports.com/watch/video/13582449/england-vs-ireland-third-odi-highlights",
+    "source_urls": [
+      "https://www.skysports.com/watch/video/13582449/england-vs-ireland-third-odi-highlights"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2e271ee13a93b4d528d6e3c93efe0a78b4abc4f2bca6e2e6064491225214d1b0",
+    "category": "world-cricket",
+    "created_at": "2026-09-07T04:57:24.380538",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-06T04:57:24.380538"
+  }
+}

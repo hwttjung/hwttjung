@@ -1,0 +1,699 @@
+{
+  "62317": {
+    "article_id": "62317",
+    "headline": "SpaceX Crew-13 Mission Targets Record-Breaking Transit to International Space Station",
+    "image_url": "https://images.unsplash.com/photo-1516849947868-a9dfa8bdbf91?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8U3BhY2VYJTIwQ3JldyUyMERyYWdvbiUyMGxhdW5jaHxlbnwwfHx8fDE3OTA3ODQ1MjJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260930020312.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260930020312.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "28bcbc5670a406d99808117ee3b3db8b3d1efd92bb2be893f6f909a579be707d",
+    "category": "tech",
+    "created_at": "2026-09-30T16:08:44.463224",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:08:44.463224"
+  },
+  "26977": {
+    "article_id": "26977",
+    "headline": "Sofia Coppola’s Marie Antoinette Aesthetic Returns to Versailles for 20th Anniversary",
+    "image_url": "https://images.pexels.com/photos/9790371/pexels-photo-9790371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nytimes.com/2026/09/30/movies/marie-antoinette-versailles-sofia-coppola.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/30/movies/marie-antoinette-versailles-sofia-coppola.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a0a2fff133f54f3602022305bc4b4c5be3b5c29c30ea4e6d5dc31a6651e48e0c",
+    "category": "style",
+    "created_at": "2026-09-30T16:09:25.812461",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:09:25.812461"
+  },
+  "28294": {
+    "article_id": "28294",
+    "headline": "Chocolate Benefits: How Dark Cocoa Supports Heart and Skin Health in 2026",
+    "image_url": "https://images.unsplash.com/photo-1600070306429-8b21d175d44d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8ZGFyayUyMGNob2NvbGF0ZSUyMG51dHJpdGlvbiUyMGZhY3RzfGVufDB8fHx8MTc5MDc4NjQ0OXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/5357/20150408/7-suprising-skin-health-benefits-chocolate.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/5357/20150408/7-suprising-skin-health-benefits-chocolate.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c7908bb63af07427c3f112cb4b0b7bca8ca4d1e5c0218dee1c45364332f2b51d",
+    "category": "healthy-habits",
+    "created_at": "2026-09-30T16:40:51.341536",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:40:51.341536"
+  },
+  "40368": {
+    "article_id": "40368",
+    "headline": "Naruto Shippuden Lessons: Navigating the Rare Parts Market for Automotive Restoration",
+    "image_url": "https://images.unsplash.com/photo-1522775274885-3cfb356cd226?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8Y2xhc3NpYyUyMGNhciUyMHJlc3RvcmF0aW9uJTIwcGFydHN8ZW58MHx8fHwxNzkwNzg2NDY4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/33709/20170308/naruto-shippuden-episode-498-features-hinatas-friends-last-attempt-find.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/33709/20170308/naruto-shippuden-episode-498-features-hinatas-friends-last-attempt-find.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b050434d0fd14911f2d8c7cb33e31433ad7e41237ddfcacc93c972cf68193936",
+    "category": "tech-biz",
+    "created_at": "2026-09-30T16:41:10.071383",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:41:10.071383"
+  },
+  "53933": {
+    "article_id": "53933",
+    "headline": "Xylitol Risks: What Teens Should Know About Sugar-Free Choices",
+    "image_url": "https://images.unsplash.com/photo-1752652012754-868f0c3dd21b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8aGVhbHRoeSUyMGVhdGluZyUyMGhhYml0cyUyMGZvciUyMHRlZW5zfGVufDB8fHx8MTc5MDc4NjQ4NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://youthhealthmag.com/articles/53900/20260927/artificial-sweetener-xylitol-linked-to-cardiovascular-health-risks-in-new-study.htm",
+    "source_urls": [
+      "https://youthhealthmag.com/articles/53900/20260927/artificial-sweetener-xylitol-linked-to-cardiovascular-health-risks-in-new-study.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "93ad06498dc5edb75665c4be709fde5b4a073c7d4a43e11ed7fae3b6d260c95c",
+    "category": "nutrition-food",
+    "created_at": "2026-09-30T16:41:27.007334",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:41:27.007334"
+  },
+  "64994": {
+    "article_id": "64994",
+    "headline": "Investors and Business Leaders Brace for Heightened Inflation Volatility",
+    "image_url": "https://images.unsplash.com/photo-1638481826540-7710b13f7d53?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxzdG9jayUyMG1hcmtldCUyMGluZmxhdGlvbiUyMHZvbGF0aWxpdHl8ZW58MHx8fHwxNzkwNzg2NTA1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/30/business/dealbook/inflation-pce-interest-rates.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/30/business/dealbook/inflation-pce-interest-rates.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "44d34c388201030c9366b2ef143a16c593b60c8942854a7255480b7b3472c0bd",
+    "category": "business",
+    "created_at": "2026-09-30T16:41:47.495202",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-29T16:41:47.495202"
+  },
+  "26978": {
+    "article_id": "26978",
+    "headline": "Gurvin Singh Dyal Reflects on Influencer Accountability and Digital Growth",
+    "image_url": "https://images.unsplash.com/photo-1730528220487-80ed488ad546?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxkaWdpdGFsJTIwZW50cmVwcmVuZXVyc2hpcCUyMGluZmx1ZW5jZXIlMjBtYXJrZXRpbmd8ZW58MHx8fHwxNzkwNzg2NTI0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://celebeat.com/articles/26866/20220131/gurvin-singh-tells-his-side-of-the-story.htm",
+    "source_urls": [
+      "https://celebeat.com/articles/26866/20220131/gurvin-singh-tells-his-side-of-the-story.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ae1a2b771322a2121807e10a96b8640833bf805e1234bc74f698af0a69b44b70",
+    "category": "news",
+    "created_at": "2026-09-30T16:42:05.931849",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:42:05.931849"
+  },
+  "286806": {
+    "article_id": "286806",
+    "headline": "Ving Rhames Remains Hollywood's Unstoppable Force in 2026",
+    "image_url": "https://images.unsplash.com/photo-1593487064247-8bf4f223ae30?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8VmluZyUyMFJoYW1lcyUyMGFjdG9yJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzkwNzg2NTQ1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://boomsbeat.com/articles/286108/20210521/30-surprising-facts-ving-rhames-probably-didn-t-know.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/286108/20210521/30-surprising-facts-ving-rhames-probably-didn-t-know.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "95d97f7ae2f0458c2b87793349b81711b68d025469f6217880397956599c7ceb",
+    "category": "trending-news",
+    "created_at": "2026-09-30T16:42:26.820858",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:42:26.820858"
+  },
+  "109964": {
+    "article_id": "109964",
+    "headline": "LeBron James Legacy Defined by Defensive Versatility Beyond Awards",
+    "image_url": "https://images.unsplash.com/photo-1756977180629-87d5d7330360?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8TGVCcm9uJTIwSmFtZXMlMjBkZWZlbnNpdmUlMjBoaWdobGlnaHRzfGVufDB8fHx8MTc5MDc4NjU4N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/14191/20130426/nba-news-rumors-lebron-james-upset-didnt-win-defensive-player-of-the-year-miami-heat-eastern-conference-",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/14191/20130426/nba-news-rumors-lebron-james-upset-didnt-win-defensive-player-of-the-year-miami-heat-eastern-conference-"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9f8d20e250426c39d996047ad3861a3e6c69406003dc0845bd0936299184e084",
+    "category": "nba",
+    "created_at": "2026-09-30T16:43:09.782830",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:43:09.782830"
+  },
+  "60158": {
+    "article_id": "60158",
+    "headline": "Carnegie Mellon Expansion to Create Hundreds of Academic and Administrative Roles in Miami",
+    "image_url": "https://images.unsplash.com/photo-1687709644148-416e22c3138f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8dW5pdmVyc2l0eSUyMGNhbXB1cyUyMGNvbnN0cnVjdGlvbnxlbnwwfHx8fDE3OTA3ODY2MTN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/victoria-salves/ken-griffin-giving-carnegie-mellon-3-billion-dollars-most-of-it-going-to-miami/91412605",
+    "source_urls": [
+      "https://www.inc.com/victoria-salves/ken-griffin-giving-carnegie-mellon-3-billion-dollars-most-of-it-going-to-miami/91412605"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "eda336b7f1c9e42a1f5b44bdc84e6d1b14281fa48089a7efd8d4c02d55e77bcf",
+    "category": "education",
+    "created_at": "2026-09-30T16:43:36.287870",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:43:36.287870"
+  },
+  "236032": {
+    "article_id": "236032",
+    "headline": "Sazerac Expansion Strategy Defines New Era of Spirits Industry Consolidation",
+    "image_url": "https://images.unsplash.com/photo-1774900131812-e1676edbeca0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxkaXN0aWxsZXJ5JTIwcHJvZHVjdGlvbiUyMGZhY2lsaXR5fGVufDB8fHx8MTc5MDc4NjYzNnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/236026/20260929/sazerac-strategy-signals-long-term-bet-premium-spirits-consolidation.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/236026/20260929/sazerac-strategy-signals-long-term-bet-premium-spirits-consolidation.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "626002a60b72bffbea1b6a5ef6d34dd36cbbd69543d5fec510eb9ee05b5ebd15",
+    "category": "franchise-news",
+    "created_at": "2026-09-30T16:44:00.731838",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-29T16:44:00.731838"
+  },
+  "1725366": {
+    "article_id": "1725366",
+    "headline": "Essential Security Protocols for Securing Your Smartphone Against Loss",
+    "image_url": "https://images.unsplash.com/photo-1556204976-4a72b0565dab?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8c21hcnRwaG9uZSUyMHNlY3VyaXR5JTIwc2V0dGluZ3N8ZW58MHx8fHwxNzkwNzg2NjU2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/tech/turn-lost-phone-settings-before-need-them",
+    "source_urls": [
+      "https://www.foxnews.com/tech/turn-lost-phone-settings-before-need-them"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2832d2c6192f8ee90f954d492f3be5a08026cd21aa5704da55bc3566160ce1a8",
+    "category": "security",
+    "created_at": "2026-09-30T16:44:19.004944",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:44:19.004944"
+  },
+  "237253": {
+    "article_id": "237253",
+    "headline": "Artificial Intelligence Redefines Classroom Creativity for Students",
+    "image_url": "https://images.unsplash.com/photo-1551402991-6e4b5fc0b01c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxzdHVkZW50JTIwdXNpbmclMjB0ZWNobm9sb2d5JTIwaW4lMjBjbGFzc3Jvb218ZW58MHx8fHwxNzkwNzg2NjczfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://parentherald.com/articles/237221/20260830/students-navigate-intersection-artificial-intelligence-creative-expression.htm",
+    "source_urls": [
+      "https://parentherald.com/articles/237221/20260830/students-navigate-intersection-artificial-intelligence-creative-expression.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c18ff283d68826c457fa18b70c0183bddd05d2edf7f7668e933f9148df53c45b",
+    "category": "school",
+    "created_at": "2026-09-30T16:44:36.206893",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:44:36.206893"
+  },
+  "60120": {
+    "article_id": "60120",
+    "headline": "Carlo Rovelli Bridges Physics and Philosophy in New Work",
+    "image_url": "https://images.unsplash.com/photo-1530519696590-a11640ae14e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxDYXJsbyUyMFJvdmVsbGklMjBib29rJTIwcmV2aWV3fGVufDB8fHx8MTc5MDc4NjcwMXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/30/on-the-equality-of-all-things-by-carlo-rovelli-review-a-physicists-guide-to-life-the-universe-and-everything",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/30/on-the-equality-of-all-things-by-carlo-rovelli-review-a-physicists-guide-to-life-the-universe-and-everything"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "188f716d2916f561f1478614802b0fe0a0b8f15347ce239e131d2498e5ea77bf",
+    "category": "book-reviews",
+    "created_at": "2026-09-30T16:45:03.874500",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T16:45:03.874500"
+  },
+  "81546": {
+    "article_id": "81546",
+    "headline": "Changing Consumer Habits Challenge Food Industry Profitability",
+    "image_url": "https://images.unsplash.com/photo-1754398006556-bedbc3b74bf5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8Z3JvY2VyeSUyMHN0b3JlJTIwYWlzbGV8ZW58MHx8fHwxNzkwNzg2NzI1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foodpolitics.com/2026/09/is-the-food-industry-really-in-trouble/",
+    "source_urls": [
+      "https://www.foodpolitics.com/2026/09/is-the-food-industry-really-in-trouble/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e73ad921513c902078c79114bf7c45e66742f22a5735bf4e85a2bfedc3dc3e46",
+    "category": "top-stories",
+    "created_at": "2026-09-30T16:45:28.115712",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-29T16:45:28.115712"
+  },
+  "1725367": {
+    "article_id": "1725367",
+    "headline": "Google Unveils Gemini 4 Argon AI Model Amid Shifts in Development Roadmap",
+    "image_url": "https://images.unsplash.com/photo-1663124178667-28b3776d7c15?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxHb29nbGUlMjBHZW1pbmklMjBBSSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzkwODAzOTM1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+    "source_urls": [
+      "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c4ff3a274205b8f104d9ebee431deb91bca26811dd27d053cff9ceed38ceacc7",
+    "category": "news",
+    "created_at": "2026-09-30T21:32:18.165310",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:32:18.165310"
+  },
+  "62318": {
+    "article_id": "62318",
+    "headline": "Roman Gladiators Redefined Physical Performance Through Specialized Plant-Based Nutrition",
+    "image_url": "https://images.unsplash.com/photo-1740136940878-437a9899d144?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxyb21hbiUyMGdsYWRpYXRvciUyMGFyY2hhZW9sb2d5fGVufDB8fHx8MTc5MDgwNTIwM3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/18219/20141021/roman-gladiators-mostly-vegetarian-drank-ashes-peak-physical-performance.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/18219/20141021/roman-gladiators-mostly-vegetarian-drank-ashes-peak-physical-performance.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fe9f2e623aa1c483801f24e5579540f27070b845d68fa24974f2db0eb3250181",
+    "category": "human",
+    "created_at": "2026-09-30T21:53:26.604107",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:53:26.604107"
+  },
+  "28295": {
+    "article_id": "28295",
+    "headline": "Winter Diseases Prevention Strategies for the 2026 Season",
+    "image_url": "https://images.unsplash.com/photo-1515273283790-38b8a1dc851e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHx3aW50ZXIlMjBoZWFsdGglMjBwcmV2ZW50aW9ufGVufDB8fHx8MTc5MDgwNTIyM3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/16736/20160121/top-5-winter-diseases-to-watch-out-for.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/16736/20160121/top-5-winter-diseases-to-watch-out-for.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "317cc6e97b27d7737d89ccd837ee0ac7e531cd959b68120f81344e93809a071a",
+    "category": "healthy-habits",
+    "created_at": "2026-09-30T21:53:44.983052",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:53:44.983052"
+  },
+  "40369": {
+    "article_id": "40369",
+    "headline": "Automotive Leadership Shifts Redefine Global EV Strategy in 2026",
+    "image_url": "https://images.unsplash.com/photo-1589320012458-ce28bd1c86b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxlbGVjdHJpYyUyMHZlaGljbGUlMjBtYW51ZmFjdHVyaW5nJTIwcGxhbnR8ZW58MHx8fHwxNzkwNzA0MTAxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/tags/news",
+    "source_urls": [
+      "https://autoworldnews.com/tags/news"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d7dbdafef951f0cfe471cf26d2c1227528f30ad6eb42f6a0a0efb33684c1a048",
+    "category": "auto-news",
+    "created_at": "2026-09-30T21:54:05.458265",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:54:05.458265"
+  },
+  "53934": {
+    "article_id": "53934",
+    "headline": "Peptide Science Trends: Understanding the Future of Youth Health Optimization",
+    "image_url": "https://images.unsplash.com/photo-1616996691748-3f5f78093ab0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8YmlvdGVjaG5vbG9neSUyMGxhYm9yYXRvcnklMjByZXNlYXJjaHxlbnwwfHx8fDE3OTA4MDUyNjN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://youthhealthmag.com/articles/53790/20250404/biolongevity-labs-revolutionizing-healthspan-with-cutting-edge-peptide-science.htm",
+    "source_urls": [
+      "https://youthhealthmag.com/articles/53790/20250404/biolongevity-labs-revolutionizing-healthspan-with-cutting-edge-peptide-science.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6be9fdff284284f364108a7e690cdce51fe72dc9d0f91dc74a81c3d4c78b5f06",
+    "category": "Lscience",
+    "created_at": "2026-09-30T21:54:25.398518",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:54:25.398518"
+  },
+  "64995": {
+    "article_id": "64995",
+    "headline": "Trump Media Advances Merger with Nuclear Fusion Firm TAE Technologies",
+    "image_url": "https://images.unsplash.com/photo-1677442135131-4d7c123aef1c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8Y29ycG9yYXRlJTIwbWVyZ2VyJTIwYnVzaW5lc3MlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc5MDgwNTI4M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/30/business/trump-media-tae-technologies-merger.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/30/business/trump-media-tae-technologies-merger.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7b99c391a5f7281a5ffcd0996bc743ab9b4f80d93dffc01096391bacc6f0b12c",
+    "category": "tech",
+    "created_at": "2026-09-30T21:54:45.009306",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2026-12-29T21:54:45.009306"
+  },
+  "286807": {
+    "article_id": "286807",
+    "headline": "Pauley Perrette and the Lasting Legacy of the Abby Effect",
+    "image_url": "https://images.pexels.com/photos/29527092/pexels-photo-29527092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://boomsbeat.com/articles/286258/20211117/30-untold-facts-pauley-perrette-missed-before.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/286258/20211117/30-untold-facts-pauley-perrette-missed-before.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0895fa77e99ca4e5cd5d2ada2eeb73495ee582762f4e3f15c77a3742309d570e",
+    "category": "people",
+    "created_at": "2026-09-30T21:55:30.974129",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:55:30.974129"
+  },
+  "60159": {
+    "article_id": "60159",
+    "headline": "EEOC Launches Legal Action Against Harvard Over Hiring Data Transparency",
+    "image_url": "https://images.unsplash.com/photo-1758518730178-6e237bc8b87d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8ZW1wbG95bWVudCUyMGxhdyUyMHJlY3J1aXRtZW50JTIwY29tcGxpYW5jZXxlbnwwfHx8fDE3OTA4MDUzNzV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/30/business/economy/harvard-eeoc-diversity-hiring.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/30/business/economy/harvard-eeoc-diversity-hiring.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8b91fdcb83b1bc29c9a1683916a2e65fbe674f81fbcf37c9824bd33c071591f6",
+    "category": "business",
+    "created_at": "2026-09-30T21:56:17.399007",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:56:17.399007"
+  },
+  "236033": {
+    "article_id": "236033",
+    "headline": "Micron Surpasses Earnings Expectations Driven by Surge in AI Data Center Demand",
+    "image_url": "https://images.unsplash.com/photo-1532186773960-85649e5cb70b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxzZW1pY29uZHVjdG9yJTIwaW5kdXN0cnklMjBtYW51ZmFjdHVyaW5nfGVufDB8fHx8MTc5MDgwNTM5N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+    "source_urls": [
+      "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4b40c305896ce2ef18c8fb0ad75160762c5fb6d58c8a8183f5aea0395b95324e",
+    "category": "biz-tech",
+    "created_at": "2026-09-30T21:56:39.831830",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:56:39.831830"
+  },
+  "1725368": {
+    "article_id": "1725368",
+    "headline": "WhatsApp Rolls Out Enhanced Parental Controls to Bolster Teen Privacy",
+    "image_url": "https://images.unsplash.com/photo-1526045612212-70caf35c14df?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8bW9iaWxlJTIwcGhvbmUlMjBwcml2YWN5JTIwc2V0dGluZ3N8ZW58MHx8fHwxNzkwODA1NDEzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/cm986x65we88o?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cm986x65we88o?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2632db1e58957953cc81e63583ef5cf178749161f02614a1f65b68adc786ec1b",
+    "category": "whats-app",
+    "created_at": "2026-09-30T21:56:55.649098",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:56:55.649098"
+  },
+  "237254": {
+    "article_id": "237254",
+    "headline": "AI in Education Demands New Digital Literacy Strategies for Families",
+    "image_url": "https://images.unsplash.com/photo-1629470937849-c1972cf0c4b7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8YWklMjBpbiUyMGNsYXNzcm9vbSUyMGVkdWNhdGlvbnxlbnwwfHx8fDE3OTA4MDU0MzF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://parentherald.com/articles/237219/20260827/preserving-critical-thinking-how-parents-educators-can-navigate-ai-classroom.htm",
+    "source_urls": [
+      "https://parentherald.com/articles/237219/20260827/preserving-critical-thinking-how-parents-educators-can-navigate-ai-classroom.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "918372bc1927aa9d8bb6a872ec717fd7d1adeed84db9ff15b06143c6d3513093",
+    "category": "school",
+    "created_at": "2026-09-30T21:57:13.704962",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:57:13.704962"
+  },
+  "60121": {
+    "article_id": "60121",
+    "headline": "Missouri Williams and China Miéville Lead 2026 Goldsmiths Prize Shortlist",
+    "image_url": "https://images.unsplash.com/photo-1689070754977-98dc22525adc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxHb2xkc21pdGhzJTIwUHJpemUlMjBzaG9ydGxpc3QlMjAyMDI2fGVufDB8fHx8MTc5MDgwNTQ2NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/30/missouri-williams-china-mieville-writers-shortlisted-2026-goldsmiths-prize",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/30/missouri-williams-china-mieville-writers-shortlisted-2026-goldsmiths-prize"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5f35117189146b04a41c1520ee409539d40148dff107f6b48e36c4f465e6614b",
+    "category": "book-news",
+    "created_at": "2026-09-30T21:57:47.110046",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:57:47.110046"
+  },
+  "81547": {
+    "article_id": "81547",
+    "headline": "Chef Eric Ripert Unveils Mindful Cooking Techniques in New Cookbook",
+    "image_url": "https://images.unsplash.com/photo-1574966740637-12c84035a4f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8cHJvZmVzc2lvbmFsJTIwY2hlZiUyMGNvb2tpbmclMjBpbiUyMGtpdGNoZW58ZW58MHx8fHwxNzkwODA1NDkxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/30/dining/eric-ripert-buddhism-cooking.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/30/dining/eric-ripert-buddhism-cooking.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "bbfbf8a566013e54a1a5b13d318ad51d0ebbbd41fa6d2eb614fc81a9a1a4285f",
+    "category": "new-cookbooks",
+    "created_at": "2026-09-30T21:58:13.921842",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T21:58:13.921842"
+  },
+  "237255": {
+    "article_id": "237255",
+    "headline": "Advocacy Movement Gains Momentum to Support NICU Families",
+    "image_url": "https://images.unsplash.com/photo-1666888735928-68814027acbb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8TklDVSUyMHBhcmVudHMlMjBzdXBwb3J0fGVufDB8fHx8MTc5MDgwNTY5MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/uncategorized/stephanie-roberson-nicu-chamber-of-mothers/",
+    "source_urls": [
+      "https://mother.ly/uncategorized/stephanie-roberson-nicu-chamber-of-mothers/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "43713203caa6b0ed6e93a6cd874e31160b7a5c79922fa95d66ecf9288df1f1a8",
+    "category": "parenting",
+    "created_at": "2026-09-30T22:01:33.522434",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T22:01:33.522434"
+  },
+  "40370": {
+    "article_id": "40370",
+    "headline": "BMW to Expand Neue Klasse EV Platform to Next-Generation 1 Series by 2028",
+    "image_url": "https://images.unsplash.com/photo-1752959855919-d37bc9c44ddc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxCTVclMjBOZXVlJTIwS2xhc3NlJTIwZWxlY3RyaWMlMjB2ZWhpY2xlfGVufDB8fHx8MTc5MDgwNzM1Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/new-cars/bmw-priming-new-1-series-neue-klasse-ev-platform-%E2%80%93-plus-x8-flagship",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/new-cars/bmw-priming-new-1-series-neue-klasse-ev-platform-%E2%80%93-plus-x8-flagship"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6689b5814641d7678fb2a11be2ef8693cc5cea75d7580c538dd6b2eb77fab02e",
+    "category": "tech-biz",
+    "created_at": "2026-09-30T22:29:15.006565",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T22:29:15.006565"
+  },
+  "60160": {
+    "article_id": "60160",
+    "headline": "Corporate Hiring Shifts as Brands Prioritize Long-Term Creator Partnerships Over One-Off Campaigns",
+    "image_url": "https://images.unsplash.com/photo-1664277497095-424e085175e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxjb250ZW50JTIwY3JlYXRvciUyMG1hcmtldGluZyUyMHN0cmF0ZWd5fGVufDB8fHx8MTc5MDgwOTA4NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/michael-kaye/brands-keep-hiring-creators-for-reach-virgin-is-betting-100000-on-something-more-valuable/91413177",
+    "source_urls": [
+      "https://www.inc.com/michael-kaye/brands-keep-hiring-creators-for-reach-virgin-is-betting-100000-on-something-more-valuable/91413177"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4d8591e8f18d3f08fdbc6d8e0ed8342e13914d557576f54938118f9cc22712c7",
+    "category": "management",
+    "created_at": "2026-09-30T22:58:07.678482",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-29T22:58:07.678482"
+  },
+  "28296": {
+    "article_id": "28296",
+    "headline": "Barriers to Access: The Challenge of Delivering Precision Cancer Therapies",
+    "image_url": "https://images.unsplash.com/photo-1614935151651-0bea6508db6b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxvbmNvbG9neSUyMHByZWNpc2lvbiUyMG1lZGljaW5lJTIwcmVzZWFyY2h8ZW58MHx8fHwxNzkwODEwODA1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/30/science/new-cancer-drugs-are-revolutionary-why-dont-more-patients-get-them.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/30/science/new-cancer-drugs-are-revolutionary-why-dont-more-patients-get-them.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "563299a7a1d2dcf84b841c8804d71d1d61e41126f7881ee7ca6d3e1e8b074772",
+    "category": "news",
+    "created_at": "2026-09-30T23:26:47.403335",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-29T23:26:47.403335"
+  },
+  "286808": {
+    "article_id": "286808",
+    "headline": "The Digital Daredevil: Why We All Think We’d Actually Use That Thumbs Down Emoji",
+    "image_url": "https://images.unsplash.com/photo-1790749870874-5a826953c33c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8c21hcnRwaG9uZSUyMGdyb3VwJTIwY2hhdCUyMGxhdWdoaW5nfGVufDB8fHx8MTc5MDgxMjUwMHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://theonion.com/man-confident-he-wouldve-been-brave-enough-to-send-thumbs-down-emoji-in-cornell-group-chat/",
+    "source_urls": [
+      "https://theonion.com/man-confident-he-wouldve-been-brave-enough-to-send-thumbs-down-emoji-in-cornell-group-chat/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1d4df52f2d3a1613d0a11b63544687f7938c9d19b41b9be9b9d08ada428c17b8",
+    "category": "funny",
+    "created_at": "2026-09-30T23:55:02.824386",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-29T23:55:02.824386"
+  },
+  "81548": {
+    "article_id": "81548",
+    "headline": "Mulberry Compounds Show Potential to Reshape Gut Microbiome and Metabolic Health",
+    "image_url": "https://images.unsplash.com/photo-1660312435498-5c0ecfe3a3f9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8bXVsYmVycnklMjBmcnVpdCUyMGhlYWx0aCUyMGJlbmVmaXRzfGVufDB8fHx8MTc5MDgxNDE1Nnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260928100551.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260928100551.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fefb6c376965e469bce48177b70a93afc92b4d80441e140f31bfc4215f772571",
+    "category": "top-stories",
+    "created_at": "2026-10-01T00:22:41.804131",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T00:22:41.804131"
+  },
+  "26979": {
+    "article_id": "26979",
+    "headline": "John Galliano Brings Couture Sensibility to Zara Archive Collection",
+    "image_url": "https://images.unsplash.com/photo-1777723970348-da3f4995ae90?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxKb2huJTIwR2FsbGlhbm8lMjBaYXJhJTIwZmFzaGlvbiUyMGNvbGxlY3Rpb258ZW58MHx8fHwxNzkwODE1ODU2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.hollywoodreporter.com/lifestyle/shopping/john-galliano-zara-collection-oct-2026-buy-online-1236717639/",
+    "source_urls": [
+      "https://www.hollywoodreporter.com/lifestyle/shopping/john-galliano-zara-collection-oct-2026-buy-online-1236717639/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1329f563f779f76b33a354dcc5b13818e80674b3c4f0d86a2e7c9f3d6b40bf79",
+    "category": "style",
+    "created_at": "2026-10-01T00:50:58.213738",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T00:50:58.213738"
+  },
+  "236034": {
+    "article_id": "236034",
+    "headline": "Alaska LNG Project Emerges as Focal Point in U.S.-South Korea Investment Negotiations",
+    "image_url": "https://images.unsplash.com/photo-1627752633728-85ebd86dfe4a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8bmF0dXJhbCUyMGdhcyUyMHBpcGVsaW5lJTIwaW5mcmFzdHJ1Y3R1cmV8ZW58MHx8fHwxNzkwODE3NjIwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/30/business/economy/alaska-lng-south-korea-trump.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/30/business/economy/alaska-lng-south-korea-trump.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7c22bc0da7b15f5d9e6c3c26df74c343f993adbdaa360811efbb1d077abad48c",
+    "category": "franchise-news",
+    "created_at": "2026-10-01T01:20:22.794507",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T01:20:22.794507"
+  },
+  "109965": {
+    "article_id": "109965",
+    "headline": "Phillies Stave Off Elimination as White Sox Advance in 2026 MLB Postseason",
+    "image_url": "https://images.unsplash.com/photo-1617051965023-fa909df68286?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8TUxCJTIwcGxheW9mZiUyMGdhbWUlMjBhY3Rpb258ZW58MHx8fHwxNzkwODE5MzU2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/mlb/news/2026-mlb-playoff-bracket-schedule-scores-results-how-to-watch/",
+    "source_urls": [
+      "https://www.cbssports.com/mlb/news/2026-mlb-playoff-bracket-schedule-scores-results-how-to-watch/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7f66410a76da8382010b560a3bbbce4e7ebcaafd131a20d47b9ce9c08d564bac",
+    "category": "mlb",
+    "created_at": "2026-10-01T01:49:18.185794",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T01:49:18.185794"
+  },
+  "53935": {
+    "article_id": "53935",
+    "headline": "Medical Experts Warn of Potential Cognitive Risks in Rapid Weight Loss Trends",
+    "image_url": "https://images.unsplash.com/photo-1752652012780-8dfb4a5ff008?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8aGVhbHRoeSUyMHRlZW4lMjBudXRyaXRpb24lMjBhbmQlMjBicmFpbiUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc5MDgyMDk3OHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/rapid-weight-loss-popular-drugs-could-starve-brain-expert-warns",
+    "source_urls": [
+      "https://www.foxnews.com/health/rapid-weight-loss-popular-drugs-could-starve-brain-expert-warns"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "64b28a867f026974f68ed703eb804ba5ec6f4b9a4a8a4f61a986c9e030f1ef26",
+    "category": "teenHeath",
+    "created_at": "2026-10-01T02:16:21.400704",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-30T02:16:21.400704"
+  },
+  "64996": {
+    "article_id": "64996",
+    "headline": "Alaska LNG Project Emerges as Focal Point in U.S.-South Korea Trade Negotiations",
+    "image_url": "https://images.unsplash.com/photo-1553159925-02b2e24f471d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxsaXF1ZWZpZWQlMjBuYXR1cmFsJTIwZ2FzJTIwaW5mcmFzdHJ1Y3R1cmV8ZW58MHx8fHwxNzkwODIyNjgxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/30/business/economy/alaska-lng-south-korea-trump.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/30/business/economy/alaska-lng-south-korea-trump.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "72c7df9274298f718b808f47d8f3f93100a5a21e8722999548df81755ccb95ff",
+    "category": "business",
+    "created_at": "2026-10-01T02:44:43.262677",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T02:44:43.262677"
+  },
+  "62319": {
+    "article_id": "62319",
+    "headline": "Ancient Marine Reptile Fossil Reveals Rare Soft Tissue Preservation",
+    "image_url": "https://images.unsplash.com/photo-1782443951123-ae6e93b3fcf6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8bWFyaW5lJTIwcmVwdGlsZSUyMGZvc3NpbHxlbnwwfHx8fDE3OTA4MjQ0MTR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260927225036.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260927225036.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "38f6ab026991ab4688880bb7640af839e4625076d2bd1cc7e52d8cb98558e4c7",
+    "category": "nature",
+    "created_at": "2026-10-01T03:13:36.908000",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T03:13:36.908000"
+  },
+  "60122": {
+    "article_id": "60122",
+    "headline": "Patrick Radden Keefe and Andrea Wulf Lead 2026 Baillie Gifford Prize Shortlist",
+    "image_url": "https://images.pexels.com/photos/37590424/pexels-photo-37590424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/oct/01/baillie-gifford-prize-shortlist-patrick-radden-keefe-matthew-sweet-london-falling",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/oct/01/baillie-gifford-prize-shortlist-patrick-radden-keefe-matthew-sweet-london-falling"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7ca401038d5d615477301ca69931f499b529cee6c50960b4090ae5f47a5dac0f",
+    "category": "book-reviews",
+    "created_at": "2026-10-01T03:43:01.963175",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T03:43:01.963175"
+  }
+}

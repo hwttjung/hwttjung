@@ -1,0 +1,101 @@
+{
+  "60110#booksnreview": {
+    "article_id": "60110",
+    "site_id": "booksnreview",
+    "status": "published",
+    "published_at": "2026-09-08T15:33:31.189128",
+    "published_url": "https://cms.booksnreview.com/adm/article/edit?a_id=60110",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2026-12-07T15:33:31.189128"
+  },
+  "40357#autoworldnews": {
+    "article_id": "40357",
+    "site_id": "autoworldnews",
+    "status": "published",
+    "published_at": "2026-09-08T15:51:18.303385",
+    "published_url": "/articles/40357/20260908/volkswagen-tesla-and-byd-navigate-global-automotive-market-shifts.htm",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2026-12-07T15:51:18.303385"
+  },
+  "53923#youthhealthmag": {
+    "article_id": "53923",
+    "site_id": "youthhealthmag",
+    "status": "published",
+    "published_at": "2026-09-08T16:09:07.129332",
+    "published_url": "/articles/53923/20260908/new-genetic-research-links-personality-traits-to-teen-health-and-life-outcomes.htm",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2026-12-07T16:09:07.129332"
+  },
+  "109954#sportsworldreport": {
+    "article_id": "109954",
+    "site_id": "sportsworldreport",
+    "status": "published",
+    "published_at": "2026-09-08T16:26:33.319563",
+    "published_url": "/articles/109954/20260908/aston-villa-adjusts-starting-xi-for-champions-league-clash-against-club-brugge.htm",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2026-12-07T16:26:33.319563"
+  },
+  "28283#latinoshealth": {
+    "article_id": "28283",
+    "site_id": "latinoshealth",
+    "status": "published",
+    "published_at": "2026-09-08T16:44:38.410119",
+    "published_url": "/articles/28283/20260908/new-immune-signal-discovery-offers-hope-for-spinal-cord-regeneration.htm",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2026-12-07T16:44:38.410119"
+  },
+  "1725353#mobilenapps": {
+    "article_id": "1725353",
+    "site_id": "mobilenapps",
+    "status": "published",
+    "published_at": "2026-09-08T17:02:13.288789",
+    "published_url": "https://cms.mobilenapps.com/adm/article/edit?a_id=1725353",
+    "retry_count": 0,
+    "mode": "tailored",
+    "error": null,
+    "expires_at": "2026-12-07T17:02:13.288789"
+  },
+  "62303#scienceworldreport": {
+    "article_id": "62303",
+    "site_id": "scienceworldreport",
+    "status": "published",
+    "published_at": "2026-09-08T20:17:19.522261",
+    "published_url": "/articles/62303/20260908/dark-matter-mysteries-challenge-theoretical-limits-of-cosmic-intelligence.htm",
+    "retry_count": 0,
+    "mode": "trend",
+    "error": null,
+    "expires_at": "2026-12-07T20:17:19.522261"
+  },
+  "28284#latinoshealth": {
+    "article_id": "28284",
+    "site_id": "latinoshealth",
+    "status": "published",
+    "published_at": "2026-09-08T20:17:36.898272",
+    "published_url": "/articles/28284/20260908/quidditch-pong-adds-physical-activity-to-social-gatherings.htm",
+    "retry_count": 0,
+    "mode": "trend",
+    "error": null,
+    "expires_at": "2026-12-07T20:17:36.898272"
+  },
+  "40358#autoworldnews": {
+    "article_id": "40358",
+    "site_id": "autoworldnews",
+    "status": "published",
+    "published_at": "2026-09-08T20:17:54.536078",
+    "published_url": "/articles/40358/20260908/chevrolet-bolt-legacy-reshapes-modern-ev-manufacturing-standards.htm",
+    "retry_count": 0,
+    "mode": "trend",
+    "error": null,
+    "expires_at": "2026-12-07T20:17:54.536078"
+  }
+}

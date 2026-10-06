@@ -1276,3 +1276,17 @@
   - Crontab 정기 스케줄, 텔레그램 데몬, 15개 매체 설정, 필수 DB/캐시 데이터는 100% 온전하게 보존.
 - **검증 결과**:
   - 단위 테스트 17종 전수 100% PASS (Green).
+
+### [2026-10-06] Ingest API 매체 위키미디어 차단 회피 로직 적용
+- **수정 파일**: `core/media/image_searcher.py`
+- **수정 내용**: 
+  - `jobsnhire`, `franchiseherald`, `mobilenapps`, `parentherald`, `booksnreview`, `foodworldnews` 등 6개 Ingest API 전용 매체는 CMS 서버의 다운로드(User-Agent 차단) 이슈로 인해 1순위 위키미디어 검색을 원천적으로 스킵하고 2순위(Unsplash/Pexels)를 우선 사용하도록 우회(Bypass) 로직을 추가했습니다.
+  - 위키미디어 API가 반환하는 이미지 URL에 붙는 불필요한 트래킹 쿼리스트링(`?utm_source=...`)을 제거하여 URL 확장자 인식 오류를 사전 차단했습니다.
+- **수정 사유**: Ingest API 송출 방식의 한계(사용자 에이전트 변조 불가)로 인한 기사 이미지 누락 현상 수정 및 호환성 강화.
+
+### [2026-10-06] Unsplash 및 Pexels 후보군 통합 경쟁(Pool Merge) 로직 추가
+- **수정 파일**: `core/media/image_searcher.py`
+- **수정 내용**: 
+  - 기존에는 2순위 Unsplash 검색에서 결과가 1장이라도 있으면 3순위 Pexels를 무시하던 방식에서, Unsplash와 Pexels를 모두 호출하여 결과물(최대 10장)을 하나의 풀(Pool)로 병합하도록 수정했습니다.
+  - 병합된 후보군은 `random.shuffle()`을 통해 섞인 후 Gemini Gatekeeper에게 전달되어, API 출처에 상관없이 문맥에 가장 잘 어울리는 최고의 사진이 채택됩니다.
+- **수정 사유**: Pexels의 고품질 사진들의 활용도가 0%에 수렴하는 구조적 문제를 해결하고, 기사 이미지의 다양성을 대폭 향상시키기 위함입니다.

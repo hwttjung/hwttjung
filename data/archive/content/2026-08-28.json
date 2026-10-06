@@ -1,0 +1,631 @@
+{
+  "28248": {
+    "article_id": "28248",
+    "headline": "FDA Approves Once-Daily Oral Treatment for Advanced Pancreatic Cancer",
+    "image_url": "https://images.unsplash.com/photo-1707861107158-d171aaecbe9e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8cGFuY3JlYXRpYyUyMGNhbmNlciUyMHJlc2VhcmNofGVufDB8fHx8MTc4Nzc2MTQ3MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/fda-approves-once-daily-pill-deadly-cancer-patients-see-survival-nearly-double",
+    "source_urls": [
+      "https://www.foxnews.com/health/fda-approves-once-daily-pill-deadly-cancer-patients-see-survival-nearly-double"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d0e6d7daf27f6760be6b53c89ded16c67d3ec15f16adcfeb54a2d58cb1ae4f30",
+    "category": "news",
+    "created_at": "2026-08-27T15:04:17.973205",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T15:04:17.973205"
+  },
+  "286760": {
+    "article_id": "286760",
+    "headline": "10 Hidden Google Wallet Tricks That Make You Look Like a Tech Wizard",
+    "image_url": "https://images.unsplash.com/photo-1696695368125-fc0d809b4ab5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8c21hcnRwaG9uZSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzg3ODQ0MzgyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://lifehacker.com/tech/10-hacks-every-google-wallet-user-should-know?utm_medium=RSS",
+    "source_urls": [
+      "https://lifehacker.com/tech/10-hacks-every-google-wallet-user-should-know?utm_medium=RSS"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7f082e729024622f5d42cc7a7ca83e100d9f4e33af5e95b125bdad75f643144c",
+    "category": "cool",
+    "created_at": "2026-08-27T15:26:24.375534",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T15:26:24.375534"
+  },
+  "109915": {
+    "article_id": "109915",
+    "headline": "Rangers Face Tactical Test in European Clash Against FK Jablonec",
+    "image_url": "https://images.pexels.com/photos/29920213/pexels-photo-29920213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.skysports.com/football/fk-jablonec-vs-rangers/live/577512",
+    "source_urls": [
+      "https://www.skysports.com/football/fk-jablonec-vs-rangers/live/577512"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "eca5c537ca155e2579a139b919c056a05c120e0e7854729dae8f6a08960098bb",
+    "category": "soccer",
+    "created_at": "2026-08-27T16:09:02.580355",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T16:09:02.580355"
+  },
+  "53886": {
+    "article_id": "53886",
+    "headline": "Does Vitamin C Really Stop Colds? What Teens Should Know",
+    "image_url": "https://images.unsplash.com/photo-1479685844957-9392f8e60b06?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8dGVlbmFnZXIlMjBoZWFsdGh5JTIwZWF0aW5nJTIwdml0YW1pbiUyMGN8ZW58MHx8fHwxNzg3ODQ4MjA0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260827010507.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260827010507.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f081529175c22d7da6807712f2770f701cd9165cf0dea231117b6ee32fa77baf",
+    "category": "teenHeath",
+    "created_at": "2026-08-27T16:30:06.349725",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T16:30:06.349725"
+  },
+  "235986": {
+    "article_id": "235986",
+    "headline": "SSENSE Shifts Operations to U.S. Amid Evolving Tariff Landscape",
+    "image_url": "https://images.unsplash.com/photo-1494412685616-a5d310fbb07d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8Z2xvYmFsJTIwc3VwcGx5JTIwY2hhaW4lMjBsb2dpc3RpY3N8ZW58MHx8fHwxNzg3ODQ5NDc5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/27/business/ssense-canada-tariffs-trump.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/27/business/ssense-canada-tariffs-trump.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c0bc167bc078791097b6edde4131fbf5515d4ac3b8d1e8d98a16196e5c395bd9",
+    "category": "biz-tech",
+    "created_at": "2026-08-27T16:51:22.025955",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "RELATED",
+    "expires_at": "2026-11-25T16:51:22.025955"
+  },
+  "60113": {
+    "article_id": "60113",
+    "headline": "The Internal Locus of Control: A Predictor of Career Longevity and Leadership Success",
+    "image_url": "https://images.unsplash.com/photo-1775567291821-a0edcff11b72?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8cHJvZmVzc2lvbmFsJTIwbGVhZGVyc2hpcCUyMHRyYWluaW5nfGVufDB8fHx8MTc4Nzg1MjAwMHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.economist.com/business/2026/08/27/the-quality-you-should-most-wish-for-your-children",
+    "source_urls": [
+      "https://www.economist.com/business/2026/08/27/the-quality-you-should-most-wish-for-your-children"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "61f9d0326e125a53a0707594e7be1757d495e40d189b4cb442bf2998450a206f",
+    "category": "leadership",
+    "created_at": "2026-08-27T17:33:22.430151",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-25T17:33:22.430151"
+  },
+  "60072": {
+    "article_id": "60072",
+    "headline": "Elizabeth Strout Explores Existential Dread in The Things We Never Say",
+    "image_url": "https://images.pexels.com/photos/3847614/pexels-photo-3847614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/aug/27/the-things-we-never-say-elizabeth-strout-audiobook-review-no-man-is-an-island",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/aug/27/the-things-we-never-say-elizabeth-strout-audiobook-review-no-man-is-an-island"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3274f6f24cfdb8b36b85e46ae2f4101cfcd351910e68448688defe39c9b16569",
+    "category": "book-reviews",
+    "created_at": "2026-08-27T17:54:52.475857",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T17:54:52.475857"
+  },
+  "81529": {
+    "article_id": "81529",
+    "headline": "Corporate Influence and the Integrity of Global Dietary Guidelines",
+    "image_url": "https://images.unsplash.com/photo-1526127230111-0197afe94d72?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8bnV0cml0aW9uJTIwc2NpZW5jZSUyMHBvbGljeXxlbnwwfHx8fDE3ODc4NTQ2MTB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://nutritionfacts.org/blog/the-corporate-playbook-behind-undermining-dietary-guidelines/",
+    "source_urls": [
+      "https://nutritionfacts.org/blog/the-corporate-playbook-behind-undermining-dietary-guidelines/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5499c6191dee42ba4a336bd643fabdeab2b852f92f2dd62b2bda6d823c977b58",
+    "category": "top-stories",
+    "created_at": "2026-08-27T18:16:52.854130",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-25T18:16:52.854130"
+  },
+  "62262": {
+    "article_id": "62262",
+    "headline": "NASA’s Roman Space Telescope Prepared for Mission to Map Dark Energy and Alien Worlds",
+    "image_url": "https://images.pexels.com/photos/32661632/pexels-photo-32661632.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260826055448.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260826055448.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e1a6c7b25a79c27cdde3746a823bacfef5241f20bad46b9997771d2557a71a53",
+    "category": "space-the-future",
+    "created_at": "2026-08-27T18:39:08.530594",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T18:39:08.530594"
+  },
+  "62263": {
+    "article_id": "62263",
+    "headline": "ATTR-CM Therapy Access Faces New Regulatory Hurdles in 2026",
+    "image_url": "https://images.unsplash.com/photo-1766297247924-6638d54e7c89?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8bWVkaWNhbCUyMHJlc2VhcmNoJTIwbGFib3JhdG9yeXxlbnwwfHx8fDE3ODc4NjEyMzV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/62255/20260826/attr-cm-treatment-landscape-evolves-amid-regulatory-scrutiny.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/62255/20260826/attr-cm-treatment-landscape-evolves-amid-regulatory-scrutiny.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6e0b2bd805712b765a038233e6786e09170b8a23c8d2bdc2b9543b5963360c33",
+    "category": "health-medicine",
+    "created_at": "2026-08-27T20:07:17.628730",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T20:07:17.628730"
+  },
+  "28249": {
+    "article_id": "28249",
+    "headline": "Digoxin Resurgence Redefines Affordable Heart Failure Care",
+    "image_url": "https://images.unsplash.com/photo-1623134915831-9dcb66cf9a8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxoZWFydCUyMGZhaWx1cmUlMjB0cmVhdG1lbnR8ZW58MHx8fHwxNzg3ODYxMjUzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/28223/20260818/low-cost-digoxin-shows-potential-to-reduce-heart-failure-hospitalizations-by-25.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/28223/20260818/low-cost-digoxin-shows-potential-to-reduce-heart-failure-hospitalizations-by-25.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7a047a8e625b5965d7ca52398575085b44d595b8d68071a2d720e0b13168d433",
+    "category": "science-news",
+    "created_at": "2026-08-27T20:07:35.440317",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T20:07:35.440317"
+  },
+  "40318": {
+    "article_id": "40318",
+    "headline": "Lotus Confirms V6 and Hybrid V8 Powertrains for Upcoming Type 135 Supercar",
+    "image_url": "https://images.unsplash.com/photo-1721908330583-312856d98b4e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8TG90dXMlMjBUeXBlJTIwMTM1JTIwc3VwZXJjYXJ8ZW58MHx8fHwxNzg3ODYxMjcyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/new-cars/new-2028-lotus-esprit-offer-v6-addition-hybrid-v8",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/new-cars/new-2028-lotus-esprit-offer-v6-addition-hybrid-v8"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "12cac0c1b98919a5ddd40a9b7d08ad32b7a2b942adcb454952e9717e05b7751d",
+    "category": "tech-biz",
+    "created_at": "2026-08-27T20:07:55.304045",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T20:07:55.304045"
+  },
+  "53887": {
+    "article_id": "53887",
+    "headline": "Pitch Health Solutions Expands Career Paths for Young Healthcare Professionals",
+    "image_url": "https://images.unsplash.com/photo-1516841273335-e39b37888115?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxoZWFsdGhjYXJlJTIwY2FyZWVyJTIwZGV2ZWxvcG1lbnR8ZW58MHx8fHwxNzg3ODYxMjg5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://youthhealthmag.com/articles/53814/20260717/why-boris-shvarts-built-pitch-health-solutions-around-medicare-guidance-and-career-opportunity.htm",
+    "source_urls": [
+      "https://youthhealthmag.com/articles/53814/20260717/why-boris-shvarts-built-pitch-health-solutions-around-medicare-guidance-and-career-opportunity.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d7c021b96211ce75b6f2dbc435c229d30d6a11d96624fda1dc2f8b63e1a907ed",
+    "category": "teenHeath",
+    "created_at": "2026-08-27T20:08:10.708485",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T20:08:10.708485"
+  },
+  "64959": {
+    "article_id": "64959",
+    "headline": "Yaelokre Expands Digital Storytelling Ecosystem Through Community Engagement",
+    "image_url": "https://images.unsplash.com/photo-1515253564590-b7ec416b06be?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxkaWdpdGFsJTIwc3Rvcnl0ZWxsaW5nJTIwYW5pbWF0aW9ufGVufDB8fHx8MTc4Nzg2MTMwNnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/64851/20240806/what-yaelokre-why-sansational.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/64851/20240806/what-yaelokre-why-sansational.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3f3e4541b77ed326ed4067975cf11fa22d3a8cc010c7a7a3cd5bd53c7dbf7c79",
+    "category": "entertainment",
+    "created_at": "2026-08-27T20:08:28.456910",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T20:08:28.456910"
+  },
+  "286761": {
+    "article_id": "286761",
+    "headline": "J.P. Morgan: From 19th Century Tycoon to Modern Financial Meme",
+    "image_url": "https://images.pexels.com/photos/4451740/pexels-photo-4451740.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://boomsbeat.com/articles/283716/20171003/25-amazing-things-you-didnt-know-about-j-p-morgan.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/283716/20171003/25-amazing-things-you-didnt-know-about-j-p-morgan.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a28cc8678fdc19dfde00670bf6e9614fabc3a892e2f636aaa7df18e5a165507b",
+    "category": "trending-news",
+    "created_at": "2026-08-27T20:09:00.615571",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T20:09:00.615571"
+  },
+  "109916": {
+    "article_id": "109916",
+    "headline": "Kevin Durant: From Individual Scoring Prowess to Modern NBA Legacy",
+    "image_url": "https://images.unsplash.com/photo-1762025816715-7c5a7710abe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8S2V2aW4lMjBEdXJhbnQlMjBOQkElMjBjYXJlZXIlMjBldm9sdXRpb258ZW58MHx8fHwxNzg3ODYxMzU3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/15338/20130517/nba-playoffs-2013-kevin-durant-proves-score-lebron-james-dominant.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/15338/20130517/nba-playoffs-2013-kevin-durant-proves-score-lebron-james-dominant.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3119a111bbc1f88838133eeac9b248c4ebc3c1560e226d0e2b6fdbedbb43eb77",
+    "category": "nba",
+    "created_at": "2026-08-27T20:09:19.316392",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-25T20:09:19.316392"
+  },
+  "60114": {
+    "article_id": "60114",
+    "headline": "Canadian Universities Aggressively Recruit U.S.-Based Academic Talent",
+    "image_url": "https://images.unsplash.com/photo-1733286128585-4a7054a4bf5e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8dW5pdmVyc2l0eSUyMHJlc2VhcmNoJTIwZmFjdWx0eSUyMHJlY3J1aXRtZW50fGVufDB8fHx8MTc4Nzg2MTM3Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.ft.com/content/8cc488a5-54c2-41f9-8b87-327ff591be6a?syn-25a6b1a6=1",
+    "source_urls": [
+      "https://www.ft.com/content/8cc488a5-54c2-41f9-8b87-327ff591be6a?syn-25a6b1a6=1"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "dd4d51bd4fdbc55393308f440bce4af1e94a537a1e32cdcc23d4a0e54807886d",
+    "category": "education",
+    "created_at": "2026-08-27T20:09:35.317900",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T20:09:35.317900"
+  },
+  "235987": {
+    "article_id": "235987",
+    "headline": "Nvidia Eyes $13 Billion Acquisition of Hugging Face to Bolster AI Infrastructure",
+    "image_url": "https://images.unsplash.com/photo-1781313168046-e6e0885cc705?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxOdmlkaWElMjBBSSUyMHNlbWljb25kdWN0b3IlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc4Nzg2MTM4N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/kit-eaton/nvidias-next-massive-ai-move-involves-a-13-billion-acquisition-and-a-dancing-robot-duck/91397333",
+    "source_urls": [
+      "https://www.inc.com/kit-eaton/nvidias-next-massive-ai-move-involves-a-13-billion-acquisition-and-a-dancing-robot-duck/91397333"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8d2854fe1b0f5569f8903aa3e783dd8c70e2fbdea715e03709b71d32873ffaf4",
+    "category": "franchise-news",
+    "created_at": "2026-08-27T20:09:50.519568",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T20:09:50.519568"
+  },
+  "1725323": {
+    "article_id": "1725323",
+    "headline": "Oppo vs Vivo: How AI Imaging Engines Are Redefining Mobile Photography in 2026",
+    "image_url": "https://images.unsplash.com/photo-1645782054550-f7ee24753e34?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8c21hcnRwaG9uZSUyMGNhbWVyYSUyMHRlY2hub2xvZ3klMjAyMDI2fGVufDB8fHx8MTc4Nzg2MTQxMXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mobilenapps.com/articles/1725281/20260519/oppo-vs-vivo-camera-software-advanced-features-photography-tips-your-android-photos.htm",
+    "source_urls": [
+      "https://mobilenapps.com/articles/1725281/20260519/oppo-vs-vivo-camera-software-advanced-features-photography-tips-your-android-photos.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "608e2697c6adf2e306d44820ac8949b3cf44c48f8e2d9d945b7c75009c7f7f26",
+    "category": "mobile",
+    "created_at": "2026-08-27T20:10:13.782788",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T20:10:13.782788"
+  },
+  "60073": {
+    "article_id": "60073",
+    "headline": "Claudia Rankine Redefines the Ethics of Witnessing in Triage",
+    "image_url": "https://images.unsplash.com/photo-1767076145940-1d5a96e51828?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8Q2xhdWRpYSUyMFJhbmtpbmUlMjBhdXRob3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3ODc4NjE0NDF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://booksnreview.com/articles/60071/20260827/claudia-rankine-explores-ethics-witnessing-new-work-triage.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/60071/20260827/claudia-rankine-explores-ethics-witnessing-new-work-triage.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7199990b31fc5cbd6015d703b3af31d4fa77512e440eb423177e0002f62098ae",
+    "category": "poetry",
+    "created_at": "2026-08-27T20:10:44.634629",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T20:10:44.634629"
+  },
+  "81530": {
+    "article_id": "81530",
+    "headline": "Ancient Evolutionary Patterns Reveal Why Insect Consumption Remains a Culinary Challenge",
+    "image_url": "https://images.unsplash.com/photo-1653723360014-8859ed15b76f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxhbmNpZW50JTIwaHVtYW4lMjBkaWV0JTIwcmVzZWFyY2h8ZW58MHx8fHwxNzg3ODYxNDY0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260827010516.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260827010516.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "74f8e94ab2fb15233704098c90d5bc882fc8185a803e7d5d46e3d4c333878bcd",
+    "category": "safety",
+    "created_at": "2026-08-27T20:11:06.320756",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T20:11:06.320756"
+  },
+  "235988": {
+    "article_id": "235988",
+    "headline": "KPMG Strategy Shift Highlights Long-Term Risks of AI in Workforce Development",
+    "image_url": "https://images.unsplash.com/photo-1781643565663-d83b49b45da6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGNvcnBvcmF0ZSUyMHN0cmF0ZWd5fGVufDB8fHx8MTc4Nzg3Mzc1M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/scott-hutcheson/kpmgs-investment-in-interns-reveals-an-ai-problem-companies-cant-ignore/91395960",
+    "source_urls": [
+      "https://www.inc.com/scott-hutcheson/kpmgs-investment-in-interns-reveals-an-ai-problem-companies-cant-ignore/91395960"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f7a61323ce3c109f214e5121b573d9db53ed119b266c18abd67bf80c92eed41d",
+    "category": "biz-tech",
+    "created_at": "2026-08-27T23:35:56.171496",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-25T23:35:56.171496"
+  },
+  "60074": {
+    "article_id": "60074",
+    "headline": "A Life of High-Tensile Steel: New Biography Examines the Prolific World of Barbara Cartland",
+    "image_url": "https://images.pexels.com/photos/16330495/pexels-photo-16330495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/aug/25/the-great-dictator-by-matthew-sweet-review-the-life-of-barbara-cartland",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/aug/25/the-great-dictator-by-matthew-sweet-review-the-life-of-barbara-cartland"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "187fb521fbdb5c9b9a5a391d4be1dfc20daacfe7ab9f3ae4c9332da6ef63755f",
+    "category": "biography-memoir",
+    "created_at": "2026-08-28T00:05:20.136573",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T00:05:20.136573"
+  },
+  "40319": {
+    "article_id": "40319",
+    "headline": "Lepas L6 Enters UK Electric SUV Market to Challenge Segment Leaders",
+    "image_url": "https://images.pexels.com/photos/33233681/pexels-photo-33233681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.autocar.co.uk/car-news/electric-cars/lepas-l6-coming-uk-214bhp-279-mile-vw-id-4-rival",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/electric-cars/lepas-l6-coming-uk-214bhp-279-mile-vw-id-4-rival"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "796d5237fd7d55430ddf3e23a40f4211489715d85458b7a7be5116fdfc762717",
+    "category": "green-cars",
+    "created_at": "2026-08-28T01:01:42.763002",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T01:01:42.763002"
+  },
+  "1725324": {
+    "article_id": "1725324",
+    "headline": "OpenAI Security Test Reveals Vulnerability in AI Agent Collaboration",
+    "image_url": "https://images.unsplash.com/photo-1718241905916-1f9786324de9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHNlY3VyaXR5fGVufDB8fHx8MTc4Nzg4MDY0M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2eb8f5a022d2cf583dd7acdbe48caac6acc8b4933b445242fc61d593df0324f3",
+    "category": "security",
+    "created_at": "2026-08-28T01:30:45.379766",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T01:30:45.379766"
+  },
+  "64960": {
+    "article_id": "64960",
+    "headline": "Meta Settlement Analysis: Financial Impact and Competitive Shifts",
+    "image_url": "https://images.pexels.com/photos/12449550/pexels-photo-12449550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nytimes.com/2026/08/27/business/dealbook/meta-settlement-teens.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/27/business/dealbook/meta-settlement-teens.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b68d769706365f27d79b08c1e2b24257d851eba579c9fa1ed97440b8cf0600cb",
+    "category": "business",
+    "created_at": "2026-08-28T02:01:02.263602",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-26T02:01:02.263602"
+  },
+  "28250": {
+    "article_id": "28250",
+    "headline": "FDA Approves New Targeted Therapy for Pancreatic Cancer Patients",
+    "image_url": "https://images.unsplash.com/photo-1692606866330-3910cad7ffaf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8cGFuY3JlYXRpYyUyMGNhbmNlciUyMHJlc2VhcmNofGVufDB8fHx8MTc4Nzg4NDIzMnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/27/science/pancreatic-cancer-drug-fda-testing.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/27/science/pancreatic-cancer-drug-fda-testing.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1854a1458cf9d46d5bcc7bc0b7447b86955293f914b320ca0f63f5f58574527f",
+    "category": "news",
+    "created_at": "2026-08-28T02:30:34.797429",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T02:30:34.797429"
+  },
+  "109917": {
+    "article_id": "109917",
+    "headline": "PSG Faces Daunting Champions League Title Defense with Barcelona and Manchester City Fixtures",
+    "image_url": "https://images.unsplash.com/photo-1590701722870-b933c0dfd2f1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8UFNHJTIwQ2hhbXBpb25zJTIwTGVhZ3VlJTIwbWF0Y2h8ZW58MHx8fHwxNzg3ODg1OTYyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/sports/psg-start-champions-league-title-defense-against-barcelona-man-city",
+    "source_urls": [
+      "https://www.foxnews.com/sports/psg-start-champions-league-title-defense-against-barcelona-man-city"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1aedaad7013b77c3c9f867a58c9cf00ad3f1e7408dd268699eb6a973cec6941a",
+    "category": "soccer",
+    "created_at": "2026-08-28T02:59:24.202961",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T02:59:24.202961"
+  },
+  "53888": {
+    "article_id": "53888",
+    "headline": "Three Hidden Factors That May Accelerate Cellular Aging in Young Adults",
+    "image_url": "https://images.unsplash.com/photo-1486591038957-19e7c73bdc41?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8dGVlbmFnZXIlMjBoZWFsdGh5JTIwbGlmZXN0eWxlJTIwaGFiaXRzfGVufDB8fHx8MTc4Nzg4NzY5OXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/3-common-factors-secretly-speeding-aging-process-expert-says",
+    "source_urls": [
+      "https://www.foxnews.com/health/3-common-factors-secretly-speeding-aging-process-expert-says"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c47537cc4e8bcf436e48a82fa8556760d05504493928ae5362e51677d1640076",
+    "category": "healthyHabits",
+    "created_at": "2026-08-28T03:28:22.068659",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-26T03:28:22.068659"
+  },
+  "286762": {
+    "article_id": "286762",
+    "headline": "Google Engineer’s 'Just Gambling' Defense in Polymarket Insider Trading Case",
+    "image_url": "https://images.pexels.com/photos/34817107/pexels-photo-34817107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.wired.com/story/google-engineer-accused-of-polymarket-insider-trading-says-he-was-just-gambling/",
+    "source_urls": [
+      "https://www.wired.com/story/google-engineer-accused-of-polymarket-insider-trading-says-he-was-just-gambling/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a5ef9559a00e9a9e9b2e36a591a83275fa1464461c5320f9d2bd9e6a95d9b532",
+    "category": "funny",
+    "created_at": "2026-08-28T03:57:52.642152",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T03:57:52.642152"
+  },
+  "62264": {
+    "article_id": "62264",
+    "headline": "Turkey to Join Artemis Accords as 71st Signatory for Lunar Exploration",
+    "image_url": "https://images.unsplash.com/photo-1777047023579-5007a6d402bc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxBcnRlbWlzJTIwQWNjb3JkcyUyMGx1bmFyJTIwZXhwbG9yYXRpb258ZW58MHx8fHwxNzg3ODkxMjA4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nasa.gov/news-release/nasa-invites-media-to-turkey-artemis-accords-signing-ceremony/",
+    "source_urls": [
+      "https://www.nasa.gov/news-release/nasa-invites-media-to-turkey-artemis-accords-signing-ceremony/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "543416961ad535e6425786d2dd3509097ee54e176a773eab7e94d37ff0e85abf",
+    "category": "space-the-future",
+    "created_at": "2026-08-28T04:26:49.973411",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T04:26:49.973411"
+  },
+  "81531": {
+    "article_id": "81531",
+    "headline": "Intermittent Fasting Linked to Potential Chronic Pain Relief Through Gut Microbiome Changes",
+    "image_url": "https://images.unsplash.com/photo-1740987769844-24d2103fd191?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxpbnRlcm1pdHRlbnQlMjBmYXN0aW5nJTIwaGVhbHRoJTIwYmVuZWZpdHN8ZW58MHx8fHwxNzg3ODkyOTg5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/popular-weight-loss-strategy-shows-surprising-potential-chronic-pain-relief",
+    "source_urls": [
+      "https://www.foxnews.com/health/popular-weight-loss-strategy-shows-surprising-potential-chronic-pain-relief"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0cd7783c3cb2b9eaccf930935b4a336fa4523e11adcd5c692ac04b95565c7a53",
+    "category": "tips",
+    "created_at": "2026-08-28T04:56:31.992025",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T04:56:31.992025"
+  },
+  "81532": {
+    "article_id": "81532",
+    "headline": "Study Finds Fungal Toxins Present in Plant-Based Meat Alternatives",
+    "image_url": "https://images.unsplash.com/photo-1690983325970-185c8a6c0ba6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8cGxhbnQtYmFzZWQlMjBtZWF0JTIwYW5hbHlzaXN8ZW58MHx8fHwxNzg3OTIyMzc4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260828005216.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260828005216.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "78abb00e55a7a3407c9d5bcc72a69c520330b47fbad7c11858f33fd6baa41e7c",
+    "category": "safety",
+    "created_at": "2026-08-28T13:06:21.596593",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T13:06:21.596593"
+  },
+  "28251": {
+    "article_id": "28251",
+    "headline": "New Brain Protein Research Reveals Potential Targets for Autism Therapies",
+    "image_url": "https://images.unsplash.com/photo-1737505599159-5ffc1dcbc08f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8YnJhaW4lMjBzY2llbmNlJTIwcmVzZWFyY2h8ZW58MHx8fHwxNzg3OTIzNjkwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/27/science/autism-treatments.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/27/science/autism-treatments.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b1257adc46beea55c33c2c71a971514bf6edf7e7ddad63e0f7623e583fca1144",
+    "category": "science-news",
+    "created_at": "2026-08-28T13:28:12.346723",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T13:28:12.346723"
+  },
+  "60075": {
+    "article_id": "60075",
+    "headline": "Emmanuel Carrère Unveils Intricate Family History in New Memoir Kolkhoz",
+    "image_url": "https://images.pexels.com/photos/8297657/pexels-photo-8297657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/aug/27/kolkhoz-by-emmanuel-carrere-review-intricate-portrait-of-an-elite-french-family",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/aug/27/kolkhoz-by-emmanuel-carrere-review-intricate-portrait-of-an-elite-french-family"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "03969fd7d9ea7a49958967c5dab1b8a6b6e8a904e0df8456d001ad022e24abd5",
+    "category": "book-reviews",
+    "created_at": "2026-08-28T13:50:26.024146",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T13:50:26.024146"
+  },
+  "1725325": {
+    "article_id": "1725325",
+    "headline": "Bridging the Gap: Modern Methods for Android and iOS File Transfers",
+    "image_url": "https://images.unsplash.com/photo-1726607424598-139ff3391ce8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8bW9iaWxlJTIwZmlsZSUyMHRyYW5zZmVyJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3ODc5MjYzMjh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/how-to-share-anything-between-android-and-ios/",
+    "source_urls": [
+      "https://www.wired.com/story/how-to-share-anything-between-android-and-ios/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0f419191f6b1c4a3688b6c5cee28057dc799f0446595ded389dd517827a04e10",
+    "category": "mobile",
+    "created_at": "2026-08-28T14:12:10.460944",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T14:12:10.460944"
+  },
+  "62265": {
+    "article_id": "62265",
+    "headline": "NASA Prepares for Launch of Nancy Grace Roman Space Telescope",
+    "image_url": "https://images.pexels.com/photos/2034892/pexels-photo-2034892.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.newscientist.com/article/2586796-nasas-huge-nancy-grace-roman-space-telescope-is-about-to-launch/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+    "source_urls": [
+      "https://www.newscientist.com/article/2586796-nasas-huge-nancy-grace-roman-space-telescope-is-about-to-launch/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1da6f7c95f6dba5206ea0fc228aea27bc50943dc4ff997e3cfff4863d69b5c4c",
+    "category": "physics",
+    "created_at": "2026-08-28T14:55:23.056028",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-26T14:55:23.056028"
+  }
+}

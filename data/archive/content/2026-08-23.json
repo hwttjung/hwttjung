@@ -1,0 +1,699 @@
+{
+  "62248": {
+    "article_id": "62248",
+    "headline": "Amazon Data Center Energy Demands Challenge Corporate Net-Zero Goals",
+    "image_url": "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8ZGF0YSUyMGNlbnRlciUyMGVuZXJneSUyMGNvbnN1bXB0aW9ufGVufDB8fHx8MTc4NzQzMTIxOHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/62210/20260809/amazon-s-texas-data-center-project-sparks-concerns-over-emissions-and-climate-pledges.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/62210/20260809/amazon-s-texas-data-center-project-sparks-concerns-over-emissions-and-climate-pledges.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9211987c346f686e2b15b14e7f38be2dab95c132810c23b85c9ab8c647dc589a",
+    "category": "energy-particles",
+    "created_at": "2026-08-22T20:40:20.297074",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T20:40:20.297074"
+  },
+  "28234": {
+    "article_id": "28234",
+    "headline": "Hayden Panettiere Legacy: How Postpartum Mental Health Awareness Has Evolved",
+    "image_url": "https://images.unsplash.com/photo-1508943050604-605048ae62c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxwb3N0cGFydHVtJTIwbWVudGFsJTIwaGVhbHRoJTIwYXdhcmVuZXNzfGVufDB8fHx8MTc4NzQzMTIzOXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/13192/20151203/hayden-panettiere-40-lb-weight-loss-tips-tricks-nashville-actress.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/13192/20151203/hayden-panettiere-40-lb-weight-loss-tips-tricks-nashville-actress.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0363803fc5eff0d312ade4ca92be15b864232042bbe1da5d38a05eb6a62d63ac",
+    "category": "news",
+    "created_at": "2026-08-22T20:40:40.617969",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T20:40:40.617969"
+  },
+  "40303": {
+    "article_id": "40303",
+    "headline": "BMW Neue Klasse Architecture Redefines Electric Performance Standards",
+    "image_url": "https://images.unsplash.com/photo-1651176124429-d085ddfcb0a9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxCTVclMjBOZXVlJTIwS2xhc3NlJTIwZWxlY3RyaWMlMjB2ZWhpY2xlfGVufDB8fHx8MTc4NzQzMTI1OHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/40288/20260816/bmw-m-concept-neue-klasse-makes-north-american-debut-in-monterey.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/40288/20260816/bmw-m-concept-neue-klasse-makes-north-american-debut-in-monterey.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d3f11b97d0f363436c40e278388743c228198b6a23907bb98ff657e819a0ef51",
+    "category": "auto-news",
+    "created_at": "2026-08-22T20:41:00.547339",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T20:41:00.547339"
+  },
+  "53873": {
+    "article_id": "53873",
+    "headline": "Kendra Sunderland Incident: Lessons on Digital Footprints and Student Privacy",
+    "image_url": "https://images.unsplash.com/photo-1568585219057-9206080e6c74?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8ZGlnaXRhbCUyMGxpdGVyYWN5JTIwZm9yJTIwc3R1ZGVudHN8ZW58MHx8fHwxNzg3NDMxMjgwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://youthhealthmag.com/articles/8487/20150130/kendra-sunderland-video.htm",
+    "source_urls": [
+      "https://youthhealthmag.com/articles/8487/20150130/kendra-sunderland-video.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3b360f06af63521a21d213367acaad16e2e2c43ca5b7c48468913d411d4e407e",
+    "category": "mentalHealth",
+    "created_at": "2026-08-22T20:41:22.681356",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T20:41:22.681356"
+  },
+  "64944": {
+    "article_id": "64944",
+    "headline": "Gold Metacrystal Breakthrough Accelerates Quantum Chip Commercialization",
+    "image_url": "https://images.unsplash.com/photo-1587845323226-bad89242c735?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8cXVhbnR1bSUyMGNvbXB1dGluZyUyMGhhcmR3YXJlfGVufDB8fHx8MTc4NzQzMTMwN3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/64922/20260811/room-temperature-gold-metacrystal-breakthrough-promises-scalable-quantum-computing.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/64922/20260811/room-temperature-gold-metacrystal-breakthrough-promises-scalable-quantum-computing.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e7ac0941a1341056f964969abff20f06029619bea9baa343ea6a2e576f036616",
+    "category": "tech",
+    "created_at": "2026-08-22T20:41:49.662659",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T20:41:49.662659"
+  },
+  "26927": {
+    "article_id": "26927",
+    "headline": "Madam Secretary Legacy Redefines Modern Political Drama Tropes",
+    "image_url": "https://images.unsplash.com/photo-1581900016383-f61908cbc6a8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8TWFkYW0lMjBTZWNyZXRhcnklMjBUViUyMHNob3clMjBjYXN0fGVufDB8fHx8MTc4NzQzMTMyN3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://celebeat.com/articles/25448/20170508/madam-secretary-season-3-episode-22-spoilers-henry-is-in-extreme-danger.htm",
+    "source_urls": [
+      "https://celebeat.com/articles/25448/20170508/madam-secretary-season-3-episode-22-spoilers-henry-is-in-extreme-danger.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b174f1bb79179ef7d63df931d909353a450c979d2770fe2698254e449c89ad1c",
+    "category": "news",
+    "created_at": "2026-08-22T20:42:09.571459",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T20:42:09.571459"
+  },
+  "286746": {
+    "article_id": "286746",
+    "headline": "Victoria Beckham Evolves from Posh Spice to Global Fashion Titan",
+    "image_url": "https://images.pexels.com/photos/30341566/pexels-photo-30341566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://boomsbeat.com/articles/13539/20141218/50-interesting-facts-about-victoria-beckham-got-the-name-posh-spice-because-her-father-drove-a-rolls-roy",
+    "source_urls": [
+      "https://boomsbeat.com/articles/13539/20141218/50-interesting-facts-about-victoria-beckham-got-the-name-posh-spice-because-her-father-drove-a-rolls-roy"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2be9cd006e2d07909c46e5f2b015443f1c68e96efe964e2aab08a10c47ba5846",
+    "category": "people",
+    "created_at": "2026-08-22T20:42:29.691610",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T20:42:29.691610"
+  },
+  "109901": {
+    "article_id": "109901",
+    "headline": "LIV Golf Strategic Pivot Reshapes Professional Golf Landscape",
+    "image_url": "https://images.unsplash.com/photo-1632244112951-95b29c92eee1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8cHJvZmVzc2lvbmFsJTIwZ29sZiUyMHRvdXJuYW1lbnR8ZW58MHx8fHwxNzg3NDMxMzY4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/109892/20260819/liv-golf-cancels-final-event-as-league-signals-strategic-shift.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/109892/20260819/liv-golf-cancels-final-event-as-league-signals-strategic-shift.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d37f94b9f9675e15cfb5cceffe8fe259611599bb12dd6ebe796b791f3d8b71b6",
+    "category": "world-golf",
+    "created_at": "2026-08-22T20:42:50.601189",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T20:42:50.601189"
+  },
+  "60056": {
+    "article_id": "60056",
+    "headline": "The Growing Barrier: Navigating Prison Book Censorship in 2026",
+    "image_url": "https://images.pexels.com/photos/17082098/pexels-photo-17082098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://bookriot.com/navigating-prison-censorship-from-the-outside/",
+    "source_urls": [
+      "https://bookriot.com/navigating-prison-censorship-from-the-outside/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ac179721f2901bdd02bf6fdc8fc1de18bd813495c0e3cb11e38d3ca56f13d5e1",
+    "category": "book-news",
+    "created_at": "2026-08-22T20:59:30.939207",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T20:59:30.939207"
+  },
+  "237205": {
+    "article_id": "237205",
+    "headline": "Decoding Back-to-School Meltdowns: A Neuroscience Perspective for Parents",
+    "image_url": "https://images.unsplash.com/photo-1585909081220-7d47155b31ba?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxjaGlsZCUyMGhhdmluZyUyMGElMjBtZWx0ZG93biUyMGF0JTIwaG9tZXxlbnwwfHx8fDE3ODc0MzI3NzJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/health-wellness/childrens-health/back-to-school-meltdowns/",
+    "source_urls": [
+      "https://mother.ly/health-wellness/childrens-health/back-to-school-meltdowns/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "41c61420abdaa4de22f9e56500db0eb581c4658c0d4696d4ad2fd16a39232fb9",
+    "category": "parenting",
+    "created_at": "2026-08-22T21:06:15.168023",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-20T21:06:15.168023"
+  },
+  "64945": {
+    "article_id": "64945",
+    "headline": "Paramount and California Initiate Talks to Resolve Warner Bros. Merger Lawsuit",
+    "image_url": "https://images.pexels.com/photos/27079139/pexels-photo-27079139.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nytimes.com/2026/08/22/business/paramount-california-warner-bros.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/22/business/paramount-california-warner-bros.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "77ef5f4102e06442bf4a1874ab0092b06f34ccf93a4354a072fe56058693e743",
+    "category": "business",
+    "created_at": "2026-08-22T21:06:35.597664",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2026-11-20T21:06:35.597664"
+  },
+  "28235": {
+    "article_id": "28235",
+    "headline": "Yeast-Based Supplement Shows Potential to Enhance Cancer-Fighting Immunity",
+    "image_url": "https://images.unsplash.com/photo-1614308456595-a59d48697ea8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8aW1tdW5vbG9neSUyMHJlc2VhcmNoJTIwbWljcm9zY29wZXxlbnwwfHx8fDE3ODc0MzI4Mjl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260821012230.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260821012230.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c61a2d2b2a95ff256d339168d59178958e60e7e55492517272ab52310795d996",
+    "category": "science-news",
+    "created_at": "2026-08-22T21:07:11.437900",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T21:07:11.437900"
+  },
+  "53874": {
+    "article_id": "53874",
+    "headline": "Bibliotherapy: Can Reading Help Teens Combat Loneliness?",
+    "image_url": "https://images.unsplash.com/photo-1499257398700-43669759a540?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHx0ZWVuYWdlciUyMHJlYWRpbmclMjBib29rfGVufDB8fHx8MTc4NzQzMjk3MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/19/well/loneliness-books.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/19/well/loneliness-books.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d22af1876ad7be8bc95d346a4fb7eab5a72a0ba4e4c730130cf1b2e748b1e1b4",
+    "category": "mind",
+    "created_at": "2026-08-22T21:09:34.174891",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T21:09:34.174891"
+  },
+  "286747": {
+    "article_id": "286747",
+    "headline": "Nature Documentary Fans React to David Attenborough’s Seal ‘Confession’",
+    "image_url": "https://images.pexels.com/photos/22598441/pexels-photo-22598441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://theonion.com/david-attenborough-admits-to-exaggerating-wonder-of-seals/",
+    "source_urls": [
+      "https://theonion.com/david-attenborough-admits-to-exaggerating-wonder-of-seals/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "63f7c95588881935f15790a090cccbc13a7fb4afa9baf0d1225ce0bb2b33a5c9",
+    "category": "meme",
+    "created_at": "2026-08-22T21:12:58.103640",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T21:12:58.103640"
+  },
+  "40304": {
+    "article_id": "40304",
+    "headline": "Mercedes-Benz Balances Digital Evolution with Traditional Luxury Performance",
+    "image_url": "https://images.unsplash.com/photo-1680633368447-bf09a912712b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxNZXJjZWRlcy1CZW56JTIwZWxlY3RyaWMlMjB2ZWhpY2xlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzg3NDMzMjcxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/features/exclusive-mercedes-boss-why-car-fans-will-love-its-future-evs",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/features/exclusive-mercedes-boss-why-car-fans-will-love-its-future-evs"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c19644cfb117948b5805edf47361ab469669a075d3779fddd40a8ccec17bd34c",
+    "category": "tech-biz",
+    "created_at": "2026-08-22T21:14:34.715722",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-20T21:14:34.715722"
+  },
+  "62249": {
+    "article_id": "62249",
+    "headline": "JWST Observations Reveal Early Galaxies May Be Four Times More Massive Than Previously Estimated",
+    "image_url": "https://images.pexels.com/photos/37761980/pexels-photo-37761980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260822015141.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260822015141.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "37d1c05bec33dd846aa6ea0491780dc749aa2952609c69adef08a9c6a747cd5e",
+    "category": "space-the-future",
+    "created_at": "2026-08-22T21:15:54.799687",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T21:15:54.799687"
+  },
+  "60099": {
+    "article_id": "60099",
+    "headline": "US Higher Education Sector Navigates Enrollment Cliff and Workforce Shifts",
+    "image_url": "https://images.unsplash.com/photo-1778876088509-982115d463ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8dW5pdmVyc2l0eSUyMGNhbXB1cyUyMGxlY3R1cmUlMjBoYWxsfGVufDB8fHx8MTc4NzQzMzY2NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bloomberg.com/news/videos/2026-08-22/us-colleges-face-a-shrinking-student-pipeline-video",
+    "source_urls": [
+      "https://www.bloomberg.com/news/videos/2026-08-22/us-colleges-face-a-shrinking-student-pipeline-video"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4a96c576630213c6fc9c73888980b16d4c19e4308511ff62a9fc7bfce614d485",
+    "category": "education",
+    "created_at": "2026-08-22T21:21:07.047358",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-20T21:21:07.047358"
+  },
+  "109902": {
+    "article_id": "109902",
+    "headline": "Teofimo Lopez Jr. Eyes Welterweight Title Against Rolly Romero in Las Vegas Return",
+    "image_url": "https://images.unsplash.com/photo-1601588462477-e76b16de79f3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMXx8VGVvZmltbyUyMExvcGV6JTIwYm94aW5nJTIwbWF0Y2h8ZW58MHx8fHwxNzg3NDMzOTUyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/boxing/news/teofimo-lopez-fight-rolly-romero-card-return/",
+    "source_urls": [
+      "https://www.cbssports.com/boxing/news/teofimo-lopez-fight-rolly-romero-card-return/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3b8d17e96f3d92458fbb5b4e8796cf68bffec7ad2c84a5fbb02c34bc278ecbf1",
+    "category": "world-boxing",
+    "created_at": "2026-08-22T21:25:53.563597",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-20T21:25:53.563597"
+  },
+  "235970": {
+    "article_id": "235970",
+    "headline": "FCC Proposed Foreign Robot Ban Sparks Debate Over Supply Chain Costs and Domestic Growth",
+    "image_url": "https://images.unsplash.com/photo-1712238107648-4e94c158ab3d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8cm9ib3RpY3MlMjBtYW51ZmFjdHVyaW5nJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3ODc0MzM5OTN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.forbes.com/sites/johnkoetsier/2026/08/22/8-experts-weigh-in-on-the-fcc-foreign-robot-ban-good-or-bad/",
+    "source_urls": [
+      "https://www.forbes.com/sites/johnkoetsier/2026/08/22/8-experts-weigh-in-on-the-fcc-foreign-robot-ban-good-or-bad/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3d53acd061fca2be4b6fff0e8ea2d16170e831e2b7213a8d03e7d871d2453dfc",
+    "category": "franchise-news",
+    "created_at": "2026-08-22T21:26:36.579158",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-20T21:26:36.579158"
+  },
+  "123": {
+    "article_id": "123",
+    "headline": "August 2026 Literary Market Trends: Analyzing the Latest Digital Book Discounts",
+    "image_url": "https://images.unsplash.com/photo-1781209443149-dd12a52cc358?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwYm9vayUyMHN0b3JlfGVufDB8fHx8MTc4NzQ3MzQ3NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://bookriot.com/book-riots-deals-of-the-day-for-august-21-2026/",
+    "source_urls": [
+      "https://bookriot.com/book-riots-deals-of-the-day-for-august-21-2026/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "51e9c9db56e03ca26a0b53186ef9ec61abb8a381ff6a6e01fb37d19f3a1fcc51",
+    "category": "books",
+    "created_at": "2026-08-23T08:24:35.448645",
+    "story_id": "s1",
+    "parent_article_id": "p1",
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T08:24:35.448645"
+  },
+  "60100": {
+    "article_id": "60100",
+    "headline": "Navigating Health Insurance Transitions Following Workforce Reductions",
+    "image_url": "https://images.unsplash.com/photo-1708685627299-81bfac32402d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxoZWFsdGglMjBpbnN1cmFuY2UlMjBhZnRlciUyMGxheW9mZnxlbnwwfHx8fDE3ODc0NjkwMTB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories",
+    "source_urls": [
+      "https://www.marketwatch.com/story/shes-desperate-my-friend-was-laid-off-and-lost-her-health-insurance-how-can-she-find-affordable-coverage-3b17b553?mod=mw_rss_topstories"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "53103ca0b490b4b50c4d3839c0318b9cc6565c1952ffefd3fc3672e3adb6de6c",
+    "category": "pharma-health-care",
+    "created_at": "2026-08-23T07:10:13.263868",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-21T07:10:13.263868"
+  },
+  "235971": {
+    "article_id": "235971",
+    "headline": "Sazerac Expands Kentucky Footprint Amid Strategic Industry Consolidation",
+    "image_url": "https://images.unsplash.com/photo-1625264417514-27e55ba6c45f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8Ym91cmJvbiUyMGRpc3RpbGxlcnklMjBwcm9kdWN0aW9ufGVufDB8fHx8MTc4NzQ2OTAyM3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/kevin-haynes/sazerac-just-confirmed-a-major-kentucky-distillery-deal-its-next-step-could-be-even-bigger/91395016",
+    "source_urls": [
+      "https://www.inc.com/kevin-haynes/sazerac-just-confirmed-a-major-kentucky-distillery-deal-its-next-step-could-be-even-bigger/91395016"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5eac18be899d351c7a8f542198c7b22c5aed0c70f3f66e492f50b3e886cd703b",
+    "category": "biz-tech",
+    "created_at": "2026-08-23T07:10:25.790011",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:10:25.790011"
+  },
+  "60057": {
+    "article_id": "60057",
+    "headline": "Ask Not and the Rising Demand for Accountability in Biographical Nonfiction",
+    "image_url": "https://images.unsplash.com/photo-1723220217597-319bb1a9c33d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8bW9kZXJuJTIwYmlvZ3JhcGhpY2FsJTIwbm9uZmljdGlvbnxlbnwwfHx8fDE3ODc0NjkwMzJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://booksnreview.com/articles/19699/20240703/ask-maureen-callahan-book-review-unflinching-look-troubled-legacy-kennedys.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/19699/20240703/ask-maureen-callahan-book-review-unflinching-look-troubled-legacy-kennedys.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "142f4110b08d4fd00a60ca925480cc77f3314a6e31e0b1718afa5f821f586e61",
+    "category": "nonfiction",
+    "created_at": "2026-08-23T07:10:34.292771",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:10:34.292771"
+  },
+  "1725307": {
+    "article_id": "1725307",
+    "headline": "How to Use Android Work Profiles to Manage Digital Work-Life Balance",
+    "image_url": "https://images.unsplash.com/photo-1762330467475-a565d04e1808?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8YW5kcm9pZCUyMHNtYXJ0cGhvbmUlMjB3b3JrJTIwcHJvZmlsZSUyMHNldHRpbmdzfGVufDB8fHx8MTc4NzQ2OTAzNXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/set-up-a-separate-work-profile-on-your-android-phone/",
+    "source_urls": [
+      "https://www.wired.com/story/set-up-a-separate-work-profile-on-your-android-phone/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4fcf5c6fa42ad4562d81ac6c943050371c390eb4a1ff8415509c2d20c2f0e00c",
+    "category": "how-to",
+    "created_at": "2026-08-23T07:10:37.665497",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:10:37.665497"
+  },
+  "Draft-OK": {
+    "article_id": "Draft-OK",
+    "headline": "Food Safety Rules: Mastering the Two-Hour Threshold for Perishables",
+    "image_url": "https://images.unsplash.com/photo-1655499319851-ec9d0e2abf8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8c2FmZSUyMGZvb2QlMjBzdG9yYWdlJTIwdGVtcGVyYXR1cmUlMjBndWlkZXxlbnwwfHx8fDE3ODc0Njk3NjF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://foodworldnews.com/articles/81389/20260416/how-long-can-food-sit-out-safely-food-safety-room-temperature-rules-bacteria-growth-time.htm",
+    "source_urls": [
+      "https://foodworldnews.com/articles/81389/20260416/how-long-can-food-sit-out-safely-food-safety-room-temperature-rules-bacteria-growth-time.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4ced299ab7b60da92186cb2790ce7d2c081c33c3892a8ef7c9485065b4720339",
+    "category": "safety",
+    "created_at": "2026-08-23T07:22:41.930872",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:22:41.930872"
+  },
+  "1725308": {
+    "article_id": "1725308",
+    "headline": "Nintendo Switch 2 Welcome Tour Pricing Strategy Sparks Community Debate",
+    "image_url": "https://images.unsplash.com/photo-1749135583881-1c12ee0f6134?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8TmludGVuZG8lMjBTd2l0Y2glMjAyJTIwY29uc29sZSUyMGdhbWluZ3xlbnwwfHx8fDE3ODc0MzE1MzZ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mobilenapps.com/articles/1725270/20250406/nintendo-switch-2s-welcome-tour-demo-sold-separately-now-facing-massive-backlash-fans.htm",
+    "source_urls": [
+      "https://mobilenapps.com/articles/1725270/20250406/nintendo-switch-2s-welcome-tour-demo-sold-separately-now-facing-massive-backlash-fans.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b1c9983dee8fb07c26a8a7ab87deff79481b750456a09333cbe0b643640c14d7",
+    "category": "nintendo",
+    "created_at": "2026-08-23T07:10:55.194645",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:10:55.194645"
+  },
+  "237206": {
+    "article_id": "237206",
+    "headline": "The 10-Minute Ritual to Boost Classroom Participation",
+    "image_url": "https://images.unsplash.com/photo-1490424660416-359912d314b3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxjaGlsZCUyMHNwZWFraW5nJTIwaW4lMjBjbGFzc3Jvb218ZW58MHx8fHwxNzg3NDY5MDU1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/child/child-learn-play/help-child-speak-up-in-class/",
+    "source_urls": [
+      "https://mother.ly/child/child-learn-play/help-child-speak-up-in-class/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "68dcb73a5e52878d620e4db663dbb51c75dde6dc1c91b2b416c8fb667385a64b",
+    "category": "school",
+    "created_at": "2026-08-23T07:10:57.245641",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:10:57.245641"
+  },
+  "60058": {
+    "article_id": "60058",
+    "headline": "Literary Heavyweights and Celebrity Memoirs Define Autumn 2026 Publishing Slate",
+    "image_url": "https://images.unsplash.com/photo-1680587513906-d04091ab3c52?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMXx8bmV3JTIwYm9vayUyMHJlbGVhc2VzJTIwYXV0dW1uJTIwMjAyNnxlbnwwfHx8fDE3ODc0NjkwNzN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/ng-interactive/2026/aug/22/new-autumn-fiction-nonfiction-marlon-james-emma-cline-michael-douglas-dustin-hoffman-judi-dench-yiyun-li",
+    "source_urls": [
+      "https://www.theguardian.com/books/ng-interactive/2026/aug/22/new-autumn-fiction-nonfiction-marlon-james-emma-cline-michael-douglas-dustin-hoffman-judi-dench-yiyun-li"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "eda737ac33f1f751a1ba00841f28dd07f7756548515651c5969ef8457a6df028",
+    "category": "book-news",
+    "created_at": "2026-08-23T07:11:15.497340",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:11:15.497340"
+  },
+  "235972": {
+    "article_id": "235972",
+    "headline": "Trump’s Economic Trade Threats Target Iran’s Global Business Partners",
+    "image_url": "https://images.unsplash.com/photo-1559026386-d3a72736fcf2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8Z2xvYmFsJTIwdHJhZGUlMjBhbmQlMjBlY29ub21pYyUyMHNhbmN0aW9uc3xlbnwwfHx8fDE3ODc0Njk3NDR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/20/world/middleeast/iran-trade-trump-threat-china.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/20/world/middleeast/iran-trade-trump-threat-china.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "98fb798ee74cb265f12202010b5ebf148707e1476f6d2ba42c46e98cbb7af11a",
+    "category": "franchise-news",
+    "created_at": "2026-08-23T07:22:27.019607",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:22:27.019607"
+  },
+  "237207": {
+    "article_id": "237207",
+    "headline": "Tori Kelly Reflects on Balancing Artistic Growth and Motherhood",
+    "image_url": "https://images.pexels.com/photos/6841250/pexels-photo-6841250.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://mother.ly/podcasts/the-motherly-podcast/tori-kelly-the-motherly-podcast/",
+    "source_urls": [
+      "https://mother.ly/podcasts/the-motherly-podcast/tori-kelly-the-motherly-podcast/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "450514b7df998a73ffb44e8fe12f8181b13c2939eccfb3d19a7534a9ee8fade3",
+    "category": "celebrity-moms",
+    "created_at": "2026-08-23T07:22:48.635533",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:22:48.635533"
+  },
+  "60059": {
+    "article_id": "60059",
+    "headline": "Alice Roberts on the Literary Evolution of Her Worldview",
+    "image_url": "https://images.unsplash.com/photo-1641410992467-c2a84685c1c6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8QWxpY2UlMjBSb2JlcnRzJTIwYm9vayUyMGludGVydmlld3xlbnwwfHx8fDE3ODc0Njk3ODN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/aug/21/alice-roberts-by-the-time-id-finished-richard-dawkins-id-left-faith-behind",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/aug/21/alice-roberts-by-the-time-id-finished-richard-dawkins-id-left-faith-behind"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9348ca3c693834d0809250c7ac022b736fb4f4f6f94557761a43bf502c93be3a",
+    "category": "authors",
+    "created_at": "2026-08-23T07:23:05.264136",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:23:05.264136"
+  },
+  "60060": {
+    "article_id": "60060",
+    "headline": "New Book Releases Redefine Genre Boundaries in Late 2026",
+    "image_url": "https://images.unsplash.com/photo-1778585970622-f6d9106f185e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8bW9kZXJuJTIwYm9va3N0b3JlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzg3NDY5NzkzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://booksnreview.com/articles/60048/20260819/august-2026-literary-roundup-notable-new-releases-seasonal-reads.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/60048/20260819/august-2026-literary-roundup-notable-new-releases-seasonal-reads.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b581662da1e5f2fbfad55c78e69d0d266a56664d49ab349f2b0c1bb4a3bbc307",
+    "category": "book-news",
+    "created_at": "2026-08-23T07:23:15.237159",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:23:15.237159"
+  },
+  "fail_1787469806_901": {
+    "article_id": "fail_1787469806_901",
+    "headline": "Pesticide Exposure Forces Honeybee Queens to Shift Toxins to Offspring",
+    "image_url": "https://images.unsplash.com/photo-1576347819574-903b60efcd69?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8aG9uZXliZWUlMjBoZWFsdGglMjBhbmQlMjBwZXN0aWNpZGVzfGVufDB8fHx8MTc4NzQ2OTgwNXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260821012224.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260821012224.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "36ba960a20c7c16e0b26f7ad251d6f413711f341840dbcbea91f7bfb09415733",
+    "category": "food-recalls",
+    "created_at": "2026-08-23T07:23:26.797142",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:23:26.797142"
+  },
+  "60061": {
+    "article_id": "60061",
+    "headline": "August 2026 Paperback Releases Feature Literary Icons",
+    "image_url": "https://images.unsplash.com/photo-1607473129070-af6b54fd784b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8bmV3JTIwcGFwZXJiYWNrJTIwYm9vayUyMHJlbGVhc2VzfGVufDB8fHx8MTc4NzQ2OTg1Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/ng-interactive/2026/aug/20/the-best-books-to-read-in-august-new-paperbacks-from-chimamanda-ngozi-adichie-salman-rushdie-and-werner-herzog",
+    "source_urls": [
+      "https://www.theguardian.com/books/ng-interactive/2026/aug/20/the-best-books-to-read-in-august-new-paperbacks-from-chimamanda-ngozi-adichie-salman-rushdie-and-werner-herzog"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9363594469f0b64757c00463f7863da6d60429cc360cfe4bb0327869ed24be70",
+    "category": "book-news",
+    "created_at": "2026-08-23T07:24:14.450463",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:24:14.450463"
+  },
+  "fail_1787469867_684": {
+    "article_id": "fail_1787469867_684",
+    "headline": "Pesticide Exposure in Honeybee Queens Reveals Hidden Risks to Colony Health",
+    "image_url": "https://images.unsplash.com/photo-1610167646703-849889407e40?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8aG9uZXliZWUlMjBoZWFsdGglMjBhbmQlMjBhZ3JpY3VsdHVyZXxlbnwwfHx8fDE3ODc0NjkwOTB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260821012224.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260821012224.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f010627343fb7ca90f03edbdd424fad0edc44ff538579aab712bae096f497e70",
+    "category": "top-stories",
+    "created_at": "2026-08-23T07:24:27.582936",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:24:27.582936"
+  },
+  "81519": {
+    "article_id": "81519",
+    "headline": "New Book Examines Nutritional Inequality and Food Safety in U.S. Correctional Facilities",
+    "image_url": "https://images.unsplash.com/photo-1649067846117-2d71b76be1e0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxudXRyaXRpb24lMjBhbmQlMjBmb29kJTIwcG9saWN5fGVufDB8fHx8MTc4NzQ2OTkxNXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foodpolitics.com/2026/08/draft-chin-jou/",
+    "source_urls": [
+      "https://www.foodpolitics.com/2026/08/draft-chin-jou/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "70e6e8caa22e3e17fabe403c77d47ac069178cacde11b131b4e91bb2d304c276",
+    "category": "top-stories",
+    "created_at": "2026-08-23T07:25:17.384730",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-21T07:25:17.384730"
+  },
+  "60101": {
+    "article_id": "60101",
+    "headline": "US Labor Market Stagnation Forces Shift in Hiring and Retention Strategies",
+    "image_url": "https://images.unsplash.com/photo-1708770294328-28b2f56094bc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8VVMlMjBsYWJvciUyMG1hcmtldCUyMHRyZW5kcyUyMDIwMjZ8ZW58MHx8fHwxNzg3NDcwMjU5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://jobsnhire.com/articles/60066/20260806/us-labor-markets-low-hiring-low-firing-era-hidden-risks-beneath-surface.htm",
+    "source_urls": [
+      "https://jobsnhire.com/articles/60066/20260806/us-labor-markets-low-hiring-low-firing-era-hidden-risks-beneath-surface.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d7e0795c624b072474af830b8e4f2f3d4296b92f2b6585da70e8187869ac2b5f",
+    "category": "business",
+    "created_at": "2026-08-23T07:31:01.744109",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-21T07:31:01.744109"
+  },
+  "235973": {
+    "article_id": "235973",
+    "headline": "Huel Acquisition Signals Strategic Pivot for Global Food Giants",
+    "image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8bnV0cml0aW9uJTIwaW5kdXN0cnklMjBtYXJrZXQlMjB0cmVuZHN8ZW58MHx8fHwxNzg3NDcwNTY2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/235969/20260821/danone-secures-regulatory-approval-1-billion-huel-acquisition.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/235969/20260821/danone-secures-regulatory-approval-1-billion-huel-acquisition.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "61cc8804f7083c8deb186d3c9df1bd3ed875162c6104749d40e7f3df90eb1172",
+    "category": "biz-tech",
+    "created_at": "2026-08-23T07:36:08.983270",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:36:08.983270"
+  },
+  "237208": {
+    "article_id": "237208",
+    "headline": "AI Meal Planning Tools Redefine Family Dinner Routines in 2026",
+    "image_url": "https://images.unsplash.com/photo-1784334312040-5b3d4cf78b88?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8QUklMjBtZWFsJTIwcGxhbm5pbmclMjBzb2Z0d2FyZXxlbnwwfHx8fDE3ODc0NzA1Nzh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://parentherald.com/articles/237164/20260502/this-ai-meal-planning-system-helps-parents-turn-whats-dinner-quick-stressfree-family-meals.htm",
+    "source_urls": [
+      "https://parentherald.com/articles/237164/20260502/this-ai-meal-planning-system-helps-parents-turn-whats-dinner-quick-stressfree-family-meals.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4af72d94ea3fd5b786368382915c34deabfd34abc373ed53df486888a4cae886",
+    "category": "health-nutrition",
+    "created_at": "2026-08-23T07:36:20.914444",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:36:20.914444"
+  },
+  "1725309": {
+    "article_id": "1725309",
+    "headline": "Company of Heroes Mobile Strategy: Mastering Online Skirmish Tactics",
+    "image_url": "https://images.pexels.com/photos/33879640/pexels-photo-33879640.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://mobilenapps.com/articles/1725252/20250117/company-heroes-ios-port-launches-online-skirmish-mode-are-you-ready-fire-last-bullet.htm",
+    "source_urls": [
+      "https://mobilenapps.com/articles/1725252/20250117/company-heroes-ios-port-launches-online-skirmish-mode-are-you-ready-fire-last-bullet.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "de233ff6d61cc2b5bc0cfe1a58f8dc5006bbbf070d8a9b2646825c82c45b5e96",
+    "category": "mobile-games",
+    "created_at": "2026-08-23T07:36:32.964572",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:36:32.964572"
+  },
+  "26928": {
+    "article_id": "26928",
+    "headline": "Hobbyamory Redefines Celebrity Lifestyle and Public Dating Standards",
+    "image_url": "https://images.unsplash.com/photo-1668296430524-9d4d051da982?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8Y2VsZWJyaXR5JTIwbGlmZXN0eWxlJTIwdHJlbmRzJTIwMjAyNnxlbnwwfHx8fDE3ODc0NzA2MDl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://celebeat.com/articles/26904/20260811/the-rise-of-hobbyamory-why-personal-interests-are-shaping-modern-dating.htm",
+    "source_urls": [
+      "https://celebeat.com/articles/26904/20260811/the-rise-of-hobbyamory-why-personal-interests-are-shaping-modern-dating.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "855431a32a1e6c5b6d858c601aca31d8dc40f8182143b69709faae2fa82f7a3c",
+    "category": "news",
+    "created_at": "2026-08-23T07:36:51.713651",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-21T07:36:51.713651"
+  }
+}

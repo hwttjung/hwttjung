@@ -86,8 +86,13 @@ class ImageSearcher:
             logger.info(f"[{site_domain}] [다단계 검색 {idx}/{len(queries)}] 시도 쿼리: '{current_query}'")
 
             # 1. 1순위: Wikimedia Commons 검색
-            logger.info(f"[{site_domain}] [1순위 Wikimedia Commons] Searching: '{current_query}'...")
-            candidates = self._search_wikimedia(current_query, exclude_urls, site_domain)
+            candidates = []
+            ingest_api_sites = ["jobsnhire", "franchiseherald", "mobilenapps", "parentherald", "booksnreview", "foodworldnews"]
+            if site_domain in ingest_api_sites:
+                logger.info(f"[{site_domain}] Ingest API 매체는 Wikimedia 차단 방지를 위해 1순위 탐색을 건너뜁니다.")
+            else:
+                logger.info(f"[{site_domain}] [1순위 Wikimedia Commons] Searching: '{current_query}'...")
+                candidates = self._search_wikimedia(current_query, exclude_urls, site_domain)
 
             if candidates:
                 if article_summary and article_title:
@@ -127,16 +132,21 @@ class ImageSearcher:
                     first = candidates[0]
                     return {"url": first["url"], "credit": first["credit"], "source": "Wikimedia Commons"}
 
-            # 2. 2순위: Unsplash API
+            # 2. 2순위: Unsplash 및 Pexels 병합 검색 (후보군 통합 경쟁)
             fallback_candidates = []
             if self.unsplash_key and self.unsplash_key not in ("your_unsplash_access_key_here", ""):
                 logger.info(f"[{site_domain}] [2순위 Unsplash 16:9] Searching fallback: '{current_query}'...")
-                fallback_candidates = self._get_unsplash_candidates(current_query, exclude_urls, site_domain)
+                unsplash_cands = self._get_unsplash_candidates(current_query, exclude_urls, site_domain)
+                fallback_candidates.extend(unsplash_cands)
 
-            # 3. 3순위: Pexels API
-            if not fallback_candidates and self.pexels_key and self.pexels_key not in ("your_pexels_api_key_here", ""):
-                logger.info(f"[{site_domain}] [3순위 Pexels] Searching fallback: '{current_query}'...")
-                fallback_candidates = self._get_pexels_candidates(current_query, exclude_urls, site_domain)
+            if self.pexels_key and self.pexels_key not in ("your_pexels_api_key_here", ""):
+                logger.info(f"[{site_domain}] [2순위 Pexels] Searching fallback: '{current_query}'...")
+                pexels_cands = self._get_pexels_candidates(current_query, exclude_urls, site_domain)
+                fallback_candidates.extend(pexels_cands)
+                
+            if fallback_candidates:
+                # 두 API의 결과물이 공평하게 심사받도록 순서를 섞어줍니다.
+                random.shuffle(fallback_candidates)
 
             if fallback_candidates:
                 if article_summary and article_title:
@@ -288,6 +298,9 @@ class ImageSearcher:
                     img_url = image_info.get("thumburl") or image_info.get("url")
                     if not img_url:
                         continue
+                        
+                    # 불필요한 트래킹 파라미터(?utm_source=...) 제거 (URL 확장자 이슈 방지)
+                    img_url = img_url.split("?")[0]
                         
                     norm = self._normalize_image_url(img_url)
                     if exclude_urls and norm in exclude_urls:

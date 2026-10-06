@@ -1,0 +1,801 @@
+{
+  "62271": {
+    "article_id": "62271",
+    "headline": "Feynmans Path Integral Validation Accelerates Quantum Computing Research",
+    "image_url": "https://images.unsplash.com/photo-1766348815075-cbc780a187ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8cXVhbnR1bSUyMGNvbXB1dGluZyUyMHJlc2VhcmNoJTIwMjAyNnxlbnwwfHx8fDE3ODgxMDcwMDB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/62261/20260830/experimental-breakthrough-validates-feynman-s-path-integral-postulate.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/62261/20260830/experimental-breakthrough-validates-feynman-s-path-integral-postulate.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e270cb7b6c4084af5f10f0df8f362a4427803633e55ba75fbeded003607b4fba",
+    "category": "physics",
+    "created_at": "2026-08-30T16:23:22.963650",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T16:23:22.963650"
+  },
+  "28257": {
+    "article_id": "28257",
+    "headline": "Weight Loss Teas Beyond Green Tea: Evidence and Metabolic Impacts",
+    "image_url": "https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8aGVyYmFsJTIwdGVhJTIwaGVhbHRoJTIwYmVuZWZpdHN8ZW58MHx8fHwxNzg4MTA3MDI0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/9870/20150917/5-weight-loss-teas-that-are-better-than-green-tea.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/9870/20150917/5-weight-loss-teas-that-are-better-than-green-tea.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "cebfc5462974cb44431eb9360db84cb6601a5b983d68deb4d61724f1a2f85bea",
+    "category": "healthy-habits",
+    "created_at": "2026-08-30T16:23:46.836449",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T16:23:46.836449"
+  },
+  "40326": {
+    "article_id": "40326",
+    "headline": "SAE International Introduces Training Standards for Robotaxi Remote Operators",
+    "image_url": "https://images.unsplash.com/photo-1728593773167-e8b8938877ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8YXV0b25vbW91cyUyMHZlaGljbGUlMjByZW1vdGUlMjBvcGVyYXRpb258ZW58MHx8fHwxNzg4MTA3MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.caranddriver.com/news/a73556507/sae-robotaxi-remote-assistance-human-factors-best-practice/",
+    "source_urls": [
+      "https://www.caranddriver.com/news/a73556507/sae-robotaxi-remote-assistance-human-factors-best-practice/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c48236c3544d3ba8bd4c97b279f97655552d19b1e7ee6da10357fbc83ee4b306",
+    "category": "tech-biz",
+    "created_at": "2026-08-30T16:24:08.711646",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T16:24:08.711646"
+  },
+  "53895": {
+    "article_id": "53895",
+    "headline": "New Bio-Fortified Spirulina Offers Sustainable Vitamin B12 Source for Teens",
+    "image_url": "https://images.unsplash.com/photo-1731301246132-323829470304?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8c3BpcnVsaW5hJTIwYWxnYWUlMjBudXRyaXRpb25hbCUyMHN1cHBsZW1lbnR8ZW58MHx8fHwxNzg4MTA3MDYzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260829035227.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260829035227.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "049496a5db8095f8fd1e94dfffd39e86a5ca742227743177d16461001293d98a",
+    "category": "nutrition-food",
+    "created_at": "2026-08-30T16:24:25.648737",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T16:24:25.648737"
+  },
+  "64964": {
+    "article_id": "64964",
+    "headline": "SEC Proposal to Ease Quarterly Reporting Requirements Sparks Investor Debate",
+    "image_url": "https://images.unsplash.com/photo-1616261167032-b16d2df8333b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8ZmluYW5jaWFsJTIwcmVndWxhdGlvbiUyMHN0b2NrJTIwbWFya2V0fGVufDB8fHx8MTc4ODEwNzA3OHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/28/business/economy/sec-quarterly-reporting.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/28/business/economy/sec-quarterly-reporting.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0fd61f1f524762efa22b9c024cba0d8de37727d041a29c6b3670cad39bc9c537",
+    "category": "business",
+    "created_at": "2026-08-30T16:24:39.542139",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T16:24:39.542139"
+  },
+  "26945": {
+    "article_id": "26945",
+    "headline": "Cardi B Returns to Her Roots in New Music Video Ah Ha",
+    "image_url": "https://images.unsplash.com/photo-1572900849519-b575d6bfacf5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxDYXJkaSUyMEIlMjBtdXNpYyUyMHZpZGVvJTIwc3R5bGV8ZW58MHx8fHwxNzg4MTA3MDk1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://pitchfork.com/story/cardi-b-new-song-ah-ha/",
+    "source_urls": [
+      "https://pitchfork.com/story/cardi-b-new-song-ah-ha/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d13b4e1bb13b8608b802779942d3706c4df897f7a3c6195b57588ccdadea5f0a",
+    "category": "style",
+    "created_at": "2026-08-30T16:24:57.160273",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T16:24:57.160273"
+  },
+  "286769": {
+    "article_id": "286769",
+    "headline": "J. J. Watt Redefines Retirement After Historic NFL Career",
+    "image_url": "https://images.unsplash.com/photo-1654002911750-b133efc030ab?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8Si4lMjBKLiUyMFdhdHQlMjBjYXJlZXIlMjBoaWdobGlnaHRzfGVufDB8fHx8MTc4ODEwNzExN3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://boomsbeat.com/articles/286294/20220126/30-awesome-facts-j-watt-fan-know.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/286294/20220126/30-awesome-facts-j-watt-fan-know.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "46a2b332095d1f45e8d3ec5b70d130328574b3ced6600eca5a1fb1a4bc8e98c5",
+    "category": "people",
+    "created_at": "2026-08-30T16:25:18.914447",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T16:25:18.914447"
+  },
+  "109924": {
+    "article_id": "109924",
+    "headline": "Chelsea Secure High-Scoring Win Over Brighton Under Alonso",
+    "image_url": "https://images.unsplash.com/photo-1779449607463-701d1c9f38f7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxDaGVsc2VhJTIwRkMlMjBtYXRjaCUyMGFjdGlvbnxlbnwwfHx8fDE3ODgxMDcxMzh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.skysports.com/football/chelsea-vs-brighton-and-hove-albion/report/559456",
+    "source_urls": [
+      "https://www.skysports.com/football/chelsea-vs-brighton-and-hove-albion/report/559456"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2f70170b68442e588ff79804f45783d11f55096190fc1e4489d3bcfad4ed6cf8",
+    "category": "soccer",
+    "created_at": "2026-08-30T16:25:40.775963",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T16:25:40.775963"
+  },
+  "60122": {
+    "article_id": "60122",
+    "headline": "The Strategic Limits of AI in Determining Compensation",
+    "image_url": "https://images.unsplash.com/photo-1777785113331-af941c62a4a3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8aHVtYW4lMjByZXNvdXJjZXMlMjBhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDB8fHx8MTc4ODEwNzE1M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/kolawole-adebayo/the-1-big-compensation-decision-founders-should-never-hand-to-ai/91397475",
+    "source_urls": [
+      "https://www.inc.com/kolawole-adebayo/the-1-big-compensation-decision-founders-should-never-hand-to-ai/91397475"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "71b651fd65db9411f9021567e79e3e184aca92d054fa3fb76a916beeac5fad71",
+    "category": "leadership",
+    "created_at": "2026-08-30T16:25:55.435968",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-28T16:25:55.435968"
+  },
+  "235995": {
+    "article_id": "235995",
+    "headline": "Whole Foods Accelerates Retail Footprint with Tech-Driven Store Model",
+    "image_url": "https://images.unsplash.com/photo-1578730260644-8d1b35ce2c69?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxXaG9sZSUyMEZvb2RzJTIwc3RvcmUlMjBleHBhbnNpb24lMjBzdHJhdGVneXxlbnwwfHx8fDE3ODgxMDcxNjl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/77630/20240513/whole-foods-announces-plans-30-new-stores-leveraging-tech-processes.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/77630/20240513/whole-foods-announces-plans-30-new-stores-leveraging-tech-processes.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "895671ed20175d65ccb0abeec3bbb941e26d98ff5f6d1c11f56934f99712b353",
+    "category": "franchise-news",
+    "created_at": "2026-08-30T16:26:13.246149",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T16:26:13.246149"
+  },
+  "1725331": {
+    "article_id": "1725331",
+    "headline": "Actors Push for Legal Safeguards as AI Voice Cloning Technology Evolves",
+    "image_url": "https://images.unsplash.com/photo-1677442135732-00cab8f454e1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHZvaWNlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3ODgxMDcxOTd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/c4gv5gepxnyo?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/c4gv5gepxnyo?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "93ca6f69e42bbcc97076167f466a80b2bc4f33bdc03a660f86a8b9fcff6b6c6a",
+    "category": "mobile",
+    "created_at": "2026-08-30T16:26:40.068594",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T16:26:40.068594"
+  },
+  "60081": {
+    "article_id": "60081",
+    "headline": "Louisa Young Revives Elizabeth Jane Howard’s Iconic Cazalet Chronicles",
+    "image_url": "https://images.unsplash.com/photo-1714146999596-32cbc401d3c5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8RWxpemFiZXRoJTIwSmFuZSUyMEhvd2FyZCUyMENhemFsZXQlMjBDaHJvbmljbGVzfGVufDB8fHx8MTc4ODEwNzIzNXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/aug/30/who-would-dare-take-on-elizabeth-jane-howards-fans-louisa-young-on-reviving-the-cazalet-chronicles",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/aug/30/who-would-dare-take-on-elizabeth-jane-howards-fans-louisa-young-on-reviving-the-cazalet-chronicles"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3bd18cd18aba9bca47696ca2af03c0a7a64a9a8d76c3f029d236afb5ba7ebd2c",
+    "category": "book-news",
+    "created_at": "2026-08-30T16:27:18.390486",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T16:27:18.390486"
+  },
+  "60123": {
+    "article_id": "60123",
+    "headline": "The Ethics of Cross-Company Talent Referrals: Navigating Professional Networks",
+    "image_url": "https://images.unsplash.com/photo-1724866976376-4b217d29a462?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8cHJvZmVzc2lvbmFsJTIwbmV0d29ya2luZyUyMGFuZCUyMHJlY3J1aXRtZW50fGVufDB8fHx8MTc4ODExNDE2OHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/minda-zetlin/i-recommended-a-great-candidate-to-another-company-was-that-the-right-thing-to-do/91397656",
+    "source_urls": [
+      "https://www.inc.com/minda-zetlin/i-recommended-a-great-candidate-to-another-company-was-that-the-right-thing-to-do/91397656"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "697416bdb3319e2f4f78ff1c253073d03c0af8870368643f83a1d0de6b8ee008",
+    "category": "management",
+    "created_at": "2026-08-30T18:22:51.541637",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-28T18:22:51.541637"
+  },
+  "53896": {
+    "article_id": "53896",
+    "headline": "Long-Term Melatonin Use Linked to Increased Heart Failure Risk in New Study",
+    "image_url": "https://images.pexels.com/photos/10387561/pexels-photo-10387561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260829035228.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260829035228.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b462ef14a17d7efb3e38e669605234a2eaed54c380d1dcf7520e7bf30f9fde9d",
+    "category": "teenHeath",
+    "created_at": "2026-08-30T18:42:09.273267",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T18:42:09.273267"
+  },
+  "62272": {
+    "article_id": "62272",
+    "headline": "Physicists Model 'Spacetime Crystal' Capable of Collapsing into Microscopic Black Holes",
+    "image_url": "https://images.unsplash.com/photo-1703589622306-a89607da39d4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8dGhlb3JldGljYWwlMjBwaHlzaWNzJTIwYmxhY2slMjBob2xlJTIwc2ltdWxhdGlvbnxlbnwwfHx8fDE3ODgxMTY0Njh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260829035225.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b54a608db025d03de152474a82394977a59ad518f68cc34741d852ea929f96ed",
+    "category": "energy-particles",
+    "created_at": "2026-08-30T19:01:10.992293",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T19:01:10.992293"
+  },
+  "109925": {
+    "article_id": "109925",
+    "headline": "Shohei Ohtani Ruled Out for Sunday Start Against Tigers Due to Knee Discomfort",
+    "image_url": "https://images.unsplash.com/photo-1617055537038-efed1efaf2fc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8U2hvaGVpJTIwT2h0YW5pJTIwcGl0Y2hpbmd8ZW58MHx8fHwxNzg4MTE3NTg2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/sports/shohei-ohtani-not-100-yet-will-not-pitch-vs-tigers-sunday",
+    "source_urls": [
+      "https://www.foxnews.com/sports/shohei-ohtani-not-100-yet-will-not-pitch-vs-tigers-sunday"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "299df5852edc338ceb9d05788295c77e46ba3821e55e67824947e06b20fb3a7a",
+    "category": "mlb",
+    "created_at": "2026-08-30T19:19:48.801130",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T19:19:48.801130"
+  },
+  "123": {
+    "article_id": "123",
+    "headline": "Arion Press Unveils Limited Edition Declaration of Independence for U.S. Semiquincentennial",
+    "image_url": "https://images.unsplash.com/photo-1651983795694-4b4b1f860f58?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8ZmluZSUyMHByZXNzJTIwYm9vayUyMHByaW50aW5nfGVufDB8fHx8MTc4ODExNzkxMXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/28/arts/arion-press-san-francisco-declaration-independence.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/28/arts/arion-press-san-francisco-declaration-independence.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "82035e1b4dde950551090b91a75dc4e38a0d8ebbdf6f7ae0a943df510a090d16",
+    "category": "books",
+    "created_at": "2026-08-30T19:25:11.477426",
+    "story_id": "s1",
+    "parent_article_id": "p1",
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T19:25:11.477426"
+  },
+  "28258": {
+    "article_id": "28258",
+    "headline": "CAR T-Cell Therapy Shows Promise in Inducing Remission for Severe Rheumatoid Arthritis",
+    "image_url": "https://images.unsplash.com/photo-1707079346990-2ceaf10d6605?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8aW1tdW5vdGhlcmFweSUyMG1lZGljYWwlMjByZXNlYXJjaHxlbnwwfHx8fDE3ODgxMTg3MjF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260828082330.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260828082330.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "82fadd924634add5b389aef72f09fd64cf9c5a773f02a216d677d3afbc1a00fd",
+    "category": "science-news",
+    "created_at": "2026-08-30T19:38:43.286610",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T19:38:43.286610"
+  },
+  "81536": {
+    "article_id": "81536",
+    "headline": "Researchers Develop Bioavailable Vitamin B12-Rich Spirulina as Sustainable Alternative to Meat",
+    "image_url": "https://images.unsplash.com/photo-1786232135384-b8572fb4b2f8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8c3BpcnVsaW5hJTIwYWxnYWUlMjBjdWx0aXZhdGlvbnxlbnwwfHx8fDE3ODgxMjEwMzV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260829035227.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260829035227.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "77c9006aa841d1c4d76a72d9df5e32238fbde3b4cf36acbf655ad7ef69f399a5",
+    "category": "top-stories",
+    "created_at": "2026-08-30T20:17:18.369716",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T20:17:18.369716"
+  },
+  "26946": {
+    "article_id": "26946",
+    "headline": "Nine Must-Watch Films Capturing Hollywood's Attention This Week",
+    "image_url": "https://images.unsplash.com/photo-1786482812432-e4111b447c90?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8SG9sbHl3b29kJTIwZmlsbSUyMHByZW1pZXJlfGVufDB8fHx8MTc4ODEyMjE5OHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/28/movies/new-movies-this-week-critics.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/28/movies/new-movies-this-week-critics.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b9aa674e8a5131deb74cfabbac5036d52b466c47865dfb03ee41fbcb2c7ea051",
+    "category": "news",
+    "created_at": "2026-08-30T20:36:40.966306",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T20:36:40.966306"
+  },
+  "64965": {
+    "article_id": "64965",
+    "headline": "Meta’s US Legal Settlement Signals Shift in Global Accountability Standards",
+    "image_url": "https://images.unsplash.com/photo-1689439518196-f48a24b49fb5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxNZXRhJTIwbGVnYWwlMjBjb250cm92ZXJzeXxlbnwwfHx8fDE3ODgxMjMzNTJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact",
+    "source_urls": [
+      "https://www.theguardian.com/technology/2026/aug/28/meta-facebook-us-lawsuit-settlement-world-impact"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "07ace57311a5264c44321fb4ce2857d4af61ad8436f0cfa2abb1c6266cd7af5c",
+    "category": "tech",
+    "created_at": "2026-08-30T20:55:54.103239",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-28T20:55:54.103239"
+  },
+  "235996": {
+    "article_id": "235996",
+    "headline": "Rising Bond Yields Intensify Fiscal Pressure on G7 Economies",
+    "image_url": "https://images.unsplash.com/photo-1731910549709-bfaffd5e73d9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxnbG9iYWwlMjBlY29ub215JTIwYm9uZCUyMHlpZWxkc3xlbnwwfHx8fDE3ODgxMjQ0ODV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.ft.com/content/bbe90db5-64ac-441d-87e4-e984c5ef8629?syn-25a6b1a6=1",
+    "source_urls": [
+      "https://www.ft.com/content/bbe90db5-64ac-441d-87e4-e984c5ef8629?syn-25a6b1a6=1"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4d2ddd08260c8e06c086dc135cb65d5063750837a7ea4a032eb79d457cf08738",
+    "category": "biz-tech",
+    "created_at": "2026-08-30T21:14:48.138149",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-28T21:14:48.138149"
+  },
+  "1725332": {
+    "article_id": "1725332",
+    "headline": "The Rise of Minimalist Wearables: Tech That Prioritizes Silence Over Notifications",
+    "image_url": "https://images.unsplash.com/photo-1569397288898-ed153733a78b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8bWluaW1hbGlzdCUyMGZpdG5lc3MlMjB0cmFja2VyJTIwcmluZ3xlbnwwfHx8fDE3ODgxMjU2Njl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/why-the-hottest-new-wearables-want-to-be-ignored/",
+    "source_urls": [
+      "https://www.wired.com/story/why-the-hottest-new-wearables-want-to-be-ignored/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e2e5874ac3b5e876ce506feefc5dd56fd8e45e947fe9abd3c9ee1ba76c10c93d",
+    "category": "wearables",
+    "created_at": "2026-08-30T21:34:32.601540",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-28T21:34:32.601540"
+  },
+  "40328": {
+    "article_id": "40328",
+    "headline": "Genesis Emerges as a Strategic Threat to Traditional European Luxury Leaders",
+    "image_url": "https://images.unsplash.com/photo-1740098159737-73673d741ebb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8bHV4dXJ5JTIwZWxlY3RyaWMlMjB2ZWhpY2xlJTIwbWFya2V0JTIwY29tcGV0aXRpb258ZW58MHx8fHwxNzg4MTI2Mzc2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bmwblog.com/2026/08/30/genesis-threat-to-bmw/",
+    "source_urls": [
+      "https://www.bmwblog.com/2026/08/30/genesis-threat-to-bmw/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "480f1819f11d9b91d23306eb7911e2cfef54783ae235bbe2f3990723c75e8c73",
+    "category": "auto-news",
+    "created_at": "2026-08-30T21:46:18.402319",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-28T21:46:18.402319"
+  },
+  "286770": {
+    "article_id": "286770",
+    "headline": "Escaping the Digital Purgatory: How to Tame Your Group Chat Chaos",
+    "image_url": "https://images.unsplash.com/photo-1723609275983-9496fa96e8fd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8c21hcnRwaG9uZSUyMG5vdGlmaWNhdGlvbiUyMG92ZXJsb2FkfGVufDB8fHx8MTc4ODEyNjgxOXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/how-to-escape-from-group-chat-hell/",
+    "source_urls": [
+      "https://www.wired.com/story/how-to-escape-from-group-chat-hell/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f2cd33906523b40a84d9f6fd372e1ac188b0e4fdb5ec7c9ef41f4846f30d7384",
+    "category": "meme",
+    "created_at": "2026-08-30T21:53:42.388599",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T21:53:42.388599"
+  },
+  "60082": {
+    "article_id": "60082",
+    "headline": "Tom Gauld Captures the Seasonal Shift in the Literary Calendar",
+    "image_url": "https://images.pexels.com/photos/13407341/pexels-photo-13407341.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/picture/2026/aug/30/tom-gauld-on-the-end-of-the-summer-books-season-cartoon",
+    "source_urls": [
+      "https://www.theguardian.com/books/picture/2026/aug/30/tom-gauld-on-the-end-of-the-summer-books-season-cartoon"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0e9ca705e7adf33a40efff03ec1a01f8887f453ece739b7a938374efa0925d86",
+    "category": "book-news",
+    "created_at": "2026-08-30T22:12:46.977189",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:12:46.977189"
+  },
+  "62273": {
+    "article_id": "62273",
+    "headline": "NASA Launches Nancy Grace Roman Space Telescope to Unveil Dark Universe Secrets",
+    "image_url": "https://images.pexels.com/photos/2166/flight-sky-earth-space.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
+    "source_urls": [
+      "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4527021fa788e033a2f5fd0ed249a4c645595948ea748695e206fb29ab7b3075",
+    "category": "space-the-future",
+    "created_at": "2026-08-30T22:14:33.147347",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:14:33.147347"
+  },
+  "62274": {
+    "article_id": "62274",
+    "headline": "IBM and University of Chicago Achieve Quantum Computational Milestone",
+    "image_url": "https://images.unsplash.com/photo-1639140651961-41392a332bfc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8cXVhbnR1bSUyMGNvbXB1dGVyJTIwY2hpcHxlbnwwfHx8fDE3ODgxMjg4OTN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260829035219.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260829035219.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1c2fd5545e8dfee219376492bc56deb8ef9630dd90c7f5395d14df7bd243ac58",
+    "category": "physics",
+    "created_at": "2026-08-30T22:28:15.410444",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:28:15.410444"
+  },
+  "28259": {
+    "article_id": "28259",
+    "headline": "Omega-3 and Aspirin Show Promise as Alternatives to Antibiotics for Severe Gum Disease",
+    "image_url": "https://images.unsplash.com/photo-1657313611562-048f170b9497?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8cGVyaW9kb250YWwlMjBkaXNlYXNlJTIwdHJlYXRtZW50fGVufDB8fHx8MTc4ODEyODkyM3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260829035216.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260829035216.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c87242ce6294981a46dd68fcb9246d1163079eaaf126dc73c067268d9531183b",
+    "category": "news",
+    "created_at": "2026-08-30T22:28:45.273800",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:28:45.273800"
+  },
+  "40329": {
+    "article_id": "40329",
+    "headline": "Why Tesla’s Contextual ADAS Approach is Redefining Driver Assistance",
+    "image_url": "https://images.unsplash.com/photo-1740170629572-74d337e0e856?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8VGVzbGElMjBNb2RlbCUyMFklMjBkYXNoYm9hcmQlMjBpbnRlcmZhY2V8ZW58MHx8fHwxNzg4MTI4OTM4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/features/era-annoying-bongs-my-tesla-model-y-does-adas-right",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/features/era-annoying-bongs-my-tesla-model-y-does-adas-right"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d00e3f2faef831442afbddb70bd607993d0eb7410efc73dbdb97afbc332b11c7",
+    "category": "tech-biz",
+    "created_at": "2026-08-30T22:29:00.980294",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-28T22:29:00.980294"
+  },
+  "53897": {
+    "article_id": "53897",
+    "headline": "Public Health Alert: Dangerous Contaminants Found in Synthetic Party Pills",
+    "image_url": "https://images.unsplash.com/photo-1595804850773-4a3fe3444a71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8cHVibGljJTIwaGVhbHRoJTIwd2FybmluZyUyMHNpZ258ZW58MHx8fHwxNzg4MTI4OTU1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/drug-institute-warns-trump-shaped-ecstasy-pills-contain-potentially-fatal-ingredient",
+    "source_urls": [
+      "https://www.foxnews.com/health/drug-institute-warns-trump-shaped-ecstasy-pills-contain-potentially-fatal-ingredient"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ee8101bf5119bbe86602209d0b618f52af57b5ffa531d8022681c20183d5267e",
+    "category": "livingHealthy",
+    "created_at": "2026-08-30T22:29:17.386596",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:29:17.386596"
+  },
+  "64966": {
+    "article_id": "64966",
+    "headline": "Retailers Pivot to AI and Data-Driven Strategies for 2026 Holiday Season",
+    "image_url": "https://images.unsplash.com/photo-1772734645633-5bfbbb87da88?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8cmV0YWlsJTIwdGVjaG5vbG9neSUyMGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MHx8fHwxNzg4MTI4OTY2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.forbes.com/sites/jillstandish/2026/08/30/from-inflation-to-ai-how-retailers-can-stay-ahead-this-holiday-season/",
+    "source_urls": [
+      "https://www.forbes.com/sites/jillstandish/2026/08/30/from-inflation-to-ai-how-retailers-can-stay-ahead-this-holiday-season/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f3e63dc00fc0efb8ea24619dd46fc0cee0c6cfa6c0adb24eb5a1a0c609216598",
+    "category": "business",
+    "created_at": "2026-08-30T22:29:28.219365",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-28T22:29:28.219365"
+  },
+  "26947": {
+    "article_id": "26947",
+    "headline": "Inside the Style and Favorites of Love Island USA Winners Brinity",
+    "image_url": "https://images.pexels.com/photos/4626209/pexels-photo-4626209.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nytimes.com/2026/08/29/arts/television/love-island-usa-brinity-trinity-tatum-bryce-alakai.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/29/arts/television/love-island-usa-brinity-trinity-tatum-bryce-alakai.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d4b360e9c260e8884685cdcb4655af73041652917f042811747a9783b043cdd7",
+    "category": "couples",
+    "created_at": "2026-08-30T22:29:46.004562",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:29:46.004562"
+  },
+  "286771": {
+    "article_id": "286771",
+    "headline": "Scientists Just Created a 'Littlest Big Bang' in a Lab",
+    "image_url": "https://images.unsplash.com/photo-1781330168090-a2b6721eb435?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8cGFydGljbGUlMjBhY2NlbGVyYXRvciUyMGV4cGVyaW1lbnR8ZW58MHx8fHwxNzg4MTI4OTk1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/scientists-create-littlest-big-bang-to-study-universe-origins/",
+    "source_urls": [
+      "https://www.wired.com/story/scientists-create-littlest-big-bang-to-study-universe-origins/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "14674b3c4250f61628ad665590f08587c8fd8b032e8d239de069d5b82cc119a4",
+    "category": "cool",
+    "created_at": "2026-08-30T22:29:57.189067",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:29:57.189067"
+  },
+  "109926": {
+    "article_id": "109926",
+    "headline": "Cameron Norrie Eliminated by Luca Van Assche in US Open First Round",
+    "image_url": "https://images.pexels.com/photos/16639182/pexels-photo-16639182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.skysports.com/watch/video/13579292/cameron-norrie-v-luca-van-assche-us-open-first-round-highlights",
+    "source_urls": [
+      "https://www.skysports.com/watch/video/13579292/cameron-norrie-v-luca-van-assche-us-open-first-round-highlights"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3bfaa8ed5657c4bf3d15dfb9e971f75182a3500d63fea02bee94968a89675440",
+    "category": "tennis",
+    "created_at": "2026-08-30T22:30:08.505620",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:30:08.505620"
+  },
+  "235997": {
+    "article_id": "235997",
+    "headline": "AI Equity Stakes Drive $160 Billion Paper Windfall for Major Tech Firms",
+    "image_url": "https://images.unsplash.com/photo-1640451859877-1374a1155215?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8c3RvY2slMjBtYXJrZXQlMjB0ZWNobm9sb2d5JTIwaW52ZXN0bWVudHxlbnwwfHx8fDE3ODgxMjkwMzN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.ft.com/content/a5a0081f-e998-4c80-b967-cc535cbc4933?syn-25a6b1a6=1",
+    "source_urls": [
+      "https://www.ft.com/content/a5a0081f-e998-4c80-b967-cc535cbc4933?syn-25a6b1a6=1"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7580a35b81b650621c8760199b57be59077bd0d401ad1ccae69e75c9225a9d53",
+    "category": "franchise-news",
+    "created_at": "2026-08-30T22:30:37.468421",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-28T22:30:37.468421"
+  },
+  "1725333": {
+    "article_id": "1725333",
+    "headline": "Gamescom 2026 Highlights: The Most Anticipated Titles Shaping the Future of Gaming",
+    "image_url": "https://images.unsplash.com/photo-1698502475255-e39c98c9981b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxHYW1lc2NvbSUyMDIwMjYlMjBnYW1pbmclMjBldmVudHxlbnwwfHx8fDE3ODgxMjkwNDh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/cew92lp2g45o?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cew92lp2g45o?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6bb9182344f4864ba8a447deedc667430d59f924ff3cb9cccc9d7ba86f8f99f2",
+    "category": "games",
+    "created_at": "2026-08-30T22:30:51.580272",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:30:51.580272"
+  },
+  "237226": {
+    "article_id": "237226",
+    "headline": "Standardized Testing Returns: What Families Need to Know for 2026 Admissions",
+    "image_url": "https://images.unsplash.com/photo-1596495868845-63031cb496da?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8Y29sbGVnZSUyMGFkbWlzc2lvbnMlMjB0ZXN0aW5nJTIwcHJlcHxlbnwwfHx8fDE3ODgxMjkwNjR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://parentherald.com/articles/237198/20260819/colleges-reinstate-standardized-testing-requirements-amid-evolving-admissions-landscape.htm",
+    "source_urls": [
+      "https://parentherald.com/articles/237198/20260819/colleges-reinstate-standardized-testing-requirements-amid-evolving-admissions-landscape.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ce606221715337af3c5ed9774359f76f2dcaf41be379383de9f3d0c4921da0a9",
+    "category": "school",
+    "created_at": "2026-08-30T22:31:07.239497",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:31:07.239497"
+  },
+  "60083": {
+    "article_id": "60083",
+    "headline": "The Blind Spot in Anti-Censorship Legislation: Why Prisons Remain Excluded",
+    "image_url": "https://images.unsplash.com/photo-1633524597114-c651bcedb7c7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxwcmlzb24lMjBsaWJyYXJ5JTIwYm9va3N8ZW58MHx8fHwxNzg4MTI5MDk0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://bookriot.com/anti-censorship-legislation-doesnt-apply-to-prisons/",
+    "source_urls": [
+      "https://bookriot.com/anti-censorship-legislation-doesnt-apply-to-prisons/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0b23c2fdd130ab91b079077ed64c6eefb58791f670882bfd4ec571e70da311ea",
+    "category": "books",
+    "created_at": "2026-08-30T22:31:36.810186",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-28T22:31:36.810186"
+  },
+  "fail_1788129116_83": {
+    "article_id": "fail_1788129116_83",
+    "headline": "New Academic Guide Explores the Future of Food Studies and Nutrition Education",
+    "image_url": "https://images.unsplash.com/photo-1570700701974-437adb234c35?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMXx8Zm9vZCUyMHN0dWRpZXMlMjB0ZXh0Ym9vayUyMGVkdWNhdGlvbnxlbnwwfHx8fDE3ODgxMjkxMTV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foodpolitics.com/2026/08/weekend-reading-teaching-food-studies/",
+    "source_urls": [
+      "https://www.foodpolitics.com/2026/08/weekend-reading-teaching-food-studies/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fc7f43856264a817f84c443bd4f6e142ba228919a30c672a195d60bf55229584",
+    "category": "new-cookbooks",
+    "created_at": "2026-08-30T22:31:56.004342",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:31:56.004342"
+  },
+  "60124": {
+    "article_id": "60124",
+    "headline": "The Rise of 'Forward-Deployed' Engineering: A New Frontier in Tech Hiring",
+    "image_url": "https://images.unsplash.com/photo-1580894899378-92e56886cd4d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8YWklMjBzb2Z0d2FyZSUyMGVuZ2luZWVyJTIwd29ya2luZyUyMHdpdGglMjBjbGllbnR8ZW58MHx8fHwxNzg4MTI5Njc1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/30/business/forward-deployed-ai.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/30/business/forward-deployed-ai.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9fb32abfd0c3b1d289c586b48fa9de561d0c92d82d2dd149f5485c7bb8b383df",
+    "category": "business",
+    "created_at": "2026-08-30T22:41:18.362247",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T22:41:18.362247"
+  },
+  "1725334": {
+    "article_id": "1725334",
+    "headline": "Meta Implements Stricter Usage Controls for Teen Accounts on Instagram and Facebook",
+    "image_url": "https://images.unsplash.com/photo-1665054546585-11413bcdfb52?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8TWV0YSUyMEluc3RhZ3JhbSUyMHRlZW4lMjBzYWZldHl8ZW58MHx8fHwxNzg4MTMzMDExfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/tech/what-metas-new-teen-restrictions-mean-young-people",
+    "source_urls": [
+      "https://www.foxnews.com/tech/what-metas-new-teen-restrictions-mean-young-people"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "209b275eb0413af9ca31572c670305bac0fdfaa3f97f2bfe508b2f770d81860c",
+    "category": "mobile",
+    "created_at": "2026-08-30T23:36:54.560910",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-28T23:36:54.560910"
+  },
+  "286772": {
+    "article_id": "286772",
+    "headline": "Is Your Gaming Hobby Costing You A Second Date?",
+    "image_url": "https://images.unsplash.com/photo-1619439823841-a10ace563287?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxkYXRpbmclMjBhZHZpY2V8ZW58MHx8fHwxNzg4MTM0NjY4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.boredpanda.com/hobby-thats-sabotaging-single-mens-chances-with-women/",
+    "source_urls": [
+      "https://www.boredpanda.com/hobby-thats-sabotaging-single-mens-chances-with-women/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f465ffe60a24d5cc84f658c4aa268dcec830bf465f8b68415d1eda9284ab5ccb",
+    "category": "discussion",
+    "created_at": "2026-08-31T00:04:31.333256",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T00:04:31.333256"
+  },
+  "109927": {
+    "article_id": "109927",
+    "headline": "Toby Samuel Claims Maiden US Open Win as British Contenders Face Mixed Results",
+    "image_url": "https://images.unsplash.com/photo-1714841197508-c95e442ef638?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8VVMlMjBPcGVuJTIwdGVubmlzJTIwbWF0Y2glMjAyMDI2fGVufDB8fHx8MTc4ODE0MTMxOXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.skysports.com/tennis/news/12040/13579291/us-open-2026-toby-samuel-wins-first-career-grand-slam-match-as-cameron-norrie-loses-on-opening-day",
+    "source_urls": [
+      "https://www.skysports.com/tennis/news/12040/13579291/us-open-2026-toby-samuel-wins-first-career-grand-slam-match-as-cameron-norrie-loses-on-opening-day"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "00e86a03e01880374d30d6ff57b2d8ece787d27af1286272aa0aef54caaa7bd2",
+    "category": "world-tennis",
+    "created_at": "2026-08-31T01:55:21.281296",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T01:55:21.281296"
+  },
+  "26948": {
+    "article_id": "26948",
+    "headline": "Olivia Rodrigo’s Daisy Chain Fields Festival Makes Star-Studded Debut",
+    "image_url": "https://images.pexels.com/photos/4218027/pexels-photo-4218027.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.rollingstone.com/music/music-live-reviews/olivia-rodrigo-daisy-chain-fields-chappell-roan-doechii-1235614558/",
+    "source_urls": [
+      "https://www.rollingstone.com/music/music-live-reviews/olivia-rodrigo-daisy-chain-fields-chappell-roan-doechii-1235614558/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fb3fb774326ce53af0868aa5c5dcb14d03b01331f127c385f2fd11d0cc958e0e",
+    "category": "news",
+    "created_at": "2026-08-31T02:22:56.215648",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T02:22:56.215648"
+  },
+  "28260": {
+    "article_id": "28260",
+    "headline": "Ketogenic Diet Shows Significant Efficacy in Reducing Liver Fat, Clinical Trial Finds",
+    "image_url": "https://images.unsplash.com/photo-1723689678528-62e2e6e3c5aa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8a2V0b2dlbmljJTIwZGlldCUyMG1ldGFib2xpYyUyMGhlYWx0aCUyMHJlc2VhcmNofGVufDB8fHx8MTc4ODE0NjE3NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260828082327.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260828082327.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8f1376d7153051ffcc4e397610982bfcc41d1b26311dcbd16da87e701deb52b0",
+    "category": "science-news",
+    "created_at": "2026-08-31T03:16:16.841088",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T03:16:16.841088"
+  },
+  "235998": {
+    "article_id": "235998",
+    "headline": "Chinese Chipmaker Longsys Targets $801 Million Hong Kong Listing",
+    "image_url": "https://images.unsplash.com/photo-1717386255767-52643970d483?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8c2VtaWNvbmR1Y3RvciUyMG1hbnVmYWN0dXJpbmclMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc4ODE0Nzc5OXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bloomberg.com/news/articles/2026-08-31/chinese-chipmaker-longsys-seeks-800-million-in-hk-listing",
+    "source_urls": [
+      "https://www.bloomberg.com/news/articles/2026-08-31/chinese-chipmaker-longsys-seeks-800-million-in-hk-listing"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3c8809673c9d84028e6e211b208b77b0d7b829b472a65e9081a9d28f2613b11b",
+    "category": "biz-tech",
+    "created_at": "2026-08-31T03:43:21.533611",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T03:43:21.533611"
+  }
+}

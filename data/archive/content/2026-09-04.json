@@ -1,0 +1,614 @@
+{
+  "62283": {
+    "article_id": "62283",
+    "headline": "RX 490 vs GTX 1080 Ti: Legacy of a Historic GPU Architecture Face-off",
+    "image_url": "https://images.unsplash.com/photo-1586617272084-e6d5b5cf709b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8R1BVJTIwYXJjaGl0ZWN0dXJlJTIwaGlzdG9yeXxlbnwwfHx8fDE3ODg0NTc4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/50483/20161020/amd-radeon-rx-490-vs-nvidia-gtx-1080-ti-best.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/50483/20161020/amd-radeon-rx-490-vs-nvidia-gtx-1080-ti-best.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "82a13b35897c200caa82d510278940378fa512156a02bacc20caaf2b0e7f8baf",
+    "category": "tech",
+    "created_at": "2026-09-03T17:51:18.939652",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T17:51:18.939652"
+  },
+  "28268": {
+    "article_id": "28268",
+    "headline": "Interactive Gaming and Cognitive Health: New Insights for 2026",
+    "image_url": "https://images.unsplash.com/photo-1755210888583-6e0dc16ee35b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8Y29nbml0aXZlJTIwaGVhbHRoJTIwYW5kJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3ODg0NTc4OTR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/tags/god-of-war-4",
+    "source_urls": [
+      "https://latinoshealth.com/tags/god-of-war-4"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b80c68491373e8d74fef78e35aeb17f196225b104e1c2716ddbff8ae902ba119",
+    "category": "healthy-habits",
+    "created_at": "2026-09-03T17:51:36.757670",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T17:51:36.757670"
+  },
+  "40337": {
+    "article_id": "40337",
+    "headline": "General Motors Enhances Vehicle Security with New In-Car Camera Features via OTA Update",
+    "image_url": "https://images.unsplash.com/photo-1748170557381-7a1fc4c3ba45?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxHZW5lcmFsJTIwTW90b3JzJTIwdmVoaWNsZSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzg4NDU3OTExfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.motor1.com/news/807024/gm-ota-camera-update-passenger/",
+    "source_urls": [
+      "https://www.motor1.com/news/807024/gm-ota-camera-update-passenger/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "623d862ca20e874fe7778643048ab740298ebc703f4304778eb17edecb5b7a2d",
+    "category": "auto-news",
+    "created_at": "2026-09-03T17:51:53.632950",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T17:51:53.632950"
+  },
+  "53906": {
+    "article_id": "53906",
+    "headline": "Lymphatic Workouts: Why Consistent Movement Beats Viral Fitness Trends",
+    "image_url": "https://images.unsplash.com/photo-1753586269937-498c84cc9685?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8dGVlbiUyMGZpdG5lc3MlMjBhbmQlMjBoZWFsdGh8ZW58MHx8fHwxNzg4NDU3OTI3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://youthhealthmag.com/articles/53883/20260830/do-lymphatic-workouts-actually-reduce-bloating-a-medical-perspective.htm",
+    "source_urls": [
+      "https://youthhealthmag.com/articles/53883/20260830/do-lymphatic-workouts-actually-reduce-bloating-a-medical-perspective.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "248e79330c188bf3c527a9cfe6f41a106a481cf049a1c767ccadf9abea2f954b",
+    "category": "diet-fitness",
+    "created_at": "2026-09-03T17:52:09.169564",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-02T17:52:09.169564"
+  },
+  "64972": {
+    "article_id": "64972",
+    "headline": "Nvidia Expands AI Dominance with $12.9 Billion Hugging Face Acquisition",
+    "image_url": "https://images.unsplash.com/photo-1766740606233-6573571caa6b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxOdmlkaWElMjBjb3Jwb3JhdGUlMjBoZWFkcXVhcnRlcnN8ZW58MHx8fHwxNzg4NDU3OTQxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/03/technology/nvidia-hugging-face.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/03/technology/nvidia-hugging-face.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "56856ac117a68d1b79c828ae9912570dcdc582a980ba8ecd079d25e986177a37",
+    "category": "business",
+    "created_at": "2026-09-03T17:52:23.698982",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T17:52:23.698982"
+  },
+  "26955": {
+    "article_id": "26955",
+    "headline": "Amelia Dimoldenberg Announces Conclusion of Chicken Shop Date Series",
+    "image_url": "https://images.unsplash.com/photo-1757932451792-3357b9936892?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8QW1lbGlhJTIwRGltb2xkZW5iZXJnJTIwQ2hpY2tlbiUyMFNob3AlMjBEYXRlfGVufDB8fHx8MTc4ODQ1Nzk2Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/c5ylg86gp4eo?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/c5ylg86gp4eo?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c5c05a31467f80731e84a005bd6ab1d735bf1110e54e43afc1cca9d77f75d540",
+    "category": "style",
+    "created_at": "2026-09-03T17:52:44.739839",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T17:52:44.739839"
+  },
+  "109935": {
+    "article_id": "109935",
+    "headline": "Fin Tarling Tragedy Accelerates Push for Elite Cycling Helmet Standards",
+    "image_url": "https://images.unsplash.com/photo-1760863329383-22abb63262e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMXx8cHJvZmVzc2lvbmFsJTIwY3ljbGluZyUyMHNhZmV0eXxlbnwwfHx8fDE3ODg0NTgwMDV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/109883/20260819/cycling-union-demands-helmet-safety-reforms-following-fin-tarling-s-death.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/109883/20260819/cycling-union-demands-helmet-safety-reforms-following-fin-tarling-s-death.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ea43159db63aa8acc0960d76f2f4e61c6689ad211d394961b7a64b0644d263e9",
+    "category": "soccer",
+    "created_at": "2026-09-03T17:53:28.030692",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T17:53:28.030692"
+  },
+  "60131": {
+    "article_id": "60131",
+    "headline": "Miley Cyrus Sex Tape Scams Highlight Growing Corporate Cybersecurity Threats",
+    "image_url": "https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxjeWJlcnNlY3VyaXR5JTIwYXdhcmVuZXNzfGVufDB8fHx8MTc4ODQ1ODAyNXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://jobsnhire.com/articles/9588/20140425/miley-cyrus-sex-tape-goes-viral-leaked-video-new-boyfriend.htm",
+    "source_urls": [
+      "https://jobsnhire.com/articles/9588/20140425/miley-cyrus-sex-tape-goes-viral-leaked-video-new-boyfriend.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "368d0cd1f8716227e72e458aa53a30bbccac881a4a8fc4fae85a0089aedea934",
+    "category": "news",
+    "created_at": "2026-09-03T17:53:47.604713",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T17:53:47.604713"
+  },
+  "1725342": {
+    "article_id": "1725342",
+    "headline": "Nvidia Unveils RTX Spark Superchip to Power Next-Generation AI PCs",
+    "image_url": "https://images.unsplash.com/photo-1622957041662-3e252cf3bb27?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8TnZpZGlhJTIwUlRYJTIwQUklMjBQQyUyMGhhcmR3YXJlfGVufDB8fHx8MTc4ODQ1ODA4NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/",
+    "source_urls": [
+      "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1a735b85d1f72a25548b436cc90710c502e25e7b809c24c740722fe7a5908c53",
+    "category": "news",
+    "created_at": "2026-09-03T17:54:48.543841",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T17:54:48.543841"
+  },
+  "237234": {
+    "article_id": "237234",
+    "headline": "Addressing Postpartum Mental Health: Insights from Karen Kleiman on Maternal Well-being",
+    "image_url": "https://images.unsplash.com/photo-1651434822367-d5b3f45b8112?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxwb3N0cGFydHVtJTIwbWVudGFsJTIwaGVhbHRoJTIwc3VwcG9ydHxlbnwwfHx8fDE3ODg0NTgxMDl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/postpartum/karen-kleiman-two-truths-interview/",
+    "source_urls": [
+      "https://mother.ly/postpartum/karen-kleiman-two-truths-interview/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5b39d097b17aa32bd6cc1e921c18f204bd7d506906a4718787c2c16dc23101f4",
+    "category": "parenting",
+    "created_at": "2026-09-03T17:55:12.030790",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-02T17:55:12.030790"
+  },
+  "60092": {
+    "article_id": "60092",
+    "headline": "Lionel Shriver Continues to Challenge Cultural Norms in Modern Fiction",
+    "image_url": "https://images.unsplash.com/photo-1645880769907-6ef65a38d531?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8TGlvbmVsJTIwU2hyaXZlciUyMGF1dGhvciUyMHBvcnRyYWl0fGVufDB8fHx8MTc4ODQ1ODEyN3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://booksnreview.com/articles/19371/20240416/mania-lionel-shriver-book-review-provocative-satire-societys-absurd-pursuit.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/19371/20240416/mania-lionel-shriver-book-review-provocative-satire-societys-absurd-pursuit.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "180a2736febe446c24a711849c29458c336981e8e3bf83949214c2ce5e7feb19",
+    "category": "authors",
+    "created_at": "2026-09-03T17:55:29.438690",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T17:55:29.438690"
+  },
+  "fail_1788458146_355": {
+    "article_id": "fail_1788458146_355",
+    "headline": "Public Health Experts Question Safety and Sustainability of Lettuce Consumption",
+    "image_url": "https://images.unsplash.com/photo-1515356956468-873dd257f911?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxmcmVzaCUyMGxldHR1Y2UlMjBmb29kJTIwc2FmZXR5fGVufDB8fHx8MTc4ODQ1ODE0NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foodpolitics.com/2026/09/should-we-be-eating-lettuce/",
+    "source_urls": [
+      "https://www.foodpolitics.com/2026/09/should-we-be-eating-lettuce/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a82ceebd45c18ba14c4c7c97a786ade18a87359463c97dbb48a2281977c32759",
+    "category": "safety",
+    "created_at": "2026-09-03T17:55:46.279466",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-02T17:55:46.279466"
+  },
+  "fail_1788458156_618": {
+    "article_id": "fail_1788458156_618",
+    "headline": "Navigating Nutritional Science: How to Evaluate Dietary Health Claims",
+    "image_url": "https://images.unsplash.com/photo-1721354737629-fe43b912c095?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8bnV0cml0aW9uYWwlMjByZXNlYXJjaCUyMHNjaWVuY2V8ZW58MHx8fHwxNzg4NDU4MTU1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://nutritionfacts.org/blog/when-should-we-rely-on-observational-studies/",
+    "source_urls": [
+      "https://nutritionfacts.org/blog/when-should-we-rely-on-observational-studies/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "816935bc13b526760765c302ae15586d2e1d28447a79c44af7582df3a0616a17",
+    "category": "tips",
+    "created_at": "2026-09-03T17:55:56.118362",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-02T17:55:56.118362"
+  },
+  "40338": {
+    "article_id": "40338",
+    "headline": "Uber Launches First Autonomous Ride-Hailing Service in London with Wayve",
+    "image_url": "https://images.unsplash.com/photo-1685984351037-f5c0926a716e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxhdXRvbm9tb3VzJTIwdmVoaWNsZSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzg4NDY5NzU2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/new-cars/uber-launches-uks-first-driverless-taxi-service-london",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/new-cars/uber-launches-uks-first-driverless-taxi-service-london"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c659af912766dc680cb5db2785f2194e510fd8cd70ed05b32f466424efe5ef49",
+    "category": "tech-biz",
+    "created_at": "2026-09-03T21:09:19.125192",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:09:19.125192"
+  },
+  "62284": {
+    "article_id": "62284",
+    "headline": "New Theoretical Model Challenges Origins of Early Universe Black Holes",
+    "image_url": "https://images.pexels.com/photos/15474720/pexels-photo-15474720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.newscientist.com/article/2587559-not-quite-primordial-black-holes-may-explain-baffling-jwst-discovery/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+    "source_urls": [
+      "https://www.newscientist.com/article/2587559-not-quite-primordial-black-holes-may-explain-baffling-jwst-discovery/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c698aa8762f48a8d921837fff3b73a36d85cb952d3b12c99d804b8e90d9c8d5a",
+    "category": "space-the-future",
+    "created_at": "2026-09-03T21:16:16.526671",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:16:16.526671"
+  },
+  "28269": {
+    "article_id": "28269",
+    "headline": "Psilocybin Shows Potential in Preventing Chemotherapy-Induced Nerve Damage",
+    "image_url": "https://images.unsplash.com/photo-1582719366768-de4481b828ce?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8bWVkaWNhbCUyMHJlc2VhcmNoJTIwbGFib3JhdG9yeXxlbnwwfHx8fDE3ODg0NzAxODl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/03/health/psilocybin-cancer-nerve-damage.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/03/health/psilocybin-cancer-nerve-damage.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fcbd20e363b3efdb71e1fe13dd342d55993d4ae377a832f00662aaa751f59776",
+    "category": "science-news",
+    "created_at": "2026-09-03T21:16:31.305686",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:16:31.305686"
+  },
+  "40339": {
+    "article_id": "40339",
+    "headline": "Engineering Excellence Defines the 2026 Porsche Cayenne Turbo Electric",
+    "image_url": "https://images.unsplash.com/photo-1654159866298-e3c8ee93e43b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHwyMDI2JTIwUG9yc2NoZSUyMENheWVubmUlMjBUdXJibyUyMEVsZWN0cmljfGVufDB8fHx8MTc4ODQ3MDIwMnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.jalopnik.com/2250388/2026-porsche-cayenne-turbo-electric-first-drive-review/",
+    "source_urls": [
+      "https://www.jalopnik.com/2250388/2026-porsche-cayenne-turbo-electric-first-drive-review/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "822f8c9b7a6d0a96c568a3db536a4ac3b53c74b6ab3f83f568593a34869948a7",
+    "category": "auto-reviews",
+    "created_at": "2026-09-03T21:16:44.355277",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:16:44.355277"
+  },
+  "53907": {
+    "article_id": "53907",
+    "headline": "Magnesium Versus Melatonin: Evaluating Sleep Supplements for Teens",
+    "image_url": "https://images.unsplash.com/photo-1584625868084-3e2dfa8d5d6a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8dGVlbmFnZXIlMjBzbGVlcGluZyUyMGluJTIwYmVkfGVufDB8fHx8MTc4ODQ3MDIxNHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/03/well/eat/magnesium-versus-melatonin-sleep.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/03/well/eat/magnesium-versus-melatonin-sleep.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0454b1d8f3941508ccc22537c9ff4c2cffa71c2d0a9a60e12bc2d4fec4ae9e82",
+    "category": "teenHeath",
+    "created_at": "2026-09-03T21:16:56.953030",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-02T21:16:56.953030"
+  },
+  "26956": {
+    "article_id": "26956",
+    "headline": "Netflix Releases Gloria Steinem Interview on 'Famous Last Words' Following Her Death",
+    "image_url": "https://images.unsplash.com/photo-1643208589906-19d5248aff31?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxHbG9yaWElMjBTdGVpbmVtJTIwTmV0ZmxpeCUyMGRvY3VtZW50YXJ5fGVufDB8fHx8MTc4ODQ3MDI1N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://deadline.com/2026/09/gloria-steinem-famous-last-words-netflix-1237067293/",
+    "source_urls": [
+      "https://deadline.com/2026/09/gloria-steinem-famous-last-words-netflix-1237067293/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7baea6c0e475c596f3ea4e039aa22a6f7e5101d2fe46f576f0434bca26f314a6",
+    "category": "news",
+    "created_at": "2026-09-03T21:17:39.736193",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:17:39.736193"
+  },
+  "286780": {
+    "article_id": "286780",
+    "headline": "Andrew Lincoln Redefines Post-Apocalyptic Stardom Beyond The Walking Dead",
+    "image_url": "https://images.unsplash.com/photo-1647744632506-4134ed2f90ce?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8QW5kcmV3JTIwTGluY29sbiUyMDIwMjZ8ZW58MHx8fHwxNzg4NDcwMjczfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://boomsbeat.com/articles/285043/20190627/30-little-known-facts-about-andrew-lincoln-we-bet-you-never-knew-before.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/285043/20190627/30-little-known-facts-about-andrew-lincoln-we-bet-you-never-knew-before.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5e93e1f903cdd420c7d3ab52f89fc78da784b9546598ee8e9445c978953c8039",
+    "category": "people",
+    "created_at": "2026-09-03T21:17:55.742439",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:17:55.742439"
+  },
+  "109936": {
+    "article_id": "109936",
+    "headline": "England Clinches ODI Series Victory Over Ireland in Derby",
+    "image_url": "https://images.pexels.com/photos/39138282/pexels-photo-39138282.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.skysports.com/watch/video/13580959/england-vs-ireland-second-odi-highlights",
+    "source_urls": [
+      "https://www.skysports.com/watch/video/13580959/england-vs-ireland-second-odi-highlights"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b62d637143b527a13015898f4e2aa9938b568d200cc0dcfc70842469b179d113",
+    "category": "world-cricket",
+    "created_at": "2026-09-03T21:18:11.500249",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:18:11.500249"
+  },
+  "60132": {
+    "article_id": "60132",
+    "headline": "Meta AI Workforce Shift Signals New Era of Specialized Tech Hiring",
+    "image_url": "https://images.unsplash.com/photo-1677442135131-4d7c123aef1c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGpvYiUyMG1hcmtldCUyMHRyZW5kc3xlbnwwfHx8fDE3ODg0NzAzMDV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://jobsnhire.com/articles/60063/20251023/meta-ai-division-hit-600-job-cuts-what-it-means-future-ai-work.htm",
+    "source_urls": [
+      "https://jobsnhire.com/articles/60063/20251023/meta-ai-division-hit-600-job-cuts-what-it-means-future-ai-work.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fc7484ca68f7da3bdaa79f7d934ee34551d1d8cfe3ae3a01de6ef952c68df5d3",
+    "category": "tech",
+    "created_at": "2026-09-03T21:18:27.822350",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:18:27.822350"
+  },
+  "236006": {
+    "article_id": "236006",
+    "headline": "Sam’s Club Membership Strategy: Maximizing Value for Household Add-Ons",
+    "image_url": "https://images.unsplash.com/photo-1766289198934-0f423829a07a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxTYW0lMjdzJTIwQ2x1YiUyMG1lbWJlcnNoaXAlMjBiZW5lZml0cyUyMGd1aWRlfGVufDB8fHx8MTc4ODQ3MDMyOXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/77828/20240701/sams-clubs-customers-question-enforced-membership-add-rules.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/77828/20240701/sams-clubs-customers-question-enforced-membership-add-rules.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "14e29ba7b6733aeebea05f60ad3b2c328564840165a0a6846b0fbf7291f7c3f4",
+    "category": "guide",
+    "created_at": "2026-09-03T21:18:51.336296",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:18:51.336296"
+  },
+  "1725343": {
+    "article_id": "1725343",
+    "headline": "Google Introduces Motion Assist to Combat Mobile Motion Sickness",
+    "image_url": "https://images.unsplash.com/photo-1749953680414-62d2afc6c29c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8R29vZ2xlJTIwUGl4ZWwlMjBBbmRyb2lkJTIwMTclMjBpbnRlcmZhY2V8ZW58MHx8fHwxNzg4NDcwMzQ0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/tech/android-motion-assist-ease-car-sickness-phone",
+    "source_urls": [
+      "https://www.foxnews.com/tech/android-motion-assist-ease-car-sickness-phone"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "abee26ba3abca9b2ad80dd07d1571c5ca86584b37d4d615f4562d231ca1f1b58",
+    "category": "mobile",
+    "created_at": "2026-09-03T21:19:06.813607",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:19:06.813607"
+  },
+  "237235": {
+    "article_id": "237235",
+    "headline": "Hundreds of Thousands of Eligible Children Face Childcare Assistance Waitlists",
+    "image_url": "https://images.unsplash.com/photo-1786292949404-084cbd10c7b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8Y2hpbGRjYXJlJTIwYXNzaXN0YW5jZSUyMHdhaXRsaXN0fGVufDB8fHx8MTc4ODQ3MDM2OHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://edsurge.com/news/hundreds-of-thousands-of-eligible-kids-are-waiting-for-childcare-assistance",
+    "source_urls": [
+      "https://edsurge.com/news/hundreds-of-thousands-of-eligible-kids-are-waiting-for-childcare-assistance"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2b44cf8abfc7869676909a0cca6bdbff9f539cd0de9367e2771446e39da294d1",
+    "category": "issues",
+    "created_at": "2026-09-03T21:19:31.090120",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:19:31.090120"
+  },
+  "60093": {
+    "article_id": "60093",
+    "headline": "Baillie Gifford Prize 2026 Longlist Highlights Diverse Nonfiction Narratives",
+    "image_url": "https://images.pexels.com/photos/7267578/pexels-photo-7267578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/03/espionage-true-and-war-baillie-gifford-longlist-revealed",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/03/espionage-true-and-war-baillie-gifford-longlist-revealed"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "92000837ce8791239fbcb46e0ec7995089b93abc1dd03f1ce46b260c06924b1b",
+    "category": "book-news",
+    "created_at": "2026-09-03T21:19:52.290974",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:19:52.290974"
+  },
+  "64973": {
+    "article_id": "64973",
+    "headline": "U.S. Trade Deficit Widens in July Driven by AI Infrastructure Investment",
+    "image_url": "https://images.unsplash.com/photo-1782330301061-8c4d49c13fcb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8ZGF0YSUyMGNlbnRlciUyMGluZnJhc3RydWN0dXJlfGVufDB8fHx8MTc4ODQ3MTExOXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/03/business/economy/us-trade-defecit-july.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/03/business/economy/us-trade-defecit-july.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "dda233c7472b3c36a8e444dfd22968de5e6aa475dbf0262723105468fd1825dd",
+    "category": "tech",
+    "created_at": "2026-09-03T21:32:01.524907",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:32:01.524907"
+  },
+  "60094": {
+    "article_id": "60094",
+    "headline": "Simon Armitage Explores Mortality and Memory in New Cemetery",
+    "image_url": "https://images.unsplash.com/photo-1519304520401-239e2a56a1aa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxTaW1vbiUyMEFybWl0YWdlJTIwcG9ldHJ5fGVufDB8fHx8MTc4ODQ3MjQzOXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/03/new-cemetery-by-simon-armitage-audiobook-review-the-poet-laureates-meditations-take-flight",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/03/new-cemetery-by-simon-armitage-audiobook-review-the-poet-laureates-meditations-take-flight"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a84cd4bd85e6a66f534f67ffe0d8929ea04ab299619f0d38667a78da37d43b01",
+    "category": "book-reviews",
+    "created_at": "2026-09-03T21:54:02.836704",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T21:54:02.836704"
+  },
+  "53908": {
+    "article_id": "53908",
+    "headline": "Ketogenic Diet Shows Potential in Reducing Liver Fat and Reversing Prediabetes",
+    "image_url": "https://images.unsplash.com/photo-1649067846117-2d71b76be1e0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8aGVhbHRoeSUyMGVhdGluZyUyMGhhYml0c3xlbnwwfHx8fDE3ODg0NzUxNjB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/popular-diet-slashes-liver-fat-67-percent-reversing-prediabetes-people",
+    "source_urls": [
+      "https://www.foxnews.com/health/popular-diet-slashes-liver-fat-67-percent-reversing-prediabetes-people"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7c577d62a4a7d03d861c6e6162507f2a0502f7002086ee45c65232a45c5ae934",
+    "category": "diet-fitness",
+    "created_at": "2026-09-03T22:39:21.914702",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T22:39:21.914702"
+  },
+  "62285": {
+    "article_id": "62285",
+    "headline": "Cosmic Star Formation Decline Persists Despite Abundant Hydrogen Reserves",
+    "image_url": "https://images.unsplash.com/photo-1677638252372-bc53025387c1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxnYWxheHklMjBzdGFyJTIwZm9ybWF0aW9uJTIwYXN0cm9ub215fGVufDB8fHx8MTc4ODQ3NjUwNHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260902234442.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260902234442.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4a2d6b88b62b775f7b1931203fc106fcf925948e4422ef1075cbbf54ee6213c9",
+    "category": "energy-particles",
+    "created_at": "2026-09-03T23:01:46.596834",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T23:01:46.596834"
+  },
+  "236007": {
+    "article_id": "236007",
+    "headline": "Anthropic Nears Finalization of $15 Billion Credit Facility Ahead of IPO",
+    "image_url": "https://images.unsplash.com/photo-1512015454017-42c947c53ada?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHNlcnZlciUyMHJvb218ZW58MHx8fHwxNzg4NDc3ODUxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bloomberg.com/news/articles/2026-09-03/anthropic-nears-finalizing-15-billion-pre-ipo-credit-facility",
+    "source_urls": [
+      "https://www.bloomberg.com/news/articles/2026-09-03/anthropic-nears-finalizing-15-billion-pre-ipo-credit-facility"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8f7c78c160b16343bb75164d37e0940c93f713262a92c7cededc866453497773",
+    "category": "franchise-news",
+    "created_at": "2026-09-03T23:24:14.512075",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T23:24:14.512075"
+  },
+  "1725344": {
+    "article_id": "1725344",
+    "headline": "Uber Debuts Autonomous Ride-Hailing Service in the UK",
+    "image_url": "https://images.unsplash.com/photo-1624607391672-2b7d1bcafe7c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxhdXRvbm9tb3VzJTIwdGF4aSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzg4NDc5MjAzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/ce9e838jzpzo?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/ce9e838jzpzo?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "47f4521b0357901c87d33bfa07d4a476d3eb502ce0269d7d4d42786cda1e24d5",
+    "category": "news",
+    "created_at": "2026-09-03T23:46:45.911623",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-02T23:46:45.911623"
+  },
+  "109937": {
+    "article_id": "109937",
+    "headline": "SportsLine Model Releases 2026 College Football Week 1 Predictions",
+    "image_url": "https://images.unsplash.com/photo-1659059398517-de187579c0aa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8Y29sbGVnZSUyMGZvb3RiYWxsJTIwc3RhZGl1bXxlbnwwfHx8fDE3ODg0ODMyMTN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/betting/news/college-football-odds-lines-spreads-picks-predictions-betting-strategy-for-week-1-2026/",
+    "source_urls": [
+      "https://www.cbssports.com/betting/news/college-football-odds-lines-spreads-picks-predictions-betting-strategy-for-week-1-2026/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5e2111c53c0fd6acaae94124c1414cf2998388035f0d8cabcfb621c24c6bc150",
+    "category": "college",
+    "created_at": "2026-09-04T00:53:35.029177",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-03T00:53:35.029177"
+  },
+  "26957": {
+    "article_id": "26957",
+    "headline": "Katseye Maintains Visual Cohesion and Stage Presence During London Tour",
+    "image_url": "https://images.pexels.com/photos/7318722/pexels-photo-7318722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.bbc.co.uk/news/articles/cqxv49z84ppo?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cqxv49z84ppo?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2b910cca7d1152c97f9abf92693ef5f6af76a672b69ee06d6cc1d57699293eb0",
+    "category": "style",
+    "created_at": "2026-09-04T01:15:37.137572",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T01:15:37.137572"
+  },
+  "286781": {
+    "article_id": "286781",
+    "headline": "Google Maps Satire Goes Viral: The Absurdity of Hyper-Specific Tech Features",
+    "image_url": "https://images.unsplash.com/photo-1736775707122-b34a2f2df830?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxmdW5ueSUyMHRlY2glMjBtZW1lfGVufDB8fHx8MTc4ODQ4NTg3NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://theonion.com/google-maps-introduces-crawling-directions-for-cyclists-hit-by-truck/",
+    "source_urls": [
+      "https://theonion.com/google-maps-introduces-crawling-directions-for-cyclists-hit-by-truck/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "27dcd98a4dd9603ff2274d1c9a4b37fe456400b5db7d984573cfe71c27b11a93",
+    "category": "meme",
+    "created_at": "2026-09-04T01:37:56.509536",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T01:37:56.509536"
+  },
+  "28270": {
+    "article_id": "28270",
+    "headline": "New Diagnostic Tool Improves Detection of 'Broken Heart Syndrome'",
+    "image_url": "https://images.unsplash.com/photo-1690787628851-d36e285c29b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8Y2FyZGlvbG9neSUyMG1lZGljYWwlMjByZXNlYXJjaHxlbnwwfHx8fDE3ODg0ODcyMTd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260901070518.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260901070518.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4ef6f526cf7d4a3370de2bf40f17382d5d969b436ac4bc8a352a01e827d48e9e",
+    "category": "news",
+    "created_at": "2026-09-04T02:00:19.778302",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-03T02:00:19.778302"
+  }
+}

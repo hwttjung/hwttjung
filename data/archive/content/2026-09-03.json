@@ -1,0 +1,444 @@
+{
+  "286778": {
+    "article_id": "286778",
+    "headline": "The Ultimate Tech Showdown: When AI Recruiters Face AI Candidates",
+    "image_url": "https://images.unsplash.com/photo-1601132359864-c974e79890ac?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwcm9ib3QlMjBpbnRlcnZpZXd8ZW58MHx8fHwxNzg4MzY2ODUyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/bot-vs-bot-job-interview-ai/",
+    "source_urls": [
+      "https://www.wired.com/story/bot-vs-bot-job-interview-ai/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "87a3fbd1355e8dcbef0c50f994e3d67ef01e0e780059f4712da781794b95a8fe",
+    "category": "funny",
+    "created_at": "2026-09-02T16:34:14.137013",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T16:34:14.137013"
+  },
+  "1725340": {
+    "article_id": "1725340",
+    "headline": "Amazon Enhances Alexa Shopping With New AI-Powered Scam Detection",
+    "image_url": "https://images.unsplash.com/photo-1544451256-d79e9e199fa8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxhbWF6b24lMjBhbGV4YSUyMHNlY3VyaXR5JTIwYWl8ZW58MHx8fHwxNzg4MzY4MzkwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/",
+    "source_urls": [
+      "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f86d4e131d94d69574070d778a1da93daffa4c54774883824584731a09842ea3",
+    "category": "security",
+    "created_at": "2026-09-02T16:59:53.214663",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T16:59:53.214663"
+  },
+  "53904": {
+    "article_id": "53904",
+    "headline": "Caffeine Habits and Bone Density: What Recent Findings Mean for Long-Term Health",
+    "image_url": "https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxoZWFsdGh5JTIwdGVhJTIwZHJpbmt8ZW58MHx8fHwxNzg4MzY5ODU0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260901070550.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260901070550.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "202856bf2aca5f6db5b89956671fb4c081efed9355a5ef00f8994e4d10e97f43",
+    "category": "nutrition-food",
+    "created_at": "2026-09-02T17:24:17.198085",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T17:24:17.198085"
+  },
+  "62281": {
+    "article_id": "62281",
+    "headline": "Graphene Research Shifts from Hyperbolic Promise to Industrial Precision",
+    "image_url": "https://images.unsplash.com/photo-1666811722689-08d507f480d9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8Z3JhcGhlbmUlMjBuYW5vdGVjaG5vbG9neSUyMHJlc2VhcmNofGVufDB8fHx8MTc4ODM3MjMyMnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/8778/20130812/story-graphene-one-key-researchers-sergey-kubatkin.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/8778/20130812/story-graphene-one-key-researchers-sergey-kubatkin.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c672a25ecf485319c79dc0d837c57133c9718de197a57bf558e7fc748e1d0c7f",
+    "category": "physics",
+    "created_at": "2026-09-02T18:05:23.429270",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:05:23.429270"
+  },
+  "28266": {
+    "article_id": "28266",
+    "headline": "New Metabolic Compound Shows Promise in Fat Reduction Without Muscle Loss",
+    "image_url": "https://images.pexels.com/photos/8940480/pexels-photo-8940480.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.foxnews.com/health/new-weight-loss-compound-melts-fat-without-curbing-appetite-preserves-muscle",
+    "source_urls": [
+      "https://www.foxnews.com/health/new-weight-loss-compound-melts-fat-without-curbing-appetite-preserves-muscle"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "31bdbcce8db6003659acaf9f3513179b8b21b139ae8ce7e915115efe89d3c36a",
+    "category": "news",
+    "created_at": "2026-09-02T18:05:40.542041",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:05:40.542041"
+  },
+  "40335": {
+    "article_id": "40335",
+    "headline": "BMW Reimagines the 3 Series Lineup with the 2027 i3 Electric Sedan",
+    "image_url": "https://images.unsplash.com/photo-1665950799706-610088e8d006?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8MjAyNyUyMEJNVyUyMGkzJTIwZWxlY3RyaWMlMjBzZWRhbnxlbnwwfHx8fDE3ODgzNzIzNTV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bmwblog.com/2026/09/02/2027-bmw-i3-first-edition-walkaround-video/",
+    "source_urls": [
+      "https://www.bmwblog.com/2026/09/02/2027-bmw-i3-first-edition-walkaround-video/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9bf40210834271807e54d922abbab85a3ddcdd76cd33ca73602411f9d2e8226b",
+    "category": "auto-news",
+    "created_at": "2026-09-02T18:05:57.442645",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:05:57.442645"
+  },
+  "53905": {
+    "article_id": "53905",
+    "headline": "Dermatologists Weigh In: The Safest Way for Teens to Manage Blackheads",
+    "image_url": "https://images.unsplash.com/photo-1648203276014-20f97ba1f817?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHx0ZWVuYWdlciUyMHNraW5jYXJlJTIwcm91dGluZXxlbnwwfHx8fDE3ODgzNzIzNjl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/01/well/blackhead-removal-treatment.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/01/well/blackhead-removal-treatment.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "524a0267a5b09790e23ed00bf7f468c205b712007f04f4a0edc4a04987881779",
+    "category": "teenHeath",
+    "created_at": "2026-09-02T18:06:10.778486",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:06:10.778486"
+  },
+  "64971": {
+    "article_id": "64971",
+    "headline": "Marital Satisfaction Predicts Longevity and Emotional Well-being in Older Adults",
+    "image_url": "https://images.unsplash.com/photo-1746192703468-dedf3fc11d87?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8bWFyaXRhbCUyMHNhdGlzZmFjdGlvbiUyMGFnaW5nJTIwY291cGxlc3xlbnwwfHx8fDE3ODgzNzIzOTF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/992/20140913/husbands-of-women-who-are-happy-in-their-marriage-have-higher-life-satisfaction-study.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/992/20140913/husbands-of-women-who-are-happy-in-their-marriage-have-higher-life-satisfaction-study.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fbb1748e78e325677aaac5b01e93c877db887c7b896540a8126b95b5a0d8cf5b",
+    "category": "social-trends",
+    "created_at": "2026-09-02T18:06:33.021225",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:06:33.021225"
+  },
+  "26953": {
+    "article_id": "26953",
+    "headline": "Boston Tourism Soars as Celebrity Concerts and Cultural Events Ignite City",
+    "image_url": "https://images.unsplash.com/photo-1499019994040-051a7b3135f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8Qm9zdG9uJTIwdG91cmlzbSUyMEZlbndheSUyMFBhcmslMjBjb25jZXJ0fGVufDB8fHx8MTc4ODM3MjQwOHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://celebeat.com/articles/26910/20260817/boston-leverages-major-cultural-events-to-drive-tourism-growth.htm",
+    "source_urls": [
+      "https://celebeat.com/articles/26910/20260817/boston-leverages-major-cultural-events-to-drive-tourism-growth.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fff4ea41dceb3f99fd11db7d934522f85635399fd59344b8581743c7637e6d7e",
+    "category": "news",
+    "created_at": "2026-09-02T18:06:49.800675",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:06:49.800675"
+  },
+  "286779": {
+    "article_id": "286779",
+    "headline": "Dimitri Vegas & Like Mike Redefine Global EDM Stardom in 2026",
+    "image_url": "https://images.unsplash.com/photo-1647480743219-bcdc8e27ec0b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8RGltaXRyaSUyMFZlZ2FzJTIwYW5kJTIwTGlrZSUyME1pa2UlMjBsaXZlJTIwY29uY2VydHxlbnwwfHx8fDE3ODgzNzI0MzJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://boomsbeat.com/articles/286289/20220110/30-record-facts-dimitri-vegas-mike-missed-before.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/286289/20220110/30-record-facts-dimitri-vegas-mike-missed-before.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "857cac796785ffaed8c5e36e6c94a7340473861a4199bf32e1b7bd9f59bd0ee0",
+    "category": "trending-news",
+    "created_at": "2026-09-02T18:07:14.373895",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:07:14.373895"
+  },
+  "109933": {
+    "article_id": "109933",
+    "headline": "Mobility Scooter Accessories Boost Independence for Active Seniors in 2026",
+    "image_url": "https://images.unsplash.com/photo-1760080801036-d0303d620932?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxtb2JpbGl0eSUyMHNjb290ZXIlMjBvdXRkb29yJTIwYWN0aXZpdHl8ZW58MHx8fHwxNzg4MzcyNDUxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/106449/20170622/top-5-best-mobility-scooter-accessories-batteries-seller-on-amazon-reivew-2017.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/106449/20170622/top-5-best-mobility-scooter-accessories-batteries-seller-on-amazon-reivew-2017.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d04e34628fb4f4aa6caaf41c739653579db6ea476b9f53293716491702d71300",
+    "category": "product",
+    "created_at": "2026-09-02T18:07:32.961990",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:07:32.961990"
+  },
+  "60129": {
+    "article_id": "60129",
+    "headline": "JPMorgan Hack Legacy Reshapes Financial Cybersecurity Career Paths",
+    "image_url": "https://images.unsplash.com/photo-1518186233392-c232efbf2373?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMXx8Y3liZXJzZWN1cml0eSUyMGZpbmFuY2UlMjBjYXJlZXJ8ZW58MHx8fHwxNzg4MzcyNDY4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://jobsnhire.com/articles/30893/20151111/jpmorgan-hack-update-3-israelis-1-unidentified-hacker-charged-23-count-indictment-alleged-involvement-la",
+    "source_urls": [
+      "https://jobsnhire.com/articles/30893/20151111/jpmorgan-hack-update-3-israelis-1-unidentified-hacker-charged-23-count-indictment-alleged-involvement-la"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4076c53a79e994c86d7f76ea2108d96ae9487112c90a4c2a75c0671388835569",
+    "category": "finance",
+    "created_at": "2026-09-02T18:07:50.770424",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:07:50.770424"
+  },
+  "236004": {
+    "article_id": "236004",
+    "headline": "Nokia Shanghai Bell Legacy Shapes Modern Telecom Infrastructure",
+    "image_url": "https://images.unsplash.com/photo-1766384093160-598bf6f8f71e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8dGVsZWNvbW11bmljYXRpb25zJTIwaW5mcmFzdHJ1Y3R1cmUlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3ODgzNzI0ODZ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/37024/20150828/nokia-agrees-to-joint-venture-with-chinas-huaxin-following-nokias-proposed-takeover-of-alcatel-lucent.ht",
+    "source_urls": [
+      "https://franchiseherald.com/articles/37024/20150828/nokia-agrees-to-joint-venture-with-chinas-huaxin-following-nokias-proposed-takeover-of-alcatel-lucent.ht"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "bd4fca2ac6dd49a0d03c57f0fd9e36050b29bec59de950b6678377ee74f0775d",
+    "category": "biz-tech",
+    "created_at": "2026-09-02T18:08:10.778364",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:08:10.778364"
+  },
+  "1725341": {
+    "article_id": "1725341",
+    "headline": "Essential Emergency Features Tucked Inside Your Smartphone",
+    "image_url": "https://images.unsplash.com/photo-1641574290026-49fe03aad0a4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8c21hcnRwaG9uZSUyMGVtZXJnZW5jeSUyMGZlYXR1cmVzJTIwaW50ZXJmYWNlfGVufDB8fHx8MTc4ODM3MjUwNXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/02/technology/personaltech/iphone-android-emergency-features.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/02/technology/personaltech/iphone-android-emergency-features.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d59030a7e620df6f9b7e83ccaa9460658cb9d4b1bcb3181407c9be9bf823541b",
+    "category": "mobile",
+    "created_at": "2026-09-02T18:08:27.777852",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:08:27.777852"
+  },
+  "237231": {
+    "article_id": "237231",
+    "headline": "Teen Gambling Addiction Risks Rise as Digital Betting Normalizes for Minors",
+    "image_url": "https://images.unsplash.com/photo-1758525865438-385dbc8caa5e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8dGVlbiUyMGRpZ2l0YWwlMjBzYWZldHl8ZW58MHx8fHwxNzg4MzcyNTIyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://parentherald.com/articles/237100/20260406/teen-gambling-addiction-surges-online-sports-betting-exposes-more-kids-high-risk-wagers.htm",
+    "source_urls": [
+      "https://parentherald.com/articles/237100/20260406/teen-gambling-addiction-surges-online-sports-betting-exposes-more-kids-high-risk-wagers.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "27250f5ec28aea4cc22b6a44f284606d6cf96578755b7865678baaee00b3028d",
+    "category": "teens-young-adults",
+    "created_at": "2026-09-02T18:08:44.717180",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:08:44.717180"
+  },
+  "60090": {
+    "article_id": "60090",
+    "headline": "Jared Diamond’s Latest Work Examines the Role of Individuals in Shaping History",
+    "image_url": "https://images.pexels.com/photos/5975051/pexels-photo-5975051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/02/profits-prophets-coaches-and-kings-by-jared-diamond-review-how-to-change-the-course-of-history",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/02/profits-prophets-coaches-and-kings-by-jared-diamond-review-how-to-change-the-course-of-history"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b0f271ae162e952f347f60e3de4f96e7be539b050f006ffc843408c268799ff9",
+    "category": "books",
+    "created_at": "2026-09-02T18:09:12.952574",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-01T18:09:12.952574"
+  },
+  "fail_1788372566_460": {
+    "article_id": "fail_1788372566_460",
+    "headline": "Gluten-Free Pistachio-Lemon Cake Emerges as Rosh Hashana Culinary Trend",
+    "image_url": "https://images.unsplash.com/photo-1482930172332-2293d7138235?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxwaXN0YWNoaW8lMjBsZW1vbiUyMGNha2V8ZW58MHx8fHwxNzg4MzcyNTY1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://cooking.nytimes.com/article/pistachio-lemon-snacking-tea-cake-rosh-hashana",
+    "source_urls": [
+      "https://cooking.nytimes.com/article/pistachio-lemon-snacking-tea-cake-rosh-hashana"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "34b3184001b1507eda8ae465ff6b2989a18f21f80c28c1698c9b33d04a627094",
+    "category": "recipe",
+    "created_at": "2026-09-02T18:09:26.155990",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:09:26.155990"
+  },
+  "fail_1788372574_402": {
+    "article_id": "fail_1788372574_402",
+    "headline": "New Research Links Healthy Dietary Patterns to Slower Biological Aging",
+    "image_url": "https://images.unsplash.com/photo-1670164747019-3b4d77128a71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8aGVhbHRoeSUyMGJhbGFuY2VkJTIwZGlldCUyMG51dHJpdGlvbnxlbnwwfHx8fDE3ODgzMDE5MzN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nutritionletter.tufts.edu/subscriber-only/healthy-diet-associated-with-slower-aging/",
+    "source_urls": [
+      "https://www.nutritionletter.tufts.edu/subscriber-only/healthy-diet-associated-with-slower-aging/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6983a626e3d92d4c5bf77a4b07dc9be01c3864c8af44d42d2752df885cf325c3",
+    "category": "tips",
+    "created_at": "2026-09-02T18:09:34.780010",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-01T18:09:34.780010"
+  },
+  "62282": {
+    "article_id": "62282",
+    "headline": "Physicists Report Potential First Direct Observation of Dark Matter Particles",
+    "image_url": "https://images.unsplash.com/photo-1709403906942-269c0626ac66?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8ZGFyayUyMG1hdHRlciUyMHBhcnRpY2xlJTIwZGV0ZWN0b3J8ZW58MHx8fHwxNzg4MzcyNzQ3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.newscientist.com/article/2587086-the-first-signs-of-dark-matter-particles-may-finally-have-been-spotted/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+    "source_urls": [
+      "https://www.newscientist.com/article/2587086-the-first-signs-of-dark-matter-particles-may-finally-have-been-spotted/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0e5b745a74fb95d797138631cb49abe9ff2d9424f68c07721ca3deadc243db3a",
+    "category": "energy-particles",
+    "created_at": "2026-09-02T18:12:29.447833",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:12:29.447833"
+  },
+  "236005": {
+    "article_id": "236005",
+    "headline": "Treasury Secretary Scott Bessent Challenges China Over Global Export Strategy at G20",
+    "image_url": "https://images.unsplash.com/photo-1759272840712-c7e5ea852367?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8Z2xvYmFsJTIwdHJhZGUlMjBlY29ub215fGVufDB8fHx8MTc4ODM3NDIwOHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/01/business/economy/bessent-china-iran-g20.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/01/business/economy/bessent-china-iran-g20.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "913118183046c1737e5d5e67ff5c1b1174855b1b83d465cd5f3f13b50e9bb81e",
+    "category": "franchise-news",
+    "created_at": "2026-09-02T18:36:51.173151",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T18:36:51.173151"
+  },
+  "28267": {
+    "article_id": "28267",
+    "headline": "World Health Organization Updates Dementia Risk Factors: What You Need to Know",
+    "image_url": "https://images.unsplash.com/photo-1633977264416-8c66c1300e63?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8YnJhaW4lMjBoZWFsdGglMjBhbmQlMjBkZW1lbnRpYSUyMHByZXZlbnRpb258ZW58MHx8fHwxNzg4Mzc1NjQxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/7-new-dementia-risk-factors-revealed-including-one-millions-struggle",
+    "source_urls": [
+      "https://www.foxnews.com/health/7-new-dementia-risk-factors-revealed-including-one-millions-struggle"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9ebd5e39bd22bf66c612d9fdf8ffe0dfa8c29053d5107a593893fa0c33626862",
+    "category": "science-news",
+    "created_at": "2026-09-02T19:00:43.780629",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T19:00:43.780629"
+  },
+  "40336": {
+    "article_id": "40336",
+    "headline": "Polestar 4 SUV Debuts With Enhanced Practicality and Aggressive Pricing",
+    "image_url": "https://images.unsplash.com/photo-1625998259975-b243bf480751?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxQb2xlc3RhciUyMDQlMjBTVVYlMjBlbGVjdHJpYyUyMHZlaGljbGV8ZW58MHx8fHwxNzg4Mzc3MDgxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/electric-cars/new-polestar-4-suv-more-practical-and-%C2%A32k-cheaper-coupe",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/electric-cars/new-polestar-4-suv-more-practical-and-%C2%A32k-cheaper-coupe"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "70910bdd0f63f66c950c6904b1581028cc246a7eebb157dcd980d2f4d8673602",
+    "category": "green-cars",
+    "created_at": "2026-09-02T19:24:44.193828",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T19:24:44.193828"
+  },
+  "60130": {
+    "article_id": "60130",
+    "headline": "Federal Equity Stakes: Examining the Impact on U.S. Employment and Industrial Policy",
+    "image_url": "https://images.unsplash.com/photo-1730499805576-924c9b0ed229?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8Z292ZXJubWVudCUyMGFuZCUyMGJ1c2luZXNzJTIwcGFydG5lcnNoaXB8ZW58MHx8fHwxNzg4MzgxMzY3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/melissa-angell/the-u-s-government-owns-pieces-of-more-companies-than-it-used-to-heres-why-it-matters/91393919",
+    "source_urls": [
+      "https://www.inc.com/melissa-angell/the-u-s-government-owns-pieces-of-more-companies-than-it-used-to-heres-why-it-matters/91393919"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ad63660aa643ed4f672eca5bea20537fa04ad5f9b99195e886ea302a5f476cec",
+    "category": "business",
+    "created_at": "2026-09-02T20:36:10.194783",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-01T20:36:10.194783"
+  },
+  "109934": {
+    "article_id": "109934",
+    "headline": "2026 College Football Week 1: Analytical Projections and Key Matchups",
+    "image_url": "https://images.unsplash.com/photo-1623196152574-340255cb1c89?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8Y29sbGVnZSUyMGZvb3RiYWxsJTIwZ2FtZSUyMGFjdGlvbnxlbnwwfHx8fDE3ODgzODI4MDB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/betting/news/college-football-odds-lines-spreads-picks-predictions-best-bets-for-week-1-2026/",
+    "source_urls": [
+      "https://www.cbssports.com/betting/news/college-football-odds-lines-spreads-picks-predictions-best-bets-for-week-1-2026/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "051072d9a159b8314087798278bea8a9659b0cb12fde5d3fb7a61399ce6c0def",
+    "category": "college",
+    "created_at": "2026-09-02T21:00:02.926513",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-01T21:00:02.926513"
+  },
+  "60091": {
+    "article_id": "60091",
+    "headline": "Colm Tóibín Explores Survival and Illicit Desire in The Bridge",
+    "image_url": "https://images.pexels.com/photos/11556619/pexels-photo-11556619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/sep/02/the-bridge-by-colm-toibin-review-betrayal-and-survival-in-the-high-pyrenees",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/sep/02/the-bridge-by-colm-toibin-review-betrayal-and-survival-in-the-high-pyrenees"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "97ccafba425631e07d7490888c59b6b0716ae7ac84777a46b3fbc338577cbb7b",
+    "category": "book-reviews",
+    "created_at": "2026-09-02T21:24:36.118075",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-01T21:24:36.118075"
+  },
+  "237232": {
+    "article_id": "237232",
+    "headline": "Financial Planning Essentials Before Transitioning to Stay-at-Home Parenting",
+    "image_url": "https://images.unsplash.com/photo-1756982477754-2c05a288f4db?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8ZmFtaWx5JTIwZmluYW5jaWFsJTIwcGxhbm5pbmd8ZW58MHx8fHwxNzg4Mzg1NzIyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/career-money/financial-protection-for-stay-at-home-moms/",
+    "source_urls": [
+      "https://mother.ly/career-money/financial-protection-for-stay-at-home-moms/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c40b9829df78c060bdb58a69b17632d448a5300c94d19ffb5bfca053c7d48fed",
+    "category": "moms",
+    "created_at": "2026-09-02T21:48:45.238448",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-01T21:48:45.238448"
+  }
+}

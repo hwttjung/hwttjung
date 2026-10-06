@@ -1,0 +1,495 @@
+{
+  "286758": {
+    "article_id": "286758",
+    "headline": "Play: Science Mini Crossword Puzzle",
+    "image_url": "https://images.unsplash.com/photo-1725398925351-cd9b95c6e852?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8Y3Jvc3N3b3JkJTIwcHV6emxlJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzg3NzYwMDExfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
+    "source_urls": [
+      "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6c186e1c5fa484829682907f43bb036aab1be3c0e0168a3383310879433595d8",
+    "category": "cool",
+    "created_at": "2026-08-26T16:00:14.335756",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T16:00:14.335756"
+  },
+  "28246": {
+    "article_id": "28246",
+    "headline": "FDA Approves Daraxonrasib, Marking a Major Advancement in Pancreatic Cancer Treatment",
+    "image_url": "https://images.unsplash.com/photo-1706639447765-8ece81a63f2e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8cGFuY3JlYXRpYyUyMGNhbmNlciUyMHJlc2VhcmNofGVufDB8fHx8MTc4Nzc2MTQ3MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/26/science/pancreatic-cancer-daraxonrasib-approval.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/26/science/pancreatic-cancer-daraxonrasib-approval.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fc9e4ffddd37afe807f162d7110b0159463e3a908382f4c69c31a636e4bfb3b1",
+    "category": "science-news",
+    "created_at": "2026-08-26T16:24:33.348216",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T16:24:33.348216"
+  },
+  "235984": {
+    "article_id": "235984",
+    "headline": "SBA Proposes Higher Revenue Thresholds for Small Business Classification",
+    "image_url": "https://images.unsplash.com/photo-1768875813090-11426e70fc04?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxzbWFsbCUyMGJ1c2luZXNzJTIwYWRtaW5pc3RyYXRpb24lMjBvZmZpY2V8ZW58MHx8fHwxNzg3NzYyODcyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/26/business/economy/trump-small-business-administration.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/26/business/economy/trump-small-business-administration.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "79eaf7dd93b3e88a23a14ff2f00b19ea06e149fdd9820092182e2c7533b93ec0",
+    "category": "biz-tech",
+    "created_at": "2026-08-26T16:47:54.598159",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T16:47:54.598159"
+  },
+  "60070": {
+    "article_id": "60070",
+    "headline": "Colin Thubron Explores Mortality and Memory in New Novel Passage",
+    "image_url": "https://images.unsplash.com/photo-1766162357633-efa439502411?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8Q29saW4lMjBUaHVicm9uJTIwUGFzc2FnZSUyMG5vdmVsJTIwcmV2aWV3fGVufDB8fHx8MTc4Nzc2NDI4OXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/aug/26/passage-by-colin-thubron-review-mortality-and-memory-in-a-gem-of-a-novel",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/aug/26/passage-by-colin-thubron-review-mortality-and-memory-in-a-gem-of-a-novel"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8d36be28f0ffbbb4422e12ddecd761105864b0b9a57839ecd55bb481035a90cc",
+    "category": "book-reviews",
+    "created_at": "2026-08-26T17:11:32.463848",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T17:11:32.463848"
+  },
+  "81527": {
+    "article_id": "81527",
+    "headline": "Industry Consolidation Linked to Large-Scale Cyclospora Outbreak",
+    "image_url": "https://images.unsplash.com/photo-1657288089316-c0350003ca49?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxmcmVzaCUyMHByb2R1Y2UlMjBzYWZldHklMjBpbnNwZWN0aW9ufGVufDB8fHx8MTc4Nzc2NTY4OHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foodpolitics.com/2026/08/the-root-cause-of-the-massive-cyclospora-outbreak-industry-consolidation/",
+    "source_urls": [
+      "https://www.foodpolitics.com/2026/08/the-root-cause-of-the-massive-cyclospora-outbreak-industry-consolidation/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4b61a7a8409b3d59d8d56e02700d334ae87ea708bbdc34e224da3283ea6fcf2f",
+    "category": "food-recalls",
+    "created_at": "2026-08-26T17:34:51.299690",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-24T17:34:51.299690"
+  },
+  "64956": {
+    "article_id": "64956",
+    "headline": "Meta Agrees to $17.1 Billion Settlement Over Social Media Addiction Claims",
+    "image_url": "https://images.pexels.com/photos/37938623/pexels-photo-37938623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nytimes.com/2026/08/26/technology/meta-settlement-social-media-addiction-lawsuit.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/26/technology/meta-settlement-social-media-addiction-lawsuit.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7e34d1f245910d7cb195be69c0875c979f0ffb9fe58367777f763e885331de88",
+    "category": "tech",
+    "created_at": "2026-08-26T17:58:35.963537",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T17:58:35.963537"
+  },
+  "53884": {
+    "article_id": "53884",
+    "headline": "New Research Identifies Protein Pathway Linking Calorie Restriction to Anti-Aging Benefits",
+    "image_url": "https://images.unsplash.com/photo-1574342117815-410a28ac4120?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8Y2VsbHVsYXIlMjBoZWFsdGglMjBhbmQlMjBpbmZsYW1tYXRpb24lMjByZXNlYXJjaHxlbnwwfHx8fDE3ODc3NzAwMDF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260826055508.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260826055508.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "58a8dd4fc372d988b0a4a8192aa402fa0a4be319210cbcaad1f64faa326f71d5",
+    "category": "preventive",
+    "created_at": "2026-08-26T18:46:43.322470",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T18:46:43.322470"
+  },
+  "26938": {
+    "article_id": "26938",
+    "headline": "Hollywood Remembers Tim Curry: A Legacy of Iconic Performances",
+    "image_url": "https://images.unsplash.com/photo-1624893427328-194506b75bc5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8VGltJTIwQ3VycnklMjBhY3RvcnxlbnwwfHx8fDE3ODc3NzE0NTB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://deadline.com/2026/08/tim-curry-tributes-luke-evans-josh-gad-1237051310/",
+    "source_urls": [
+      "https://deadline.com/2026/08/tim-curry-tributes-luke-evans-josh-gad-1237051310/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "73ebd45b6e33604b149f539116aed1ece2c99c79a83b395e8c219c131cda4255",
+    "category": "news",
+    "created_at": "2026-08-26T19:10:52.254347",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T19:10:52.254347"
+  },
+  "62260": {
+    "article_id": "62260",
+    "headline": "Quantum Milestone: Feynman’s Path Integral Measured for the First Time",
+    "image_url": "https://images.unsplash.com/photo-1780956184973-d44ec1497078?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8cXVhbnR1bSUyMHBoeXNpY3MlMjBleHBlcmltZW50fGVufDB8fHx8MTc4Nzc3Mjg5MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.newscientist.com/article/2586608-richard-feynmans-80-year-old-quantum-postulate-has-now-been-validated/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+    "source_urls": [
+      "https://www.newscientist.com/article/2586608-richard-feynmans-80-year-old-quantum-postulate-has-now-been-validated/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "dabeb5c1b41251563f8981131ad9d5d7396350dd1514c85a763f34fc21c9b4f8",
+    "category": "energy-particles",
+    "created_at": "2026-08-26T19:34:53.818121",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T19:34:53.818121"
+  },
+  "40315": {
+    "article_id": "40315",
+    "headline": "Volvo Debuts Cloud-Based Hazard Warning System for EX60, EX90, and ES90",
+    "image_url": "https://images.unsplash.com/photo-1629897707470-2ab0cc78072b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxWb2x2byUyMEVYOTAlMjBzYWZldHklMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc4Nzc3NDI4Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/technology/new-volvos-now-able-warn-other-cars-animals-cyclists-road",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/technology/new-volvos-now-able-warn-other-cars-animals-cyclists-road"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b95974614dd2ce566970431760bf64dc3128a17b31cb45022169ceb276bd934c",
+    "category": "auto-news",
+    "created_at": "2026-08-26T19:58:05.129859",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T19:58:05.129859"
+  },
+  "1725320": {
+    "article_id": "1725320",
+    "headline": "Microsoft Launches Xbox Disc-to-Digital Program for Physical Game Libraries",
+    "image_url": "https://images.unsplash.com/photo-1649425371646-1466576838c2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8WGJveCUyMFNlcmllcyUyMFglMjBjb25zb2xlfGVufDB8fHx8MTc4Nzc3NTY3NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://arstechnica.com/gaming/2026/08/xboxs-new-disc-to-digital-program-gives-physical-games-a-digital-future/",
+    "source_urls": [
+      "https://arstechnica.com/gaming/2026/08/xboxs-new-disc-to-digital-program-gives-physical-games-a-digital-future/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2a83f8919d3b9a8c451000628da34b8177328863fe23ac21471eeb1d0afdc060",
+    "category": "xbox",
+    "created_at": "2026-08-26T20:21:16.173243",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T20:21:16.173243"
+  },
+  "237218": {
+    "article_id": "237218",
+    "headline": "Nurturing Body Confidence in Children During the GLP-1 Era",
+    "image_url": "https://images.unsplash.com/photo-1445633743309-b60418bedbf2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxwYXJlbnRpbmclMjBib2R5JTIwY29uZmlkZW5jZSUyMHRpcHN8ZW58MHx8fHwxNzg3Nzc3MTMxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/health-wellness/mental-health/positive-body-image-kids/",
+    "source_urls": [
+      "https://mother.ly/health-wellness/mental-health/positive-body-image-kids/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "773f9a10fdf873317eb8919bb528ee1bf4cbccdd8a9f5b4d7d57812b3821c613",
+    "category": "health-nutrition",
+    "created_at": "2026-08-26T20:45:34.000824",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-24T20:45:34.000824"
+  },
+  "109913": {
+    "article_id": "109913",
+    "headline": "Everton Secures Third-Round Berth After Commanding Victory Over Preston",
+    "image_url": "https://images.unsplash.com/photo-1520894040803-0ee23e906943?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxFdmVydG9uJTIwZm9vdGJhbGwlMjBtYXRjaHxlbnwwfHx8fDE3ODc3Nzg1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.skysports.com/football/preston-north-end-vs-everton/live/577434",
+    "source_urls": [
+      "https://www.skysports.com/football/preston-north-end-vs-everton/live/577434"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ae6d887e64e4efa909c7ca2d504586f62368813a1b5b04a08b9699bb105bdc9d",
+    "category": "soccer",
+    "created_at": "2026-08-26T21:08:34.908869",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T21:08:34.908869"
+  },
+  "62261": {
+    "article_id": "62261",
+    "headline": "Experimental Breakthrough Validates Feynman’s Path Integral Postulate",
+    "image_url": "https://images.unsplash.com/photo-1781330168411-1518d821903c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxxdWFudHVtJTIwcGh5c2ljcyUyMGV4cGVyaW1lbnQlMjBsYWJvcmF0b3J5fGVufDB8fHx8MTc4Nzc4MzU5NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.newscientist.com/article/2586608-richard-feynmans-80-year-old-quantum-postulate-has-now-been-validated/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+    "source_urls": [
+      "https://www.newscientist.com/article/2586608-richard-feynmans-80-year-old-quantum-postulate-has-now-been-validated/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c3e5477f7d7ded15ad00c45ec3ea1eee5826f13b2bd85b5d68448db01d6b15d7",
+    "category": "physics",
+    "created_at": "2026-08-26T22:33:18.404624",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T22:33:18.404624"
+  },
+  "28247": {
+    "article_id": "28247",
+    "headline": "Experimental Compound TOFA Targets Fat Loss Without Muscle Wasting",
+    "image_url": "https://images.unsplash.com/photo-1707944745899-104a4b12d945?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8bWV0YWJvbGljJTIwaGVhbHRoJTIwcmVzZWFyY2h8ZW58MHx8fHwxNzg3NzgzNjE0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/28238/20260825/experimental-compound-shows-promise-in-reducing-body-fat-while-preserving-muscle.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/28238/20260825/experimental-compound-shows-promise-in-reducing-body-fat-while-preserving-muscle.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "cff4c9d16b06a51937e20a005361ba4e4f33e50beedb025c38ec7a6e1eae54e0",
+    "category": "science-news",
+    "created_at": "2026-08-26T22:33:35.688868",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T22:33:35.688868"
+  },
+  "40316": {
+    "article_id": "40316",
+    "headline": "BMW Prepares for U.S. Market Launch of i3 50 xDrive Sedan",
+    "image_url": "https://images.unsplash.com/photo-1665950799798-9edadac533b9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8Qk1XJTIwaTMlMjBlbGVjdHJpYyUyMHNlZGFuJTIwMjAyNnxlbnwwfHx8fDE3ODc3ODM2MzB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bmwblog.com/2026/08/26/bmw-i3-sedan-us-orders-october-2026/",
+    "source_urls": [
+      "https://www.bmwblog.com/2026/08/26/bmw-i3-sedan-us-orders-october-2026/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f2bab1f101f8ddd43ebb5e4cb34d326a8a99338053822e2b942da8eb7a512ff3",
+    "category": "green-cars",
+    "created_at": "2026-08-26T22:33:51.795650",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T22:33:51.795650"
+  },
+  "53885": {
+    "article_id": "53885",
+    "headline": "Early Nutrition Habits Linked to Long-Term Health Outcomes",
+    "image_url": "https://images.unsplash.com/photo-1659352155167-eeefbba7869c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8aGVhbHRoeSUyMGVhdGluZyUyMGhhYml0cyUyMGZvciUyMHRlZW5zfGVufDB8fHx8MTc4Nzc4MzY0NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260824065522.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260824065522.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d8903f13bdd6a65a0e2114fcf51e09f9e2d0f664a1cc7055c9c74fe2d0004c5b",
+    "category": "healthyHabits",
+    "created_at": "2026-08-26T22:34:06.671611",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T22:34:06.671611"
+  },
+  "64957": {
+    "article_id": "64957",
+    "headline": "Lufthansa A380 Fleet Strategy Faces Scrutiny After Munich Landing Incident",
+    "image_url": "https://images.unsplash.com/photo-1677785288002-26a69b2f9b71?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8THVmdGhhbnNhJTIwQTM4MCUyMGFpcmNyYWZ0fGVufDB8fHx8MTc4Nzc4MzY2MHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/64938/20260820/lufthansa-a380-incident-at-munich-airport-prompts-safety-review.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/64938/20260820/lufthansa-a380-incident-at-munich-airport-prompts-safety-review.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0c9014dea395595de8fe76ab4bcaeb0b2b93acc9c414172c1043a49441a621c3",
+    "category": "business",
+    "created_at": "2026-08-26T22:34:22.573938",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T22:34:22.573938"
+  },
+  "26939": {
+    "article_id": "26939",
+    "headline": "Dragon Ball Super Legacy Shapes Future of Global Anime Franchises",
+    "image_url": "https://images.unsplash.com/photo-1767781621421-9f8db1c84e2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8RHJhZ29uJTIwQmFsbCUyMFN1cGVyJTIwYW5pbWUlMjBhcnR8ZW58MHx8fHwxNzg3NzgzNjc3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://celebeat.com/articles/25367/20170504/dragon-ball-super-manga-artist-shares-how-the-anime-series-ends-anime-launches-a-website-allowing-fans-t",
+    "source_urls": [
+      "https://celebeat.com/articles/25367/20170504/dragon-ball-super-manga-artist-shares-how-the-anime-series-ends-anime-launches-a-website-allowing-fans-t"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3838beaeae0f68d5ae2413c2c3c3aae2a5d95041e2943423c32f80f5b8a3ca37",
+    "category": "news",
+    "created_at": "2026-08-26T22:34:39.149046",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T22:34:39.149046"
+  },
+  "286759": {
+    "article_id": "286759",
+    "headline": "Prince Legacy Continues to Influence Modern Pop Soundscapes",
+    "image_url": "https://images.unsplash.com/photo-1645363167490-0d3337a3f477?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxQcmluY2UlMjBtdXNpY2FsJTIwbGVnYWN5fGVufDB8fHx8MTc4Nzc4MzY5Nnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://boomsbeat.com/articles/22300/20150916/50-facts-prince-princes-childhood-nickname-skipper.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/22300/20150916/50-facts-prince-princes-childhood-nickname-skipper.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d6ed1f7618d000882ed053b66ca83cb743565367d8a2f838f75ec2e0c1ee6028",
+    "category": "trending-news",
+    "created_at": "2026-08-26T22:34:58.084787",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T22:34:58.084787"
+  },
+  "109914": {
+    "article_id": "109914",
+    "headline": "Harvey Barnes Leads Newcastle United to Carabao Cup Third Round Victory",
+    "image_url": "https://images.pexels.com/photos/37836379/pexels-photo-37836379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.skysports.com/football/newcastle-united-vs-west-bromwich-albion/report/577432",
+    "source_urls": [
+      "https://www.skysports.com/football/newcastle-united-vs-west-bromwich-albion/report/577432"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d5af411145f3cca86f95149efb38c72c8801b7dacfeed313c75ea18b985c34a3",
+    "category": "world-football",
+    "created_at": "2026-08-26T22:35:18.958250",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T22:35:18.958250"
+  },
+  "60112": {
+    "article_id": "60112",
+    "headline": "Equity Transparency: Bridging the Compensation Gap in Startup Hiring",
+    "image_url": "https://images.unsplash.com/photo-1762330466678-45b42e02f5a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8dGVjaCUyMHJlY3J1aXRtZW50JTIwc3RyYXRlZ3l8ZW58MHx8fHwxNzg3NzgzNzMxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/daniel-robbins/microsoft-employees-just-saw-exactly-what-their-job-is-worth-your-startup-candidates-have-no-idea-heres-the-fix/91396900",
+    "source_urls": [
+      "https://www.inc.com/daniel-robbins/microsoft-employees-just-saw-exactly-what-their-job-is-worth-your-startup-candidates-have-no-idea-heres-the-fix/91396900"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "eeee6dadaf391daad130a6b49bc11b85d152e25721c7aa99be0712c339091b15",
+    "category": "management",
+    "created_at": "2026-08-26T22:35:34.007605",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-24T22:35:34.007605"
+  },
+  "235985": {
+    "article_id": "235985",
+    "headline": "Nvidia Revenue Surges as AI Hardware Demand Drives Enterprise Spending",
+    "image_url": "https://images.unsplash.com/photo-1631376178637-392efc9e356b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8c2VtaWNvbmR1Y3RvciUyMG1hbnVmYWN0dXJpbmd8ZW58MHx8fHwxNzg3NzgzNzQzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/ce871n7lyvlo?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/ce871n7lyvlo?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "067bcfb15eb70fdefce9a21f96548d2e4573a137b2698059c22031d98bda8dcc",
+    "category": "franchise-news",
+    "created_at": "2026-08-26T22:35:45.457681",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T22:35:45.457681"
+  },
+  "1725321": {
+    "article_id": "1725321",
+    "headline": "The Branding Friction Facing Consumer AI Applications",
+    "image_url": "https://images.unsplash.com/photo-1776303054630-05c9bd77c0b3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8bW9iaWxlJTIwYXBwJTIwdXNlciUyMGludGVyZmFjZSUyMGRlc2lnbnxlbnwwfHx8fDE3ODc3ODM3NTZ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
+    "source_urls": [
+      "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d4d61f99de9f9b8e737220f9ce5bed90d831006bab65d88c5149f605c7eaf67c",
+    "category": "apps",
+    "created_at": "2026-08-26T22:35:59.075453",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-24T22:35:59.075453"
+  },
+  "237219": {
+    "article_id": "237219",
+    "headline": "Preserving Critical Thinking: How Parents and Educators Can Navigate AI in the Classroom",
+    "image_url": "https://images.unsplash.com/photo-1758685733627-683c357fe94e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8c3R1ZGVudCUyMHVzaW5nJTIwY29tcHV0ZXIlMjBpbiUyMGNsYXNzcm9vbXxlbnwwfHx8fDE3ODc3ODM3Nzl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://edsurge.com/news/protecting-the-student-mind-in-the-age-of-ai",
+    "source_urls": [
+      "https://edsurge.com/news/protecting-the-student-mind-in-the-age-of-ai"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "beda18c6ecde8d3bbbfcd919602f48295dc685313d0560574edb908740a06200",
+    "category": "school",
+    "created_at": "2026-08-26T22:36:21.266419",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-24T22:36:21.266419"
+  },
+  "60071": {
+    "article_id": "60071",
+    "headline": "Claudia Rankine Explores the Ethics of Witnessing in New Work, Triage",
+    "image_url": "https://images.pexels.com/photos/8730174/pexels-photo-8730174.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/aug/25/triage-by-claudia-rankine-review-how-should-we-respond-to-the-worlds-atrocities"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c843771c298d715dfc92ee08ed25fe6bdcbadc6c371c7c7ed54357a04869b7db",
+    "category": "book-news",
+    "created_at": "2026-08-26T22:36:41.866162",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T22:36:41.866162"
+  },
+  "81528": {
+    "article_id": "81528",
+    "headline": "Early Life Sugar Intake Linked to Long-Term Cancer and Metabolic Health Risks",
+    "image_url": "https://images.unsplash.com/photo-1774218419969-b4d0e465319a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8aGVhbHRoeSUyMGNoaWxkaG9vZCUyMG51dHJpdGlvbnxlbnwwfHx8fDE3ODc3ODM4MjF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/eating-less-common-ingredient-early-life-may-slash-cancer-risk-decades-later",
+    "source_urls": [
+      "https://www.foxnews.com/health/eating-less-common-ingredient-early-life-may-slash-cancer-risk-decades-later"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0986eef4ce0b16d580fbbbfdc97f0a11d5b9eed5d926141c21284967ab028af0",
+    "category": "safety",
+    "created_at": "2026-08-26T22:37:04.274077",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-24T22:37:04.274077"
+  },
+  "1725322": {
+    "article_id": "1725322",
+    "headline": "Navigating the Google Pixel Lineup: 2026 Smartphone Comparison and Essential Upgrades",
+    "image_url": "https://images.unsplash.com/photo-1697355360151-2866de32ad4d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8R29vZ2xlJTIwUGl4ZWwlMjAyMDI2JTIwc21hcnRwaG9uZXxlbnwwfHx8fDE3ODc4NDA1MzN8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/best-google-pixel-phone/",
+    "source_urls": [
+      "https://www.wired.com/story/best-google-pixel-phone/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4aa58b83449fea88f49436f6ed2ab16719caae43c2bd428c6d925bfce3a4d4d5",
+    "category": "mobile",
+    "created_at": "2026-08-27T14:22:15.899367",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T14:22:15.899367"
+  },
+  "40317": {
+    "article_id": "40317",
+    "headline": "Bentley Previews Electric Future with 370-Mile Torcal Prototype",
+    "image_url": "https://images.pexels.com/photos/14843802/pexels-photo-14843802.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.autocar.co.uk/car-news/features/feels-bentley-road-370-mile-torcal-ev",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/features/feels-bentley-road-370-mile-torcal-ev"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5587fe110f185b7837bd12898b8bf99c4c083f77840e5128e26f15fb3f0cac23",
+    "category": "auto-news",
+    "created_at": "2026-08-27T14:43:17.539147",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-25T14:43:17.539147"
+  }
+}

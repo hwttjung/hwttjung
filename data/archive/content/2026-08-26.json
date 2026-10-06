@@ -1,0 +1,1022 @@
+{
+  "40310": {
+    "article_id": "40310",
+    "headline": "Toyota Revives Mid-Engined Performance Ambitions with New Sports Car Project",
+    "image_url": "https://images.unsplash.com/photo-1666612513130-729c7be2397e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8VG95b3RhJTIwR1IlMjBzcG9ydHMlMjBjYXIlMjBjb25jZXB0fGVufDB8fHx8MTc4NzY3MDU1Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/new-cars/reborn-toyota-mr2-full-story-mid-engined-sports-car-2028",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/new-cars/reborn-toyota-mr2-full-story-mid-engined-sports-car-2028"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4c7a8ea2f16a1175a192de55cb8765c4c3031167c074dda3d16a603a83ede396",
+    "category": "auto-news",
+    "created_at": "2026-08-25T15:09:14.971244",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T15:09:14.971244"
+  },
+  "286753": {
+    "article_id": "286753",
+    "headline": "Apple Supercharges Desktop Lineup with New M6 Mac Mini and M5 Ultra Mac Studio",
+    "image_url": "https://images.unsplash.com/photo-1624505055403-b215ee23f4a4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8QXBwbGUlMjBNYWMlMjBNaW5pJTIwTTYlMjBkZXNrdG9wJTIwc2V0dXB8ZW58MHx8fHwxNzg3NjcyMjgwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/apple-announces-m6-and-m5-ultra-mac-mini-mac-studio/",
+    "source_urls": [
+      "https://www.wired.com/story/apple-announces-m6-and-m5-ultra-mac-mini-mac-studio/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "894282cccb5d8c5ead515bd8f10d7f981d276733aa50a22ea50af83b3251dfa1",
+    "category": "cool",
+    "created_at": "2026-08-25T15:38:03.444060",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T15:38:03.444060"
+  },
+  "1725315": {
+    "article_id": "1725315",
+    "headline": "Fake Grand Theft Auto VI Demos Linked to Widespread Malware Campaign",
+    "image_url": "https://images.unsplash.com/photo-1618060932014-4deda4932554?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxjeWJlcnNlY3VyaXR5JTIwd2FybmluZ3xlbnwwfHx8fDE3ODc2NzQwMzd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/",
+    "source_urls": [
+      "https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "80de0ce0ac8b1befc87e4d64d1d174157013417b5f219946b8fa4dfeeae6b80c",
+    "category": "news",
+    "created_at": "2026-08-25T16:07:20.450756",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T16:07:20.450756"
+  },
+  "53880": {
+    "article_id": "53880",
+    "headline": "New Research Links Depression to Disrupted Brain Cell Growth in the Hippocampus",
+    "image_url": "https://images.unsplash.com/photo-1721637983797-399b0ccd756b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8bmV1cm9zY2llbmNlJTIwYnJhaW4lMjBoZWFsdGh8ZW58MHx8fHwxNzg3Njc1ODIxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260823094135.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260823094135.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c8f2c8a8bf776c989e834e61d92fd3820f9a23d9acc15712342f5763901d285a",
+    "category": "mentalHealth",
+    "created_at": "2026-08-25T16:37:04.087803",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T16:37:04.087803"
+  },
+  "62255": {
+    "article_id": "62255",
+    "headline": "ATTR-CM Treatment Landscape Evolves Amid Regulatory Scrutiny",
+    "image_url": "https://images.unsplash.com/photo-1770836037704-44bd8c7b6978?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8Y2FyZGlvbG9neSUyMG1lZGljYWwlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc4NzY3ODM1Nnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/62250/20260824/attr-cm-market-shifts-as-competition-challenges-legacy-dominance.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/62250/20260824/attr-cm-market-shifts-as-competition-challenges-legacy-dominance.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "97e11af2b5f6e6c12b559c0cf7880ec3b000e0ac91952fb52ac0b1fd1f775123",
+    "category": "health-medicine",
+    "created_at": "2026-08-25T17:19:18.127295",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:19:18.127295"
+  },
+  "28241": {
+    "article_id": "28241",
+    "headline": "Milk Product Safety: How Parents Can Detect Packaging Defects Early",
+    "image_url": "https://images.unsplash.com/photo-1580982331877-489fb58aeade?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8Zm9vZCUyMHNhZmV0eSUyMGluc3BlY3Rpb258ZW58MHx8fHwxNzg3Njc4MzczfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/8280/20150806/guess-whats-inside-nestle-chuckie-milo-chocolate-drink-philippines.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/8280/20150806/guess-whats-inside-nestle-chuckie-milo-chocolate-drink-philippines.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "27a371746b99cc048dd8f5ba05d649b15349a44a9faede920e65c74b9662c6d7",
+    "category": "healthy-habits",
+    "created_at": "2026-08-25T17:19:35.839132",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:19:35.839132"
+  },
+  "40311": {
+    "article_id": "40311",
+    "headline": "Tesla Model 3 Production Strategy Redefines Global EV Supply Chains",
+    "image_url": "https://images.unsplash.com/photo-1587493710442-14302d0f8d82?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8VGVzbGElMjBHaWdhJTIwRmFjdG9yeSUyMG1hbnVmYWN0dXJpbmd8ZW58MHx8fHwxNzg3Njc4MzkzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/20496/20160926/tesla-model-3-release-date-ev-released-asia-before-north.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/20496/20160926/tesla-model-3-release-date-ev-released-asia-before-north.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2c1efda32fb8e963fe48bc06ee76038bee9379af1391d66739557eca16c3fcd0",
+    "category": "tech-biz",
+    "created_at": "2026-08-25T17:19:55.779283",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:19:55.779283"
+  },
+  "53881": {
+    "article_id": "53881",
+    "headline": "Concierge Medicine Evolves into Whole-Person Health Clubs",
+    "image_url": "https://images.unsplash.com/photo-1666886573531-48d2e3c2b684?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxjb25jaWVyZ2UlMjBtZWRpY2luZSUyMGFuZCUyMHByZXZlbnRpdmUlMjBoZWFsdGh8ZW58MHx8fHwxNzg3Njc4NDEzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://youthhealthmag.com/articles/53871/20260821/one-membership-lab-care-team-plan-health-model-existed-twenty.htm",
+    "source_urls": [
+      "https://youthhealthmag.com/articles/53871/20260821/one-membership-lab-care-team-plan-health-model-existed-twenty.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "14da167877c97bffe05ec25ca2f3a35576a69442cb9e5228c4fd258471abdca8",
+    "category": "preventive",
+    "created_at": "2026-08-25T17:20:14.934619",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:20:14.934619"
+  },
+  "64951": {
+    "article_id": "64951",
+    "headline": "Digital Content Ecosystem Shifts as Global User Traffic Decentralizes",
+    "image_url": "https://images.unsplash.com/photo-1592383010275-b028451b2947?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxkaWdpdGFsJTIwdHJhbnNmb3JtYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc4NzY3ODQzMXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/tags/popular-sites",
+    "source_urls": [
+      "https://newseveryday.com/tags/popular-sites"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5290981b4e09fcbcf9787adb3c3588e1827759b33c77094d3826a27b3885753f",
+    "category": "business",
+    "created_at": "2026-08-25T17:20:33.311677",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:20:33.311677"
+  },
+  "26935": {
+    "article_id": "26935",
+    "headline": "Celebrity Influence Redefines Modern Brand Engagement and Trends",
+    "image_url": "https://images.unsplash.com/photo-1601420136864-3c931d19d08d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxjZWxlYnJpdHklMjBsaWZlc3R5bGUlMjBwaG90b2dyYXBoeXxlbnwwfHx8fDE3ODc2Nzg0NjF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://celebeat.com/tags/john-mayer-performance-live",
+    "source_urls": [
+      "https://celebeat.com/tags/john-mayer-performance-live"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1ae10a2a2f9729dca389a1f177a0ede230e0e0ab1347af0b0aed34c735dd59a7",
+    "category": "news",
+    "created_at": "2026-08-25T17:21:03.821775",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:21:03.821775"
+  },
+  "286754": {
+    "article_id": "286754",
+    "headline": "Christy Turlington Redefines the Supermodel Legacy in 2026",
+    "image_url": "https://images.pexels.com/photos/31357169/pexels-photo-31357169.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://boomsbeat.com/articles/108828/20160329/50-facts-christy-turlington-gained-fame-late-80s-early-90s.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/108828/20160329/50-facts-christy-turlington-gained-fame-late-80s-early-90s.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "bd7a409f0e7b9d5ea328d027c530798c12fea075adcc0efa2d46c812e01a577d",
+    "category": "people",
+    "created_at": "2026-08-25T17:21:37.061264",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:21:37.061264"
+  },
+  "109908": {
+    "article_id": "109908",
+    "headline": "Heat vs. Spurs Rivalry: How the 2013 Finals Redefined Modern NBA Strategy",
+    "image_url": "https://images.unsplash.com/photo-1774014045695-7adba115441e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8TkJBJTIwRmluYWxzJTIwaGlzdG9yeXxlbnwwfHx8fDE3ODc2Nzg1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/17046/20130620/nba-score-heat-vs-spurs-live-blog-of-game-7-with-play-by-play-commentary-and-stats.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/17046/20130620/nba-score-heat-vs-spurs-live-blog-of-game-7-with-play-by-play-commentary-and-stats.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5c63fc9994029709111ad442ce9a41a4acf3a1c19f1a5efde0a62d40ac4f6eff",
+    "category": "nba",
+    "created_at": "2026-08-25T17:21:55.074290",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:21:55.074290"
+  },
+  "60107": {
+    "article_id": "60107",
+    "headline": "Tyler Simmons Success Highlights Athlete-to-Entrepreneur Hiring Trends",
+    "image_url": "https://images.unsplash.com/photo-1758876019290-be620a8971f3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8ZW50cmVwcmVuZXVyc2hpcCUyMGFuZCUyMGxlYWRlcnNoaXB8ZW58MHx8fHwxNzg3Njc4NTM2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://jobsnhire.com/articles/60098/20260821/collegiate-coaching-entrepreneurship-how-tyler-simmons-built-59-million-venture.htm",
+    "source_urls": [
+      "https://jobsnhire.com/articles/60098/20260821/collegiate-coaching-entrepreneurship-how-tyler-simmons-built-59-million-venture.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "278d1dc6392b47e59f4ac102c3b6611e7e8391e933927ae5f1fce2050bbb9a1c",
+    "category": "entrepreneurs",
+    "created_at": "2026-08-25T17:22:18.593070",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:22:18.593070"
+  },
+  "235979": {
+    "article_id": "235979",
+    "headline": "Circulon Cookware Recall Lessons Reshape Modern Kitchenware Quality Standards",
+    "image_url": "https://images.unsplash.com/photo-1574801436389-05fa59dc7d3f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8a2l0Y2hlbndhcmUlMjBtYW51ZmFjdHVyaW5nJTIwc2FmZXR5JTIwc3RhbmRhcmRzfGVufDB8fHx8MTc4NzY3ODU1NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/1374/20120518/circulon-cookware-set-recalled-cpsc-shattered-broken-glass-lid.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/1374/20120518/circulon-cookware-set-recalled-cpsc-shattered-broken-glass-lid.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a5b27360d8d3ff99f6a8a0e683b5db73a847f68121a0ff95ba8a453c4e2d7d13",
+    "category": "biz-tech",
+    "created_at": "2026-08-25T17:22:36.851783",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:22:36.851783"
+  },
+  "1725316": {
+    "article_id": "1725316",
+    "headline": "Pokemon TCG Pocket Mastery: Mastering Wonder Pick Efficiency in 2026",
+    "image_url": "https://images.unsplash.com/photo-1620939959698-859142b0bb9e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8UG9rZW1vbiUyMFRDRyUyMFBvY2tldCUyMGdhbWVwbGF5JTIwc3RyYXRlZ3l8ZW58MHx8fHwxNzg3Njc4NTc0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mobilenapps.com/articles/1725266/20250125/pokemon-tcg-pocket-drops-psychic-type-mass-outbreak-event-are-you-ready-mind-read-wonder-pick.htm",
+    "source_urls": [
+      "https://mobilenapps.com/articles/1725266/20250125/pokemon-tcg-pocket-drops-psychic-type-mass-outbreak-event-are-you-ready-mind-read-wonder-pick.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "913648fb23b728f80451d7b665a9e014add9ae4b0e9ee4dfef37c0b9ba243a4c",
+    "category": "mobile-games",
+    "created_at": "2026-08-25T17:22:56.986252",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:22:56.986252"
+  },
+  "237214": {
+    "article_id": "237214",
+    "headline": "Kegel Exercises Evolve: Modern Techniques for Postpartum Recovery and Pelvic Health",
+    "image_url": "https://images.unsplash.com/photo-1725271765643-5ad441fbea9b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8cG9zdHBhcnR1bSUyMHBlbHZpYyUyMGZsb29yJTIwaGVhbHRofGVufDB8fHx8MTc4NzY3ODU5M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://parentherald.com/articles/102101/20200417/kegel-exercises-improve-sexual-health.htm",
+    "source_urls": [
+      "https://parentherald.com/articles/102101/20200417/kegel-exercises-improve-sexual-health.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "864639d2175284dd1cfcdc192faab3e5644d38b11a042b5937b1cf969b8b4140",
+    "category": "health-nutrition",
+    "created_at": "2026-08-25T17:23:16.033838",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:23:16.033838"
+  },
+  "81524": {
+    "article_id": "81524",
+    "headline": "Physicians Committee Files Lawsuit Challenging 2025-2030 Dietary Guidelines Process",
+    "image_url": "https://images.unsplash.com/photo-1709888246893-c1a17b5a980c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8bnV0cml0aW9uJTIwcG9saWN5JTIwZ292ZXJubWVudCUyMGhlYWx0aHxlbnwwfHx8fDE3ODc2Nzg2NDR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foodpolitics.com/2026/08/pcrm-sues-government-to-cancel-the-2025-2030-dietary-guidelines/",
+    "source_urls": [
+      "https://www.foodpolitics.com/2026/08/pcrm-sues-government-to-cancel-the-2025-2030-dietary-guidelines/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2d60aa240dc23a0439dc966cbbc4646a1ab6f93225dff819164910a00c72d43d",
+    "category": "top-stories",
+    "created_at": "2026-08-25T17:24:06.854169",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-23T17:24:06.854169"
+  },
+  "81525": {
+    "article_id": "81525",
+    "headline": "Popular Anti-Aging Supplements May Interfere With Cancer Therapy, Study Finds",
+    "image_url": "https://images.unsplash.com/photo-1592323818181-f9b967ff537c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8ZGlldGFyeSUyMHN1cHBsZW1lbnRzJTIwaGVhbHRoJTIwc2FmZXR5fGVufDB8fHx8MTc4NzY3OTM2OHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/anti-aging-supplements-taken-millions-may-undermine-cancer-treatment-study-warns",
+    "source_urls": [
+      "https://www.foxnews.com/health/anti-aging-supplements-taken-millions-may-undermine-cancer-treatment-study-warns"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9d7a02cb5b6c96d182d45ef4ee0cd3aaa25325d97eb00853f7248ad26e79bd64",
+    "category": "safety",
+    "created_at": "2026-08-25T17:36:10.219849",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:36:10.219849"
+  },
+  "62256": {
+    "article_id": "62256",
+    "headline": "Human Sexual Satisfaction and the Biological Impact of Physical Traits",
+    "image_url": "https://images.unsplash.com/photo-1517253751315-62944a02d2f6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxodW1hbiUyMHNleHVhbCUyMGJlaGF2aW9yJTIwcmVzZWFyY2h8ZW58MHx8fHwxNzg3NjgwMjg2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/14287/20140428/unusual-marriage-issues-bigger-penis-causes-women-cheat-husband.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/14287/20140428/unusual-marriage-issues-bigger-penis-causes-women-cheat-husband.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4b1c9c150b604fe2332dff6220a44f2200f1c54e54c10299fe5679777551223c",
+    "category": "human",
+    "created_at": "2026-08-25T17:51:29.156475",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:51:29.156475"
+  },
+  "28242": {
+    "article_id": "28242",
+    "headline": "Supercharged Natural Killer Cells Show Promise in Targeting Solid Tumors",
+    "image_url": "https://images.unsplash.com/photo-1707944746585-187b2f09b05a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyN3x8Y2FuY2VyJTIwaW1tdW5vdGhlcmFweSUyMHJlc2VhcmNofGVufDB8fHx8MTc4NzY4MDMwNHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260824065546.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260824065546.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "96d3a4d87a894bb00b90c5c17fc68b23168dd04046a1a80cf2b99b9e144029a6",
+    "category": "science-news",
+    "created_at": "2026-08-25T17:51:46.748198",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:51:46.748198"
+  },
+  "40312": {
+    "article_id": "40312",
+    "headline": "Gone in 60 Seconds: How the Iconic Heist List Redefined Car Collecting",
+    "image_url": "https://images.unsplash.com/photo-1531938082025-efdb69fbd925?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxjbGFzc2ljJTIwY29sbGVjdG9yJTIwY2Fyc3xlbnwwfHx8fDE3ODc2ODAzMjF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/18755/20160830/the-50-stolen-cars-from-gone-in-60-seconds-and-their-codenames.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/18755/20160830/the-50-stolen-cars-from-gone-in-60-seconds-and-their-codenames.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5307c5e28d8b05055447966cc540554ad42b7a67704c4602596a4806de882390",
+    "category": "trending-news",
+    "created_at": "2026-08-25T17:52:04.162307",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:52:04.162307"
+  },
+  "53882": {
+    "article_id": "53882",
+    "headline": "Pitch Perfect 3 Legacy and the Evolution of Teen Self-Expression",
+    "image_url": "https://images.unsplash.com/photo-1738658024539-a8d1527fa8e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8dGVlbiUyMG11c2ljYWwlMjBwZXJmb3JtYW5jZSUyMGNvbmZpZGVuY2V8ZW58MHx8fHwxNzg3NjgwMzQwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://youthhealthmag.com/articles/30626/20160107/pitch-perfect-3-updates-hailee-steinfeld.htm",
+    "source_urls": [
+      "https://youthhealthmag.com/articles/30626/20160107/pitch-perfect-3-updates-hailee-steinfeld.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3b3113396228a6f075dbd0a7a5c152871e456e7b303036d62a976adc53f63883",
+    "category": "Lentertainment",
+    "created_at": "2026-08-25T17:52:22.134061",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:52:22.134061"
+  },
+  "64952": {
+    "article_id": "64952",
+    "headline": "Emerald AI Reaches Unicorn Status as Data Center Power Solutions Gain Traction",
+    "image_url": "https://images.unsplash.com/photo-1775519520461-6b6e068d9250?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8ZGF0YSUyMGNlbnRlciUyMGVuZXJneSUyMGVmZmljaWVuY3l8ZW58MHx8fHwxNzg3NjgwMzU1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/25/business/dealbook/emerald-ai-start-up-data-center-backlash.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/25/business/dealbook/emerald-ai-start-up-data-center-backlash.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8b945f34499b4e9d6ffccd4a6f3bc59a80521ccf1ea56640a2161ffbf7506af9",
+    "category": "tech",
+    "created_at": "2026-08-25T17:52:38.195138",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:52:38.195138"
+  },
+  "26936": {
+    "article_id": "26936",
+    "headline": "Scarlett Johansson Redefines Hollywood Agency After Decades of Scrutiny",
+    "image_url": "https://images.pexels.com/photos/33108727/pexels-photo-33108727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://celebeat.com/articles/23321/20170328/scarlett-johansson-on-cultural-appropriation-underwear-and-rejection.htm",
+    "source_urls": [
+      "https://celebeat.com/articles/23321/20170328/scarlett-johansson-on-cultural-appropriation-underwear-and-rejection.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0e289da58f5f8bbbd194cfa602520be36b9747484584e463af9ab7edc4377aa0",
+    "category": "news",
+    "created_at": "2026-08-25T17:52:55.041701",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:52:55.041701"
+  },
+  "286755": {
+    "article_id": "286755",
+    "headline": "Man Experiences 'Clear' Urine for the First Time and the Internet Is Losing Its Mind",
+    "image_url": "https://images.unsplash.com/photo-1590086783191-a0694c7d1e6e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8ZnVubnklMjBjb25mdXNlZCUyMG1hbnxlbnwwfHx8fDE3ODc2ODAzOTR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://theonion.com/man-terrified-after-urine-comes-out-clear-for-first-time-in-life/",
+    "source_urls": [
+      "https://theonion.com/man-terrified-after-urine-comes-out-clear-for-first-time-in-life/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f88a6e3e3747c0b633e97a00a37b43c0937c458f27ac4490964f726799025023",
+    "category": "funny",
+    "created_at": "2026-08-25T17:53:16.482300",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:53:16.482300"
+  },
+  "109909": {
+    "article_id": "109909",
+    "headline": "Manchester United Finalizes Transfer of Midfielder Carlos Baleba",
+    "image_url": "https://images.unsplash.com/photo-1780336672840-8b168588d190?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxDYXJsb3MlMjBCYWxlYmElMjBNYW5jaGVzdGVyJTIwVW5pdGVkfGVufDB8fHx8MTc4NzY4MDQxM3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.skysports.com/football/news/12040/13575283/carlos-baleba-transfer-manchester-united-complete-signing-of-cameroon-midfielder-from-brighton",
+    "source_urls": [
+      "https://www.skysports.com/football/news/12040/13575283/carlos-baleba-transfer-manchester-united-complete-signing-of-cameroon-midfielder-from-brighton"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c077ba0b44ed821999a379006d6949ecc1a6c4ed545dbcea7a417d0fd4111b08",
+    "category": "soccer",
+    "created_at": "2026-08-25T17:53:35.934323",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:53:35.934323"
+  },
+  "235980": {
+    "article_id": "235980",
+    "headline": "Kodiak Robotics Positions for Long-Term Growth in Expanding Autonomous Trucking Market",
+    "image_url": "https://images.unsplash.com/photo-1594010465298-8522f3325429?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8YXV0b25vbW91cyUyMHRydWNraW5nJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3ODc2ODA0NDJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.marketwatch.com/story/this-driverless-truck-company-could-be-a-long-term-winner-in-a-market-tesla-plans-to-enter-soon-193bc8fe?mod=mw_rss_topstories",
+    "source_urls": [
+      "https://www.marketwatch.com/story/this-driverless-truck-company-could-be-a-long-term-winner-in-a-market-tesla-plans-to-enter-soon-193bc8fe?mod=mw_rss_topstories"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c19fc94f193b4247c44646a5e3b8a01b6e89e30a182d83cdf1b7b98cf3c6ff50",
+    "category": "franchise-news",
+    "created_at": "2026-08-25T17:54:04.433502",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "RELATED",
+    "expires_at": "2026-11-23T17:54:04.433502"
+  },
+  "1725317": {
+    "article_id": "1725317",
+    "headline": "Life360 Expands Mobile Ecosystem with New Pet Tracking Tags and Care Features",
+    "image_url": "https://images.pexels.com/photos/28802002/pexels-photo-28802002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://techcrunch.com/2026/08/25/life360-expands-pet-tracking-with-new-8-scannable-tags-and-zoomie-alerts/",
+    "source_urls": [
+      "https://techcrunch.com/2026/08/25/life360-expands-pet-tracking-with-new-8-scannable-tags-and-zoomie-alerts/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5941c8e90b1a9820b7819e50c27f7788dbf376033d4ecc78f245b00c9a76a945",
+    "category": "mobile",
+    "created_at": "2026-08-25T17:54:19.764825",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T17:54:19.764825"
+  },
+  "237215": {
+    "article_id": "237215",
+    "headline": "The Declining Presence of Male Educators in Schools: Why Representation Matters",
+    "image_url": "https://images.unsplash.com/photo-1758685734503-58a8accc24e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8bWFsZSUyMHRlYWNoZXIlMjBpbiUyMGNsYXNzcm9vbXxlbnwwfHx8fDE3ODc2ODA0Nzl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://edsurge.com/news/as-male-teachers-vanish-from-the-classroom-schools-look-for-ways-to-bring-them-back",
+    "source_urls": [
+      "https://edsurge.com/news/as-male-teachers-vanish-from-the-classroom-schools-look-for-ways-to-bring-them-back"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "57c56f89f2c381df70210f7944ea42a1fe8dc7eeb3784a0e00843e231e04afd9",
+    "category": "school",
+    "created_at": "2026-08-25T17:54:42.109545",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-23T17:54:42.109545"
+  },
+  "62257": {
+    "article_id": "62257",
+    "headline": "Atomic-Scale Catalyst Breakthrough Transforms Plant Waste into Renewable Resources",
+    "image_url": "https://images.unsplash.com/photo-1655891709782-15c1303a2a25?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8YmlvbWFzcyUyMGNhdGFseXNpcyUyMGF0b21pYyUyMHN0cnVjdHVyZXxlbnwwfHx8fDE3ODc2ODExNTF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260824065601.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260824065601.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7926a84af53af9f621011907abc2c2a72a2315633a85bed6b2070135caaca3d5",
+    "category": "energy-particles",
+    "created_at": "2026-08-25T18:05:52.720453",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T18:05:52.720453"
+  },
+  "109910": {
+    "article_id": "109910",
+    "headline": "Cal Raleigh Records Career-First Three-Homer Game for Mariners",
+    "image_url": "https://images.pexels.com/photos/33350864/pexels-photo-33350864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.foxnews.com/sports/cal-raleigh-hits-career-high-3-homers-mariners-amid-season-long-slump",
+    "source_urls": [
+      "https://www.foxnews.com/sports/cal-raleigh-hits-career-high-3-homers-mariners-amid-season-long-slump"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fe95533bd1485ce56d8e0eef131cbd989e00a1bf6008d3096a71056f5ee9e93f",
+    "category": "mlb",
+    "created_at": "2026-08-25T18:35:25.200183",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T18:35:25.200183"
+  },
+  "64953": {
+    "article_id": "64953",
+    "headline": "US Sanctions on Iran Spark Trade Tensions with China",
+    "image_url": "https://images.unsplash.com/photo-1569350818415-ffe59f37e028?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8Z2xvYmFsJTIwb2lsJTIwdHJhZGUlMjBzaGlwcGluZ3xlbnwwfHx8fDE3ODc2ODY1NjV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/clyl8965j5go?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a6cadb58a82d8138e2c6ecd0d71f987c48120f95dba14a876b0f8c7e132d6214",
+    "category": "business",
+    "created_at": "2026-08-25T19:36:08.270220",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "RELATED",
+    "expires_at": "2026-11-23T19:36:08.270220"
+  },
+  "28243": {
+    "article_id": "28243",
+    "headline": "Shingles Vaccination Linked to Reduced Dementia Risk in Older Adults",
+    "image_url": "https://images.unsplash.com/photo-1618961734760-466979ce35b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8c2hpbmdsZXMlMjB2YWNjaW5lJTIwbWVkaWNhbCUyMHJlc2VhcmNofGVufDB8fHx8MTc4NzY4ODQyMnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260823015013.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260823015013.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8e467feea422ce5985e701d1c9281845e444395eb85c49007fd1aac1bd07ce04",
+    "category": "news",
+    "created_at": "2026-08-25T20:07:04.279500",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T20:07:04.279500"
+  },
+  "235981": {
+    "article_id": "235981",
+    "headline": "SpaceX Commits $100 Billion to New Louisiana Launch Infrastructure",
+    "image_url": "https://images.unsplash.com/photo-1700508317396-e343a69ac72f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8U3BhY2VYJTIwU3RhcnNoaXAlMjByb2NrZXQlMjBsYXVuY2h8ZW58MHx8fHwxNzg3NjkwMTg1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.ft.com/content/0c59f1d7-2197-406b-ba9b-6592c12bcb3d?syn-25a6b1a6=1",
+    "source_urls": [
+      "https://www.ft.com/content/0c59f1d7-2197-406b-ba9b-6592c12bcb3d?syn-25a6b1a6=1"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e67bb1998214740e4cecd8136a445e28048794029b24e298775415fdec42f151",
+    "category": "biz-tech",
+    "created_at": "2026-08-25T20:36:27.698107",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T20:36:27.698107"
+  },
+  "62258": {
+    "article_id": "62258",
+    "headline": "Current Biodiversity Policies Insufficient to Prevent European Species Loss by 2050",
+    "image_url": "https://images.unsplash.com/photo-1780401276481-b3b6ca48963c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8RXVyb3BlYW4lMjBiaW9kaXZlcnNpdHklMjBjb25zZXJ2YXRpb24lMjByZXNlYXJjaHxlbnwwfHx8fDE3ODc2OTA2NTh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://phys.org/news/2026-08-biodiversity-friendly-policies-halt-declines.html",
+    "source_urls": [
+      "https://phys.org/news/2026-08-biodiversity-friendly-policies-halt-declines.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "91ad65517cae79cc783346b4fe84fd7a61fd03dca9f93e79e18ce6f5d70172ff",
+    "category": "nature-environment",
+    "created_at": "2026-08-25T20:44:21.769043",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T20:44:21.769043"
+  },
+  "28244": {
+    "article_id": "28244",
+    "headline": "Measles Outbreak Claims Lives in Pennsylvania, Marking First Fatalities in Decades",
+    "image_url": "https://images.unsplash.com/photo-1632053001332-2268cc09f738?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxtZWFzbGVzJTIwdmFjY2luYXRpb24lMjBhd2FyZW5lc3N8ZW58MHx8fHwxNzg3NjkwNjc2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/deadly-measles-outbreak-hits-northeast-state-records-first-deaths-35-years",
+    "source_urls": [
+      "https://www.foxnews.com/health/deadly-measles-outbreak-hits-northeast-state-records-first-deaths-35-years"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "809b2cab78654e7a2f80043365816e5a029445fbbc4e28e909315db23418a5be",
+    "category": "science-news",
+    "created_at": "2026-08-25T20:44:38.314505",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T20:44:38.314505"
+  },
+  "40313": {
+    "article_id": "40313",
+    "headline": "Experts Debunk Claims Linking EVs and SUVs to UK Pothole Crisis",
+    "image_url": "https://images.unsplash.com/photo-1671785120538-c24cbe823ccc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxlbGVjdHJpYyUyMHZlaGljbGUlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc4NzY5MDY5M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/consumer/evs-and-suvs-not-blame-pothole-crisis-say-experts",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/consumer/evs-and-suvs-not-blame-pothole-crisis-say-experts"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "223ca017c9001b71e2ff12d36042bb4702f0d013612ce327178e6bc5cf5be756",
+    "category": "auto-news",
+    "created_at": "2026-08-25T20:44:55.077249",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-23T20:44:55.077249"
+  },
+  "53883": {
+    "article_id": "53883",
+    "headline": "Do Lymphatic Workouts Actually Reduce Bloating? A Medical Perspective",
+    "image_url": "https://images.unsplash.com/photo-1762394613579-fc97458aa02b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8dGVlbiUyMGV4ZXJjaXNpbmclMjBvdXRkb29yc3xlbnwwfHx8fDE3ODc2OTA3MDl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/24/well/move/lymphatic-walking-jumping-workouts.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/24/well/move/lymphatic-walking-jumping-workouts.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4dc76c1a1a19d590d6517498dc9a6fea08c11c94f7462bccc63fa7a86edf5514",
+    "category": "teenHeath",
+    "created_at": "2026-08-25T20:45:11.607306",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T20:45:11.607306"
+  },
+  "64954": {
+    "article_id": "64954",
+    "headline": "Hugging Face Accelerates Security Protocols Following Automated AI Agent Breach",
+    "image_url": "https://images.unsplash.com/photo-1770233621425-5d9ee7a0a700?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHNlY3VyaXR5fGVufDB8fHx8MTc4NzY5MDcyNXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/24/technology/hugging-face-open-source-ai-attack.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/24/technology/hugging-face-open-source-ai-attack.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b964821cc080fbdd7d0517557db82fec8e9f0e925633ef01e1b2acc25c8fb2e6",
+    "category": "tech",
+    "created_at": "2026-08-25T20:45:26.747963",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T20:45:26.747963"
+  },
+  "286756": {
+    "article_id": "286756",
+    "headline": "The Internet’s Obsession With Cringe-Worthy Family Photos",
+    "image_url": "https://images.unsplash.com/photo-1694232755153-23cd61feaf78?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8ZnVubnklMjBmYW1pbHklMjBwaG90byUyMGFsYnVtfGVufDB8fHx8MTc4NzY5MDc1NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.boredpanda.com/funny-awkward-family-pictures-msn-2/",
+    "source_urls": [
+      "https://www.boredpanda.com/funny-awkward-family-pictures-msn-2/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9cf25f6f288a6f705c58a2c21f14e01375ba73b932a313ad6dce4b003b7a02da",
+    "category": "meme",
+    "created_at": "2026-08-25T20:45:56.557143",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T20:45:56.557143"
+  },
+  "109911": {
+    "article_id": "109911",
+    "headline": "Bruno Fernandes and Bunny Shaw Claim PFA Player of the Year Honors",
+    "image_url": "https://images.pexels.com/photos/7005490/pexels-photo-7005490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.skysports.com/football/news/12040/13577089/bruno-fernandes-man-utd-captain-wins-2025-26-pfa-players-player-of-the-year-as-bunny-shaw-wins-womens-award",
+    "source_urls": [
+      "https://www.skysports.com/football/news/12040/13577089/bruno-fernandes-man-utd-captain-wins-2025-26-pfa-players-player-of-the-year-as-bunny-shaw-wins-womens-award"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "93910b80d961304f287d2a58fac657686ce7444a06cb10748c38dfed1e341e03",
+    "category": "soccer",
+    "created_at": "2026-08-25T20:46:50.248006",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T20:46:50.248006"
+  },
+  "60108": {
+    "article_id": "60108",
+    "headline": "Tax Compliance Challenges for Content Creators: Lessons from Recent Court Rulings",
+    "image_url": "https://images.unsplash.com/photo-1753955900092-84a75d5da5ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8cHJvZmVzc2lvbmFsJTIwdGF4JTIwYWNjb3VudGFudCUyMHdvcmtpbmd8ZW58MHx8fHwxNzg3NjkwODIzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.marketwatch.com/story/tax-tips-for-tiktok-stars-after-judge-says-influencer-cant-write-off-his-grammy-tickets-29c19139?mod=mw_rss_topstories",
+    "source_urls": [
+      "https://www.marketwatch.com/story/tax-tips-for-tiktok-stars-after-judge-says-influencer-cant-write-off-his-grammy-tickets-29c19139?mod=mw_rss_topstories"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "da78d48f6f40af583c5250d00f0abd968c45c1a4e36d1ab9067f5651d1b669e5",
+    "category": "taxes-and-law",
+    "created_at": "2026-08-25T20:47:05.733299",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-23T20:47:05.733299"
+  },
+  "235982": {
+    "article_id": "235982",
+    "headline": "Large Corporations Remain Critical Drivers of U.S. Economic Stability",
+    "image_url": "https://images.unsplash.com/photo-1762341118954-d0ce391674d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8Y29ycG9yYXRlJTIwYnVzaW5lc3MlMjBvZmZpY2V8ZW58MHx8fHwxNzg3NjkwODM2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.economist.com/business/2026/08/24/americans-should-rekindle-their-love-for-big-business",
+    "source_urls": [
+      "https://www.economist.com/business/2026/08/24/americans-should-rekindle-their-love-for-big-business"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ac8e1eaacc7b836a145f3032b08676f1bc88826546ac657f022a84a6cc1d80c2",
+    "category": "franchise-news",
+    "created_at": "2026-08-25T20:47:18.769309",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-23T20:47:18.769309"
+  },
+  "1725318": {
+    "article_id": "1725318",
+    "headline": "The Privacy Trade-off: How AI Chatbot Memory Features Handle Your Data",
+    "image_url": "https://images.unsplash.com/photo-1746608943132-065d1d4b3c5d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8YWklMjBjaGF0Ym90JTIwcHJpdmFjeSUyMG1vYmlsZSUyMHBob25lfGVufDB8fHx8MTc4NzY5MDg1MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/tech/ai-chatbot-privacy-what-your-ai-may-know-about-you",
+    "source_urls": [
+      "https://www.foxnews.com/tech/ai-chatbot-privacy-what-your-ai-may-know-about-you"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a027ec09bab6118ee063a0f86cd008e6db2c93100ee25f62b7b615beed9b243d",
+    "category": "security",
+    "created_at": "2026-08-25T20:47:34.244626",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-23T20:47:34.244626"
+  },
+  "237217": {
+    "article_id": "237217",
+    "headline": "Paris Hilton Details Nightly Routine Strategy for Managing ADHD as a Parent",
+    "image_url": "https://images.unsplash.com/photo-1614287350843-7b7c228df8cf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8cGFyZW50aW5nJTIwd2l0aCUyMEFESEQlMjBzdHJhdGVnaWVzfGVufDB8fHx8MTc4NzY5MDg3Nnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/health-wellness/mental-health/paris-hilton-adhd/",
+    "source_urls": [
+      "https://mother.ly/health-wellness/mental-health/paris-hilton-adhd/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "178c2d3b4c4f47906e0874896d2ea7082681cc7ba80f067a9751de36f207e6aa",
+    "category": "parenting",
+    "created_at": "2026-08-25T20:47:59.215122",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T20:47:59.215122"
+  },
+  "60067": {
+    "article_id": "60067",
+    "headline": "The House on Mango Street Redefines Modern Coming-of-Age Narratives",
+    "image_url": "https://images.pexels.com/photos/30113649/pexels-photo-30113649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://booksnreview.com/articles/19202/20240305/house-mango-street-sandra-cisneros-book-review-exploring-tapestry-identity.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/19202/20240305/house-mango-street-sandra-cisneros-book-review-exploring-tapestry-identity.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "851deca96e12cd2c0d50f4cf78af61dff4b818a72f657dfb4b0967bcf97e8f04",
+    "category": "fiction",
+    "created_at": "2026-08-25T20:48:24.140360",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T20:48:24.140360"
+  },
+  "60068": {
+    "article_id": "60068",
+    "headline": "Natasha Walter Reimagines Feminist Discourse in Feminism for a World on Fire",
+    "image_url": "https://images.pexels.com/photos/38201275/pexels-photo-38201275.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/aug/25/feminism-for-a-world-on-fire-by-natasha-walter-review-hope-amid-the-hopelessness",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/aug/25/feminism-for-a-world-on-fire-by-natasha-walter-review-hope-amid-the-hopelessness"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f70b95fa8a76bd2a48d30113a0a2cc5ddb3973987dccf6451d5bf8c9261e26a7",
+    "category": "book-reviews",
+    "created_at": "2026-08-25T21:05:43.309068",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T21:05:43.309068"
+  },
+  "60109": {
+    "article_id": "60109",
+    "headline": "Forbes Suspends Shook Research Rankings Amid Internal Financial Probe",
+    "image_url": "https://images.unsplash.com/photo-1713948412293-5c4d47890625?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxmaW5hbmNpYWwlMjBuZXdzJTIwb2ZmaWNlfGVufDB8fHx8MTc4NzY5Mzc0N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/25/business/media/forbes-shook-research-payment.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/25/business/media/forbes-shook-research-payment.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2b55270816c8254905ac67cebd819da7e078b06ef8b3da9a9eea055aa8ac0ba3",
+    "category": "media",
+    "created_at": "2026-08-25T21:35:50.757434",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T21:35:50.757434"
+  },
+  "62259": {
+    "article_id": "62259",
+    "headline": "Quantum Circuit Advancements Bring RSA Encryption Vulnerability into Focus",
+    "image_url": "https://images.unsplash.com/photo-1730578726760-bd351ae7070d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8cXVhbnR1bSUyMGNvbXB1dGluZyUyMGNpcmN1aXQlMjBkaWFncmFtfGVufDB8fHx8MTc4NzY5ODE1NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.newscientist.com/article/2581592-the-engineer-racing-to-run-the-worlds-most-dangerous-algorithm/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+    "source_urls": [
+      "https://www.newscientist.com/article/2581592-the-engineer-racing-to-run-the-worlds-most-dangerous-algorithm/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d430b7411dee16eb63487b9e838b21c414215cf9fec702c0d84ad72d89e898e0",
+    "category": "physics",
+    "created_at": "2026-08-25T22:49:18.369575",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T22:49:18.369575"
+  },
+  "28245": {
+    "article_id": "28245",
+    "headline": "Is Mouthwash Damaging Your Oral Microbiome? What Experts Say",
+    "image_url": "https://images.unsplash.com/photo-1657470179447-0f5aa16daa91?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8ZGVudGFsJTIwb3JhbCUyMGh5Z2llbmUlMjBoZWFsdGh8ZW58MHx8fHwxNzg3Njk4MTc0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/25/well/mouthwash-oral-microbiome-harms.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/25/well/mouthwash-oral-microbiome-harms.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3037e167d920c5743da99c2a6a3be3e2761c8f95e78407d3655f2b020c3bd59b",
+    "category": "news",
+    "created_at": "2026-08-25T22:49:36.308413",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-23T22:49:36.308413"
+  },
+  "40314": {
+    "article_id": "40314",
+    "headline": "Renault 5 Receives Range Boost and Battery Updates in Mid-Cycle Refresh",
+    "image_url": "https://images.unsplash.com/photo-1666335009171-3ddc17937d6d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxSZW5hdWx0JTIwNSUyMGVsZWN0cmljJTIwY2FyfGVufDB8fHx8MTc4NzY5ODIwMXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/new-cars/updated-renault-5-gains-extra-range-red-paint-and-williams-style",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/new-cars/updated-renault-5-gains-extra-range-red-paint-and-williams-style"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a65e64a750a591a297e62d4f6e277a16d3ea80bc7c8d0e505776ddbd73cde64e",
+    "category": "green-cars",
+    "created_at": "2026-08-25T22:50:03.214254",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2026-11-23T22:50:03.214254"
+  },
+  "64955": {
+    "article_id": "64955",
+    "headline": "SpaceX Announces $100 Billion Investment for New Louisiana Spaceport",
+    "image_url": "https://images.unsplash.com/photo-1778034499052-0314f29f48a4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxTcGFjZVglMjByb2NrZXQlMjBsYXVuY2glMjBmYWNpbGl0eXxlbnwwfHx8fDE3ODc2OTgyMTd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/25/technology/spacex-louisiana-spaceport.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/25/technology/spacex-louisiana-spaceport.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8d92628abf6c4f3476a80cb81708d66be34409b21b7cc4c593f00d24012fa536",
+    "category": "business",
+    "created_at": "2026-08-25T22:50:20.131657",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T22:50:20.131657"
+  },
+  "26937": {
+    "article_id": "26937",
+    "headline": "Drake’s OVO Brand Launches Official UFC Apparel Collaboration",
+    "image_url": "https://images.pexels.com/photos/28098125/pexels-photo-28098125.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.rollingstone.com/product-recommendations/style/official-ovo-ufc-collection-2026-release-pricing-buy-online-1235615199/",
+    "source_urls": [
+      "https://www.rollingstone.com/product-recommendations/style/official-ovo-ufc-collection-2026-release-pricing-buy-online-1235615199/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5be2d0203a5c712a6a1b399b4636febe5052897254a9b355f0f8d6141044f556",
+    "category": "style",
+    "created_at": "2026-08-25T22:50:45.672437",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T22:50:45.672437"
+  },
+  "286757": {
+    "article_id": "286757",
+    "headline": "Google Pixel 11 Pro Fold: The High-Stakes Foldable Gamble",
+    "image_url": "https://images.unsplash.com/photo-1659079478237-3a48864e08a9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMHx8Z29vZ2xlJTIwcGl4ZWwlMjBmb2xkJTIwc21hcnRwaG9uZXxlbnwwfHx8fDE3ODc2OTgyNTd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/review/google-pixel-11-pro-fold/",
+    "source_urls": [
+      "https://www.wired.com/review/google-pixel-11-pro-fold/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "346d6fbb3b59ac19076f5304fe1376719c107780f84fce66cc8c7137e7aa1d24",
+    "category": "product",
+    "created_at": "2026-08-25T22:51:00.097865",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-23T22:51:00.097865"
+  },
+  "109912": {
+    "article_id": "109912",
+    "headline": "Callum Wilson Shines in Brentford's Dominant 6-1 Victory Over Birmingham",
+    "image_url": "https://images.pexels.com/photos/35227286/pexels-photo-35227286.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.skysports.com/football/birmingham-city-vs-brentford/report/577421",
+    "source_urls": [
+      "https://www.skysports.com/football/birmingham-city-vs-brentford/report/577421"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9c1949cac8a1f2ebcf11679dc264f080633cc8e3df518159b484c259638966d7",
+    "category": "world-football",
+    "created_at": "2026-08-25T22:51:18.980098",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T22:51:18.980098"
+  },
+  "60110": {
+    "article_id": "60110",
+    "headline": "Defining Leadership Legacy: Moving Beyond Personal Brand in the Modern Workplace",
+    "image_url": "https://images.unsplash.com/photo-1758518729929-8210d3b0839e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOXx8cHJvZmVzc2lvbmFsJTIwbGVhZGVyc2hpcCUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc4NzY5ODI5MHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/marcel-schwantes/dolly-parton-understood-what-too-many-leaders-get-wrong-about-legacy/91396224",
+    "source_urls": [
+      "https://www.inc.com/marcel-schwantes/dolly-parton-understood-what-too-many-leaders-get-wrong-about-legacy/91396224"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "608dec37f421fcccc3bd8cfe28523178580819bb29d28c662aaa805422689daa",
+    "category": "leadership",
+    "created_at": "2026-08-25T22:51:32.594144",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-23T22:51:32.594144"
+  },
+  "235983": {
+    "article_id": "235983",
+    "headline": "Wendys Global Expansion Strategy Targets Asian QSR Market Growth",
+    "image_url": "https://images.unsplash.com/photo-1519355673725-fe7ac3f995f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8aW50ZXJuYXRpb25hbCUyMGZyYW5jaGlzZSUyMGdyb3d0aCUyMHN0cmF0ZWd5fGVufDB8fHx8MTc4NzY5ODMwNnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://franchiseherald.com/articles/6698/20140914/wendys-singapore-australia-global-food-retail-group.htm",
+    "source_urls": [
+      "https://franchiseherald.com/articles/6698/20140914/wendys-singapore-australia-global-food-retail-group.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "470015fb8ef0b2fe6a8810584213cb4f1084b3d58892f59bec1f3de1ad090774",
+    "category": "franchise-news",
+    "created_at": "2026-08-25T22:51:49.591695",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T22:51:49.591695"
+  },
+  "1725319": {
+    "article_id": "1725319",
+    "headline": "Instagram Launches 'First Draft' Feature to Streamline Mobile Reel Editing",
+    "image_url": "https://images.unsplash.com/photo-1596526131090-bcbe09e432d3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxJbnN0YWdyYW0lMjBtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MHx8fHwxNzg3Njk4MzIyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/",
+    "source_urls": [
+      "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "59905854a4f4783dd48b7feed50281b0cdc317138476df62ff09d49508277121",
+    "category": "news",
+    "created_at": "2026-08-25T22:52:04.922611",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T22:52:04.922611"
+  },
+  "60069": {
+    "article_id": "60069",
+    "headline": "Summer Island Resonates as a Blueprint for Modern Family Dramas",
+    "image_url": "https://images.pexels.com/photos/4889668/pexels-photo-4889668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://booksnreview.com/articles/19483/20240514/summer-island-kristin-hannah-book-review-sentimental-tale-mother-daughter.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/19483/20240514/summer-island-kristin-hannah-book-review-sentimental-tale-mother-daughter.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3cd06ce124a3207572f12a795d1aa3420b277c9b70502ce61f1f02a2d499bd18",
+    "category": "fiction",
+    "created_at": "2026-08-25T22:52:33.915376",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T22:52:33.915376"
+  },
+  "81526": {
+    "article_id": "81526",
+    "headline": "Mastering the $28 Daily Food Budget: Strategies for Efficient Home Cooking",
+    "image_url": "https://images.unsplash.com/photo-1543168256-418811576931?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxncm9jZXJ5JTIwc2hvcHBpbmclMjBtZWFsJTIwcGxhbm5pbmd8ZW58MHx8fHwxNzg3Njk4Mzc1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://cooking.nytimes.com/article/budget-cooking",
+    "source_urls": [
+      "https://cooking.nytimes.com/article/budget-cooking"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b4c0147d2faf729117ce4e8f0e4fc7d1b4d528d8714117d120432782bd593ca7",
+    "category": "tips",
+    "created_at": "2026-08-25T22:52:57.915555",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-23T22:52:57.915555"
+  }
+}

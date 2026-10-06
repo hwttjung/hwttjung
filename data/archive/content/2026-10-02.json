@@ -1,0 +1,1022 @@
+{
+  "62320": {
+    "article_id": "62320",
+    "headline": "Animal Behavior Researchers Decode Evolutionary Logic Behind Step-Parenting",
+    "image_url": "https://images.unsplash.com/photo-1767478142857-8b5bedbe94bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxhbmltYWwlMjBiZWhhdmlvciUyMHJlc2VhcmNofGVufDB8fHx8MTc5MDg3MjAzN3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://scienceworldreport.com/articles/59960/20170617/animals-make-stellar-stepdads-science.htm",
+    "source_urls": [
+      "https://scienceworldreport.com/articles/59960/20170617/animals-make-stellar-stepdads-science.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f87366039200166f9f8653e983094042602af0e68cdb04e5d903b004e42589a7",
+    "category": "nature",
+    "created_at": "2026-10-01T16:27:20.631909",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T16:27:20.631909"
+  },
+  "28297": {
+    "article_id": "28297",
+    "headline": "Cell Division Research Redefines Precision in Cancer and Immune Therapy",
+    "image_url": "https://images.unsplash.com/photo-1582719471137-c3967ffb1c42?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8Y2VsbHVsYXIlMjBiaW9sb2d5JTIwcmVzZWFyY2h8ZW58MHx8fHwxNzkwODcyMDYwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/2511/20140508/parent-cells-reset-the-cell-division-clock.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/2511/20140508/parent-cells-reset-the-cell-division-clock.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1e5ad23abce7835a26d69e5d3b80ba5919466a04ae9a6bbbfc15bbe72f2102ad",
+    "category": "science-news",
+    "created_at": "2026-10-01T16:27:43.332613",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T16:27:43.332613"
+  },
+  "40371": {
+    "article_id": "40371",
+    "headline": "Genesis Redefines Luxury Standards as European Automakers Pivot",
+    "image_url": "https://images.unsplash.com/photo-1742940796377-0bacfc127c24?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8R2VuZXNpcyUyMGx1eHVyeSUyMGVsZWN0cmljJTIwdmVoaWNsZSUyMGRlc2lnbnxlbnwwfHx8fDE3OTA4NzIwODB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/40362/20260929/genesis-accelerates-global-luxury-shift-as-european-rivals-face-market-headwinds.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/40362/20260929/genesis-accelerates-global-luxury-shift-as-european-rivals-face-market-headwinds.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3dc9afc28079ace91fed43315d8c8274002ee58e4b54263e21244021e6fbd14c",
+    "category": "auto-news",
+    "created_at": "2026-10-01T16:28:02.720636",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T16:28:02.720636"
+  },
+  "53936": {
+    "article_id": "53936",
+    "headline": "School Start Times Shift Improves Adolescent Sleep and Mental Health",
+    "image_url": "https://images.unsplash.com/photo-1556750539-dc6305f4f248?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHx0ZWVuJTIwc2xlZXAlMjBoZWFsdGh8ZW58MHx8fHwxNzkwODcyMDk5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://youthhealthmag.com/articles/53365/20190607/teens-sleep-longer-are-more-alert-for-homework-when-school-starts-later.htm",
+    "source_urls": [
+      "https://youthhealthmag.com/articles/53365/20190607/teens-sleep-longer-are-more-alert-for-homework-when-school-starts-later.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "34e7c4bae1ba87950527eac0e60d2be30057361f531c90b47c19b1c055e79ff2",
+    "category": "teenHeath",
+    "created_at": "2026-10-01T16:28:21.044956",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T16:28:21.044956"
+  },
+  "64997": {
+    "article_id": "64997",
+    "headline": "Venezuela Energy Agreement Reshapes Western Hemisphere Trade Dynamics",
+    "image_url": "https://images.unsplash.com/photo-1768564206500-5cddb1fea679?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8b2lsJTIwcmVmaW5lcnklMjBpbmZyYXN0cnVjdHVyZXxlbnwwfHx8fDE3OTA4NzIxMTh8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://newseveryday.com/articles/64968/20260923/venezuela-defends-landmark-energy-agreement-with-u-s-amid-global-scrutiny.htm",
+    "source_urls": [
+      "https://newseveryday.com/articles/64968/20260923/venezuela-defends-landmark-energy-agreement-with-u-s-amid-global-scrutiny.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "abb20542ee5bb8ca301caf7f86927a66e9886eb2cc63e9e0144ab9cb4609532a",
+    "category": "business",
+    "created_at": "2026-10-01T16:28:40.999069",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T16:28:40.999069"
+  },
+  "26980": {
+    "article_id": "26980",
+    "headline": "Lil Nas X Embraces Rock Roots in Emotional World’s Greatest! Music Video",
+    "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&sig=42069",
+    "seed_url": "https://www.rollingstone.com/music/music-news/lil-nas-x-worlds-greatest-video-1235634760/",
+    "source_urls": [
+      "https://www.rollingstone.com/music/music-news/lil-nas-x-worlds-greatest-video-1235634760/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "d0461e955447745d5958a79a4973aaddf6bcadca61c3201d4f0861fce8954913",
+    "category": "news",
+    "created_at": "2026-10-01T16:29:03.528594",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T16:29:03.528594"
+  },
+  "286809": {
+    "article_id": "286809",
+    "headline": "AJ McLean Redefines Pop Legacy With New Creative Ventures in 2026",
+    "image_url": "https://images.pexels.com/photos/36205159/pexels-photo-36205159.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://boomsbeat.com/articles/286273/20211203/30-record-facts-aj-mclean-backstreet-boys-fan-know.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/286273/20211203/30-record-facts-aj-mclean-backstreet-boys-fan-know.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "90e3e96356755e1191f1030bf8d571e20e8b57d1d24c0e1dfc5ac7a5ddd875a1",
+    "category": "people",
+    "created_at": "2026-10-01T16:29:23.984744",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T16:29:23.984744"
+  },
+  "109966": {
+    "article_id": "109966",
+    "headline": "NBA Finals Momentum: How Game 5 Tactical Shifts Define Modern Championships",
+    "image_url": "https://images.unsplash.com/photo-1578354985657-65776ee4ae90?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8TkJBJTIwRmluYWxzJTIwYmFza2V0YmFsbCUyMGdhbWUlMjBhY3Rpb258ZW58MHx8fHwxNzkwODcyMjIwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/109957/20260923/nba-finals-momentum-analyzing-game-5-shifts-and-historical-precedents.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/109957/20260923/nba-finals-momentum-analyzing-game-5-shifts-and-historical-precedents.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "077b990e881c52dfbd820ea6bf6a576e9c661a4e1b412a928e42c874bf54f127",
+    "category": "nba",
+    "created_at": "2026-10-01T16:30:22.809102",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-30T16:30:22.809102"
+  },
+  "60161": {
+    "article_id": "60161",
+    "headline": "Navigating Talent Retention: Why Equity Isn't Always the Optimal Compensation Strategy",
+    "image_url": "https://images.unsplash.com/photo-1622675363311-3e1904dc1885?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMGxlYWRlcnNoaXAlMjBtZWV0aW5nfGVufDB8fHx8MTc5MDg3MjI0MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/bruce-eckfeldt/giving-employees-equity-can-create-a-bigger-problem-than-the-1-youre-trying-to-solve/91413301",
+    "source_urls": [
+      "https://www.inc.com/bruce-eckfeldt/giving-employees-equity-can-create-a-bigger-problem-than-the-1-youre-trying-to-solve/91413301"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "85e697d1d281f7c3cd799431cb78413bb2ef0dae3164993378bfb9b6ffc3c09c",
+    "category": "business",
+    "created_at": "2026-10-01T16:30:44.453204",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-30T16:30:44.453204"
+  },
+  "236035": {
+    "article_id": "236035",
+    "headline": "Bank of England Monitors AI Investment Boom for Potential Market Volatility",
+    "image_url": "https://images.unsplash.com/photo-1750365919971-7dd273e7b317?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMGZpbmFuY2lhbCUyMG1hcmtldHxlbnwwfHx8fDE3OTA4NzIyNjR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss",
+    "source_urls": [
+      "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo?at_medium=RSS&at_campaign=rss"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f0ac386eb6563946352688da44a8d938b8e861a33b02870fe420524d84e528d1",
+    "category": "biz-tech",
+    "created_at": "2026-10-01T16:31:07.057006",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-30T16:31:07.057006"
+  },
+  "1725369": {
+    "article_id": "1725369",
+    "headline": "PS5 Emulation Makes Significant Technical Strides on PC Platforms",
+    "image_url": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxnYW1pbmclMjBwYyUyMGhhcmR3YXJlfGVufDB8fHx8MTc5MDg3MjI4Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/",
+    "source_urls": [
+      "https://arstechnica.com/gaming/2026/10/ps5-emulation-is-suddenly-making-big-strides-on-pc/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ce117921a152af21b1970e00d952018c4f1063e8cd713eadc252ca5043a77519",
+    "category": "pc",
+    "created_at": "2026-10-01T16:31:24.468601",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T16:31:24.468601"
+  },
+  "237256": {
+    "article_id": "237256",
+    "headline": "Understanding Back Labor: Why Many Expectant Mothers Feel Unprepared for the Reality of Birth",
+    "image_url": "https://images.unsplash.com/photo-1710897872968-ae0c6306e914?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8cHJlZ25hbnQlMjB3b21hbiUyMGR1cmluZyUyMGxhYm9yfGVufDB8fHx8MTc5MDg3MjMwNnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/birth/labor-delivery/what-is-back-labor/",
+    "source_urls": [
+      "https://mother.ly/birth/labor-delivery/what-is-back-labor/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9b6ae221d67ebdebdcfb6ebd355dbcc2e6329e2f55785e600861464e36e8bdc4",
+    "category": "pregnancy",
+    "created_at": "2026-10-01T16:31:48.395194",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T16:31:48.395194"
+  },
+  "60123": {
+    "article_id": "60123",
+    "headline": "Marcia Hutchinson's The Mercy Step Offers a Poignant Look at 1960s Bradford",
+    "image_url": "https://images.unsplash.com/photo-1755097088941-e01f1408443e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyM3x8TWFyY2lhJTIwSHV0Y2hpbnNvbiUyMFRoZSUyME1lcmN5JTIwU3RlcCUyMGJvb2slMjByZXZpZXd8ZW58MHx8fHwxNzkwODcyMzM2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/oct/01/the-mercy-step-by-marcia-hutchinson-audiobook-review-a-caribbean-childs-eye-view-of-60s-bradford",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/oct/01/the-mercy-step-by-marcia-hutchinson-audiobook-review-a-caribbean-childs-eye-view-of-60s-bradford"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "12401996adede893fda4ddfa8bd137706477b7bfbbc81f20645a2bdc49031ed5",
+    "category": "books",
+    "created_at": "2026-10-01T16:32:18.438965",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T16:32:18.438965"
+  },
+  "81549": {
+    "article_id": "81549",
+    "headline": "Texas Launches Independent Nutritional Strategy Focused on Whole Foods",
+    "image_url": "https://images.unsplash.com/photo-1644704170910-a0cdf183649b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwd2hvbGUlMjBmb29kcyUyMG51dHJpdGlvbnxlbnwwfHx8fDE3OTA4NzIzNTl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foodpolitics.com/2026/10/29295/",
+    "source_urls": [
+      "https://www.foodpolitics.com/2026/10/29295/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "56313a22018b5f44a33075929375d507515a4c02c8ddcd1413fd97d4efc50158",
+    "category": "tips",
+    "created_at": "2026-10-01T16:32:42.844382",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T16:32:42.844382"
+  },
+  "62321": {
+    "article_id": "62321",
+    "headline": "Neural Decoding Breakthrough: AI Reconstructs Visual Perception from Brain Activity",
+    "image_url": "https://images.unsplash.com/photo-1677212004257-103cfa6b59d0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8bmV1cmFsJTIwZGVjb2RpbmclMjBicmFpbiUyMHNjYW4lMjBBSXxlbnwwfHx8fDE3OTA4NzU1MTd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/",
+    "source_urls": [
+      "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c9b8c867cf2901348298ce10d3f4f3830b830092861a97766ef00ff59e5cb880",
+    "category": "health-medicine",
+    "created_at": "2026-10-01T17:25:20.605699",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T17:25:20.605699"
+  },
+  "28298": {
+    "article_id": "28298",
+    "headline": "New Research Reveals Potential Reversibility of Alzheimer’s Risk Gene APOE4",
+    "image_url": "https://images.unsplash.com/photo-1582560475093-ba66accbc424?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxtZWRpY2FsJTIwcmVzZWFyY2glMjBsYWJvcmF0b3J5fGVufDB8fHx8MTc5MDg3NTU1MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260930225450.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260930225450.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e88b7b438c36ba61757073d962210c7f5387bfd33f3e50bf8f376698899a13ef",
+    "category": "news",
+    "created_at": "2026-10-01T17:25:53.661836",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T17:25:53.661836"
+  },
+  "40372": {
+    "article_id": "40372",
+    "headline": "Audi Expands Electric Portfolio with 2027 Q6 e-tron and Sportback Variants",
+    "image_url": "https://images.unsplash.com/photo-1629896784129-012ae4417ce8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8MjAyNyUyMEF1ZGklMjBRNiUyMGUtdHJvbnxlbnwwfHx8fDE3OTA4NzU1Njl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.caranddriver.com/audi/q6-e-tron",
+    "source_urls": [
+      "https://www.caranddriver.com/audi/q6-e-tron"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "1ef5a9f03669350b65fa1d2d5af109feb541b65a7c1082e28eb88f051775d06e",
+    "category": "auto-reviews",
+    "created_at": "2026-10-01T17:26:13.010190",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T17:26:13.010190"
+  },
+  "53937": {
+    "article_id": "53937",
+    "headline": "Nutritional Habits Linked to Delayed Brain Aging in New Longitudinal Study",
+    "image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwYnJhaW4lMjBmb29kJTIwZGlldHxlbnwwfHx8fDE3OTA4NzU1OTF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260930225503.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c84d73f45880a78be77204523773e1e7d2ab786fdd470cdb0d8ffbce9c358998",
+    "category": "nutrition-food",
+    "created_at": "2026-10-01T17:26:33.237348",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T17:26:33.237348"
+  },
+  "286810": {
+    "article_id": "286810",
+    "headline": "Joey Votto Redefines Baseball Retirement as the Ultimate Free Agent",
+    "image_url": "https://images.pexels.com/photos/39657118/pexels-photo-39657118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://boomsbeat.com/articles/285019/20190618/30-lesser-known-facts-you-probably-didnt-know-about-joey-votto.htm",
+    "source_urls": [
+      "https://boomsbeat.com/articles/285019/20190618/30-lesser-known-facts-you-probably-didnt-know-about-joey-votto.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "550371b8a2565d6c23bd6db3bee096c34072f0e63d33b3d9aa7fee20a9927cb8",
+    "category": "people",
+    "created_at": "2026-10-01T17:27:24.559148",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T17:27:24.559148"
+  },
+  "60162": {
+    "article_id": "60162",
+    "headline": "Beyond Executive Presence: Why Confidence and Clarity Are Defining Modern Leadership Roles",
+    "image_url": "https://images.unsplash.com/photo-1778877031917-82a1b4bae3bc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8cHJvZmVzc2lvbmFsJTIwZGV2ZWxvcG1lbnQlMjB0cmFpbmluZ3xlbnwwfHx8fDE3OTA4NzU2ODl8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/andrea-wojnicki/told-you-need-more-executive-presence-confidence-is-what-to-work-on-instead/91412448",
+    "source_urls": [
+      "https://www.inc.com/andrea-wojnicki/told-you-need-more-executive-presence-confidence-is-what-to-work-on-instead/91412448"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "01b2092edea2d11dde1b2d87146992ec30ad80f3697ab812b7d240b0225451f7",
+    "category": "management",
+    "created_at": "2026-10-01T17:28:11.682893",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-30T17:28:11.682893"
+  },
+  "236036": {
+    "article_id": "236036",
+    "headline": "Automotive Retail Dynamics Shift as Hybrid Demand Outpaces Pure Electric Sales",
+    "image_url": "https://images.unsplash.com/photo-1693812381071-c1a5a765780f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8YXV0b21vdGl2ZSUyMGRlYWxlcnNoaXAlMjBzYWxlcyUyMHRyZW5kc3xlbnwwfHx8fDE3OTA4NzU3MDV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cnbc.com/2026/10/01/us-auto-sales-q3.html",
+    "source_urls": [
+      "https://www.cnbc.com/2026/10/01/us-auto-sales-q3.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0c4e99595c1ec757b3e11c2c6a97c5dc6f0d1a6c809e4eeb4e4523555f3cadf4",
+    "category": "franchise-news",
+    "created_at": "2026-10-01T17:28:28.091822",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "RELATED",
+    "expires_at": "2026-12-30T17:28:28.091822"
+  },
+  "1725370": {
+    "article_id": "1725370",
+    "headline": "AI Achieves Historic Milestone by Defeating World-Class Stratego Champion",
+    "image_url": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwZ2FtaW5nJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3OTA4NzU3MjJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+    "source_urls": [
+      "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "580c1b25aade4d909f6f096f180534cbf6e665b24dd9e11e5148bd14a732c6e8",
+    "category": "games",
+    "created_at": "2026-10-01T17:28:44.815785",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T17:28:44.815785"
+  },
+  "237257": {
+    "article_id": "237257",
+    "headline": "Evaluating AI Tools in the Classroom: What Parents Need to Know",
+    "image_url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxjbGFzc3Jvb20lMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc5MDg3NTc0N3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://edsurge.com/news/can-schools-trust-ai-features-in-edtech-products",
+    "source_urls": [
+      "https://edsurge.com/news/can-schools-trust-ai-features-in-edtech-products"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9bf2fcb540ed05763a25ce11438644a378f843dca6b35c155d8a76e9ffd032b9",
+    "category": "school",
+    "created_at": "2026-10-01T17:29:09.587273",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-30T17:29:09.587273"
+  },
+  "60124": {
+    "article_id": "60124",
+    "headline": "Literary Highlights: September Reading Trends and Critical Acclaim",
+    "image_url": "https://images.unsplash.com/photo-1513001900722-370f803f498d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHxsaXRlcmFyeSUyMGJvb2slMjByZXZpZXd8ZW58MHx8fHwxNzkwODc1Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.theguardian.com/books/2026/oct/01/what-were-reading-sebastian-barry-china-mieville-readers-and-derek-owusu-on-the-books-they-enjoyed-in-september",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/oct/01/what-were-reading-sebastian-barry-china-mieville-readers-and-derek-owusu-on-the-books-they-enjoyed-in-september"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6eb5322941f15dd790a91e6790e7af87f4adf63dea3b8a97a091d62e8b73af53",
+    "category": "book-news",
+    "created_at": "2026-10-01T17:29:38.143352",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T17:29:38.143352"
+  },
+  "81550": {
+    "article_id": "81550",
+    "headline": "Clinical Research Highlights Potential Health Benefits of Fenugreek Seeds",
+    "image_url": "https://images.unsplash.com/photo-1700215692827-0bdd790408df?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8ZmVudWdyZWVrJTIwc2VlZHMlMjBoZWFsdGglMjBiZW5lZml0c3xlbnwwfHx8fDE3OTA4NzU3OTd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://nutritionfacts.org/blog/fenugreek-may-help-sexual-function-period-pain-and-lactation/",
+    "source_urls": [
+      "https://nutritionfacts.org/blog/fenugreek-may-help-sexual-function-period-pain-and-lactation/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f971cc7e132beefd942a1a35f1819f68f020984a2418452999da129d0359644a",
+    "category": "safety",
+    "created_at": "2026-10-01T17:29:59.703827",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T17:29:59.703827"
+  },
+  "62322": {
+    "article_id": "62322",
+    "headline": "Genomic Evidence Traces Ancient Origins of Bats to Europe",
+    "image_url": "https://images.unsplash.com/photo-1737773290444-81c441a1dede?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxiYXQlMjBmb3NzaWwlMjBldm9sdXRpb258ZW58MHx8fHwxNzkwODc5MDU5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260929053531.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260929053531.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "36043974899f7998feffd8cbb431135f0967772cfd71945de69b8761acf613e6",
+    "category": "human",
+    "created_at": "2026-10-01T18:24:22.891048",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T18:24:22.891048"
+  },
+  "28299": {
+    "article_id": "28299",
+    "headline": "Unlocking the Mechanism Behind Pancreatic Cancer Drug Resistance",
+    "image_url": "https://images.unsplash.com/photo-1583912267670-6575ad472688?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw2fHxwYW5jcmVhdGljJTIwY2FuY2VyJTIwcmVzZWFyY2h8ZW58MHx8fHwxNzkwODc5MDgwfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/30/science/pancreatic-cancer-drug-daraxonrasib-ben-sasse-resistance.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/30/science/pancreatic-cancer-drug-daraxonrasib-ben-sasse-resistance.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "bf9356e43128710e2d944e4def176082116bf6abad5444858b73731ca847e0b2",
+    "category": "science-news",
+    "created_at": "2026-10-01T18:24:42.464770",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T18:24:42.464770"
+  },
+  "40373": {
+    "article_id": "40373",
+    "headline": "2027 BMW i3 Redefines Luxury Sedan Standards in Electric Shift",
+    "image_url": "https://images.unsplash.com/photo-1666005516550-f71d19d84efb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMHx8MjAyNyUyMEJNVyUyMGkzJTIwZWxlY3RyaWMlMjBzZWRhbnxlbnwwfHx8fDE3OTA4NzkwOTd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/40335/20260927/bmw-reimagines-the-3-series-lineup-with-the-2027-i3-electric-sedan.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/40335/20260927/bmw-reimagines-the-3-series-lineup-with-the-2027-i3-electric-sedan.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "436906a222609224504894bcbaea036c60aadc5bbec5fbe6b050e3a5379c8212",
+    "category": "green-cars",
+    "created_at": "2026-10-01T18:24:59.870095",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T18:24:59.870095"
+  },
+  "53938": {
+    "article_id": "53938",
+    "headline": "New Noninvasive Diagnostic Tools Offer Hope for Early Endometriosis Detection",
+    "image_url": "https://images.unsplash.com/photo-1630531210873-2dcfc5a541ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8ZW5kb21ldHJpb3NpcyUyMGRpYWdub3NpcyUyMG1lZGljYWwlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc5MDg3OTExN3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/29/well/live/endometriosis-diagnosis-tests.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/29/well/live/endometriosis-diagnosis-tests.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9be1190150848960ee04a6e3cdec7309701807da0651e052af7858bc7c9f0b33",
+    "category": "teenHeath",
+    "created_at": "2026-10-01T18:25:19.234750",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T18:25:19.234750"
+  },
+  "286811": {
+    "article_id": "286811",
+    "headline": "Play: Innovation Mini Crossword Puzzle",
+    "image_url": "https://images.unsplash.com/photo-1769162019638-cbe843e00a2b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxjcm9zc3dvcmQlMjBwdXp6bGUlMjBhYnN0cmFjdHxlbnwwfHx8fDE3OTA4NzkxNjZ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+    "source_urls": [
+      "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c5677d030502799faeeb33dabac43b978ab53c8252d315a28af70db49ffacbc4",
+    "category": "best_deals",
+    "created_at": "2026-10-01T18:26:09.219768",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-30T18:26:09.219768"
+  },
+  "236037": {
+    "article_id": "236037",
+    "headline": "Federal Reserve Signals Extended Pause on Interest Rate Adjustments",
+    "image_url": "https://images.unsplash.com/photo-1771736007142-e1348a02f006?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxGZWRlcmFsJTIwUmVzZXJ2ZSUyMGludGVyZXN0JTIwcmF0ZSUyMHBvbGljeXxlbnwwfHx8fDE3OTA4NzkyMjd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bloomberg.com/news/videos/2026-10-01/jefferson-fed-may-need-more-time-to-decide-on-next-move-video",
+    "source_urls": [
+      "https://www.bloomberg.com/news/videos/2026-10-01/jefferson-fed-may-need-more-time-to-decide-on-next-move-video"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "c1d07bb1e9e9f939d39423ea05636c52b622a699696a27c74c3c6eb5fa8b1745",
+    "category": "biz-tech",
+    "created_at": "2026-10-01T18:27:09.990138",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T18:27:09.990138"
+  },
+  "1725371": {
+    "article_id": "1725371",
+    "headline": "Optimizing Your Mobile Music Experience for Online and Offline Access",
+    "image_url": "https://images.unsplash.com/photo-1624181689756-046797820fc9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxOHx8c21hcnRwaG9uZSUyMG11c2ljJTIwc3RyZWFtaW5nJTIwYXBwfGVufDB8fHx8MTc5MDg3OTI0Mnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/09/30/technology/personaltech/how-to-listen-to-your-favorite-music-online-or-off-the-grid.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/09/30/technology/personaltech/how-to-listen-to-your-favorite-music-online-or-off-the-grid.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4dba97e8b43027b9200f7e47784e434c59b1e7f84e544f6f327024077890ae0c",
+    "category": "mobile",
+    "created_at": "2026-10-01T18:27:25.329216",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T18:27:25.329216"
+  },
+  "237258": {
+    "article_id": "237258",
+    "headline": "How Educators Are Using TikTok to Transform Literacy Instruction",
+    "image_url": "https://images.unsplash.com/photo-1758685848951-35cfbf688e14?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHx0ZWFjaGVyJTIwdXNpbmclMjB0ZWNobm9sb2d5JTIwaW4lMjBjbGFzc3Jvb218ZW58MHx8fHwxNzkwODc5MjY3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://edsurge.com/news/traditional-pd-wasnt-enough-so-i-used-tiktok-to-create-an-engaging-alternative",
+    "source_urls": [
+      "https://edsurge.com/news/traditional-pd-wasnt-enough-so-i-used-tiktok-to-create-an-engaging-alternative"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4779f23472406e647fe9f86b1f1840e6abb6c02bc0dc8ed83022a248ef4317e5",
+    "category": "school-age",
+    "created_at": "2026-10-01T18:27:51.426386",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T18:27:51.426386"
+  },
+  "60125": {
+    "article_id": "60125",
+    "headline": "Selecting Literature That Sparks Meaningful Book Club Discourse",
+    "image_url": "https://images.unsplash.com/photo-1764173039117-e1ef87b26ec4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8Ym9vayUyMGNsdWIlMjBkaXNjdXNzaW9uJTIwZ3JvdXB8ZW58MHx8fHwxNzkwODc5Mjk2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://modernmrsdarcy.com/544-episode/#utm_source=rss&utm_medium=rss&utm_campaign=544-episode",
+    "source_urls": [
+      "https://modernmrsdarcy.com/544-episode/#utm_source=rss&utm_medium=rss&utm_campaign=544-episode"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ab5e1c156ad4c2c921c0f5a54e8e36dd3a1b2f3c617a30c4114891b90e8423aa",
+    "category": "book-reviews",
+    "created_at": "2026-10-01T18:28:19.069608",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T18:28:19.069608"
+  },
+  "81551": {
+    "article_id": "81551",
+    "headline": "Innovative Protective Fabric Triples Strawberry Yields for Sustainable Farming",
+    "image_url": "https://images.unsplash.com/photo-1680180227051-5b374027c8e5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8c3RyYXdiZXJyeSUyMGZhcm1pbmclMjB0ZWNobm9sb2d5fGVufDB8fHx8MTc5MDg3OTMxOXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260930020257.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260930020257.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "aa458ab0fa065ff6a5a8a8a0f4679d62e9c14e71679cd2ddf0882646ca67e1b6",
+    "category": "top-stories",
+    "created_at": "2026-10-01T18:28:42.606414",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T18:28:42.606414"
+  },
+  "62323": {
+    "article_id": "62323",
+    "headline": "AI Reconstruction Tool Translates Brain Activity into Visual Imagery",
+    "image_url": "https://images.pexels.com/photos/39192376/pexels-photo-39192376.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/",
+    "source_urls": [
+      "https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "473676d28b075a5d97051b67e4543fe5c4629b61b4df29403e03aa322073c199",
+    "category": "tech",
+    "created_at": "2026-10-01T19:17:32.175606",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T19:17:32.175606"
+  },
+  "28300": {
+    "article_id": "28300",
+    "headline": "Global Study Links Millions of Annual Cancer Cases to Preventable Infections",
+    "image_url": "https://images.unsplash.com/photo-1583911860205-72f8ac8ddcbe?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8Y2FuY2VyJTIwcHJldmVudGlvbiUyMG1lZGljYWwlMjByZXNlYXJjaHxlbnwwfHx8fDE3OTA4ODIyNzF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/surprising-culprit-tied-1-8-cancer-cases-worldwide-major-study-reveals",
+    "source_urls": [
+      "https://www.foxnews.com/health/surprising-culprit-tied-1-8-cancer-cases-worldwide-major-study-reveals"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "0b31882769e40f1f8441ce2496cabe30584761aea6516410430b0ad8f38bce68",
+    "category": "news",
+    "created_at": "2026-10-01T19:17:54.145212",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T19:17:54.145212"
+  },
+  "40374": {
+    "article_id": "40374",
+    "headline": "Fiat to Unveil Multiplay Concept Blending SUV Utility and Pick-up Versatility",
+    "image_url": "https://images.unsplash.com/photo-1763331263675-f054795b308c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxGaWF0JTIwY29uY2VwdCUyMGNhcnxlbnwwfHx8fDE3OTA4ODIyOTB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/new-cars/new-fiat-multiplay-preview-cross-between-suv-and-pick",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/new-cars/new-fiat-multiplay-preview-cross-between-suv-and-pick"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a3bd41618606a32614401b30d03ef9a08634e559a012f41991d3e9475a64288a",
+    "category": "auto-news",
+    "created_at": "2026-10-01T19:18:12.594318",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T19:18:12.594318"
+  },
+  "26981": {
+    "article_id": "26981",
+    "headline": "Wynonna Judd Reinvents Her Sonic and Personal Identity in Latest Studio Project",
+    "image_url": "https://images.pexels.com/photos/13380879/pexels-photo-13380879.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nytimes.com/2026/10/01/arts/music/wynonna-judd-interview.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/10/01/arts/music/wynonna-judd-interview.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2f9729bc03e10532e478e91b7c53595b968608451565a866c5358b3cd9bca9a7",
+    "category": "style",
+    "created_at": "2026-10-01T19:18:57.114334",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T19:18:57.114334"
+  },
+  "286812": {
+    "article_id": "286812",
+    "headline": "Tim Heidecker Revives His Viral Podcast Parody for a New Onion Partnership",
+    "image_url": "https://images.unsplash.com/photo-1631478650870-d25f40db7b73?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8VGltJTIwSGVpZGVja2VyJTIwY29tZWR5fGVufDB8fHx8MTc5MDg4MjM1NHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/tim-heidecker-is-bringing-his-joe-rogan-parody-show-to-the-onion/",
+    "source_urls": [
+      "https://www.wired.com/story/tim-heidecker-is-bringing-his-joe-rogan-parody-show-to-the-onion/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a3b7926e09ac4be26e597a903d8e82b2fcfca022b0c9f04237b60c87720bd980",
+    "category": "funny",
+    "created_at": "2026-10-01T19:19:17.755601",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T19:19:17.755601"
+  },
+  "109967": {
+    "article_id": "109967",
+    "headline": "NBA Playoffs Injury Management: Lessons from the 2013 Rockets-Thunder Series",
+    "image_url": "https://images.unsplash.com/photo-1726364204661-aa235f71b449?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8TkJBJTIwcGxheW9mZiUyMGdhbWUlMjBzdHJhdGVneXxlbnwwfHx8fDE3OTA4ODIzOTZ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/14484/20130501/nba-playoffs-injuries-houston-rockets-james-harden-expected-play-oklahoma.htm",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/14484/20130501/nba-playoffs-injuries-houston-rockets-james-harden-expected-play-oklahoma.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a444eac0f426cc5bb5c888294c35587d739276bc3fe5611dcef9ebe5e00bdc86",
+    "category": "nba",
+    "created_at": "2026-10-01T19:19:58.501926",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2026-12-30T19:19:58.501926"
+  },
+  "60163": {
+    "article_id": "60163",
+    "headline": "Labor Market Braces for September Employment Data Amid Hiring Slowdown",
+    "image_url": "https://images.unsplash.com/photo-1604328703693-18313fe20f3a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8aGlyaW5nJTIwdHJlbmRzJTIwb2ZmaWNlfGVufDB8fHx8MTc5MDg4MjQxNHww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html",
+    "source_urls": [
+      "https://www.cnbc.com/2026/10/01/the-september-jobs-report-will-be-released-friday-heres-what-to-expect.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f67c94676cded6bf38f54b68298128652c25cfbf2ed7cd0de38a7155950b0c0b",
+    "category": "business",
+    "created_at": "2026-10-01T19:20:17.052154",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T19:20:17.052154"
+  },
+  "236038": {
+    "article_id": "236038",
+    "headline": "Global Oil Prices Surge as Geopolitical Tensions Escalate in Middle East",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMnx8b2lsJTIwbWFya2V0JTIwdm9sYXRpbGl0eXxlbnwwfHx8fDE3OTA4ODI0MzF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html",
+    "source_urls": [
+      "https://www.cnbc.com/2026/10/01/oil-prices-today-wti-brent.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "018d3656887a03793bb2f53b3cd046612e6503905234455bdfb21be327332980",
+    "category": "franchise-news",
+    "created_at": "2026-10-01T19:20:34.794210",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T19:20:34.794210"
+  },
+  "1725372": {
+    "article_id": "1725372",
+    "headline": "Rising RAM Costs Signal Hardware Price Hikes Through 2028",
+    "image_url": "https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyMnx8Y29tcHV0ZXIlMjBoYXJkd2FyZSUyMGNvbXBvbmVudHN8ZW58MHx8fHwxNzkwODgyNDQ3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+    "source_urls": [
+      "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "74706d297fa170ed9c73daf1e097dc056ea6477d9723a9bdada97564246dc047",
+    "category": "business",
+    "created_at": "2026-10-01T19:20:50.082671",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-30T19:20:50.082671"
+  },
+  "60126": {
+    "article_id": "60126",
+    "headline": "Market Trends Reveal Top Literary Performers for Early October 2026",
+    "image_url": "https://images.pexels.com/photos/25857440/pexels-photo-25857440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://bookriot.com/bestselling-books-october-1-2026/",
+    "source_urls": [
+      "https://bookriot.com/bestselling-books-october-1-2026/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "556ada57ca3f9dfc6e8c0140d0955e53bf6a0cba07d6e72d0330caade467c8ee",
+    "category": "book-news",
+    "created_at": "2026-10-01T19:21:28.782955",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T19:21:28.782955"
+  },
+  "81552": {
+    "article_id": "81552",
+    "headline": "California Winemakers Pivot Toward Quality in Affordable Tier",
+    "image_url": "https://images.unsplash.com/photo-1762218417049-8a65f75dc7c6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8Q2FsaWZvcm5pYSUyMHZpbmV5YXJkJTIwaGFydmVzdHxlbnwwfHx8fDE3OTA4ODI1MDd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/10/01/dining/drinks/california-wine-moderately-priced.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/10/01/dining/drinks/california-wine-moderately-priced.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8172c7d0e3f732b6682be46af014349b76c319446e15390a53e0489f0fbc0f5d",
+    "category": "shopping",
+    "created_at": "2026-10-01T19:21:50.640332",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T19:21:50.640332"
+  },
+  "28301": {
+    "article_id": "28301",
+    "headline": "New Clinical Data Highlights Next Generation of Obesity Treatments",
+    "image_url": "https://images.unsplash.com/photo-1683715697625-b46ce174f92c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8bWVkaWNhbCUyMHJlc2VhcmNoJTIwb2Jlc2l0eSUyMHRyZWF0bWVudHxlbnwwfHx8fDE3OTA4OTQzNjJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.biopharmadive.com/news/3-takeaways-from-european-obesity-scientific-meeting/831870/",
+    "source_urls": [
+      "https://www.biopharmadive.com/news/3-takeaways-from-european-obesity-scientific-meeting/831870/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "4c2b7d19081301ae2f78a5ee7a480e8d56999655b80cc8301cd23ccc695c1c8e",
+    "category": "latinoshealthbuzz",
+    "created_at": "2026-10-01T22:39:25.286529",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-30T22:39:25.286529"
+  },
+  "1725373": {
+    "article_id": "1725373",
+    "headline": "How to Use Native Call Screening to Filter Unknown Callers on Your Smartphone",
+    "image_url": "https://images.unsplash.com/photo-1667453466805-75bbf36e8707?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyfHxzbWFydHBob25lJTIwY2FsbCUyMHNjcmVlbmluZyUyMHNldHRpbmdzfGVufDB8fHx8MTc5MDg5NTU1OXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/tech/make-unknown-callers-explain-why-theyre-calling",
+    "source_urls": [
+      "https://www.foxnews.com/tech/make-unknown-callers-explain-why-theyre-calling"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6b342c8d5b8f3992555765139b58029865f052657777ebdc2486aa7fb14a95c4",
+    "category": "mobile",
+    "created_at": "2026-10-01T22:59:21.452805",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T22:59:21.452805"
+  },
+  "26982": {
+    "article_id": "26982",
+    "headline": "High-Octane Expansion: Fast & Furious Franchise Heads to Television",
+    "image_url": "https://images.unsplash.com/photo-1640616111573-276dd3e31666?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8RmFzdCUyMGFuZCUyMEZ1cmlvdXMlMjBtb3ZpZSUyMGFlc3RoZXRpY3xlbnwwfHx8fDE3OTA4OTY3MDZ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://deadline.com/2026/10/fast-furious-tv-series-greenlit-peacock-1237144885/",
+    "source_urls": [
+      "https://deadline.com/2026/10/fast-furious-tv-series-greenlit-peacock-1237144885/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "af2ccacd72e6f06860081747276b6471fb45b2f18e9ea3eae6c1f27f019fa61f",
+    "category": "beauty",
+    "created_at": "2026-10-01T23:18:29.065980",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T23:18:29.065980"
+  },
+  "64998": {
+    "article_id": "64998",
+    "headline": "US Imposes Sanctions on Russian Financial Firm A7 Over Evasion Tactics",
+    "image_url": "https://images.unsplash.com/photo-1534469650761-fce6cc26ac0d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8Z2xvYmFsJTIwZmluYW5jaWFsJTIwcmVndWxhdGlvbnxlbnwwfHx8fDE3OTA4OTc4NjF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/10/01/business/a7-russia-us-sanctions.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/10/01/business/a7-russia-us-sanctions.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "38f2c5c6701c08b5e48d38a60123421501f3f40de72ef7a73d8615590c6fbea7",
+    "category": "tech",
+    "created_at": "2026-10-01T23:37:43.328980",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-30T23:37:43.328980"
+  },
+  "236039": {
+    "article_id": "236039",
+    "headline": "The Strategic Dangers of Customer Concentration: Lessons from a Recent Logistics Shutdown",
+    "image_url": "https://images.unsplash.com/photo-1652211955971-7517ff03529d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxM3x8YnVzaW5lc3MlMjBsb2dpc3RpY3MlMjB3YXJlaG91c2V8ZW58MHx8fHwxNzkwODk5MDIzfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.inc.com/moses-jeanfrancois/amazon-contractor-lost-only-client-then-120-workers-were-laid-off/91413466",
+    "source_urls": [
+      "https://www.inc.com/moses-jeanfrancois/amazon-contractor-lost-only-client-then-120-workers-were-laid-off/91413466"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6850401dcc268d84b5549ece62029744379cfecf9b7e3c7bd669ca8ca30f1880",
+    "category": "misc",
+    "created_at": "2026-10-01T23:57:05.742794",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-30T23:57:05.742794"
+  },
+  "237259": {
+    "article_id": "237259",
+    "headline": "Fall 2026 Literary Adaptations Set to Reshape Screen Time for Families and Teens",
+    "image_url": "https://images.unsplash.com/photo-1758525866271-58a4e798fea9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8dGVlbmFnZXJzJTIwcmVhZGluZyUyMGJvb2tzJTIwYW5kJTIwd2F0Y2hpbmclMjBtb3ZpZXN8ZW58MHx8fHwxNzkwOTAwMjc2fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/entertainment/fall-2026-book-to-screen-adaptations/",
+    "source_urls": [
+      "https://mother.ly/entertainment/fall-2026-book-to-screen-adaptations/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7439224a839762b54869ff4252f0383b53ede20cd9df7c84e31c27d7bcb97210",
+    "category": "teens-young-adults",
+    "created_at": "2026-10-02T00:17:59.159567",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-31T00:17:59.159567"
+  },
+  "60127": {
+    "article_id": "60127",
+    "headline": "Reflecting on the Enduring Literary Legacy of Annie Dillard",
+    "image_url": "https://images.pexels.com/photos/3847620/pexels-photo-3847620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://modernmrsdarcy.com/literary-influence-annie-dillard/#utm_source=rss&utm_medium=rss&utm_campaign=literary-influence-annie-dillard",
+    "source_urls": [
+      "https://modernmrsdarcy.com/literary-influence-annie-dillard/#utm_source=rss&utm_medium=rss&utm_campaign=literary-influence-annie-dillard"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9de08c0c7c69f80da9ea7f4d34a8526e2e6e4a94f3c8a0d74f19d582c2715108",
+    "category": "juvenile-fiction",
+    "created_at": "2026-10-02T00:37:08.851733",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-31T00:37:08.851733"
+  },
+  "109968": {
+    "article_id": "109968",
+    "headline": "Precision Under Pressure: Luke Humphries Advances at World Grand Prix",
+    "image_url": "https://images.unsplash.com/photo-1564900132589-61cd95f9bd84?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8cHJvZmVzc2lvbmFsJTIwZGFydHMlMjB0b3VybmFtZW50fGVufDB8fHx8MTc5MDkwMjU5M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.skysports.com/darts/news/12040/13594163/world-grand-prix-darts-luke-humphries-and-james-wade-storm-into-quarter-finals-as-gary-anderson-eliminated",
+    "source_urls": [
+      "https://www.skysports.com/darts/news/12040/13594163/world-grand-prix-darts-luke-humphries-and-james-wade-storm-into-quarter-finals-as-gary-anderson-eliminated"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fcd05b0daad73c85610667a797f91c3958794fdb063a96b62c3bcbb3e4191d21",
+    "category": "college",
+    "created_at": "2026-10-02T00:56:39.318662",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-31T00:56:39.318662"
+  },
+  "40375": {
+    "article_id": "40375",
+    "headline": "Hyundai Redesigns Tucson Interior With Focus on Family Safety and Ergonomics",
+    "image_url": "https://images.unsplash.com/photo-1615715073328-39c148b37b23?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxIeXVuZGFpJTIwVHVjc29uJTIwMjAyNyUyMGludGVyaW9yfGVufDB8fHx8MTc5MDkwMzc3M3ww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.autocar.co.uk/car-news/new-cars/new-2027-hyundai-tucson-gets-bold-look-and-practicality-boost",
+    "source_urls": [
+      "https://www.autocar.co.uk/car-news/new-cars/new-2027-hyundai-tucson-gets-bold-look-and-practicality-boost"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "da5543fc96216f8907a2f541a9a437371026b966f1cecb6dfff25a04247fd8ec",
+    "category": "life",
+    "created_at": "2026-10-02T01:16:15.687151",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-31T01:16:15.687151"
+  },
+  "60164": {
+    "article_id": "60164",
+    "headline": "Corporate Communication Shifts as AI Models Integrate Employee Data",
+    "image_url": "https://images.unsplash.com/photo-1758873268783-967d13f0c163?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZSUyMHdvcmtwbGFjZSUyMGNvbW11bmljYXRpb258ZW58MHx8fHwxNzkwOTA0OTI4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.economist.com/business/2026/10/01/youre-not-sending-an-email-youre-training-a-model",
+    "source_urls": [
+      "https://www.economist.com/business/2026/10/01/youre-not-sending-an-email-youre-training-a-model"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "dd27933b84ca48f3b91eaf00d5e3d8b86aa9ff7f62dbf1b8ada935be29714923",
+    "category": "energy",
+    "created_at": "2026-10-02T01:35:32.144207",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-12-31T01:35:32.144207"
+  },
+  "53939": {
+    "article_id": "53939",
+    "headline": "New Treatment Option Approved for Adolescents with Hypertrophic Cardiomyopathy",
+    "image_url": "https://images.unsplash.com/photo-1659353887019-b142198f2668?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8dGVlbmFnZXIlMjBoZWFydCUyMGhlYWx0aCUyMGNoZWNrdXB8ZW58MHx8fHwxNzkwOTA2MDIyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://endpoints.news/united-therapeutics-legal-victory-bms-camzyos-approved-for-kids/",
+    "source_urls": [
+      "https://endpoints.news/united-therapeutics-legal-victory-bms-camzyos-approved-for-kids/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "22c1d3d357b1aac224a9adde9a6444eec14cc15d294d1e491889826a11556452",
+    "category": "relationship",
+    "created_at": "2026-10-02T01:53:44.522159",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-31T01:53:44.522159"
+  },
+  "62324": {
+    "article_id": "62324",
+    "headline": "Record-Breaking X-Ray Emission Challenges Understanding of Magnetar Origins",
+    "image_url": "https://images.pexels.com/photos/4882237/pexels-photo-4882237.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/09/260930020252.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/09/260930020252.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e4330693b58724e1702176be8250e78b81630b3619660411332eed5917e5864d",
+    "category": "energy-particles",
+    "created_at": "2026-10-02T02:12:38.105844",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-31T02:12:38.105844"
+  },
+  "286813": {
+    "article_id": "286813",
+    "headline": "California Tightens Rules for Robotaxis After Emergency Vehicle Obstruction Incidents",
+    "image_url": "https://images.unsplash.com/photo-1647733258571-f001185e80c3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzfHxhdXRvbm9tb3VzJTIwdmVoaWNsZSUyMHRlY2hub2xvZ3l8ZW58MHx8fHwxNzkwOTA4MzE3fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/",
+    "source_urls": [
+      "https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "fc679e274eea919d8f56e008046aacd741d983e181d258e716b351b70e17ee84",
+    "category": "misc",
+    "created_at": "2026-10-02T02:31:59.715313",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-31T02:31:59.715313"
+  },
+  "81553": {
+    "article_id": "81553",
+    "headline": "Florence Fabricant Reflects on Decades of Culinary Journalism in New Memoir",
+    "image_url": "https://images.unsplash.com/photo-1764711273598-5c316027b759?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxGbG9yZW5jZSUyMEZhYnJpY2FudCUyMGZvb2QlMjB3cml0ZXJ8ZW58MHx8fHwxNzkwOTA5NDg5fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/10/01/dining/florence-fabricant-salty-not-sweet-book.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/10/01/dining/florence-fabricant-salty-not-sweet-book.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "7d786f3fa47a0bf72ad4f71d7bef57be7f5522b4deb9473c529527ffb6b72637",
+    "category": "celebrity-eats",
+    "created_at": "2026-10-02T02:51:32.715465",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-12-31T02:51:32.715465"
+  }
+}

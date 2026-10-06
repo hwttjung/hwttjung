@@ -1,0 +1,35 @@
+{
+  "daily": {
+    "2026-10-05": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 7,
+      "pexels_calls": 1,
+      "gemini_multimodal_calls": 11,
+      "gemini_input_tokens": 61637,
+      "gemini_output_tokens": 1009,
+      "estimated_cost_usd": 0.004926,
+      "estimated_cost_krw": 6.67
+    },
+    "2026-10-06": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 16,
+      "pexels_calls": 4,
+      "gemini_multimodal_calls": 40,
+      "gemini_input_tokens": 149280,
+      "gemini_output_tokens": 2718,
+      "estimated_cost_usd": 0.01201,
+      "estimated_cost_krw": 16.23
+    }
+  },
+  "monthly": {
+    "2026-10": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 23,
+      "pexels_calls": 5,
+      "gemini_multimodal_calls": 51,
+      "gemini_tokens": 214644,
+      "estimated_cost_usd": 0.0172,
+      "estimated_cost_krw": 22.9
+    }
+  }
+}

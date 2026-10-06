@@ -1,0 +1,410 @@
+{
+  "62275": {
+    "article_id": "62275",
+    "headline": "Massive Thermal Anomaly Detected Deep Within Martian Interior",
+    "image_url": "https://images.unsplash.com/photo-1729273788975-47ede562f146?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwzMHx8TWFycyUyMGludGVyaW9yJTIwc3RydWN0dXJlJTIwZ2VvbG9neXxlbnwwfHx8fDE3ODgxOTg3NTF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm",
+    "source_urls": [
+      "https://www.sciencedaily.com/releases/2026/08/260828082336.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "34873cc2f2c44ad2c97e8d467adf31f6b590b159234106294128ed6d5bbd496f",
+    "category": "space-the-future",
+    "created_at": "2026-08-31T17:52:33.480498",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T17:52:33.480498"
+  },
+  "28261": {
+    "article_id": "28261",
+    "headline": "Antipsychotic Use in Dementia Care Faces Shift Toward Non-Drug Alternatives",
+    "image_url": "https://images.unsplash.com/photo-1629051192950-d251e96ab1b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw3fHxkZW1lbnRpYSUyMGNhcmUlMjB0cmVhdG1lbnR8ZW58MHx8fHwxNzg4MTk4NzcyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://latinoshealth.com/articles/28236/20260825/antipsychotic-use-in-dementia-patients-faces-heightened-scrutiny.htm",
+    "source_urls": [
+      "https://latinoshealth.com/articles/28236/20260825/antipsychotic-use-in-dementia-patients-faces-heightened-scrutiny.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "85ae31966c9a0a6570e1a5404cd8d67770fdf04f52b0343682bb04db493f3526",
+    "category": "science-news",
+    "created_at": "2026-08-31T17:52:54.704543",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T17:52:54.704543"
+  },
+  "40330": {
+    "article_id": "40330",
+    "headline": "Land Rover Series 1 Heritage Model Sets Global Restoration Standard",
+    "image_url": "https://images.unsplash.com/photo-1688495369887-2f9c00b001e6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxfHxMYW5kJTIwUm92ZXIlMjBTZXJpZXMlMjAxJTIwcmVzdG9yYXRpb258ZW58MHx8fHwxNzg4MTk4Nzk4fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://autoworldnews.com/articles/40308/20260826/land-rover-series-1-legacy-drives-modern-heritage-restoration-trends.htm",
+    "source_urls": [
+      "https://autoworldnews.com/articles/40308/20260826/land-rover-series-1-legacy-drives-modern-heritage-restoration-trends.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8712c855e0cac5f74b7af8321f2b4c9e626577589bc978c084b6dd786602261a",
+    "category": "auto-news",
+    "created_at": "2026-08-31T17:53:20.383193",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T17:53:20.383193"
+  },
+  "53899": {
+    "article_id": "53899",
+    "headline": "Nutrition Strategies for Better Teen Sleep: A Dietitian's Guide",
+    "image_url": "https://images.unsplash.com/photo-1606162296115-21a9cf2e685b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw5fHx0ZWVuYWdlciUyMHNsZWVwaW5nJTIwd2VsbHxlbnwwfHx8fDE3ODgxOTg4MTR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/dietitian-reveals-simple-eating-strategy-better-sleep-habit-avoid",
+    "source_urls": [
+      "https://www.foxnews.com/health/dietitian-reveals-simple-eating-strategy-better-sleep-habit-avoid"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "b2f21ac56c851a4b6afb1a2b10602b4142699046b7ab94e32346c5a9d3b6db58",
+    "category": "teenHeath",
+    "created_at": "2026-08-31T17:53:37.647287",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T17:53:37.647287"
+  },
+  "286773": {
+    "article_id": "286773",
+    "headline": "Why Insurance Claims Adjusters Are Leading the Resistance Against AI",
+    "image_url": "https://images.unsplash.com/photo-1766021736538-3208f2ad05f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxMXx8c3RyZXNzZWQlMjBvZmZpY2UlMjB3b3JrZXIlMjB3aXRoJTIwY29tcHV0ZXJ8ZW58MHx8fHwxNzg4MTk4ODUxfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/",
+    "source_urls": [
+      "https://www.wired.com/story/insurance-claims-adjusters-really-hate-ai/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "23ae9a21007ea13c1603233c31d9fc95bea9b31d93ef58a94fe1e22b58fc768a",
+    "category": "funny",
+    "created_at": "2026-08-31T17:54:13.914855",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-29T17:54:13.914855"
+  },
+  "109928": {
+    "article_id": "109928",
+    "headline": "NBA Standings Analysis: How Playoff Momentum Defines Championship Contenders",
+    "image_url": "https://images.unsplash.com/photo-1612151387840-62fb3b521841?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxOQkElMjBwbGF5b2ZmJTIwYmFza2V0YmFsbCUyMGFjdGlvbnxlbnwwfHx8fDE3ODgxOTg4ODJ8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://sportsworldreport.com/articles/15373/20130517/nba-standings-heat-spurs-top-teams-knicks-have-worst-record-of-remaining-playoff-teams-indiana-pacers-me",
+    "source_urls": [
+      "https://sportsworldreport.com/articles/15373/20130517/nba-standings-heat-spurs-top-teams-knicks-have-worst-record-of-remaining-playoff-teams-indiana-pacers-me"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "a370dd6348d2a0f31ef6799539c3803f0c6be906142502d73c173ccd8b16177d",
+    "category": "nba",
+    "created_at": "2026-08-31T17:54:44.730871",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-29T17:54:44.730871"
+  },
+  "60125": {
+    "article_id": "60125",
+    "headline": "Chipotle Supply Chain Shifts Redefine Fast-Casual Hiring Trends",
+    "image_url": "https://images.unsplash.com/photo-1742535037458-57b3f721b59a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNXx8c3VwcGx5JTIwY2hhaW4lMjBtYW5hZ2VtZW50JTIwY2FyZWVyc3xlbnwwfHx8fDE3ODgxOTg5MDB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://jobsnhire.com/articles/22910/20150722/chipotle-falls-short-from-expected-revenue-following-carnitas-insufficiency.htm",
+    "source_urls": [
+      "https://jobsnhire.com/articles/22910/20150722/chipotle-falls-short-from-expected-revenue-following-carnitas-insufficiency.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "665d71241758bd1fc8977633f7c48a0bc9ef7693a202562771225658399d933e",
+    "category": "retail",
+    "created_at": "2026-08-31T17:55:03.559446",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T17:55:03.559446"
+  },
+  "235999": {
+    "article_id": "235999",
+    "headline": "Trump Administration Negotiates New Drug Pricing Agreements with Major Pharmaceutical Firms",
+    "image_url": "https://images.unsplash.com/photo-1705517243962-230c07db6b23?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNnx8cGhhcm1hY2V1dGljYWwlMjBpbmR1c3RyeSUyMGVjb25vbWljJTIwcG9saWN5fGVufDB8fHx8MTc4ODE5ODkxNnww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cnbc.com/2026/08/31/trump-drug-pricing-deals.html",
+    "source_urls": [
+      "https://www.cnbc.com/2026/08/31/trump-drug-pricing-deals.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "8d92f8196ab75c521444ad3467187250df10fcd4d93c5acb26fea5dc571d7c76",
+    "category": "franchise-news",
+    "created_at": "2026-08-31T17:55:18.864184",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T17:55:18.864184"
+  },
+  "1725335": {
+    "article_id": "1725335",
+    "headline": "Phantom Blade Zero Combat Mechanics Redefine Fast-Paced Action Expectations",
+    "image_url": "https://images.pexels.com/photos/33917387/pexels-photo-33917387.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://mobilenapps.com/articles/1725259/20250122/phantom-blade-zero-year-snake-teases-early-trailer-showing-quick-boss-gameplay.htm",
+    "source_urls": [
+      "https://mobilenapps.com/articles/1725259/20250122/phantom-blade-zero-year-snake-teases-early-trailer-showing-quick-boss-gameplay.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ccf7f8a7cc2440549be553b0e6f8137e8a7a3581f00bc59b993ebe0c932a6bdc",
+    "category": "pc-games",
+    "created_at": "2026-08-31T17:55:36.006944",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T17:55:36.006944"
+  },
+  "237227": {
+    "article_id": "237227",
+    "headline": "Navigating the Back-to-School Germ Season: Strategies for Maintaining Family Health",
+    "image_url": "https://images.unsplash.com/photo-1629872430082-93d8912beccf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8Y2hpbGRyZW4lMjBiYWNrJTIwdG8lMjBzY2hvb2wlMjBoZWFsdGh8ZW58MHx8fHwxNzg4MTk4OTY0fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://mother.ly/our-partners/back-to-school-routine-kids-health/",
+    "source_urls": [
+      "https://mother.ly/our-partners/back-to-school-routine-kids-health/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "5ab99fc1bf17da10f8ff39c5335a403d0234c12f3b21c4fa1b94d3623cd99ac2",
+    "category": "health-nutrition",
+    "created_at": "2026-08-31T17:56:06.561324",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T17:56:06.561324"
+  },
+  "60085": {
+    "article_id": "60085",
+    "headline": "One Day Resonates as Modern Classic in 2026 Literary Landscape",
+    "image_url": "https://images.unsplash.com/photo-1546521343-4eb2c01aa44b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxN3x8Y29udGVtcG9yYXJ5JTIwbGl0ZXJhdHVyZSUyMGJvb2slMjBhbmFseXNpc3xlbnwwfHx8fDE3ODgxOTg5ODF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://booksnreview.com/articles/19150/20240221/one-day-david-nicholls-book-review-timeless-tale-love-loss.htm",
+    "source_urls": [
+      "https://booksnreview.com/articles/19150/20240221/one-day-david-nicholls-book-review-timeless-tale-love-loss.htm"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "9807439db7c87a129b658c35d7bd289e6cd9ddb8b86af61c7d337bc8ce03443c",
+    "category": "book-news",
+    "created_at": "2026-08-31T17:56:24.101371",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T17:56:24.101371"
+  },
+  "fail_1788199006_787": {
+    "article_id": "fail_1788199006_787",
+    "headline": "A New Approach to Sunny-Side Eggs: Why Basting With Broth Is Trending",
+    "image_url": "https://images.unsplash.com/photo-1776596098603-34fb08d16780?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxiYXN0ZWQlMjBzdW5ueSUyMHNpZGUlMjB1cCUyMGVnZ3N8ZW58MHx8fHwxNzg4MTk5MDA1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://cooking.nytimes.com/article/basted-sunny-side-eggs",
+    "source_urls": [
+      "https://cooking.nytimes.com/article/basted-sunny-side-eggs"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "153121793c8bb52b9186b0ab4c20f738388e17bf5050deae20682b786043d4ff",
+    "category": "how-tos",
+    "created_at": "2026-08-31T17:56:46.429290",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T17:56:46.429290"
+  },
+  "fail_1788199016_596": {
+    "article_id": "fail_1788199016_596",
+    "headline": "New Study Examines Daily Avocado Consumption and Dietary Habits",
+    "image_url": "https://images.unsplash.com/photo-1704960961278-a0376a031054?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw4fHxhdm9jYWRvJTIwbnV0cml0aW9uJTIwcmVzZWFyY2h8ZW58MHx8fHwxNzg4MTk5MDE1fDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foodpolitics.com/2026/08/industry-funded-study-of-the-week-avocados-again-2/",
+    "source_urls": [
+      "https://www.foodpolitics.com/2026/08/industry-funded-study-of-the-week-avocados-again-2/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ab2b8e64d1a92b4a4cea651121c085d6ce950a0fc65c2b6db7c1b2a9e5be20f7",
+    "category": "safety",
+    "created_at": "2026-08-31T17:56:56.232670",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-29T17:56:56.232670"
+  },
+  "236000": {
+    "article_id": "236000",
+    "headline": "Consulting Giants Face Client Pressure to Accelerate AI-Driven Cost Reductions",
+    "image_url": "https://images.unsplash.com/photo-1714974528232-f62051870736?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8Y29uc3VsdGluZyUyMGJ1c2luZXNzJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3ODgyMDc2NzF8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.ft.com/content/709d7e2d-0c2f-45bc-b559-e7328372cf9e?syn-25a6b1a6=1",
+    "source_urls": [
+      "https://www.ft.com/content/709d7e2d-0c2f-45bc-b559-e7328372cf9e?syn-25a6b1a6=1"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "3eb59eac4eca2808377b344bee3fe28c3597ea8c6b7fef83a79ddf8db9739a4e",
+    "category": "biz-tech",
+    "created_at": "2026-08-31T20:21:13.890679",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-29T20:21:13.890679"
+  },
+  "60086": {
+    "article_id": "60086",
+    "headline": "Emma Cline’s Switzy Explores the Finality of Memory and Choice",
+    "image_url": "https://images.pexels.com/photos/19355520/pexels-photo-19355520.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.theguardian.com/books/2026/aug/31/switzy-by-emma-cline-review-this-booker-listed-account-of-a-mans-last-days-is-profoundly-moving",
+    "source_urls": [
+      "https://www.theguardian.com/books/2026/aug/31/switzy-by-emma-cline-review-this-booker-listed-account-of-a-mans-last-days-is-profoundly-moving"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "76d47eecf4747b1040883cabe21844e95b86a151b057bc30c08fbea8331217d3",
+    "category": "book-reviews",
+    "created_at": "2026-08-31T20:46:16.175553",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T20:46:16.175553"
+  },
+  "1725336": {
+    "article_id": "1725336",
+    "headline": "Top MagSafe Phone Grips for Enhanced Mobile Ergonomics in 2026",
+    "image_url": "https://images.unsplash.com/photo-1620774825050-04e8f68f2380?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOXx8TWFnU2FmZSUyMHNtYXJ0cGhvbmUlMjBncmlwJTIwYWNjZXNzb3J5fGVufDB8fHx8MTc4ODIxMDU2NXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.wired.com/gallery/best-magsafe-grips/",
+    "source_urls": [
+      "https://www.wired.com/gallery/best-magsafe-grips/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "10d5e9269aaa2bb58d27c01e3e29954982b5058bc7646dbd8f9b3fe0cab03ae3",
+    "category": "accessories",
+    "created_at": "2026-08-31T21:09:28.859672",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T21:09:28.859672"
+  },
+  "53900": {
+    "article_id": "53900",
+    "headline": "Artificial Sweetener Xylitol Linked to Cardiovascular Health Risks in New Study",
+    "image_url": "https://images.unsplash.com/photo-1758523418383-21d8e2b68bff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNHx8aGVhbHRoeSUyMGVhdGluZyUyMGhhYml0c3xlbnwwfHx8fDE3ODgyMTMzMzV8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.foxnews.com/health/popular-artificial-sweetener-linked-potentially-dangerous-heart-risk",
+    "source_urls": [
+      "https://www.foxnews.com/health/popular-artificial-sweetener-linked-potentially-dangerous-heart-risk"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "47088ece4e7835bb4f54127e4d45ad55a1abfa435c87f9ded9cfde462c61a466",
+    "category": "diet-fitness",
+    "created_at": "2026-08-31T21:55:37.527727",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T21:55:37.527727"
+  },
+  "26949": {
+    "article_id": "26949",
+    "headline": "Olivia Rodrigo Redefines the Festival Circuit with Daisy Chain Fields",
+    "image_url": "https://images.pexels.com/photos/17243571/pexels-photo-17243571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "seed_url": "https://www.nytimes.com/2026/08/31/arts/music/daisy-chain-fields-olivia-rodrigo.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/31/arts/music/daisy-chain-fields-olivia-rodrigo.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "6cadbbbf5869f894335aa3aea1084c4a66d8302bb7e7cd7c6af7965af73db688",
+    "category": "style",
+    "created_at": "2026-08-31T22:19:50.249789",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T22:19:50.249789"
+  },
+  "109929": {
+    "article_id": "109929",
+    "headline": "Lionel Messi Announces Retirement from International Soccer After Two-Decade Career",
+    "image_url": "https://images.unsplash.com/photo-1671016233593-96c5196ca3e7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw0fHxMaW9uZWwlMjBNZXNzaSUyMEFyZ2VudGluYSUyMG5hdGlvbmFsJTIwdGVhbXxlbnwwfHx8fDE3ODgyMTYyMzB8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.cbssports.com/soccer/news/moments-that-defined-lionel-messis-argentina-career/",
+    "source_urls": [
+      "https://www.cbssports.com/soccer/news/moments-that-defined-lionel-messis-argentina-career/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "f580acbf48207d6645caef242664da6adef51e51fcf991f6c6e86536d7b36f94",
+    "category": "soccer",
+    "created_at": "2026-08-31T22:43:52.277993",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "ANALYSIS",
+    "expires_at": "2026-11-29T22:43:52.277993"
+  },
+  "28262": {
+    "article_id": "28262",
+    "headline": "The Lingering Impact of Foodborne Illness on Long-Term Gut Health",
+    "image_url": "https://images.unsplash.com/photo-1659353886868-753b0c5c5772?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNXx8Z2FzdHJvaW50ZXN0aW5hbCUyMGhlYWx0aCUyMGNoZWNrdXB8ZW58MHx8fHwxNzg4MjE3NjQyfDA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/31/well/eat/cyclospora-ibs-food-poisoning.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/31/well/eat/cyclospora-ibs-food-poisoning.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "2392db929dc253e75760b1fce3b0cacd6b97cd175408f972a7884c740832461c",
+    "category": "news",
+    "created_at": "2026-08-31T23:07:25.113508",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-29T23:07:25.113508"
+  },
+  "40331": {
+    "article_id": "40331",
+    "headline": "BMW Previews Quad-Motor Electric M3 Performance Capabilities",
+    "image_url": "https://images.unsplash.com/photo-1656615361094-51e70106675a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwxNHx8ZWxlY3RyaWMlMjBCTVclMjBNMyUyMHByb3RvdHlwZXxlbnwwfHx8fDE3ODgyMTkxMTd8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.bmwblog.com/2026/08/31/electric-bmw-m3-spy-video/",
+    "source_urls": [
+      "https://www.bmwblog.com/2026/08/31/electric-bmw-m3-spy-video/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "ef128a2c3bb28e7ff7690682c6e5d9f1a7b701b03ed28f841746b7b408af5b78",
+    "category": "tech-biz",
+    "created_at": "2026-08-31T23:31:59.745075",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "FOLLOW_UP",
+    "expires_at": "2026-11-29T23:31:59.745075"
+  },
+  "fail_1788222025_898": {
+    "article_id": "fail_1788222025_898",
+    "headline": "Mastering the Tropical Layered Coconut Cake: A Study in Texture and Flavor",
+    "image_url": "https://images.unsplash.com/photo-1625401194353-3abca51c3ae6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyOHx8Z291cm1ldCUyMGNvY29udXQlMjBtYW5nbyUyMGxheWVyJTIwY2FrZXxlbnwwfHx8fDE3ODgyMjIwMjR8MA&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://cooking.nytimes.com/article/how-to-make-the-best-coconut-cake",
+    "source_urls": [
+      "https://cooking.nytimes.com/article/how-to-make-the-best-coconut-cake"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "e9f747bee5389bb3f2b223b6b5ca29c1814e71469e063fc0cb046251447723ff",
+    "category": "recipe",
+    "created_at": "2026-09-01T00:20:25.131185",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-30T00:20:25.131185"
+  },
+  "286774": {
+    "article_id": "286774",
+    "headline": "The Absurd Intensity of the 'Throw Back' Tradition in MLB Fandom",
+    "image_url": "https://images.unsplash.com/photo-1561075046-21b259be2fcd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHwyNnx8YmFzZWJhbGwlMjBmYW4lMjBjcm93ZCUyMHJlYWN0aW9ufGVufDB8fHx8MTc4ODIyMzUxNXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://theonion.com/red-sox-fan-throws-back-son-who-caught-yankees-home-run/",
+    "source_urls": [
+      "https://theonion.com/red-sox-fan-throws-back-son-who-caught-yankees-home-run/"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "08be4699359c20af682798f895c3b234465561eb284202345159f831bbb21feb",
+    "category": "meme",
+    "created_at": "2026-09-01T00:45:17.469374",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-30T00:45:17.469374"
+  },
+  "62276": {
+    "article_id": "62276",
+    "headline": "Google Quantum AI Achieves New Milestone in Logical Qubit Stability",
+    "image_url": "https://images.unsplash.com/photo-1678957949479-b1e876bee3f1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5NDIwNDV8MHwxfHNlYXJjaHw1fHxxdWFudHVtJTIwY29tcHV0aW5nJTIwcHJvY2Vzc29yfGVufDB8fHx8MTc4ODIyNjM1MXww&ixlib=rb-4.1.0&q=80&w=1600",
+    "seed_url": "https://www.nytimes.com/2026/08/29/science/nasa-roman-telescope-origins.html",
+    "source_urls": [
+      "https://www.nytimes.com/2026/08/29/science/nasa-roman-telescope-origins.html"
+    ],
+    "fact_check_urls": [],
+    "article_hash": "edd04dd40fc94805dd57be225d47fd520917b756327bdad008878ae72212cc4f",
+    "category": "physics",
+    "created_at": "2026-09-01T01:32:33.801567",
+    "story_id": null,
+    "parent_article_id": null,
+    "article_type": "CREATE",
+    "expires_at": "2026-11-30T01:32:33.801567"
+  }
+}
