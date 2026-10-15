@@ -77,6 +77,12 @@ def main():
                 logger.warning(f"  [Skip] Invalid JSON structure in {filename}. Missing 'site' or 'generated'.")
                 continue
                 
+            # 송출 중단 매체 가드레일 (franchiseherald, foodworldnews 송출 배제)
+            EXCLUDED_SITES = {"franchiseherald", "foodworldnews"}
+            if domain_key in EXCLUDED_SITES:
+                logger.info(f"  [Skip Site] Skipping '{domain_key}' as it has been permanently excluded from publishing.")
+                continue
+                
             # Prepare image data object expected by publisher
             img_data = {
                 "url": image_url,
@@ -163,10 +169,10 @@ def update_cron_with_random_time():
     import random
     import subprocess
     
-    # 미국 서머타임(EDT) 기준 09:00~18:00 = UTC 13:00~22:00
-    # UTC 13시부터 22시 사이의 랜덤 시간(hour), 0분~59분 사이의 랜덤 분(minute)
-    rand_hour = random.randint(13, 22)
-    rand_minute = random.randint(0, 59)
+    # 미국 서머타임(EDT) 업무 시간 후반부(15:30~16:30 = UTC 19:30~20:30)에 안전하게 재송출되도록 조정
+    # 퇴근 시각(EDT 18:00 / UTC 22:00) 최소 1시간 30분 전에 완료 보장
+    rand_hour = random.choice([19, 20])
+    rand_minute = random.randint(10, 30) if rand_hour == 20 else random.randint(30, 59)
     
     try:
         res = subprocess.run(["crontab", "-l"], capture_output=True, text=True)

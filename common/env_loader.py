@@ -52,14 +52,12 @@ class EnvLoader:
                     "url": url,
                     "api_key": api_key
                 })
-        # 로컬 기사 작성 전용(송출 제외) 사이트 강제 주입 목록
+        # 로컬 Ingest API 매체 강제 주입 목록 (franchiseherald, foodworldnews 송출 중단에 따른 4개 매체 유지)
         local_only_configs = [
             {"index": 9, "domain_key": "jobsnhire", "url": "https://admin.jobsnhire.com/api/v1/", "api_key": "local-key-jobsnhire"},
-            {"index": 10, "domain_key": "franchiseherald", "url": "https://admin.franchiseherald.com/api/v1/", "api_key": "local-key-franchiseherald"},
-            {"index": 11, "domain_key": "mobilenapps", "url": "https://admin.mobilenapps.com/api/v1/", "api_key": "local-key-mobilenapps"},
-            {"index": 12, "domain_key": "parentherald", "url": "https://admin.parentherald.com/api/v1/", "api_key": "local-key-parentherald"},
-            {"index": 13, "domain_key": "booksnreview", "url": "https://admin.booksnreview.com/api/v1/", "api_key": "local-key-booksnreview"},
-            {"index": 14, "domain_key": "foodworldnews", "url": "https://admin.foodworldnews.com/api/v1/", "api_key": "local-key-foodworldnews"}
+            {"index": 10, "domain_key": "mobilenapps", "url": "https://admin.mobilenapps.com/api/v1/", "api_key": "local-key-mobilenapps"},
+            {"index": 11, "domain_key": "parentherald", "url": "https://admin.parentherald.com/api/v1/", "api_key": "local-key-parentherald"},
+            {"index": 12, "domain_key": "booksnreview", "url": "https://admin.booksnreview.com/api/v1/", "api_key": "local-key-booksnreview"}
         ]
         sites.extend(local_only_configs)
         return sites

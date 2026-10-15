@@ -30,7 +30,13 @@ data/reservation.json
 data/test_dup_history.json
 data/travel_pool_state.json
 data/medi_rss_verification_result.json
+data/api_cost_tracker.json
+data/archive/
+antigravity.db
 scratch/
+test_jobsnhire_image.py
+test_publish_6_sites.py
+data/cron_backup_before_pause_trend.txt
 
 # IDE & OS Files
 .DS_Store

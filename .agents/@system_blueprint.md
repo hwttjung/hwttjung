@@ -6,7 +6,7 @@
 
 ## 1. 시스템 아키텍처 개요 (Overview)
 
-본 시스템은 매시간 주기적으로 작동하는 자동화 배치 프로그램으로, 다중 스레드 환경 하에서 기사의 팩트성 확보, 중복 발행(도배) 방지, 실시간 알림, 그리고 14개 미디어 채널에 대한 맞춤형(Tailored) 송출 정합성을 보장합니다.
+본 시스템은 매시간 주기적으로 작동하는 자동화 배치 프로그램으로, 다중 스레드 환경 하에서 기사의 팩트성 확보, 중복 발행(도배) 방지, 실시간 알림, 그리고 12개 미디어 채널에 대한 맞춤형(Tailored) 송출 정합성을 보장합니다.
 
 ```mermaid
 graph TD
@@ -20,7 +20,7 @@ graph TD
     F -->|Unsplash & Pexels| I[image_searcher.py]
     F -->|POST Request| J[article_publisher.py]
     J -->|Standard Admin API| K[8개 원격 매체 송출]
-    J -->|Ingest API Basic Auth| L[6개 로컬 매체 송출]
+    J -->|Ingest API Basic Auth| L[4개 로컬 매체 송출]
     J -->|a_id & cms_url| M[data/local_articles/unused 아카이브]
     M -->|Success / Failure| N[TelegramNotifier / CMS 바로가기 링크]
 ```
@@ -31,8 +31,9 @@ graph TD
 
 ### 2.1 오케스트레이터 및 배치 제어
 - **`publish_tailored_articles.py`**:
-  - 시스템의 전체 구동을 제어하며, 14개 사이트를 **병렬 멀티스레드(Threading)** 구조로 분산 처리합니다.
+  - 시스템의 전체 구동을 제어하며, 12개 사이트를 **병렬 멀티스레드(Threading)** 구조로 분산 처리합니다.
   - **무작위 딜레이(Random Jitter)**: 각 스레드는 시작 시 `30초 ~ 45분` 사이의 랜덤 오프셋만큼 대기 후 기상을 시작하여 기계적인 발행 패턴을 원천 회피합니다.
+  - **업무 시간 동기화 (EDT 09:00~18:00)**: 출근 시각(EDT 09:00 / UTC 13:00) 직후인 UTC 13:05~13:25 사이에 기상하여, 12개 매체를 약 30~45분 간격으로 순차 분산 송출하며 퇴근 시각(EDT 18:00 / UTC 22:00) 이전(EDT 16~17시경)에 100% 완료 보장.
   - **90/10 확률 분배**: 90% 확률로 해당 사이트 고유 테마의 뉴스를, 10% 확률로 일반(General) 뉴스를 채택하도록 분기 처리합니다.
 - **`main.py`**:
   - `run_pipeline(source_file_path, target_sites)`을 구동하는 핵심 파이프라인 엔진입니다.
@@ -48,13 +49,25 @@ graph TD
   - **최신성 필터(72시간)**: 발행 시간이 72시간을 초과한 오래된 뉴스는 수집 단계에서 배제합니다.
   - **중복 링크 배제(168시간)**: 최근 7일 내에 동일한 RSS 원천 링크가 기사 작성에 쓰였다면 수집 대상에서 영구 제외합니다.
 
-### 2.3 기사 본문 및 태그 생성 (AI Writer)
+### 2.3 기사 본문 및 태그 생성 (AI Writer & Code-Level Optimization)
 - **`article_generator.py`**:
-  - Gemini API를 호출하여 입력받은 RSS 팩트에 기반한(Fact Grounding) 고품질 저널리즘 기사를 영어로 작성합니다.
-  - **소제목 템플릿 통일**: 본문 내 모든 소제목은 오직 `<h3>` 태그만을 사용하도록 프롬프트 상으로 강제합니다. (타 헤더 태그 및 볼드 기법의 혼용 차단)
-  - **SEO 태그 추출**: 작성된 기사 내용과 연관된 고유 맞춤형 SEO Tag 20개를 자동 추출하여 기사 발행 메타데이터에 연동합니다.
+  - **심층 취재기자(Investigative Journalist) 모드**: 단순 원문 재작성(Paraphrasing)을 배제하고, 공식 발표 기관 수치, 기준 시점, 원자료 맥락, 산업적 파급 효과를 심층 분석하여 서술합니다.
+  - **본문 450단어 이상 보장 (소제목 제외)**: `max_tokens`를 2048로 확장하고, 파이썬 코드가 `<h3>` 소제목을 제외한 순수 본문 단어 수를 정밀 계측하여 풍부한 저널리즘 분량을 강제합니다.
+  - **양괄식 첫 문단 + 기승전결 서사 구조**: 첫 문단은 소제목 없이 기사 전체를 관통하는 자연스러운 요약 리드로 시작하며, 이후 기(배경) → 승(데이터전개) → 전(파급효과) → 결(시사점)의 점진적 서사를 구축합니다.
+  - **소제목 3~5개 `<h3>` 정규화**: 본문 내 비표준 헤딩(`<h2>`, `<h4>`, bold)을 파이썬 코드가 자동으로 `<h3>`로 정규화하고 3~5개 범위를 검증합니다.
+  - **SEO 태그 20개 코드 자동 완성**: LLM의 부족분 발생 시 파이썬 코드가 본문 핵심 키워드로 중복 없이 20개를 자동 완성하여 불필요한 재시도 비용 낭비를 차단합니다.
 
-### 2.4 완벽한 중복 발행 차단 (Duplicate Preventer)
+### 2.4 대표 이미지 수집 및 멀티모달 시각 심사 (Image Cascade & Gatekeeper)
+- **`image_searcher.py` (다단계 Cascade Waterfall)**:
+  - **1순위 Wikimedia Commons**: 고화질 보도사진 및 자유 라이선스(CC, Public Domain) 위주 탐색. 구글 SEO 최적화 가로 1280px(`iiurlwidth=1280`) 렌더링으로 1MB 이하 안전 규격 유지.
+  - **2순위 Unsplash & 3순위 Pexels**: 위키미디어 부재 시 안전망. 일반 가로형 이미지는 구글 디스커버 최적화 16:9 스마트 크롭(`&ar=16:9&fit=crop`)을 적용하고, **인물 및 세로/정사각(`aspect_ratio < 1.25`) 이미지는 원본 비율을 보존(`&fit=max`)**하여 얼굴/신체 잘림을 원천 방지합니다.
+  - **종횡비(`aspect_ratio`) 메타데이터 전수 주입**: 모든 후보군(위키미디어, Unsplash, Pexels)에 정확한 종횡비 값을 계산하여 Gatekeeper에 인계합니다.
+- **`image_gatekeeper.py` (Gemini 멀티모달 시각 검증)**:
+  - 기사 제목/요약문과 후보 썸네일을 대조하여 동음이의어, 톤앤매너, 왜곡/오보, 워터마크를 심사합니다.
+  - **일반 이미지 규격**: 사물/풍경/이벤트는 16:9 가로형(종횡비 1.25~2.4, 점수 7.0점 이상)을 원칙으로 채택합니다.
+  - **핵심 인물 종횡비 예외조항 (0.50~2.50)**: 기사의 핵심 주인공(선수, 공인, 연예인, 연구자 등) 실제 사진의 경우, **세로형(3:4, 2:3), 정사각(1:1), 1:2 전신사진(aspect_ratio >= 0.50)** 등 다양한 비율을 전면 수용하며 적합도 8.0점 이상 시 최우선 합격으로 채택합니다.
+
+### 2.5 완벽한 중복 발행 차단 (Duplicate Preventer)
 - **`duplicate_preventer.py`**:
   - 동시 다발적인 스레드 구동 환경에서 데이터 충돌(Race Condition)을 막기 위해 **파일 락(`fcntl`)** 기반의 안전한 동시성 입출력 구조를 구축했습니다.
   - **유사도 70% 차단**: 생성된 제목이 최근 168시간(7일) 이력의 제목들과 비교해 `difflib.SequenceMatcher` 기준 70% 이상 유사할 경우, 해당 제목을 Negative Constraint로 삼아 **최대 3회 즉시 재생성(Retry)**을 시도합니다.
@@ -64,7 +77,7 @@ graph TD
 ### 2.5 원격 어드민 및 Ingest API 송출 (Publisher)
 - **`article_publisher.py`**:
   - **표준 어드민 API (`articles.php`)**: 8개 원격 미디어 사이트에 대해 multipart/form-data 인코딩을 거쳐 대표 이미지 바이너리와 함께 기사 초안(Draft)을 등록합니다.
-  - **Article Ingest API (`/ingest/article`)**: 6개 로컬 작성 전용 매체(`jobsnhire`, `franchiseherald`, `mobilenapps`, `parentherald`, `booksnreview`, `foodworldnews`)를 대상으로 HTTP Basic Auth 인증을 거쳐 기사를 Queued 상태로 자동 실송출합니다.
+  - **Article Ingest API (`/ingest/article`)**: 4개 로컬 작성 매체(`jobsnhire`, `mobilenapps`, `parentherald`, `booksnreview`)를 대상으로 HTTP Basic Auth 인증을 거쳐 기사를 Queued 상태로 자동 실송출합니다. (`franchiseherald`, `foodworldnews`는 송출 제외 처리)
   - **실시간 ID 룩업**: Ingest API 호출 전 `/ingest/reporters`, `/ingest/categories`, `/ingest/sources`를 실시간 조회하여 LLM이 선정한 카테고리와 가장 매칭률이 높은 정수형 카테고리 ID, 디폴트 기자 ID를 매핑해 냅니다.
   - **409 예외 흡수**: 이미 등록된 `external_id` (제목 해시 기반)의 기사를 재송출하려 시도할 경우, API 응답 사양에 명시된 `409 Conflict` 속에서 기존 `a_id` 및 `cms_url`을 추출해 정상 성공 처리로 마이그레이션합니다.
 

@@ -532,7 +532,7 @@ def run_trend_pipeline():
                             article_title=article_data.get("title", "")
                         )
                         
-                        INGEST_API_SITES = ["jobsnhire", "franchiseherald", "mobilenapps", "parentherald", "booksnreview", "foodworldnews"]
+                        INGEST_API_SITES = ["jobsnhire", "mobilenapps", "parentherald", "booksnreview"]
                         if domain in INGEST_API_SITES:
                             res_data, err = publisher.publish_to_ingest_api(domain, article_data, img_data, rss_link=target_seed_article.get("url", ""))
                             if err is None and res_data:

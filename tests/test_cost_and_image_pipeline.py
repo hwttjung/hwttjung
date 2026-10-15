@@ -578,5 +578,82 @@ class TestImageSearcher(unittest.TestCase):
         self.assertIsNone(res["selected_image"])
         self.assertIn("8.0점", res["reason"])
 
+    @patch("urllib.request.urlopen")
+    def test_unsplash_candidates_preserves_portrait_aspect_ratio(self, mock_urlopen):
+        # Unsplash 응답: 세로형(1000x1500, ratio=0.67) 및 가로형(1920x1080, ratio=1.78)
+        mock_response = MagicMock()
+        mock_response.read.return_value = json.dumps({
+            "results": [
+                {
+                    "width": 1000,
+                    "height": 1500,
+                    "urls": {"raw": "https://images.unsplash.com/photo-portrait"},
+                    "user": {"name": "Photographer Portrait"}
+                },
+                {
+                    "width": 1920,
+                    "height": 1080,
+                    "urls": {"raw": "https://images.unsplash.com/photo-landscape"},
+                    "user": {"name": "Photographer Landscape"}
+                }
+            ]
+        }).encode("utf-8")
+        mock_urlopen.return_value.__enter__.return_value = mock_response
+
+        searcher = ImageSearcher(env={"UNSPLASH_ACCESS_KEY": "fake_key"})
+        cands = searcher._get_unsplash_candidates("Zendaya", [], "celebeat")
+
+        self.assertEqual(len(cands), 2)
+        # 1) 세로형: fit=max 및 ar=16:9 미포함, aspect_ratio=0.67
+        self.assertIn("fit=max", cands[0]["url"])
+        self.assertNotIn("ar=16:9", cands[0]["url"])
+        self.assertEqual(cands[0]["aspect_ratio"], 0.67)
+
+        # 2) 가로형: ar=16:9&fit=crop 포함, aspect_ratio=1.78
+        self.assertIn("ar=16:9&fit=crop", cands[1]["url"])
+        self.assertEqual(cands[1]["aspect_ratio"], 1.78)
+
+    @patch.object(ImageGatekeeper, "_fetch_thumbnail_base64", return_value=("fake_b64", "image/jpeg"))
+    @patch("urllib.request.urlopen")
+    def test_gatekeeper_full_body_aspect_ratio_exception_pass(self, mock_urlopen, mock_thumb):
+        # 1:2 전신사진 (aspect_ratio = 0.50)이 8.5점 이상 시 예외 채택 검증
+        mock_response = MagicMock()
+        mock_response.read.return_value = json.dumps({
+            "candidates": [{
+                "content": {
+                    "parts": [{
+                        "text": json.dumps({
+                            "selected_id": "img_full_body",
+                            "score": 9.0,
+                            "is_acceptable": True,
+                            "reason": "레드카펫 전신 인물 사진으로 인물 예외조항에 따라 완벽 부합"
+                        })
+                    }]
+                }
+            }]
+        }).encode("utf-8")
+        mock_urlopen.return_value.__enter__.return_value = mock_response
+
+        candidates = [{
+            "id": "img_full_body",
+            "url": "https://thumb.wikimedia.org/red_carpet_full.jpg",
+            "thumb_url": "https://thumb.wikimedia.org/red_carpet_full.jpg",
+            "credit": "Photo on Wikimedia",
+            "aspect_ratio": 0.50  # 1:2 전신비율
+        }]
+
+        gatekeeper = ImageGatekeeper(env={"GEMINI_API_KEY": "fake_key"})
+        res = gatekeeper.evaluate_image_match(
+            article_summary="Zendaya at movie premiere",
+            article_title="Zendaya Premiere",
+            candidate_images=candidates,
+            site_domain="celebeat"
+        )
+
+        self.assertTrue(res["is_acceptable"])
+        self.assertEqual(res["score"], 9.0)
+        self.assertEqual(res["selected_image"]["id"], "img_full_body")
+
 if __name__ == "__main__":
     unittest.main()
+

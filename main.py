@@ -112,25 +112,25 @@ def run_pipeline(source_file_path, target_sites=None, mode="tailored"):
         logger = get_domain_logger(site["domain_key"])
         logger.info(f"\n[Processing Site] {site['domain_key']} (Index: {site['index']})")
         
-        # Ingest API 사용 매체 리스트 (1~8번의 External API 대신 HTTP Basic Auth Ingest API를 사용하는 9~14번 매체)
-        INGEST_API_SITES = ["jobsnhire", "franchiseherald", "mobilenapps", "parentherald", "booksnreview", "foodworldnews"]
-        LOCAL_ONLY_SITES = [] # 9~14번 매체의 실서버 승격 완료에 따라 로컬 전용 제한 제거
+        # Ingest API 사용 매체 리스트 (1~8번의 External API 대신 HTTP Basic Auth Ingest API를 사용하는 매체)
+        INGEST_API_SITES = ["jobsnhire", "mobilenapps", "parentherald", "booksnreview"]
+        LOCAL_ONLY_SITES = [] # 실서버 승격 완료에 따라 로컬 전용 제한 제거
 
         from datetime import timedelta, timezone
         
-        if site["domain_key"] in LOCAL_ONLY_SITES:
-            with dup_preventer._lock():
-                history = dup_preventer._load_history()
-            site_history = history.get(site["domain_key"], [])
-            
-            kst = timezone(timedelta(hours=9))
-            # datetime is imported globally
-            today_kst = datetime.now(kst).strftime("%Y-%m-%d")
-            
-            today_published_count = sum(1 for item in site_history if item.get("date") == today_kst)
-            if today_published_count >= 1:
-                logger.warning(f"  [Skip Site] Skipping local-only site '{site['domain_key']}' because it already generated {today_published_count} article today KST (Daily Limit: 1).")
-                continue
+        # [Daily Limit Guardrail] 각 매체당 하루 송출 기사 수 제한 (기본 1개)
+        daily_site_limit = int(env.get("DAILY_SITE_LIMIT", "1"))
+        with dup_preventer._lock():
+            history = dup_preventer._load_history()
+        site_history = history.get(site["domain_key"], [])
+        
+        kst = timezone(timedelta(hours=9))
+        today_kst = datetime.now(kst).strftime("%Y-%m-%d")
+        
+        today_published_count = sum(1 for item in site_history if item.get("date") == today_kst)
+        if today_published_count >= daily_site_limit:
+            logger.warning(f"  [Skip Site] Skipping site '{site['domain_key']}' because it already published {today_published_count} article(s) today KST (Daily Limit: {daily_site_limit}).")
+            continue
         
         # Get allowed categories for this site
         available_categories = publisher.get_categories_for_site(site["domain_key"])

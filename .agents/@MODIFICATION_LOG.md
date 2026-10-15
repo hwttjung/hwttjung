@@ -1290,3 +1290,143 @@
   - 기존에는 2순위 Unsplash 검색에서 결과가 1장이라도 있으면 3순위 Pexels를 무시하던 방식에서, Unsplash와 Pexels를 모두 호출하여 결과물(최대 10장)을 하나의 풀(Pool)로 병합하도록 수정했습니다.
   - 병합된 후보군은 `random.shuffle()`을 통해 섞인 후 Gemini Gatekeeper에게 전달되어, API 출처에 상관없이 문맥에 가장 잘 어울리는 최고의 사진이 채택됩니다.
 - **수정 사유**: Pexels의 고품질 사진들의 활용도가 0%에 수렴하는 구조적 문제를 해결하고, 기사 이미지의 다양성을 대폭 향상시키기 위함입니다.
+
+### [2026-10-10] 원격 8개 매체 송출 시 기사 Summary에 이미지 크레딧(im_content) 오염 버그 수정
+- **수정 파일**: `core/publishing/article_publisher.py`
+- **수정 내용**:
+  - `publish()` 메서드 내 `fields["summary"]` 파라미터가 `im_content`에 해당하는 저작자 크레딧(`formatted_caption = f"({img_credit})"`)으로 덮어씌워지던 결함을 제거하고, 기사의 본래 핵심 요약문(`self._clean_text(article_data.get("summary", ""))`)을 직접 매핑하도록 복구.
+  - 이미지 저작자 크레딧 및 캡션은 기사 요약 필드를 침범하지 않고 이미지 전용 메타데이터 필드(`im_content`, `im_credit`, `caption`, `credit` 등)로만 안전하게 격리 전송되도록 보장.
+- **수정 사유**:
+  - 8개 원격 매체(`scienceworldreport`, `latinoshealth`, `autoworldnews`, `youthhealthmag`, `newseveryday`, `celebeat`, `boomsbeat`, `sportsworldreport`) 전체에서 기사 요약(Summary) 자리에 기사 요약 대신 이미지 저작자 크레딧이 노출되던 다수 사이트 공통 버그 원천 해결.
+- **검증 결과**:
+  - **Hermetic 격리 단위 테스트**: `summary`에 본래 기사 요약문이 보존되고 `im_content`에는 저작자 크레딧이 분리 매핑됨을 100% 무결 검증.
+  - **어드민 DRAFT 실송출 검증 (Constitution 규칙 17조)**:
+    * **타겟 매체**: `celebeat` (`https://admin.celebeat.com/api/v1/`)
+    * **기사 제목**: `"Zendaya Explores Creative Direction and Cinematic Storytelling in Upcoming Projects"`
+    * **카테고리**: `news` (id: 1)
+    * **Summary**: `"Zendaya reflects on her transition toward creative direction and narrative agency, emphasizing the vital role of nuanced storytelling in modern cinema."`
+    * **대표 이미지**: 고화질 위키미디어 이미지 (483,864 bytes) 및 크레딧 바인딩
+    * **송출 결과**: `articles.php`를 통해 **DRAFT 상태로 성공 송출 (`Article ID: 27011`, `Image ID: 14842`, `Status: draft`)** 완료. 기사 Summary에 이미지 크레딧이 유입되지 않고 정상 보존됨을 실증 확인.
+
+### [2026-10-14] 매체당 일일 기사 송출 1건 축소 (크론탭 트렌드 배치 일시 중단 및 main.py 일일 상한 가드레일 적용)
+- **수정 파일**: `crontab`, `main.py`, `tests/test_daily_site_limit.py`
+- **수정 내용**:
+  - `crontab`: 각 사이트당 일일 2건(맞춤형 RSS 뉴스 1건 + Clicky 트렌드 뉴스 1건)씩 송출되던 과다 발행 빈도를 매체당 하루 정확히 1건으로 축소하기 위해, `main_trend.py` 배치를 주석 처리(`# [PAUSED BY USER REQUEST 2026-10-14]`)하고 순수 고품질 RSS 맞춤형 기사 송출 배치(`publish_tailored_articles.py`) 1회만 단독 유지.
+  - `main.py`: 파이프라인 레벨의 이중 방어 안전 가드레일(`daily_site_limit = int(env.get("DAILY_SITE_LIMIT", "1"))`) 탑재. 전체 14개 매체를 대상으로 당일(KST 기준) 기발행 이력이 1건 이상 존재할 경우 추가 기사 생성 및 송출을 즉시 조기 건너뛰기(`[Skip Site]`)하도록 제어.
+  - `tests/test_daily_site_limit.py`: Hermetic 격리 단위 테스트 신설 (당일 0건 정상 통과, 당일 1건 도달 시 조기 스킵 100% 검증).
+- **수정 사유**: 사용자의 "각 사이트에 송출되는 기사를 1개씩으로 줄여달라"는 요청에 따른 일일 송출 빈도 최적화 및 도배 방지 안전성 강화.
+- **검증 결과**:
+  - `crontab -l` 정합성 확인 (트렌드 배치 주석 처리 완료, 맞춤형 기사 배치 정상 유지).
+  - 단위 테스트 전수 PASS (`tests/test_daily_site_limit.py` 포함 35종 100% Green).
+  - 파이썬 바이트코드 문법 컴파일 정상 완료 (`main.py`, `tests/test_daily_site_limit.py`).
+
+### [2026-10-15] franchiseherald 및 foodworldnews 송출 영구 중단 및 12개 매체 체제 개편
+- **수정 파일**: `common/env_loader.py`, `publish_tailored_articles.py`, `main.py`, `main_trend.py`, `core/media/image_searcher.py`, `publish_failed_unused_articles.py`, `daemons/telegram_notifier_cron.py`, `.agents/@system_blueprint.md`, `tests/test_excluded_sites.py`
+- **수정 내용**:
+  - `common/env_loader.py`: `EnvLoader.get_sites_config()` 내 `local_only_configs`에서 `franchiseherald`와 `foodworldnews`를 완전 제외하고, 남은 4개 Ingest 매체(`jobsnhire`, `mobilenapps`, `parentherald`, `booksnreview`)의 인덱스 번호를 9~12로 정돈. 전체 활성 매체 수를 기존 14개에서 12개로 축소.
+  - `publish_tailored_articles.py`: 14개 기준 하드코딩되어 있던 딜레이 구간(`intervals = [300] * 13`)을 `len(sites) - 1` 기반 동적 가변 구간(`num_intervals = max(1, len(sites) - 1)`)으로 개선하여 12개 매체 기준 11개 구간으로 균등 정밀 배분.
+  - `main.py` & `main_trend.py`: `INGEST_API_SITES` 배열에서 `franchiseherald` 및 `foodworldnews` 제거.
+  - `core/media/image_searcher.py`: `ingest_api_sites` 배열에서 두 매체 제거.
+  - `publish_failed_unused_articles.py`: 미사용 기사 재송출 시 제외 매체 필터링 가드레일(`EXCLUDED_SITES = {"franchiseherald", "foodworldnews"}`)을 추가하여 과거 잔여 파일로 인한 송출 위험 원천 차단.
+  - `daemons/telegram_notifier_cron.py`: 아침 알림 메시지 문구 현행화 ("14개 매체" -> "12개 매체").
+  - `.agents/@system_blueprint.md`: 12개 매체 체제 및 4개 Ingest 매체 사양으로 설계 문서 현행화.
+  - `tests/test_excluded_sites.py`: 12개 매체 정합성, 두 매체 제외 검증, 동적 11개 인터벌 계산 단위 테스트 신설.
+- **수정 사유**: 사용자의 "franchiseherald와 foodworldnews는 이제 송출하지 않습니다" 요청에 따른 자동 송출 대상 제외 및 파이프라인 정합성 유지.
+- **검증 결과**:
+  - `EnvLoader.get_sites_config()` 호출 시 두 매체가 배제된 정확히 12개 매체만 반환됨을 확인.
+  - 전체 핵심 단위 테스트 39종 전수 100% PASS (`tests/test_excluded_sites.py` 4종 포함).
+  - Git diff 검증을 통해 Scope Lock 준수 및 무관한 코드 수정 없음 확인.
+
+### [2026-10-15] 기사 송출 시각과 업무 시간(EDT 09:00~18:00) 완벽 동기화 및 퇴근 후 송출 원천 차단
+- **수정 파일**: `publish_tailored_articles.py`, `publish_failed_unused_articles.py`, `crontab`, `.agents/@system_blueprint.md`, `tests/test_cron_schedule.py`
+- **수정 내용**:
+  - `publish_tailored_articles.py`:
+    * `update_cron_with_random_time()`: 출근 시각(EDT 09:00 = UTC 13:00) 직후 기상을 위해 `rand_hour`를 UTC 13시로 고정하고, `rand_minute`를 5분~25분 사이의 미세 랜덤 지터(`random.randint(5, 25)`)로 배정하여 매일 EDT 09:05~09:25 사이에 안전 기상하도록 개선.
+    * 딜레이 계산 로직: 12개 매체의 총 분산 소요 시간이 약 5~6.5시간 이내가 되도록 `extra_seconds`를 정밀 조정(14,000~20,000초)하고 개별 구간 상한선(45분 = 2700초)을 적용하여, 출근 직후 기상 시 늦어도 EDT 15:45~16:15(오후 3시 45분~4시 15분)에 12개 매체 전원의 송출이 100% 완료되도록 보장.
+  - `publish_failed_unused_articles.py`:
+    * 미사용 재송출 배치의 기동 시각을 업무 시간 후반부인 UTC 19:30~20:30 (미국 EDT 15:30~16:30) 범위로 전진 배치하여, 퇴근 시각(EDT 18:00 / UTC 22:00) 1시간 30분 전에 모든 재송출이 안전하게 끝나도록 조정.
+  - `crontab`:
+    * 현재 퇴근 시간(UTC 22:06)에 물려 있던 크론탭 설정을 즉시 출근 직후인 `15 13 * * *` (UTC 13:15 = EDT 09:15) 및 `45 19 * * *` (UTC 19:45 = EDT 15:45)로 갱신 적용.
+  - `.agents/@system_blueprint.md`: 업무 시간(EDT 09:00~18:00)과 기사 송출의 동기화 사양 명문화.
+  - `tests/test_cron_schedule.py`: 크론 예약 시간대 및 퇴근 전 100% 완료 시뮬레이션 단위 테스트 신설.
+- **수정 사유**: 사용자의 "업무 종료 메시지가 나온 이후에도 기사가 계속 송출됩니다" 지적에 따라, 늦은 밤에 기동되던 크론 배치를 출근 직후로 전진 배치하고 퇴근 이전에 12개 매체 송출이 100% 끝나도록 동기화.
+- **검증 결과**:
+  - `crontab -l` 즉시 정합성 확인 (출근 직후인 `15 13 * * *`로 정상 갱신 완료).
+  - 100회 무작위 시뮬레이션 단위 테스트 전수 PASS (모든 배치가 퇴근 시각 1~2시간 전에 100% 종료됨을 입증).
+  - 전체 단위 테스트 42종 100% PASS (Green).
+
+### [2026-10-15] 심층 취재기자 기사 작성 체제 전격 개편 및 코드 기반 비용 절감 아키텍처 구축
+- **수정 파일**: `config/settings.json`, `data/Prompts/general_art.md`, `core/generation/article_generator.py`, `tests/test_article_generation_spec.py`, `.agents/@system_blueprint.md`
+- **수정 내용**:
+  - `config/settings.json`: `max_tokens`를 2048로 상향하여 450단어 이상의 풍부한 심층 기사 작성 시 토큰 끊김 현상을 원천 차단.
+  - `data/Prompts/general_art.md`: 기존 180줄의 장황하고 중복된 프롬프트를 50줄의 강력하고 간결한 심층 취재기자 가이드라인으로 압축하여 입력 토큰 비용 40% 이상 절감.
+  - `core/generation/article_generator.py`: "생각하는 걸 AI 프롬프트에만 맡기지 말고 코드로 할 수 있는 걸 구분하여 비용 최소화" 방침에 따라 파이썬 코드 단에서 결정론적 후처리 수행:
+    * `count_body_words_excluding_headings()`: 정규식으로 `<h3>` 태그 및 소제목 텍스트를 완벽히 제거한 후 순수 본문 영문 단어 수를 정밀 계측하는 헬퍼 구현.
+    * `normalize_and_enforce_structure()`: LLM이 생성한 다양한 헤딩(`h1, h2, h4, bold`)을 표준 `<h3>`로 자동 정규화하고, 본문 첫 머리에 소제목이 있을 경우 첫 문단(`<p>`) 뒤로 강제 재배치하여 '양괄식 요약 서두'를 보장하며 소제목 개수를 산출.
+    * `validate_and_enrich_seo_tags()`: LLM이 반환한 태그가 20개에 미달하거나 중복될 경우, 본문 핵심 키워드를 자동 추출하여 정확히 20개의 SEO 태그로 보정 완성.
+    * `is_clickbait_headline()`: 구글 뉴스 품질 가이드에 위배되는 클릭베이트 표현을 정규식으로 검출하는 헬퍼 구현.
+    * `generate()` & `generate_trend()`: 프롬프트 압축 반영 및 상기 코드 레벨 후처리 로직 전격 연동.
+  - `tests/test_article_generation_spec.py`: 신규 헬퍼 함수 5종에 대한 Hermetic 격리 단위 테스트 구축 및 전수 PASS.
+  - `.agents/@system_blueprint.md`: 심층 취재기자 기사 생성 사양 및 코드 레벨 최적화 가이드라인 현행화.
+- **수정 사유**: 사용자의 "심층 취재기자 페르소나 적용, 본문 450단어 이상 확장, 양괄식 첫 문단 요약, 소제목 3~5개, 구글 검색·뉴스 노출 실무 가이드 반영 및 코드 기반 비용 최소화" 요청에 따른 전면 고도화.
+- **검증 결과**:
+  - **Hermetic 격리 단위 테스트**: 신규 테스트 5종 포함 전체 47종 100% PASS.
+  - **실제 AI 생성 품질 검증**:
+    * 본문 단어 수 (헤딩 제외): **605 단어** (요청 조건: 450단어 이상 완벽 충족)
+    * 소제목(`<h3>`) 개수: **4개** (요청 조건: 3~5개 범위 충족)
+    * 양괄식 첫 문단(소제목 없는 서두 요약 리드): 충족 (`True`)
+    * SEO 태그: 정확히 20개 코드 레벨 보정 완성
+  - **어드민 DRAFT 실송출 검증 (Constitution 규칙 17조)**:
+    * **타겟 매체**: `scienceworldreport` (`https://admin.scienceworldreport.com/api/v1/`)
+    * **기사 제목**: `"MIT Engineers Develop Nanoparticle Therapy to Reprogram Immune Cells"`
+    * **카테고리**: `health-medicine` (id: 3)
+    * **Summary**: `"MIT researchers have engineered a novel nanoparticle delivery system that reprograms natural killer cells to target cancerous or autoreactive T cells."`
+    * **대표 이미지**: 고화질 Unsplash 16:9 이미지 채택 (253,849 bytes) 및 크레딧 정상 바인딩
+    * **송출 결과**: `articles.php`를 통해 **DRAFT 상태로 성공 송출 (`Article ID: 62366`, `Image ID: 43326`, `Status: draft`, `URL: /articles/62366/20261014/mit-engineers-develop-nanoparticle-therapy-to-reprogram-immune-cells.htm`)** 완료.
+
+### [2026-10-15] 인물 이미지 비율 예외조항(종횡비 0.50~2.50) 전면 동기화 및 이미지 파이프라인 최적화
+- **수정 파일**: `core/media/image_searcher.py`, `core/media/image_gatekeeper.py`, `data/Prompts/general_art.md`, `tests/test_cost_and_image_pipeline.py`, `.agents/@system_blueprint.md`
+- **수정 내용**:
+  - `core/media/image_searcher.py`:
+    * Unsplash 후보군 추출(`_get_unsplash_candidates`) 시, 인물 및 세로/정사각(`aspect_ratio < 1.25`) 이미지에 대해 강제 `&ar=16:9&fit=crop`을 제거하고 원본 종횡비를 보존하는 `&fit=max` 파라미터를 적용하여 얼굴/신체 잘림 훼손 방지.
+    * Unsplash 및 Pexels API 응답의 `width`, `height`를 바탕으로 `aspect_ratio`를 계산하여 후보군 딕셔너리에 `"aspect_ratio": round(aspect_ratio, 2)`를 명시적으로 주입.
+  - `core/media/image_gatekeeper.py`:
+    * 멀티모달 심사 프롬프트 5번 [★핵심 인물 비율 예외조항] 문구에: 세로형(3:4, 2:3), 정사각(1:1)뿐만 아니라 과거 기록 `[2026-10-05-6]`에 명시된 **1:2 전신사진(`aspect_ratio >= 0.50`)**까지 허용 범위를 명시하여 전신 인물 사진의 부당 감점 방지.
+  - `data/Prompts/general_art.md`:
+    * 구글 뉴스 실무 가이드에 부합하도록 이미지 선정 지침(1순위 실제 사건/인물 사진, 2순위 보조 자료) 및 핵심 인물 사진의 다양한 종횡비 허용 지침 추가.
+  - `tests/test_cost_and_image_pipeline.py`:
+    * Unsplash 세로형 종횡비 보존 검증(`test_unsplash_candidates_preserves_portrait_aspect_ratio`) 및 1:2 전신사진 8.5점 이상 예외 통과 검증(`test_gatekeeper_full_body_aspect_ratio_exception_pass`) 단위 테스트 신설.
+  - `.agents/@system_blueprint.md`:
+    * 2.4절에 대표 이미지 수집 및 멀티모달 시각 심사(Cascade Waterfall 및 인물 종횡비 0.50~2.50 예외조항) 사양 명문화.
+- **수정 사유**: 사용자의 "인물 이미지의 경우 비율이 다를 수 있으니 과거 기록 확인해서 수정해주세요" 요청에 따른 과거 인물 종횡비 예외조항(0.50~2.50) 전면 복원 및 Unsplash/Pexels 파이프라인 정합성 완성.
+- **검증 결과**:
+  - **Hermetic 격리 단위 테스트**: `tests/test_cost_and_image_pipeline.py` 신규 2종 포함 19종 전수 100% PASS, `tests/test_article_generation_spec.py` 5종 100% PASS.
+  - **어드민 DRAFT 실송출 검증 (Constitution 규칙 17조)**:
+    * **타겟 매체**: `celebeat` (`https://admin.celebeat.com/api/v1/`)
+    * **기사 제목**: `"Zendaya Charts Directorial Path With $28 Million Independent Feature"`
+    * **카테고리**: `news` (id: 1)
+    * **본문 단어 수 (헤딩 제외)**: 467 단어 (450단어 이상 충족)
+    * **소제목 개수**: 3개 (`<h3>`)
+    * **인물 사진 탐색 결과**: 1순위 인명 `Zendaya` 위키미디어 고화질 인물 사진 발견, Gatekeeper 심사 9.0점 합격 채택.
+    * **송출 결과**: `articles.php`를 통해 **DRAFT 상태로 성공 송출 (`Article ID: 27024`, `Image ID: 14855`, `Status: draft`, `URL: /articles/27024/20261014/zendaya-charts-directorial-path-with-28-million-independent-feature.htm`)** 완료.
+
+### [2026-10-15] 출근 알림(KST 22시) 후 기사 미생성 현상 해결 및 크론탭 동기화 즉시 재가동
+- **수정 파일**: `crontab`, `data/cron_backup.txt`, `.agents/@MODIFICATION_LOG.md`
+- **수정 내용**:
+  - `crontab`:
+    * 구버전 장시간 프로세스 종료(03:34 UTC) 시 크론탭에 잘못 기록되었던 `51 21 * * *` (UTC 21:51 = KST 익일 06:51) 스케줄을 즉시 출근 알림 직후 시간인 `15 13 * * *` (UTC 13:15 = KST 22:15 = EDT 09:15)로 즉시 갱신 복구.
+    * `data/cron_backup.txt` 백업 파일에도 현행 크론탭 설정 동기화 저장.
+  - 파이프라인 즉시 수동 기동:
+    * 출근 알림 후 크론 지연으로 대기 중이던 12개 매체 대상 `publish_tailored_articles.py` 프로세스를 백그라운드 데몬으로 즉시 기동하여 순차 분산 송출 개시.
+- **수정 사유**: 사용자의 "출근했다는 메시지가 한국시간 오후 10시에 떴는데 아직까지 기사를 생성하지 않고 있어요" 문의에 따른 크론탭 스케줄 불일치 규명 및 즉시 복구 가동.
+- **검증 결과**:
+  - `crontab -l` 조회 시 `15 13 * * *`로 즉시 정상 복구 확인 완료.
+  - 백그라운드 파이프라인 가동 후 1번째 매체(`newseveryday`) 실시간 기사 생성 및 송출 성공 확인:
+    * **기사 제목**: `"Data Centers Emerge as Frontline Targets in Modern Global Conflicts"`
+    * **분량**: 본문 647단어 (450단어 이상 완벽 충족), 소제목 4개 (`<h3>`)
+    * **시각 심사**: 위키미디어 고화질 데이터센터 사진 9.5점 합격 채택
+    * **어드민 송출**: DRAFT 상태로 실송출 성공 (`Article ID: 65030`, `status: draft`, `URL: /articles/65030/20261015/data-centers-emerge-as-frontline-targets-in-modern-global-conflicts.htm`)
+    * 잔여 11개 매체도 인터벌 스케줄에 맞춰 백그라운드에서 순차적으로 정상 발행 진행 중.
+
+
+

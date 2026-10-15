@@ -87,7 +87,7 @@ class ImageSearcher:
 
             # 1. 1순위: Wikimedia Commons 검색
             candidates = []
-            ingest_api_sites = ["jobsnhire", "franchiseherald", "mobilenapps", "parentherald", "booksnreview", "foodworldnews"]
+            ingest_api_sites = ["jobsnhire", "mobilenapps", "parentherald", "booksnreview"]
             if site_domain in ingest_api_sites:
                 logger.info(f"[{site_domain}] Ingest API 매체는 Wikimedia 차단 방지를 위해 1순위 탐색을 건너뜁니다.")
             else:
@@ -357,9 +357,17 @@ class ImageSearcher:
                     if not raw_url:
                         continue
                         
-                    # 방안 A: Unsplash 네이티브 16:9 스마트 크롭 (&ar=16:9&fit=crop) 및 1600px 규격화
+                    orig_w = int(photo.get("width", 0))
+                    orig_h = int(photo.get("height", 0))
+                    aspect_ratio = (orig_w / orig_h) if orig_h > 0 else 1.78
+
                     base_url = raw_url.split("?")[0]
-                    img_url = f"{base_url}?w=1600&q=80&ar=16:9&fit=crop"
+                    # 인물 및 세로/정사각(비율 < 1.25): 원본 종횡비 보존 (얼굴/신체 잘림 방지)
+                    # 일반 가로형(비율 >= 1.25): 구글 SEO 최적화 16:9 크롭 적용
+                    if aspect_ratio < 1.25:
+                        img_url = f"{base_url}?w=1280&q=80&fit=max"
+                    else:
+                        img_url = f"{base_url}?w=1600&q=80&ar=16:9&fit=crop"
                         
                     norm = self._normalize_image_url(img_url)
                     if exclude_urls and norm in exclude_urls:
@@ -372,7 +380,8 @@ class ImageSearcher:
                         "url": img_url,
                         "thumb_url": thumb_url,
                         "credit": f"Photo by {photographer} on Unsplash",
-                        "source": "Unsplash"
+                        "source": "Unsplash",
+                        "aspect_ratio": round(aspect_ratio, 2)
                     })
                     if len(candidates) >= 5:
                         break
@@ -404,6 +413,10 @@ class ImageSearcher:
                 photos = data.get("photos", [])
                 candidates = []
                 for idx, photo in enumerate(photos):
+                    orig_w = int(photo.get("width", 0))
+                    orig_h = int(photo.get("height", 0))
+                    aspect_ratio = (orig_w / orig_h) if orig_h > 0 else 1.78
+
                     # 가로 1880px 규격 대형 이미지 채택
                     img_url = photo.get("src", {}).get("large2x") or photo.get("src", {}).get("large", "")
                     if not img_url:
@@ -420,7 +433,8 @@ class ImageSearcher:
                         "url": img_url,
                         "thumb_url": thumb_url,
                         "credit": f"Photo by {photographer} on Pexels",
-                        "source": "Pexels"
+                        "source": "Pexels",
+                        "aspect_ratio": round(aspect_ratio, 2)
                     })
                     if len(candidates) >= 5:
                         break

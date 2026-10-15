@@ -11,7 +11,7 @@
     "top-p": 0.75,
     "frequency_penalty": 0.3,
     "presence_penalty": 0.25,
-    "max_tokens": 1024
+    "max_tokens": 2048
   },
   "scheduler": {
     "interval_minutes": 60,

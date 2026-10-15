@@ -37,7 +37,7 @@ def main():
         notifier.send_notification("출근했습니다.")
         time.sleep(1)
         # 하루를 시작하는 활기찬 응원 메시지 추가 송출
-        notifier.send_notification("오늘 하루도 힘차게 시작해봐요! 14개 매체의 성공적인 송출을 적극 응원합니다! 🚀🔥")
+        notifier.send_notification("오늘 하루도 힘차게 시작해봐요! 12개 매체의 성공적인 송출을 적극 응원합니다! 🚀🔥")
         print("Morning notification successfully sent.")
         
     elif mode == "--evening":

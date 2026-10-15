@@ -106,6 +106,112 @@ class ArticleGenerator:
             
         return generated_data
 
+    @staticmethod
+    def count_body_words_excluding_headings(content_html: str) -> int:
+        """
+        소제목(<h3> 등)을 글자 수에서 완전히 제외하고,
+        순수 본문 문단(<p> 등)의 영문 단어 수를 정확하게 계산합니다.
+        """
+        if not content_html:
+            return 0
+        # 모든 헤딩 태그(<h1~h6> 및 그 내부 텍스트) 완전 제거
+        text_no_headings = re.sub(r'<h[1-6][^>]*>.*?</h[1-6]>', '', content_html, flags=re.DOTALL | re.IGNORECASE)
+        # 잔여 HTML 태그 제거
+        clean_text = re.sub(r'<[^>]+>', ' ', text_no_headings)
+        # 영문 단어 추출
+        words = re.findall(r"\b[A-Za-z0-9'-]+\b", clean_text)
+        return len(words)
+
+    @staticmethod
+    def normalize_and_enforce_structure(content_html: str, target_domain: str = "general") -> tuple:
+        """
+        1. 비표준 헤딩(h1, h2, h4, bold)을 <h3> 태그로 자동 정규화.
+        2. 첫 문단 위에 소제목이 있을 경우, 양괄식 리드 원칙에 따라 첫 문단 아래로 자동 재배치.
+        3. 소제목 개수를 카운트하여 반환.
+        """
+        if not content_html:
+            return content_html, 0
+
+        content = content_html.strip()
+
+        # 1. h1, h2, h4, h5, h6 태그를 <h3>로 자동 정규화
+        content = re.sub(r'<(h[12456])[^>]*>(.*?)</\1>', r'<h3>\2</h3>', content, flags=re.IGNORECASE | re.DOTALL)
+
+        # 2. 독립 라인으로 작성된 볼드체 소제목(예: <p><b>Subheading</b></p>)을 <h3>로 정규화
+        content = re.sub(r'<p>\s*<(?:b|strong)>(.*?)</(?:b|strong)>\s*</p>', r'<h3>\1</h3>', content, flags=re.IGNORECASE)
+
+        # 3. 양괄식 첫 문단 강제 (소제목이 첫 문단 위에 오는 경우 자동 보정)
+        heading_first_match = re.match(r'^\s*<h3>(.*?)</h3>\s*(<p>.*?</p>)', content, flags=re.DOTALL | re.IGNORECASE)
+        if heading_first_match:
+            heading_part = f"<h3>{heading_first_match.group(1)}</h3>"
+            first_p = heading_first_match.group(2)
+            rest_of_content = content[heading_first_match.end():]
+            content = f"{first_p}\n{heading_part}\n{rest_of_content}".strip()
+
+        # 4. 소제목 개수 산출
+        headings = re.findall(r'<h3>(.*?)</h3>', content, flags=re.IGNORECASE | re.DOTALL)
+        heading_count = len(headings)
+
+        return content, heading_count
+
+    @staticmethod
+    def validate_and_enrich_seo_tags(raw_tags_str: str, content_html: str, selected_category: str) -> str:
+        """
+        LLM이 생성한 SEO 태그를 검증하고, 만약 20개 미만이거나 중복이 있을 경우
+        본문의 핵심 키워드 및 카테고리를 활용하여 중복 없이 정확히 20개로 완성합니다.
+        불필요한 LLM 재시도로 인한 비용 낭비를 원천 차단합니다.
+        """
+        tags = []
+        if raw_tags_str:
+            for t in raw_tags_str.split(","):
+                cleaned = t.strip()
+                if cleaned and cleaned.lower() not in [x.lower() for x in tags]:
+                    tags.append(cleaned)
+
+        if len(tags) < 20:
+            clean_text = re.sub(r'<[^>]+>', ' ', content_html or "")
+            words = re.findall(r"\b[A-Z][a-z]{3,}\b|\b[a-z]{4,}\b", clean_text)
+            stopwords = {
+                "this", "that", "with", "from", "have", "were", "been", "their", "there", 
+                "about", "which", "would", "could", "should", "article", "report", "news", 
+                "they", "will", "what", "more", "also", "into", "than", "then", "some"
+            }
+            
+            candidates = []
+            if selected_category:
+                candidates.append(selected_category.replace("-", " "))
+            
+            for w in words:
+                wl = w.lower()
+                if wl not in stopwords and wl not in [x.lower() for x in tags] and wl not in [x.lower() for x in candidates]:
+                    candidates.append(w)
+                    if len(tags) + len(candidates) >= 20:
+                        break
+            
+            for c in candidates:
+                if len(tags) < 20:
+                    tags.append(c)
+                    
+        return ", ".join(tags[:20])
+
+    @staticmethod
+    def is_clickbait_headline(title: str) -> bool:
+        """
+        구글 뉴스 실무 가이드에 위배되는 자극적/과장된 클릭베이트 표현을 검출합니다.
+        """
+        if not title:
+            return False
+        clickbait_patterns = [
+            r"\b(shocking|unbelievable|mind-blowing|you won't believe|jaw-dropping)\b",
+            r"\b(will blow your mind|what happened next will|everyone is talking about)\b",
+            r"\b(miracle cure|magic secret|the real reason why)\b"
+        ]
+        title_lower = title.lower()
+        for pattern in clickbait_patterns:
+            if re.search(pattern, title_lower):
+                return True
+        return False
+
     def generate(self, source_text, target_site_domain, available_categories, recommended_category=None):
         if self._is_stop_publishing_active():
             from common.logger_setup import get_domain_logger
@@ -118,7 +224,7 @@ class ArticleGenerator:
             
         model_name = self.settings.get("ai_model", {}).get("model_name", "gemini-3.1-flash-lite")
         temperature = self.settings.get("ai_model", {}).get("temperature", 0.6)
-        max_tokens = self.settings.get("ai_model", {}).get("max_tokens", 1024)
+        max_tokens = self.settings.get("ai_model", {}).get("max_tokens", 2048)
         
         # categories formatting for prompt insertion
         categories_str = ", ".join([f"'{c['slug']}' ({c.get('title', c.get('name', ''))})" for c in available_categories])
@@ -166,46 +272,28 @@ CRITICAL FACT-CHECKING RULE: You must base the article STRICTLY on the facts pro
 Today's Date: {current_date}
 The current year is {current_year}. Make sure all time-specific statements, statistics, and forecasts in the generated article are relative to the current year {current_year}. Do not write about past years (like 2024 or 2025) as the current or upcoming year.{domain_specific_constraint}
 
-# [In-Text Citation & Attribution Rules]
-1. Attribution in Sentence: Whenever citing specific statistics, quotes, or exclusive breaking reports, explicitly name the source in the text using natural journalistic attribution:
-   - Examples:
-     * "According to a report by Reuters..."
-     * "...as first reported by Bloomberg."
-     * "Data from the U.S. Bureau of Labor Statistics shows that..."
-     * "Speaking to The Wall Street Journal, [Name] stated..."
-2. No Anonymous Claims: Never use vague phrases like "Sources say", "Studies show", or "Recent studies suggest" without specifying the organization or publication.
-3. Anchor Formatting: Mark key source names or data points with markdown brackets if needed, e.g., "[Reuters reported](source_link)".
+# [CORE INVESTIGATIVE JOURNALISM MANDATES - 450+ WORDS & NARRATIVE ARC]
+1. LENGTH REQUIREMENT: The narrative body text (<p> paragraphs) MUST contain AT LEAST 450 WORDS (excluding subheadings). Write a rich, thorough, deep-dive investigative article with extensive context, verifiable data, and multi-faceted analysis.
+2. DEDUCTIVE OPENING LEAD (양괄식 서두): The very first paragraph (<p>) MUST synthesize the core breaking development, key figures, and broader significance WITHOUT any preceding subheading and without cliché summary phrases.
+3. PROGRESSIVE NARRATIVE ARC (기승전결): After the opening lead, develop the story progressively using EXACTLY 3 TO 5 contextual <h3> subheadings covering:
+   - 기 (Context & Origins): Chronological background and trigger event.
+   - 승 (Evidence & Data): Detailed breakdown of official numbers, metrics, and primary findings.
+   - 전 (Systemic Impact & Critical Analysis): Repercussions on market/society/science, diverse expert perspectives, and counterarguments.
+   - 결 (Outlook & Key Milestones): Strategic implications and concrete forward-looking variables.
+4. IN-TEXT ATTRIBUTION: Attribute facts, numbers, and quotes explicitly to named entities (e.g., "According to Reuters...", "Data released by the FDA indicates..."). Never use anonymous phrases like "Sources say" or "Studies show".
+5. HEADLINE: Informative, active-verb, fact-based title under 70 characters. Strictly avoid sensational or clickbait expressions.
+6. Allowed Slugs for site '{target_site_domain}': [{categories_str}]
 
-1. You must select the single most appropriate category slug from the following list of allowed slugs for the site '{target_site_domain}':
-   Allowed Slugs: [{categories_str}]
-   - FASHION & STYLE CRITICAL RULE: If you select the 'style' or 'fashion&style' category, the article MUST be strictly limited to celebrity outfits, clothing styles, fashion designers, runway shows, apparel, or the fashion industry. Do NOT use it for general building architecture, monuments, or logo/branding design. If the article is not about clothing/apparel fashion, you must select 'news' or other appropriate categories instead.
-   - HEADLINE VARIETY RULE: Do NOT start article titles with government agency or institutional press-release acronyms like 'NASA', 'ESA', 'CDC', or 'FDA'. Instead, craft active, highly engaging journalistic headlines focusing on the scientific breakthrough, celestial body, phenomenon, or research finding itself (e.g., instead of 'NASA Telescope Finds...', write 'Deep Space Survey Detects Potential Atmosphere on Distant Exoplanet').
-2. You must output the result strictly in JSON format matching the schema below.
-3. The article must be written in English.
-4. The article body content must be in HTML format (use only <p>, <h3>, etc. No H1-H2, H4-H6 tags. Subheadings must be written in <h3> tags (e.g., <h3>Subheading</h3>) and cannot be bold text (<b> or <strong>).
-5. Do NOT include any "Sources:" or reference section at the end of the article content. All citations must be integrated naturally in the text.
-6. Provide exactly 20 highly relevant SEO tags or keywords for the generated article in the "seo_tags" field. The 20 tags must be separated by commas (e.g., "keyword1, keyword2, ...").
-7. IMAGE SEARCH STRATEGY & PERSON RELEVANCE RULES:
-   - Identify whether one or more specific persons (athletes, celebrities, public figures, leaders) are genuinely the CENTRAL FOCUS of this article.
-   - If a person is merely mentioned in passing, incidental, or part of a broad team/institution, DO NOT treat them as featured persons (return an empty list [] for "featured_persons").
-   - If one or more persons ARE the central focus/protagonists of the article:
-     * Rank them in "featured_persons" in strict order of prominence/importance (Protagonist #1 first, key opponent/counterpart #2). Maximum 2 persons.
-   - In "fallback_topic_keyword", provide a clean, specific topical keyword representing the core subject or sport/event (e.g., 'boxing match', 'electric vehicle', 'cardiology surgery').
-   - In "image_search_queries", provide an ordered array of search queries for finding header images, starting with the primary person (if any), then secondary person (if any), followed by the fallback topic keyword.
-     * Example (Person-centric): ["Ben Whittaker", "Conor Wallace", "boxing match"]
-     * Example (Topic-centric / No prominent person): ["space telescope", "astronomy exoplanet"]
-   - Keep "search_keyword" as the primary query (the first item of "image_search_queries") for backwards compatibility.
-
-# Output Schema (JSON):
+# Output Schema (JSON only):
 {{
-  "fact_check_rationale": "Before writing the article, briefly explain how you will adapt the facts from the source text to fit the site's theme WITHOUT distorting or inventing any facts.",
-  "title": "Article Title",
-  "summary": "150-character summary paragraph",
-  "content": "<p>Article body in HTML format...</p>",
+  "fact_check_rationale": "Briefly explain how you will adapt the facts to the site's theme without distortion.",
+  "title": "Clear, Fact-Driven Headline Under 70 Chars",
+  "summary": "Compelling 150-character summary paragraph",
+  "content": "<p>Opening lead paragraph establishing core event and significance...</p><h3>Subheading 1</h3><p>Detailed background...</p><h3>Subheading 2</h3><p>Data and evidence...</p><h3>Subheading 3</h3><p>Critical impact...</p>",
   "selected_category": "selected-category-slug-from-allowed-list",
   "featured_persons": ["Prominent Person 1", "Prominent Person 2"],
-  "fallback_topic_keyword": "A clean topic or sport keyword (e.g. 'boxing match' or 'space technology')",
-  "image_search_queries": ["Prominent Person 1", "Prominent Person 2", "boxing match"],
+  "fallback_topic_keyword": "A clean topical keyword (e.g. 'space telescope')",
+  "image_search_queries": ["Prominent Person 1", "space telescope"],
   "search_keyword": "Prominent Person 1",
   "seo_tags": "tag1, tag2, tag3, tag4, tag5, tag6, tag7, tag8, tag9, tag10, tag11, tag12, tag13, tag14, tag15, tag16, tag17, tag18, tag19, tag20"
 }}
@@ -241,7 +329,7 @@ The current year is {current_year}. Make sure all time-specific statements, stat
         
         req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers)
         try:
-            with urllib.request.urlopen(req, context=ctx, timeout=30) as response:
+            with urllib.request.urlopen(req, context=ctx, timeout=40) as response:
                 body = response.read().decode("utf-8")
                 res_json = json.loads(body)
                 
@@ -250,7 +338,32 @@ The current year is {current_year}. Make sure all time-specific statements, stat
                 # Parse output JSON from LLM
                 generated_data = json.loads(text_out)
                 generated_data = self._normalize_image_queries(generated_data)
-                self.validate_anonymous_claims(generated_data.get("content", ""), target_site_domain)
+                
+                # --- [코드 레벨 결정론적 후처리 & 가드레일 (비용 최소화 및 정합성 보장)] ---
+                raw_content = generated_data.get("content", "")
+                norm_content, h_count = self.normalize_and_enforce_structure(raw_content, target_site_domain)
+                word_count = self.count_body_words_excluding_headings(norm_content)
+                
+                # 20개 SEO 태그 코드 레벨 보정 완성
+                raw_tags = generated_data.get("seo_tags", "")
+                cat_slug = generated_data.get("selected_category", "")
+                final_tags = self.validate_and_enrich_seo_tags(raw_tags, norm_content, cat_slug)
+                
+                generated_data["content"] = norm_content
+                generated_data["word_count"] = word_count
+                generated_data["heading_count"] = h_count
+                generated_data["seo_tags"] = final_tags
+                
+                from common.logger_setup import get_domain_logger
+                logger = get_domain_logger(target_site_domain)
+                logger.info(f"[{target_site_domain}] [Investigative Metrics] Word Count: {word_count} words (headings excluded), Subheadings: {h_count} (<h3>)")
+                
+                # 클릭베이트 검증 로깅
+                if self.is_clickbait_headline(generated_data.get("title", "")):
+                    logger.warning(f"[{target_site_domain}] Potential clickbait phrasing detected in title: '{generated_data.get('title')}'")
+                
+                # 익명 클레임 코드 레벨 검증
+                self.validate_anonymous_claims(norm_content, target_site_domain)
                 return generated_data
         except Exception as e:
             from common.logger_setup import get_domain_logger
@@ -270,7 +383,7 @@ The current year is {current_year}. Make sure all time-specific statements, stat
             
         model_name = self.settings.get("ai_model", {}).get("model_name", "gemini-3.1-flash-lite")
         temperature = self.settings.get("ai_model", {}).get("temperature", 0.6)
-        max_tokens = self.settings.get("ai_model", {}).get("max_tokens", 1024)
+        max_tokens = self.settings.get("ai_model", {}).get("max_tokens", 2048)
         
         categories_str = ", ".join([f"'{c['slug']}' ({c.get('title', c.get('name', ''))})" for c in available_categories])
         current_date = datetime.now().strftime("%Y-%m-%d")
@@ -433,7 +546,29 @@ The current year is {current_year}. Make sure all time-specific statements, stat
                 text_out = res_json['candidates'][0]['content']['parts'][0]['text']
                 generated_data = json.loads(text_out)
                 generated_data = self._normalize_image_queries(generated_data)
-                self.validate_anonymous_claims(generated_data.get("content", ""), target_site_domain)
+                
+                # --- [코드 레벨 결정론적 후처리 & 가드레일] ---
+                raw_content = generated_data.get("content", "")
+                norm_content, h_count = self.normalize_and_enforce_structure(raw_content, target_site_domain)
+                word_count = self.count_body_words_excluding_headings(norm_content)
+                
+                raw_tags = generated_data.get("seo_tags", "")
+                cat_slug = generated_data.get("selected_category", "")
+                final_tags = self.validate_and_enrich_seo_tags(raw_tags, norm_content, cat_slug)
+                
+                generated_data["content"] = norm_content
+                generated_data["word_count"] = word_count
+                generated_data["heading_count"] = h_count
+                generated_data["seo_tags"] = final_tags
+                
+                from common.logger_setup import get_domain_logger
+                logger = get_domain_logger(target_site_domain)
+                logger.info(f"[{target_site_domain}] [Trend Investigative Metrics] Word Count: {word_count} words (headings excluded), Subheadings: {h_count} (<h3>)")
+                
+                if self.is_clickbait_headline(generated_data.get("title", "")):
+                    logger.warning(f"[{target_site_domain}] Potential clickbait phrasing detected in trend title: '{generated_data.get('title')}'")
+                
+                self.validate_anonymous_claims(norm_content, target_site_domain)
                 return generated_data
         except Exception as e:
             from common.logger_setup import get_domain_logger

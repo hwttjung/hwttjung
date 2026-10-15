@@ -1,7 +1,8 @@
 @reboot cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python telegram_listener.py >> logs/telegram_listener.log 2>&1
-45 13 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python main_trend.py >> logs/trend_cron.log 2>&1
-0 21 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python publish_tailored_articles.py >> logs/cron.log 2>&1
-53 20 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python publish_failed_unused_articles.py >> logs/republish_cron.log 2>&1
+# [PAUSED BY USER REQUEST 2026-10-14] 각 사이트당 1개 송출을 위해 트렌드 배치 일시 중단 (맞춤형 RSS 배치 1회만 유지)
+# 3 15 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python main_trend.py >> logs/trend_cron.log 2>&1
+15 13 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python publish_tailored_articles.py >> logs/cron.log 2>&1
+45 19 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python publish_failed_unused_articles.py >> logs/republish_cron.log 2>&1
 0 13 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python telegram_notifier_cron.py --morning >> logs/telegram_notifier_cron.log 2>&1
 0 22 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python telegram_notifier_cron.py --evening >> logs/telegram_notifier_cron.log 2>&1
 # [PAUSED BY USER REQUEST 2026-09-23] 미국 구글 트렌드 실시간 영문 기사 텔레그램 직송 (중단 유지)

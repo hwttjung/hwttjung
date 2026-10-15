@@ -481,20 +481,21 @@ def main():
     import random
     random.shuffle(sites)
     
-    # 2. 9시간(32400초) 이내 100% 송출 완료 및 최소 5분(300초)~최대 60분(3600초) 간격 보장을 위한 정밀 딜레이 배분
-    # 13개 구간에 기본 최소 5분(300초) 배정
-    intervals = [300] * 13
+    # 2. 업무 시간(EDT 09:00~18:00) 내 100% 송출 완료 및 퇴근(EDT 18:00 / UTC 22:00) 이전 완료 보장을 위한 정밀 딜레이 배분
+    # 전체 sites 수에 맞춰 가변 구간(len(sites) - 1)에 기본 최소 5분(300초) 배정
+    num_intervals = max(1, len(sites) - 1)
+    intervals = [300] * num_intervals
     
-    # 안정적인 9시간 이내 전원 완료를 위해 4~6시간 대의 랜덤 여유 시간 배분
-    extra_seconds = random.randint(10000, 20000)
+    # 총 소요 시간이 약 5~6.5시간대가 되도록 랜덤 여유 시간 배분 (퇴근 시각 이전에 안전하게 전원 종료)
+    extra_seconds = random.randint(14000, 20000)
     for _ in range(extra_seconds):
-        idx = random.randint(0, 12)
+        idx = random.randint(0, num_intervals - 1)
         intervals[idx] += 1
         
-    # 구간 최대치 (60분 = 3600초) 적용
-    for i in range(13):
-        if intervals[i] > 3600:
-            intervals[i] = 3600
+    # 구간 최대치 (45분 = 2700초) 적용하여 특정 매체만 지나치게 지연되는 현상 방지
+    for i in range(num_intervals):
+        if intervals[i] > 2700:
+            intervals[i] = 2700
             
     # 3. 셔플된 매체들에 최종 누적 딜레이 초 적용
     for idx, site in enumerate(sites):
@@ -527,10 +528,11 @@ def update_cron_with_random_time():
     import subprocess
     import os
     
-    # 미국 서머타임(EDT) 기준 09:00~18:00 = UTC 13:00~22:00
-    # UTC 13시부터 22시 사이의 랜덤 시간(hour), 0분~59분 사이의 랜덤 분(minute)
-    rand_hour = random.randint(13, 22)
-    rand_minute = random.randint(0, 59)
+    # 미국 서머타임(EDT) 업무 시간(09:00~18:00 = UTC 13:00~22:00) 기준
+    # 출근 시각(EDT 09:00 = UTC 13:00) 직후 기상을 위해 UTC 13시 고정, 5분~25분 사이의 랜덤 지터 분 적용
+    # 이로써 EDT 09:05~09:25 사이에 기상하여 업무시간 내에 모든 기사가 분산 송출되고 퇴근(EDT 18:00) 전에 100% 완료 보장
+    rand_hour = 13
+    rand_minute = random.randint(5, 25)
     
     backup_file = "data/cron_backup.txt"
     try:
