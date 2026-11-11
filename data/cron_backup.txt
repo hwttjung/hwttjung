@@ -1,9 +1,24 @@
 @reboot cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python telegram_listener.py >> logs/telegram_listener.log 2>&1
 # [PAUSED BY USER REQUEST 2026-10-14] 각 사이트당 1개 송출을 위해 트렌드 배치 일시 중단 (맞춤형 RSS 배치 1회만 유지)
 # 3 15 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python main_trend.py >> logs/trend_cron.log 2>&1
-15 13 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python publish_tailored_articles.py >> logs/cron.log 2>&1
+11 13 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python publish_tailored_articles.py >> logs/cron.log 2>&1
 45 19 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python publish_failed_unused_articles.py >> logs/republish_cron.log 2>&1
 0 13 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python telegram_notifier_cron.py --morning >> logs/telegram_notifier_cron.log 2>&1
 0 22 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python telegram_notifier_cron.py --evening >> logs/telegram_notifier_cron.log 2>&1
 # [PAUSED BY USER REQUEST 2026-09-23] 미국 구글 트렌드 실시간 영문 기사 텔레그램 직송 (중단 유지)
 # 0 14 * * * cd /home/stock_trading_bot && /home/stock_trading_bot/.venv/bin/python publish_google_trend_telegram.py --count 3 >> logs/google_trend_telegram.log 2>&1
+
+# [OPENMARKET] 도매 3사 실물 상품 심야 4시간 지속 수집 (매일 새벽 01:00~05:00 KST / 16:00 UTC)
+0 16 * * * /usr/bin/python3 /home/mattj/OPENMARKET/engine/unified_real_collector.py --duration-hours 4 >> /home/mattj/OPENMARKET/logs/collector_cron.log 2>&1
+# [OPENMARKET 과제 4] 1시간 주기 실시간 도매 3사 단종/품절/재입고 자동 동기화
+0 * * * * /usr/bin/python3 /home/mattj/OPENMARKET/server/cron_soldout_sync.py >> /home/mattj/OPENMARKET/logs/soldout_cron.log 2>&1
+
+# [OPENMARKET 과제 5] 매일 10:00, 14:00 KST (01:00, 05:00 UTC) 신규 주문 도매처 무인 자동 발주
+0 1,5 * * * /usr/bin/python3 /home/mattj/OPENMARKET/server/cron_order_pipeline.py --auto-order >> /home/mattj/OPENMARKET/logs/order_pipeline_cron.log 2>&1
+
+# [OPENMARKET 과제 5] 매일 17:00, 19:00 KST (08:00, 10:00 UTC) 도매처 송장 자동 수집 및 6대 마켓 배송중 역동기화
+0 8,10 * * * /usr/bin/python3 /home/mattj/OPENMARKET/server/cron_order_pipeline.py --sync-invoices >> /home/mattj/OPENMARKET/logs/order_pipeline_cron.log 2>&1
+# [OPENMARKET] 네이버 데이터랩 & 구글 트렌드 실데이터 듀얼 동기화 (매일 새벽 03:00 KST / 18:00 UTC)
+0 18 * * * /home/mattj/.nvm/versions/node/v24.19.0/bin/node /home/mattj/OPENMARKET/server/cron_category_insight.js >> /home/mattj/OPENMARKET/logs/trend_cron.log 2>&1
+# [NOTEBOOKLM] 6시간 주기 Headless Chromium 세션 쿠키(*PSIDTS) 자동 갱신
+15 */6 * * * NOTEBOOKLM_BASE_URL=https://notebook.google.com /home/mattj/.local/share/uv/tools/notebooklm-mcp-cli/bin/python -c "from notebooklm_tools.utils.auth_browser import run_headless_auth; run_headless_auth(profile_name=\"default\")" >> /home/mattj/.notebooklm-mcp-cli/auto_refresh.log 2>&1

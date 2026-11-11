@@ -118,8 +118,8 @@ def run_pipeline(source_file_path, target_sites=None, mode="tailored"):
 
         from datetime import timedelta, timezone
         
-        # [Daily Limit Guardrail] 각 매체당 하루 송출 기사 수 제한 (기본 1개)
-        daily_site_limit = int(env.get("DAILY_SITE_LIMIT", "1"))
+        # [Daily Limit Guardrail] 각 매체당 하루 송출 기사 수 제한 (기본 5개)
+        daily_site_limit = int(env.get("DAILY_SITE_LIMIT", "5"))
         with dup_preventer._lock():
             history = dup_preventer._load_history()
         site_history = history.get(site["domain_key"], [])

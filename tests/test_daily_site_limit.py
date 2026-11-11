@@ -53,15 +53,16 @@ class TestDailySiteLimit(unittest.TestCase):
         self.assertLess(today_count, daily_limit, "0건일 때는 일일 상한 미달이어야 함")
 
     def test_daily_limit_reached_blocked(self):
-        """당일 발행 기사가 이미 1건 존재할 때 일일 상한선(1건) 도달로 스킵 차단 검증"""
+        """당일 발행 기사가 이미 5건 존재할 때 일일 상한선(5건) 도달로 스킵 차단 검증"""
         mock_history = {
             "autoworldnews": [
                 {
-                    "title": "Today First Article",
+                    "title": f"Today Article #{i}",
                     "category": "auto-news",
                     "date": self.today_kst,
                     "timestamp": datetime.now(timezone.utc).isoformat()
                 }
+                for i in range(5)
             ]
         }
         with open(self.history_file, "w", encoding="utf-8") as f:
@@ -73,23 +74,51 @@ class TestDailySiteLimit(unittest.TestCase):
 
         site_hist = history.get("autoworldnews", [])
         today_count = sum(1 for item in site_hist if item.get("date") == self.today_kst)
-        daily_limit = 1
+        daily_limit = 5
 
-        self.assertEqual(today_count, 1)
-        self.assertGreaterEqual(today_count, daily_limit, "1건 이상일 때는 일일 상한 도달로 스킵되어야 함")
+        self.assertEqual(today_count, 5)
+        self.assertGreaterEqual(today_count, daily_limit, "5건 이상일 때는 일일 상한 도달로 스킵되어야 함")
+
+    def test_daily_limit_under_limit_allowed(self):
+        """당일 발행 기사가 4건일 때 일일 상한선(5건) 미달로 정상 허용 검증"""
+        mock_history = {
+            "autoworldnews": [
+                {
+                    "title": f"Today Article #{i}",
+                    "category": "auto-news",
+                    "date": self.today_kst,
+                    "timestamp": datetime.now(timezone.utc).isoformat()
+                }
+                for i in range(4)
+            ]
+        }
+        with open(self.history_file, "w", encoding="utf-8") as f:
+            json.dump(mock_history, f)
+
+        preventer = DuplicatePreventer(history_path=self.history_file)
+        with preventer._lock():
+            history = preventer._load_history()
+
+        site_hist = history.get("autoworldnews", [])
+        today_count = sum(1 for item in site_hist if item.get("date") == self.today_kst)
+        daily_limit = 5
+
+        self.assertEqual(today_count, 4)
+        self.assertLess(today_count, daily_limit, "4건일 때는 일일 상한 미달로 허용되어야 함")
 
     def test_run_pipeline_skips_when_daily_limit_reached(self):
-        """main.py의 run_pipeline이 당일 1건 발행 매체에 대해 기사 생성/송출을 조기 스킵하는지 검증"""
+        """main.py의 run_pipeline이 당일 5건(상한 도달) 발행 매체에 대해 기사 생성/송출을 조기 스킵하는지 검증"""
         from main import run_pipeline
 
         mock_history = {
             "latinoshealth": [
                 {
-                    "title": "Today Published Health Article",
+                    "title": f"Today Published Health Article #{i}",
                     "category": "wellness",
                     "date": self.today_kst,
                     "timestamp": datetime.now(timezone.utc).isoformat()
                 }
+                for i in range(5)
             ]
         }
 

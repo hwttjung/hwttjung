@@ -7,6 +7,10 @@ import urllib.parse
 import urllib.error
 import ssl
 from datetime import datetime
+from core.generation.link_injector import LinkInjector
+
+# Ingest API 계열 매체 (본문 내 인라인 내부 링크를 배제하고 Read more 텍스트 리스트만 유지)
+INGEST_API_SITES = {"jobsnhire", "mobilenapps", "parentherald", "booksnreview"}
 
 DOMAIN_CONSTRAINTS = {
     "scienceworldreport": "Comprehensive breakthroughs across modern science: neuroscience, archaeology, climate innovation, biotechnology, physics, human evolution, and space exploration. Tailored for science enthusiasts with balanced multidisciplinary coverage.",
@@ -58,7 +62,7 @@ class ArticleGenerator:
                 "provider": "gemini",
                 "model_name": "gemini-3.1-flash-lite",
                 "temperature": 0.6,
-                "max_tokens": 1024
+                "max_tokens": 5120
             }
         }
         
@@ -212,7 +216,7 @@ class ArticleGenerator:
                 return True
         return False
 
-    def generate(self, source_text, target_site_domain, available_categories, recommended_category=None):
+    def generate(self, source_text, target_site_domain, available_categories, recommended_category=None, min_words=1200, max_tokens=None):
         if self._is_stop_publishing_active():
             from common.logger_setup import get_domain_logger
             logger = get_domain_logger(target_site_domain)
@@ -224,7 +228,7 @@ class ArticleGenerator:
             
         model_name = self.settings.get("ai_model", {}).get("model_name", "gemini-3.1-flash-lite")
         temperature = self.settings.get("ai_model", {}).get("temperature", 0.6)
-        max_tokens = self.settings.get("ai_model", {}).get("max_tokens", 2048)
+        max_tokens = max_tokens if max_tokens is not None else self.settings.get("ai_model", {}).get("max_tokens", 5120)
         
         # categories formatting for prompt insertion
         categories_str = ", ".join([f"'{c['slug']}' ({c.get('title', c.get('name', ''))})" for c in available_categories])
@@ -263,6 +267,40 @@ CRITICAL FACT-CHECKING RULE: You must base the article STRICTLY on the facts pro
 """
             domain_specific_constraint += diversity_directive
 
+        # 자사 과거 기사 풀 준비 (자연스러운 문맥 인라인 링크 결합용 - 12개 전 매체 활성화)
+        enable_internal = True
+        enable_readmore = target_site_domain not in INGEST_API_SITES
+        sister_pool = []
+        prompt_sister_lines = []
+        sister_article_section = ""
+        if enable_internal:
+            try:
+                recent_arts = LinkInjector.load_related_articles(target_site_domain, limit=2)
+                for idx, r_art in enumerate(recent_arts, start=1):
+                    sister_pool.append({
+                        "id": idx,
+                        "article_id": r_art.get("article_id", ""),
+                        "title": r_art.get("title", ""),
+                        "url": r_art.get("url", "")
+                    })
+                    prompt_sister_lines.append(f"[{idx}] \"{r_art.get('title', '')}\"")
+                
+                if prompt_sister_lines:
+                    sister_article_section = f"""
+# [OPTIONAL SISTER ARTICLES FOR CONTEXTUAL BACKGROUND]
+The following recent stories from our publication are available for background reference:
+{chr(10).join(prompt_sister_lines)}
+
+RULES FOR SISTER ARTICLES (9:1 HIERARCHY MANDATE):
+1. PRIMARY FOCUS: The provided source text MUST constitute 90%+ of the article. Do NOT let sister articles dictate the topic or appear in headlines/lead sentences.
+2. RELEVANCE CHECK: If and ONLY if one of the above stories has a natural journalistic link (parallel industry event, preceding milestone, or broader trend) to the primary news, weave that context into at most ONE body sentence.
+3. FAIL-SAFE: If NEITHER story shares a legitimate, credible connection to the breaking news, DO NOT force an awkward link. Simply set "contextual_link": null.
+4. CLEAN PROSE: DO NOT use <a> HTML tags in the 'content' narrative. Keep text natural and specify the 3-to-6 word anchor phrase in the JSON field below.
+"""
+            except Exception as e:
+                from common.logger_setup import get_domain_logger
+                get_domain_logger(target_site_domain).warning(f"Failed loading sister pool for prompt: {e}")
+
         prompt = f"""
 {self.prompt_instruction}
 
@@ -270,10 +308,10 @@ CRITICAL FACT-CHECKING RULE: You must base the article STRICTLY on the facts pro
 
 # [IMPORTANT SYSTEM CONSTRAINTS]
 Today's Date: {current_date}
-The current year is {current_year}. Make sure all time-specific statements, statistics, and forecasts in the generated article are relative to the current year {current_year}. Do not write about past years (like 2024 or 2025) as the current or upcoming year.{domain_specific_constraint}
+The current year is {current_year}. Make sure all time-specific statements, statistics, and forecasts in the generated article are relative to the current year {current_year}. Do not write about past years (like 2024 or 2025) as the current or upcoming year.{domain_specific_constraint}{sister_article_section}
 
-# [CORE INVESTIGATIVE JOURNALISM MANDATES - 450+ WORDS & NARRATIVE ARC]
-1. LENGTH REQUIREMENT: The narrative body text (<p> paragraphs) MUST contain AT LEAST 450 WORDS (excluding subheadings). Write a rich, thorough, deep-dive investigative article with extensive context, verifiable data, and multi-faceted analysis.
+# [CORE INVESTIGATIVE JOURNALISM MANDATES - {min_words}+ WORDS & NARRATIVE ARC]
+1. LENGTH REQUIREMENT: The narrative body text (<p> paragraphs) MUST contain AT LEAST {min_words} WORDS (excluding subheadings). Write a rich, thorough, deep-dive investigative article with extensive context, verifiable data, and multi-faceted analysis.
 2. DEDUCTIVE OPENING LEAD (양괄식 서두): The very first paragraph (<p>) MUST synthesize the core breaking development, key figures, and broader significance WITHOUT any preceding subheading and without cliché summary phrases.
 3. PROGRESSIVE NARRATIVE ARC (기승전결): After the opening lead, develop the story progressively using EXACTLY 3 TO 5 contextual <h3> subheadings covering:
    - 기 (Context & Origins): Chronological background and trigger event.
@@ -290,6 +328,11 @@ The current year is {current_year}. Make sure all time-specific statements, stat
   "title": "Clear, Fact-Driven Headline Under 70 Chars",
   "summary": "Compelling 150-character summary paragraph",
   "content": "<p>Opening lead paragraph establishing core event and significance...</p><h3>Subheading 1</h3><p>Detailed background...</p><h3>Subheading 2</h3><p>Data and evidence...</p><h3>Subheading 3</h3><p>Critical impact...</p>",
+  "contextual_link": {{
+    "target_article_id": 1,
+    "anchor_phrase": "3 to 6 word contextual phrase",
+    "rationale": "Why this sister article is contextually relevant (or null if no natural connection)"
+  }},
   "selected_category": "selected-category-slug-from-allowed-list",
   "featured_persons": ["Prominent Person 1", "Prominent Person 2"],
   "fallback_topic_keyword": "A clean topical keyword (e.g. 'space telescope')",
@@ -329,7 +372,7 @@ The current year is {current_year}. Make sure all time-specific statements, stat
         
         req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers)
         try:
-            with urllib.request.urlopen(req, context=ctx, timeout=40) as response:
+            with urllib.request.urlopen(req, context=ctx, timeout=60) as response:
                 body = response.read().decode("utf-8")
                 res_json = json.loads(body)
                 
@@ -342,6 +385,24 @@ The current year is {current_year}. Make sure all time-specific statements, stat
                 # --- [코드 레벨 결정론적 후처리 & 가드레일 (비용 최소화 및 정합성 보장)] ---
                 raw_content = generated_data.get("content", "")
                 norm_content, h_count = self.normalize_and_enforce_structure(raw_content, target_site_domain)
+
+                # --- [외·내부 인라인 하이퍼링크 주입 후처리 (매체별 분기)] ---
+                try:
+                    enable_internal = True
+                    enable_readmore = target_site_domain not in INGEST_API_SITES
+                    contextual_link = generated_data.get("contextual_link")
+                    norm_content = LinkInjector.process(
+                        html_content=norm_content,
+                        site=target_site_domain,
+                        contextual_link=contextual_link,
+                        sister_articles=sister_pool,
+                        enable_internal_links=enable_internal,
+                        enable_readmore_box=enable_readmore,
+                    )
+                except Exception as link_err:
+                    from common.logger_setup import get_domain_logger
+                    get_domain_logger(target_site_domain).warning(f"Link injection failed, using raw content: {link_err}")
+
                 word_count = self.count_body_words_excluding_headings(norm_content)
                 
                 # 20개 SEO 태그 코드 레벨 보정 완성
@@ -539,7 +600,7 @@ The current year is {current_year}. Make sure all time-specific statements, stat
         
         req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers)
         try:
-            with urllib.request.urlopen(req, context=ctx, timeout=30) as response:
+            with urllib.request.urlopen(req, context=ctx, timeout=60) as response:
                 body = response.read().decode("utf-8")
                 res_json = json.loads(body)
                 
@@ -550,6 +611,19 @@ The current year is {current_year}. Make sure all time-specific statements, stat
                 # --- [코드 레벨 결정론적 후처리 & 가드레일] ---
                 raw_content = generated_data.get("content", "")
                 norm_content, h_count = self.normalize_and_enforce_structure(raw_content, target_site_domain)
+
+                # --- [외·내부 인라인 하이퍼링크 주입 후처리 (매체별 분기)] ---
+                try:
+                    enable_internal = target_site_domain not in INGEST_API_SITES
+                    norm_content = LinkInjector.process(
+                        html_content=norm_content,
+                        site=target_site_domain,
+                        enable_internal_links=enable_internal,
+                    )
+                except Exception as link_err:
+                    from common.logger_setup import get_domain_logger
+                    get_domain_logger(target_site_domain).warning(f"Trend link injection failed, using raw content: {link_err}")
+
                 word_count = self.count_body_words_excluding_headings(norm_content)
                 
                 raw_tags = generated_data.get("seo_tags", "")

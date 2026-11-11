@@ -2,6 +2,7 @@ import unittest
 import os
 import json
 import tempfile
+from datetime import datetime, timezone, timedelta
 from unittest.mock import patch, MagicMock
 from core.storage.duplicate_preventer import DuplicatePreventer
 
@@ -10,21 +11,22 @@ class TestStochasticDistribution(unittest.TestCase):
         self.temp_dir = tempfile.mkdtemp()
         self.history_file = os.path.join(self.temp_dir, "test_history.json")
         
-        # 가상의 7일 발행 히스토리 구축:
+        # 가상의 7일 발행 히스토리 구축 (현재 시점 기준 1~5일 전 동적 설정):
         # space-the-future: 5회 발행 (빈도 높음)
         # physics: 3회 발행
         # human: 0회 발행 (미발행)
         # health-medicine: 0회 발행 (미발행)
+        now = datetime.now(timezone.utc)
         mock_history = {
             "scienceworldreport": [
-                {"category": "space-the-future", "timestamp": "2026-09-30T10:00:00+00:00Z"},
-                {"category": "space-the-future", "timestamp": "2026-09-29T10:00:00+00:00Z"},
-                {"category": "space-the-future", "timestamp": "2026-09-28T10:00:00+00:00Z"},
-                {"category": "space-the-future", "timestamp": "2026-09-27T10:00:00+00:00Z"},
-                {"category": "space-the-future", "timestamp": "2026-09-26T10:00:00+00:00Z"},
-                {"category": "physics", "timestamp": "2026-09-25T10:00:00+00:00Z"},
-                {"category": "physics", "timestamp": "2026-09-24T10:00:00+00:00Z"},
-                {"category": "physics", "timestamp": "2026-09-23T10:00:00+00:00Z"},
+                {"category": "space-the-future", "timestamp": (now - timedelta(days=1)).isoformat()},
+                {"category": "space-the-future", "timestamp": (now - timedelta(days=2)).isoformat()},
+                {"category": "space-the-future", "timestamp": (now - timedelta(days=3)).isoformat()},
+                {"category": "space-the-future", "timestamp": (now - timedelta(days=4)).isoformat()},
+                {"category": "space-the-future", "timestamp": (now - timedelta(days=5)).isoformat()},
+                {"category": "physics", "timestamp": (now - timedelta(days=2)).isoformat()},
+                {"category": "physics", "timestamp": (now - timedelta(days=3)).isoformat()},
+                {"category": "physics", "timestamp": (now - timedelta(days=4)).isoformat()},
             ]
         }
         with open(self.history_file, "w", encoding="utf-8") as f:

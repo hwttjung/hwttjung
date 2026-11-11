@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import time
 import urllib.request
@@ -80,6 +81,23 @@ class ArticlePublisher:
             return ""
         # Replace normal single quote with smart single quote to prevent backslash escapes on PHP backend
         return text.replace("'", "’")
+
+    def _sanitize_html_for_legacy_php(self, html_content: str) -> str:
+        r"""
+        articles.php를 사용하는 레거시 PHP 백엔드의 addslashes() 왜곡을 방어합니다.
+        HTML5 표준 규격에 따라 공백이 없는 태그 속성값(href, target, rel, class 등)의 따옴표를
+        제거하여, PHP 서버가 속성 따옴표 앞에 백슬래시(\)를 붙여 에디터 파서에서 href=\" 로 깨지는
+        치명적 버그를 원천 차단합니다.
+        """
+        if not html_content:
+            return ""
+
+        def unquote_tag_attrs(match):
+            tag = match.group(0)
+            unquoted = re.sub(r'(\b[a-zA-Z0-9_\-]+)=["\']([^"\'\s<>]+)["\']', r'\1=\2', tag)
+            return unquoted
+
+        return re.sub(r'<[a-zA-Z0-9]+(?:\s+[^>]+)?>', unquote_tag_attrs, html_content)
 
     def _encode_multipart_formdata(self, fields, files):
         boundary = f"----WebKitFormBoundary{int(time.time()):x}"
@@ -180,10 +198,11 @@ class ArticlePublisher:
         clean_title = self._clean_text(article_data["title"])
         formatted_caption = f"({img_credit})" if img_credit else ""
 
-        # 4. Prepare fields and files for multipart/form-data with clean text (quotes fix)
+        # 4. Prepare fields and files for multipart/form-data with clean text (quotes fix & legacy PHP protection)
+        cleaned_content = self._sanitize_html_for_legacy_php(self._clean_text(article_data["content"]))
         fields = {
             "title": clean_title,
-            "content": self._clean_text(article_data["content"]),
+            "content": cleaned_content,
             "summary": self._clean_text(article_data.get("summary", "")),
             "categories[]": [selected_cat], # match repetitive param categories[]
             "thumbnail_url": img_url,

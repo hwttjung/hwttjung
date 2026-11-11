@@ -19,17 +19,296 @@
       "gemini_output_tokens": 2718,
       "estimated_cost_usd": 0.01201,
       "estimated_cost_krw": 16.23
+    },
+    "2026-10-16": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 4,
+      "pexels_calls": 4,
+      "gemini_multimodal_calls": 10,
+      "gemini_input_tokens": 75715,
+      "gemini_output_tokens": 947,
+      "estimated_cost_usd": 0.005962,
+      "estimated_cost_krw": 8.05
+    },
+    "2026-10-17": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 5,
+      "pexels_calls": 5,
+      "gemini_multimodal_calls": 12,
+      "gemini_input_tokens": 98521,
+      "gemini_output_tokens": 1073,
+      "estimated_cost_usd": 0.007711,
+      "estimated_cost_krw": 10.4
+    },
+    "2026-10-18": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 6,
+      "pexels_calls": 6,
+      "gemini_multimodal_calls": 12,
+      "gemini_input_tokens": 97529,
+      "gemini_output_tokens": 1167,
+      "estimated_cost_usd": 0.007664,
+      "estimated_cost_krw": 10.36
+    },
+    "2026-10-19": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 8,
+      "pexels_calls": 8,
+      "gemini_multimodal_calls": 15,
+      "gemini_input_tokens": 127263,
+      "gemini_output_tokens": 1414,
+      "estimated_cost_usd": 0.009969,
+      "estimated_cost_krw": 13.45
+    },
+    "2026-10-20": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 16,
+      "pexels_calls": 15,
+      "gemini_multimodal_calls": 41,
+      "gemini_input_tokens": 273070,
+      "gemini_output_tokens": 3584,
+      "estimated_cost_usd": 0.021553,
+      "estimated_cost_krw": 29.08
+    },
+    "2026-10-21": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 4,
+      "pexels_calls": 4,
+      "gemini_multimodal_calls": 9,
+      "gemini_input_tokens": 73131,
+      "gemini_output_tokens": 883,
+      "estimated_cost_usd": 0.00575,
+      "estimated_cost_krw": 7.77
+    },
+    "2026-10-22": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 8,
+      "pexels_calls": 8,
+      "gemini_multimodal_calls": 16,
+      "gemini_input_tokens": 124777,
+      "gemini_output_tokens": 1505,
+      "estimated_cost_usd": 0.009809,
+      "estimated_cost_krw": 13.24
+    },
+    "2026-10-23": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 10,
+      "pexels_calls": 10,
+      "gemini_multimodal_calls": 23,
+      "gemini_input_tokens": 186160,
+      "gemini_output_tokens": 2110,
+      "estimated_cost_usd": 0.014594,
+      "estimated_cost_krw": 19.7
+    },
+    "2026-10-24": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 6,
+      "pexels_calls": 6,
+      "gemini_multimodal_calls": 12,
+      "gemini_input_tokens": 85447,
+      "gemini_output_tokens": 1178,
+      "estimated_cost_usd": 0.006762,
+      "estimated_cost_krw": 9.13
+    },
+    "2026-10-25": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 8,
+      "pexels_calls": 8,
+      "gemini_multimodal_calls": 14,
+      "gemini_input_tokens": 105625,
+      "gemini_output_tokens": 1325,
+      "estimated_cost_usd": 0.008319,
+      "estimated_cost_krw": 11.24
+    },
+    "2026-10-26": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 8,
+      "pexels_calls": 8,
+      "gemini_multimodal_calls": 14,
+      "gemini_input_tokens": 121053,
+      "gemini_output_tokens": 1267,
+      "estimated_cost_usd": 0.009457,
+      "estimated_cost_krw": 12.76
+    },
+    "2026-10-27": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 12,
+      "pexels_calls": 11,
+      "gemini_multimodal_calls": 30,
+      "gemini_input_tokens": 206748,
+      "gemini_output_tokens": 2428,
+      "estimated_cost_usd": 0.016236,
+      "estimated_cost_krw": 21.92
+    },
+    "2026-10-28": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 20,
+      "pexels_calls": 20,
+      "gemini_multimodal_calls": 40,
+      "gemini_input_tokens": 358788,
+      "gemini_output_tokens": 3677,
+      "estimated_cost_usd": 0.02801,
+      "estimated_cost_krw": 37.84
+    },
+    "2026-10-29": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 24,
+      "pexels_calls": 24,
+      "gemini_multimodal_calls": 53,
+      "gemini_input_tokens": 415862,
+      "gemini_output_tokens": 4931,
+      "estimated_cost_usd": 0.032667,
+      "estimated_cost_krw": 44.1
+    },
+    "2026-10-30": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 22,
+      "pexels_calls": 22,
+      "gemini_multimodal_calls": 45,
+      "gemini_input_tokens": 373366,
+      "gemini_output_tokens": 4062,
+      "estimated_cost_usd": 0.029225,
+      "estimated_cost_krw": 39.4
+    },
+    "2026-10-31": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 28,
+      "pexels_calls": 28,
+      "gemini_multimodal_calls": 54,
+      "gemini_input_tokens": 450621,
+      "gemini_output_tokens": 5052,
+      "estimated_cost_usd": 0.035309,
+      "estimated_cost_krw": 47.65
+    },
+    "2026-11-01": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 19,
+      "pexels_calls": 19,
+      "gemini_multimodal_calls": 38,
+      "gemini_input_tokens": 317022,
+      "gemini_output_tokens": 3518,
+      "estimated_cost_usd": 0.024832,
+      "estimated_cost_krw": 33.52
+    },
+    "2026-11-02": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 24,
+      "pexels_calls": 24,
+      "gemini_multimodal_calls": 50,
+      "gemini_input_tokens": 394813,
+      "gemini_output_tokens": 4621,
+      "estimated_cost_usd": 0.030998,
+      "estimated_cost_krw": 41.83
+    },
+    "2026-11-03": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 18,
+      "pexels_calls": 18,
+      "gemini_multimodal_calls": 42,
+      "gemini_input_tokens": 316663,
+      "gemini_output_tokens": 3899,
+      "estimated_cost_usd": 0.02492,
+      "estimated_cost_krw": 33.66
+    },
+    "2026-11-04": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 23,
+      "pexels_calls": 23,
+      "gemini_multimodal_calls": 43,
+      "gemini_input_tokens": 318046,
+      "gemini_output_tokens": 4064,
+      "estimated_cost_usd": 0.025074,
+      "estimated_cost_krw": 33.84
+    },
+    "2026-11-05": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 24,
+      "pexels_calls": 24,
+      "gemini_multimodal_calls": 49,
+      "gemini_input_tokens": 400586,
+      "gemini_output_tokens": 4600,
+      "estimated_cost_usd": 0.031428,
+      "estimated_cost_krw": 42.43
+    },
+    "2026-11-06": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 18,
+      "pexels_calls": 18,
+      "gemini_multimodal_calls": 48,
+      "gemini_input_tokens": 396580,
+      "gemini_output_tokens": 4413,
+      "estimated_cost_usd": 0.031066,
+      "estimated_cost_krw": 41.92
+    },
+    "2026-11-07": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 29,
+      "pexels_calls": 29,
+      "gemini_multimodal_calls": 57,
+      "gemini_input_tokens": 467161,
+      "gemini_output_tokens": 5461,
+      "estimated_cost_usd": 0.036676,
+      "estimated_cost_krw": 49.52
+    },
+    "2026-11-08": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 14,
+      "pexels_calls": 14,
+      "gemini_multimodal_calls": 39,
+      "gemini_input_tokens": 296555,
+      "gemini_output_tokens": 3598,
+      "estimated_cost_usd": 0.023321,
+      "estimated_cost_krw": 31.48
+    },
+    "2026-11-09": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 16,
+      "pexels_calls": 16,
+      "gemini_multimodal_calls": 37,
+      "gemini_input_tokens": 292058,
+      "gemini_output_tokens": 3352,
+      "estimated_cost_usd": 0.022912,
+      "estimated_cost_krw": 30.93
+    },
+    "2026-11-10": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 27,
+      "pexels_calls": 19,
+      "gemini_multimodal_calls": 56,
+      "gemini_input_tokens": 270907,
+      "gemini_output_tokens": 3022,
+      "estimated_cost_usd": 0.02122,
+      "estimated_cost_krw": 28.63
+    },
+    "2026-11-12": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 16,
+      "pexels_calls": 4,
+      "gemini_multimodal_calls": 47,
+      "gemini_input_tokens": 76584,
+      "gemini_output_tokens": 1055,
+      "estimated_cost_usd": 0.00606,
+      "estimated_cost_krw": 8.21
     }
   },
   "monthly": {
     "2026-10": {
       "google_cse_calls": 0,
-      "unsplash_calls": 23,
-      "pexels_calls": 5,
-      "gemini_multimodal_calls": 51,
-      "gemini_tokens": 214644,
-      "estimated_cost_usd": 0.0172,
-      "estimated_cost_krw": 22.9
+      "unsplash_calls": 212,
+      "pexels_calls": 192,
+      "gemini_multimodal_calls": 451,
+      "gemini_tokens": 3424923,
+      "estimated_cost_usd": 0.2645,
+      "estimated_cost_krw": 358.99
+    },
+    "2026-11": {
+      "google_cse_calls": 0,
+      "unsplash_calls": 228,
+      "pexels_calls": 208,
+      "gemini_multimodal_calls": 506,
+      "gemini_tokens": 3588578,
+      "estimated_cost_usd": 0.2768,
+      "estimated_cost_krw": 375.97
     }
   }
 }

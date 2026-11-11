@@ -261,11 +261,11 @@ def _fetch_rss_wire_source_core(domain_key, exclude_links=None, rss_feeds_path="
                 })
                 global_index += 1
                 
-                # 최대 10개의 후보까지만 제한하여 과도한 연산 방지
-                if len(candidates) >= 10:
+                # 최대 20개의 후보까지만 제한하여 다양성 및 다중 기사 수량 확보
+                if len(candidates) >= 20:
                     break
             
-            if len(candidates) >= 10:
+            if len(candidates) >= 20:
                 break
                 
         except Exception as e:
@@ -371,7 +371,10 @@ def process_site_with_delay(api_key, site, temp_dir):
             
     logger.info(f"[{domain}] [Shift-Left Selector] Evaluated {len(candidates)} seeds. Ordered ranked sequence: {[c['index'] for c in ranked_candidates]}")
     
-    success = False
+    target_count = site.get("target_count", 5)
+    logger.info(f"[{domain}] [Target Count] Set target articles to publish: {target_count}")
+    
+    success_count = 0
     for candidate in ranked_candidates:
         # 루프 진행 중 STOP_PUBLISHING 상태 감지 시 즉시 중단
         if is_stop_publishing_active():
@@ -402,8 +405,14 @@ def process_site_with_delay(api_key, site, temp_dir):
             # main.py의 run_pipeline 실행 및 Boolean 결과 수신
             success = run_pipeline(temp_file_path, target_sites=[domain], mode="tailored")
             if success:
-                logger.info(f"[{domain}] [Pipeline Success] Tailored article successfully published for index {candidate['index']}.")
-                break # 송출 성공 시 즉시 루프 종료
+                success_count += 1
+                logger.info(f"[{domain}] [Pipeline Success] Tailored article #{success_count}/{target_count} successfully published for index {candidate['index']}.")
+                if success_count >= target_count:
+                    logger.info(f"[{domain}] [Goal Achieved] Successfully published all {target_count} target articles.")
+                    break
+                # 다중 기사 발행 시 다음 기사 생성 전 15초 쿨다운
+                logger.info(f"[{domain}] [Cooldown] Waiting 15s before generating next article (#{success_count + 1}/{target_count})...")
+                time.sleep(15)
             else:
                 if is_stop_publishing_active():
                     logger.warning(f"[{domain}] [Stop Publishing] STOP_PUBLISHING is active. Aborting remaining candidates.")
@@ -412,7 +421,7 @@ def process_site_with_delay(api_key, site, temp_dir):
         except Exception as pipeline_err:
             logger.error(f"[{domain}] [Pipeline Error] Failed running pipeline for index {candidate['index']}: {pipeline_err}")
             
-    if not success:
+    if success_count == 0:
         if is_stop_publishing_active():
             logger.warning(f"[{domain}] [Stop Publishing] STOP_PUBLISHING is active. Skipping Forced Bypass.")
             return
@@ -435,6 +444,7 @@ def process_site_with_delay(api_key, site, temp_dir):
         try:
             success = run_pipeline(temp_file_path, target_sites=[domain], mode="tailored")
             if success:
+                success_count += 1
                 logger.info(f"[{domain}] [Forced Bypass Success] Article successfully published via Forced Bypass.")
             else:
                 logger.error(f"[{domain}] [Forced Bypass Failed] Forced Bypass publication also failed.")
@@ -476,6 +486,24 @@ def main():
     if not sites:
         logger.error("[Error] No configured sites found.")
         return
+
+    # 목표 기사 수 (기본값: DAILY_SITE_LIMIT 또는 5, CLI --count 우선)
+    target_count = int(env.get("DAILY_SITE_LIMIT", "5"))
+    for arg_idx, arg in enumerate(sys.argv):
+        if arg == "--count" and arg_idx + 1 < len(sys.argv):
+            try:
+                target_count = int(sys.argv[arg_idx + 1])
+            except ValueError:
+                pass
+
+    # 단일 사이트 테스트 필터링 지원 (--site <domain>)
+    for arg_idx, arg in enumerate(sys.argv):
+        if arg == "--site" and arg_idx + 1 < len(sys.argv):
+            target_domain = sys.argv[arg_idx + 1].strip()
+            sites = [s for s in sites if s["domain_key"] == target_domain]
+            logger.info(f"[Target Filter] Filtered to single site: {target_domain}")
+
+    logger.info(f"[Config] Target articles per site: {target_count} (Total sites: {len(sites)})")
         
     # 1. 매번 실행할 때마다 매체 순서를 무작위로 셔플
     import random
@@ -500,6 +528,7 @@ def main():
     # 3. 셔플된 매체들에 최종 누적 딜레이 초 적용
     for idx, site in enumerate(sites):
         site["index"] = idx
+        site["target_count"] = target_count
         if idx == 0:
             site["delay_seconds"] = 0
         else:
