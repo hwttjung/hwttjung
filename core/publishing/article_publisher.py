@@ -553,6 +553,220 @@ class ArticlePublisher:
                 
         return None, f"Failed after {max_retries} retries. Last error: {last_error}"
 
+    def publish_to_receive_article_api(
+        self,
+        site_config,
+        article_data,
+        img_data,
+        rss_link=None,
+        mode="publish",
+        remote_id=None,
+    ):
+        """
+        의약일보(medicaldaily.co.kr) 등 Bearer Token 기반 Receive-Article API 송출 분기.
+        - Endpoint: POST https://www.medicaldaily.co.kr/api/receive-article?paper=medi
+        - Headers: Authorization: Bearer <토큰>, Content-Type: application/json
+        - Payload: remote_id(int), title, body(HTML), summary, keyword, tags(list),
+                   reporter, author, published_at, topic_category, image_url, image_credit,
+                   source_url, mode('draft' or 'publish')
+        """
+        domain_key = (
+            site_config.get("domain_key", "medicaldaily")
+            if isinstance(site_config, dict)
+            else str(site_config or "medicaldaily")
+        )
+        if self._is_stop_publishing_active():
+            from common.logger_setup import get_domain_logger
+            logger = get_domain_logger(domain_key)
+            logger.warning(f"[{domain_key}] [Stop Publishing Kill Switch] Blocked publication to Receive-Article API. STOP_PUBLISHING is active.")
+            return None, "Blocked: STOP_PUBLISHING is active"
+
+        from datetime import datetime, timedelta, timezone
+        from common.logger_setup import get_domain_logger
+        logger = get_domain_logger(domain_key)
+
+        target_url = (
+            (site_config.get("url") if isinstance(site_config, dict) else None)
+            or os.environ.get("MEDICALDAILY_API_URL")
+            or "https://www.medicaldaily.co.kr/api/receive-article?paper=medi"
+        )
+        api_token = (
+            (site_config.get("api_key") if isinstance(site_config, dict) else None)
+            or os.environ.get("MEDICALDAILY_API_TOKEN")
+            or ""
+        )
+
+        # 1. remote_id (필수, 숫자) 결정 — 같은 번호로 재전송 시 수정 처리 지원
+        if remote_id is not None:
+            resolved_remote_id = int(remote_id)
+        elif article_data.get("remote_id") is not None:
+            resolved_remote_id = int(article_data["remote_id"])
+        else:
+            resolved_remote_id = int(time.time())
+
+        # 2. 기자명 ("고진아", "장선희", "정휘" 중 1명 선택)
+        specified_reporter = str(article_data.get("reporter") or "").strip()
+        if specified_reporter in MEDICALDAILY_REPORTERS:
+            reporter_name = specified_reporter
+        else:
+            reporter_name = random.choice(MEDICALDAILY_REPORTERS)
+        author_name = str(article_data.get("author") or reporter_name).strip()
+
+        # 3. 태그 배열(tags) 변환
+        raw_tags = article_data.get("tags") or article_data.get("seo_tags") or ""
+        if isinstance(raw_tags, list):
+            tags_list = [str(t).strip() for t in raw_tags if str(t).strip()]
+        else:
+            tags_list = [t.strip() for t in str(raw_tags).split(",") if t.strip()]
+
+        # 4. 발행 일시(KST YYYY-MM-DD HH:MM:SS)
+        kst = timezone(timedelta(hours=9))
+        published_at_str = str(
+            article_data.get("published_at")
+            or datetime.now(kst).strftime("%Y-%m-%d %H:%M:%S")
+        ).strip()
+
+        # 5. 분류(topic_category) 및 이미지 정보
+        topic_category = str(
+            article_data.get("topic_category")
+            or article_data.get("selected_category")
+            or "학술"
+        ).strip()
+        img_url = (img_data.get("url") if isinstance(img_data, dict) else "") or ""
+        img_credit = (img_data.get("credit") if isinstance(img_data, dict) else "") or ""
+
+        resolved_mode = str(mode or os.environ.get("MEDICALDAILY_PUBLISH_MODE", "publish")).strip().lower()
+        if resolved_mode not in ("draft", "publish"):
+            resolved_mode = "publish"
+
+        payload = {
+            "remote_id": resolved_remote_id,
+            "title": str(article_data.get("title", "")).strip(),
+            "body": str(article_data.get("content", "")).strip(),
+            "summary": str(article_data.get("summary", "")).strip(),
+            "keyword": str(article_data.get("search_keyword", "")).strip(),
+            "tags": tags_list,
+            "reporter": reporter_name,
+            "author": author_name,
+            "published_at": published_at_str,
+            "topic_category": topic_category,
+            "image_url": img_url,
+            "image_credit": img_credit,
+            "source_url": str(rss_link or article_data.get("source_url") or "").strip(),
+            "mode": resolved_mode,
+        }
+
+        headers = {
+            "Authorization": f"Bearer {api_token}",
+            "Content-Type": "application/json",
+            "User-Agent": "AI-Article-Publisher/1.0",
+        }
+
+        max_retries = 3
+        last_error = None
+
+        for attempt in range(max_retries):
+            try:
+                logger.info(
+                    f"Publishing article (attempt {attempt + 1}/{max_retries}) via Receive-Article API "
+                    f"to [{domain_key}] (remote_id={resolved_remote_id}, mode={payload['mode']}, reporter={reporter_name}, category={topic_category})..."
+                )
+                response = requests.post(
+                    target_url,
+                    json=payload,
+                    headers=headers,
+                    verify=False,
+                    timeout=(10.0, 30.0),
+                )
+                if response.status_code in (200, 201):
+                    res_json = response.json()
+                    if isinstance(res_json, dict) and res_json.get("success") is False:
+                        err_msg = res_json.get("message") or res_json.get("error") or "API returned success=false"
+                        return None, f"Receive-Article API rejected: {err_msg}"
+
+                    saved_id = (
+                        res_json.get("article_id")
+                        or res_json.get("post_id")
+                        or res_json.get("id")
+                        or (res_json.get("data", {}) if isinstance(res_json.get("data"), dict) else {}).get("id")
+                        or (res_json.get("data", {}) if isinstance(res_json.get("data"), dict) else {}).get("article_id")
+                        or resolved_remote_id
+                    )
+                    saved_status = (
+                        res_json.get("status")
+                        or (res_json.get("data", {}) if isinstance(res_json.get("data"), dict) else {}).get("status")
+                        or payload["mode"]
+                    )
+                    saved_url = (
+                        res_json.get("url")
+                        or (res_json.get("data", {}) if isinstance(res_json.get("data"), dict) else {}).get("url")
+                        or f"https://www.medicaldaily.co.kr/news/{saved_id}"
+                    )
+                    res_json["remote_id"] = resolved_remote_id
+                    res_json["article_id"] = saved_id
+                    res_json["status"] = saved_status
+                    res_json["url"] = saved_url
+                    res_json["reporter"] = reporter_name
+                    res_json["topic_category"] = topic_category
+                    return res_json, None
+
+                status_code = response.status_code
+                if status_code == 429:
+                    retry_after = float(response.headers.get("Retry-After", 2 ** attempt))
+                    last_error = f"HTTP 429 (Rate Limited)"
+                    time.sleep(min(retry_after, 10.0))
+                    continue
+                if status_code >= 500:
+                    last_error = f"HTTP {status_code} ({response.text})"
+                    time.sleep(2 ** attempt)
+                    continue
+
+                return None, f"HTTP {status_code} ({response.text})"
+            except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as net_err:
+                last_error = str(net_err)
+                time.sleep(2 ** attempt)
+                continue
+            except Exception as e:
+                last_error = str(e)
+                return None, f"Unexpected error: {last_error}"
+
+        return None, f"Failed after {max_retries} retries. Last error: {last_error}"
+
+    def verify_receive_article_status(self, site_config, remote_id: int):
+        """
+        GET https://www.medicaldaily.co.kr/api/receive-article?paper=medi&remote_id=<번호>
+        호출을 통해 저장된 기사 번호 및 상태를 확인합니다.
+        """
+        base_url = (
+            (site_config.get("url") if isinstance(site_config, dict) else None)
+            or os.environ.get("MEDICALDAILY_API_URL")
+            or "https://www.medicaldaily.co.kr/api/receive-article?paper=medi"
+        )
+        api_token = (
+            (site_config.get("api_key") if isinstance(site_config, dict) else None)
+            or os.environ.get("MEDICALDAILY_API_TOKEN")
+            or ""
+        )
+        sep = "&" if "?" in base_url else "?"
+        verify_url = f"{base_url}{sep}remote_id={int(remote_id)}"
+        headers = {
+            "Authorization": f"Bearer {api_token}",
+            "Accept": "application/json",
+            "User-Agent": "AI-Article-Publisher/1.0",
+        }
+        try:
+            response = requests.get(verify_url, headers=headers, verify=False, timeout=(10.0, 30.0))
+            if response.status_code == 200:
+                return response.json(), None
+            return None, f"HTTP {response.status_code} ({response.text})"
+        except Exception as e:
+            return None, str(e)
+
+
+# 의약일보(medicaldaily) 전용 고정 기자 3인 및 Receive-Article API 매체 목록
+MEDICALDAILY_REPORTERS = ["고진아", "장선희", "정휘"]
+RECEIVE_ARTICLE_API_SITES = {"medicaldaily"}
+
 # Ingest API 호스트 맵핑 정보 (사용자 피드백 수용: mobilenapps.com 적용)
 INGEST_API_HOSTS = {
     "jobsnhire": "https://api.jobsnhire.com",

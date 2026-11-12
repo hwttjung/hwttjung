@@ -196,8 +196,9 @@ class ImageGatekeeper:
                     aspect_ratio = float(chosen_image.get("aspect_ratio", 1.78))
                     is_vertical_or_square = aspect_ratio < 1.25
 
-                    # 세로형/정사각(비율 < 1.25): 8.0점 이상인 경우에만 예외 승인
-                    if is_vertical_or_square:
+                    # [요건 6] 의약일보(medicaldaily)는 가로형 부재 시 1:1, 세로형도 순차 채택 대상이므로 7.0점 이상 통과
+                    # 타 영문 매체는 기존 규칙대로 세로형/정사각(비율 < 1.25)의 경우 인물 예외 8.0점 이상 필수
+                    if is_vertical_or_square and site_domain != "medicaldaily":
                         if score >= 8.0:
                             chosen_image["score"] = score
                             chosen_image["gatekeeper_reason"] = reason
@@ -223,7 +224,7 @@ class ImageGatekeeper:
                                 "reason": f"세로형 이미지 인물 예외 기준(8.0점) 미달: {reason}"
                             }
                     else:
-                        # 가로형 와이드(비율 >= 1.25): 기본 7.0점 이상 통과
+                        # 가로형 와이드(비율 >= 1.25) 또는 의약일보 3단계 캐스케이드: 기본 7.0점 이상 통과
                         if score >= 7.0:
                             chosen_image["score"] = score
                             chosen_image["gatekeeper_reason"] = reason

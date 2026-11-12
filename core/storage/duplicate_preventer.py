@@ -197,8 +197,9 @@ class DuplicatePreventer:
                 logger.info(f"[Category Restrict] Category '{slug}' is blocked due to consecutive restriction.")
                 continue
                 
-            # 규칙 2: 하루 최대 2개까지만 허용 (3개 이상 방지)
-            if today_counts.get(slug, 0) >= 2:
+            # 규칙 2: 하루 최대 2개까지만 허용 (의약일보는 일일 50개 목표에 맞춰 카테고리당 최대 15개 허용)
+            max_daily_category_limit = 15 if site_domain == "medicaldaily" else 2
+            if today_counts.get(slug, 0) >= max_daily_category_limit:
                 logger.info(f"[Category Restrict] Category '{slug}' is blocked due to daily limit (already published {today_counts[slug]} times today KST).")
                 continue
                 
@@ -224,7 +225,54 @@ class DuplicatePreventer:
             history = self._load_history()
         site_history = history.get(site_domain, [])
         
-        # 최근 168시간(7일) 내 카테고리별 누적 빈도 집계
+        from common.logger_setup import get_domain_logger
+        logger = get_domain_logger(site_domain)
+
+        # [의약일보 전용 쿼터 가중치 분기 (요건 4)]
+        # 1. '라이프' (건강 상식, 건강 팁) 카테고리 최소 30% 보장 (50개 중 최소 15개 이상)
+        # 2. 6개 전체 카테고리(정책, 경영, 학술, 병원·제약, 라이프, 오피니언) 골고루 채움 (Starvation 방지)
+        if site_domain == "medicaldaily":
+            kst = timezone(timedelta(hours=9))
+            today_kst = datetime.now(kst).strftime("%Y-%m-%d")
+
+            today_counts = {}
+            for item in site_history:
+                if item.get("date") == today_kst and item.get("category"):
+                    cat = item["category"]
+                    today_counts[cat] = today_counts.get(cat, 0) + 1
+
+            today_total = sum(today_counts.values())
+            today_life = today_counts.get("라이프", 0)
+            life_ratio = (today_life / today_total) if today_total > 0 else 0.0
+
+            weights = []
+            for cat_info in allowed:
+                slug = cat_info["slug"]
+                if slug == "라이프":
+                    # 당일 라이프 비율이 30% 미만이거나 첫 기사일 경우 강력한 우선권 부여
+                    if life_ratio < 0.30 or today_total == 0:
+                        w = 5.0
+                    elif life_ratio < 0.35:
+                        w = 2.0
+                    else:
+                        w = 0.5
+                else:
+                    # 나머지 5개 카테고리는 오늘 발행 수가 적을수록 높은 역가중치를 주어 골고루 채움
+                    cnt = today_counts.get(slug, 0)
+                    w = 1.0 / (cnt + 1.0)
+                weights.append(w)
+
+            import random
+            chosen = random.choices(allowed, weights=weights, k=1)[0]
+            cnt_chosen = today_counts.get(chosen['slug'], 0)
+            chosen_weight = weights[allowed.index(chosen)]
+            logger.info(
+                f"[medicaldaily] [Quota-Aware Selector] Selected category '{chosen['slug']}' "
+                f"(Today Life: {today_life}/{today_total} [{round(life_ratio * 100, 1)}%], Cat Today Count: {cnt_chosen}, Weight: {round(chosen_weight, 2)})."
+            )
+            return chosen
+
+        # 최근 168시간(7일) 내 카테고리별 누적 빈도 집계 (일반 사이트 전용)
         recent_counts = {}
         for item in site_history:
             if self._is_within_168_hours(item.get("timestamp")) and item.get("category"):
@@ -241,8 +289,6 @@ class DuplicatePreventer:
         import random
         chosen = random.choices(allowed, weights=weights, k=1)[0]
         
-        from common.logger_setup import get_domain_logger
-        logger = get_domain_logger(site_domain)
         cnt_chosen = recent_counts.get(chosen['slug'], 0)
         logger.info(f"[{site_domain}] [Stochastic Selector] Selected primary category '{chosen['slug']}' (7-day count: {cnt_chosen}, Weight: {round(1.0 / (cnt_chosen + 1), 3)}).")
         return chosen

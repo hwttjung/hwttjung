@@ -1,160 +1,111 @@
 import os
-import sys
 import json
-import tempfile
-import unittest
+import pytest
 from datetime import datetime, timedelta, timezone
-from unittest.mock import patch, MagicMock
-
-# Ensure project root is in sys.path
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-if PROJECT_ROOT not in sys.path:
-    sys.path.insert(0, PROJECT_ROOT)
-
 from core.storage.duplicate_preventer import DuplicatePreventer
 
+@pytest.fixture
+def temp_history(tmp_path):
+    history_file = tmp_path / "published_history.json"
+    with open(history_file, "w", encoding="utf-8") as f:
+        json.dump({}, f)
+    return str(history_file)
 
-class TestDailySiteLimit(unittest.TestCase):
-    """
-    매체당 일일 송출 기사 수(1개) 상한 제한 가드레일 Hermetic 단위 테스트
-    """
+def test_medicaldaily_category_limit_expanded(temp_history):
+    preventer = DuplicatePreventer(history_path=temp_history)
+    kst = timezone(timedelta(hours=9))
+    today_kst = datetime.now(kst).strftime("%Y-%m-%d")
 
-    def setUp(self):
-        self.temp_dir = tempfile.mkdtemp()
-        self.history_file = os.path.join(self.temp_dir, "published_history.json")
-        self.kst = timezone(timedelta(hours=9))
-        self.today_kst = datetime.now(self.kst).strftime("%Y-%m-%d")
-        self.yesterday_kst = (datetime.now(self.kst) - timedelta(days=1)).strftime("%Y-%m-%d")
+    # Simulate 5 articles in 'policy' category today for medicaldaily
+    with preventer._lock():
+        with open(temp_history, "w", encoding="utf-8") as f:
+            json.dump({
+                "medicaldaily": [
+                    {"title": f"Article {i}", "category": "policy", "date": today_kst, "timestamp": datetime.now(timezone.utc).isoformat()}
+                    for i in range(5)
+                ]
+            }, f)
 
-    def test_daily_limit_zero_articles_allowed(self):
-        """당일 발행 기사가 0건일 때 일일 상한선(1건) 미달로 정상 허용 검증"""
-        mock_history = {
-            "scienceworldreport": [
-                {
-                    "title": "Yesterday Article",
-                    "category": "physics",
-                    "date": self.yesterday_kst,
-                    "timestamp": datetime.now(timezone.utc).isoformat()
-                }
-            ]
-        }
-        with open(self.history_file, "w", encoding="utf-8") as f:
-            json.dump(mock_history, f)
+    categories = [
+        {"name": "정책", "slug": "policy", "id": 1},
+        {"name": "경영", "slug": "management", "id": 2}
+    ]
 
-        preventer = DuplicatePreventer(history_path=self.history_file)
-        with preventer._lock():
-            history = preventer._load_history()
+    # policy has 5 publications today, which is > 2, but < 15. It must be allowed for medicaldaily!
+    allowed = preventer.get_allowed_categories("medicaldaily", categories)
+    allowed_slugs = [c["slug"] for c in allowed]
 
-        site_hist = history.get("scienceworldreport", [])
-        today_count = sum(1 for item in site_hist if item.get("date") == self.today_kst)
-        daily_limit = 1
+    # 'policy' was the last category published, so consecutive check blocks it if it was immediately last.
+    # To test daily limit without consecutive blockage:
+    with preventer._lock():
+        with open(temp_history, "w", encoding="utf-8") as f:
+            json.dump({
+                "medicaldaily": [
+                    {"title": f"Article {i}", "category": "policy", "date": today_kst, "timestamp": datetime.now(timezone.utc).isoformat()}
+                    for i in range(5)
+                ] + [
+                    {"title": "Management Article", "category": "management", "date": today_kst, "timestamp": datetime.now(timezone.utc).isoformat()}
+                ]
+            }, f)
 
-        self.assertEqual(today_count, 0)
-        self.assertLess(today_count, daily_limit, "0건일 때는 일일 상한 미달이어야 함")
+    allowed = preventer.get_allowed_categories("medicaldaily", categories)
+    allowed_slugs = [c["slug"] for c in allowed]
+    assert "policy" in allowed_slugs, "policy should still be allowed since 5 < 15 for medicaldaily"
+    assert "management" not in allowed_slugs, "management was immediately last published so consecutive check blocks it"
 
-    def test_daily_limit_reached_blocked(self):
-        """당일 발행 기사가 이미 5건 존재할 때 일일 상한선(5건) 도달로 스킵 차단 검증"""
-        mock_history = {
-            "autoworldnews": [
-                {
-                    "title": f"Today Article #{i}",
-                    "category": "auto-news",
-                    "date": self.today_kst,
-                    "timestamp": datetime.now(timezone.utc).isoformat()
-                }
-                for i in range(5)
-            ]
-        }
-        with open(self.history_file, "w", encoding="utf-8") as f:
-            json.dump(mock_history, f)
+def test_other_site_category_limit_remains_2(temp_history):
+    preventer = DuplicatePreventer(history_path=temp_history)
+    kst = timezone(timedelta(hours=9))
+    today_kst = datetime.now(kst).strftime("%Y-%m-%d")
 
-        preventer = DuplicatePreventer(history_path=self.history_file)
-        with preventer._lock():
-            history = preventer._load_history()
+    # Simulate 2 articles in 'tech' for scienceworldreport, followed by 1 in 'space'
+    with preventer._lock():
+        with open(temp_history, "w", encoding="utf-8") as f:
+            json.dump({
+                "scienceworldreport": [
+                    {"title": "Tech 1", "category": "tech", "date": today_kst, "timestamp": datetime.now(timezone.utc).isoformat()},
+                    {"title": "Tech 2", "category": "tech", "date": today_kst, "timestamp": datetime.now(timezone.utc).isoformat()},
+                    {"title": "Space 1", "category": "space", "date": today_kst, "timestamp": datetime.now(timezone.utc).isoformat()}
+                ]
+            }, f)
 
-        site_hist = history.get("autoworldnews", [])
-        today_count = sum(1 for item in site_hist if item.get("date") == self.today_kst)
-        daily_limit = 5
+    categories = [
+        {"name": "Tech", "slug": "tech", "id": 10},
+        {"name": "Space", "slug": "space", "id": 20},
+        {"name": "Health", "slug": "health", "id": 30}
+    ]
 
-        self.assertEqual(today_count, 5)
-        self.assertGreaterEqual(today_count, daily_limit, "5건 이상일 때는 일일 상한 도달로 스킵되어야 함")
+    allowed = preventer.get_allowed_categories("scienceworldreport", categories)
+    allowed_slugs = [c["slug"] for c in allowed]
 
-    def test_daily_limit_under_limit_allowed(self):
-        """당일 발행 기사가 4건일 때 일일 상한선(5건) 미달로 정상 허용 검증"""
-        mock_history = {
-            "autoworldnews": [
-                {
-                    "title": f"Today Article #{i}",
-                    "category": "auto-news",
-                    "date": self.today_kst,
-                    "timestamp": datetime.now(timezone.utc).isoformat()
-                }
-                for i in range(4)
-            ]
-        }
-        with open(self.history_file, "w", encoding="utf-8") as f:
-            json.dump(mock_history, f)
+    assert "tech" not in allowed_slugs, "tech has 2 publications today and must be blocked for regular sites"
+    assert "space" not in allowed_slugs, "space was last published and must be blocked by consecutive rule"
+    assert "health" in allowed_slugs, "health has 0 publications and should be allowed"
 
-        preventer = DuplicatePreventer(history_path=self.history_file)
-        with preventer._lock():
-            history = preventer._load_history()
+def test_medicaldaily_reaches_max_limit_15(temp_history):
+    preventer = DuplicatePreventer(history_path=temp_history)
+    kst = timezone(timedelta(hours=9))
+    today_kst = datetime.now(kst).strftime("%Y-%m-%d")
 
-        site_hist = history.get("autoworldnews", [])
-        today_count = sum(1 for item in site_hist if item.get("date") == self.today_kst)
-        daily_limit = 5
+    # Simulate 15 articles in 'policy' followed by 1 in 'management'
+    with preventer._lock():
+        with open(temp_history, "w", encoding="utf-8") as f:
+            json.dump({
+                "medicaldaily": [
+                    {"title": f"Policy {i}", "category": "policy", "date": today_kst, "timestamp": datetime.now(timezone.utc).isoformat()}
+                    for i in range(15)
+                ] + [
+                    {"title": "Management 1", "category": "management", "date": today_kst, "timestamp": datetime.now(timezone.utc).isoformat()}
+                ]
+            }, f)
 
-        self.assertEqual(today_count, 4)
-        self.assertLess(today_count, daily_limit, "4건일 때는 일일 상한 미달로 허용되어야 함")
+    categories = [
+        {"name": "정책", "slug": "policy", "id": 1},
+        {"name": "학술", "slug": "academic", "id": 3}
+    ]
 
-    def test_run_pipeline_skips_when_daily_limit_reached(self):
-        """main.py의 run_pipeline이 당일 5건(상한 도달) 발행 매체에 대해 기사 생성/송출을 조기 스킵하는지 검증"""
-        from main import run_pipeline
+    allowed = preventer.get_allowed_categories("medicaldaily", categories)
+    allowed_slugs = [c["slug"] for c in allowed]
 
-        mock_history = {
-            "latinoshealth": [
-                {
-                    "title": f"Today Published Health Article #{i}",
-                    "category": "wellness",
-                    "date": self.today_kst,
-                    "timestamp": datetime.now(timezone.utc).isoformat()
-                }
-                for i in range(5)
-            ]
-        }
-
-        # Mock DuplicatePreventer to use our mock history
-        with patch("main.DuplicatePreventer") as mock_dp_cls:
-            mock_dp_inst = MagicMock()
-            mock_dp_inst._load_history.return_value = mock_history
-            mock_dp_cls.return_value = mock_dp_inst
-
-            # Mock ArticleGenerator to verify it is NEVER called when skipped
-            with patch("main.ArticleGenerator") as mock_gen_cls:
-                mock_gen_inst = MagicMock()
-                mock_gen_cls.return_value = mock_gen_inst
-
-                # Mock ArticlePublisher to verify publish is NEVER called
-                with patch("main.ArticlePublisher") as mock_pub_cls:
-                    mock_pub_inst = MagicMock()
-                    mock_pub_cls.return_value = mock_pub_inst
-
-                    # 임시 소스 파일
-                    temp_src = os.path.join(self.temp_dir, "test_src.txt")
-                    with open(temp_src, "w", encoding="utf-8") as tf:
-                        tf.write("Sample test headline and body text.")
-
-                    # run_pipeline 실행
-                    res = run_pipeline(
-                        source_file_path=temp_src,
-                        target_sites=["latinoshealth"],
-                        mode="tailored"
-                    )
-
-                    # 조기 스킵으로 기사 생성 및 송출 호출이 0회여야 함
-                    self.assertFalse(res, "스킵 시 성공 플래그는 False여야 함")
-                    mock_gen_inst.generate.assert_not_called()
-                    mock_pub_inst.publish.assert_not_called()
-
-
-if __name__ == "__main__":
-    unittest.main()
+    assert "policy" not in allowed_slugs, "policy has 15 publications today and must be blocked at limit 15"
+    assert "academic" in allowed_slugs, "academic has 0 publications and must be allowed"

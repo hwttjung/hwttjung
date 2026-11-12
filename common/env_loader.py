@@ -34,7 +34,27 @@ class EnvLoader:
         return env_vars
 
     @staticmethod
-    def get_sites_config(env):
+    def get_receive_api_sites_config(env):
+        """의약일보(medicaldaily.co.kr) 등 Bearer Token 기반 Receive-Article API 매체 설정 반환"""
+        medi_url = env.get(
+            "MEDICALDAILY_API_URL",
+            "https://www.medicaldaily.co.kr/api/receive-article?paper=medi"
+        )
+        medi_token = env.get(
+            "MEDICALDAILY_API_TOKEN",
+            ""
+        )
+        return [
+            {
+                "index": 15,
+                "domain_key": "medicaldaily",
+                "url": medi_url,
+                "api_key": medi_token,
+            }
+        ]
+
+    @staticmethod
+    def get_sites_config(env, include_receive_api=False):
         sites = []
         for i in range(1, 9):
             url_key = f"ARTICLES_API_BASE_URL_{i}"
@@ -60,6 +80,8 @@ class EnvLoader:
             {"index": 12, "domain_key": "booksnreview", "url": "https://admin.booksnreview.com/api/v1/", "api_key": "local-key-booksnreview"}
         ]
         sites.extend(local_only_configs)
+        if include_receive_api:
+            sites.extend(EnvLoader.get_receive_api_sites_config(env))
         return sites
 
 

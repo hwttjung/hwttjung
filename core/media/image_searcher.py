@@ -79,6 +79,18 @@ class ImageSearcher:
 
         logger.info(f"[{site_domain}] [Image Search Pipeline] 다단계 검색 쿼리: {queries}")
 
+        # 의약일보(medicaldaily) 전용 우선순위 분기:
+        # 0순위: 의약일보(medicaldaily.co.kr) 기존 기사 연관 이미지
+        # 1순위: Pexels -> 2순위: Wikimedia Commons -> 3순위: Unsplash
+        if site_domain == "medicaldaily":
+            return self._search_image_medicaldaily(
+                queries=queries,
+                exclude_urls=exclude_urls,
+                site_domain=site_domain,
+                article_summary=article_summary,
+                article_title=article_title,
+            )
+
         best_candidate = None
         best_candidate_meta = None
 
@@ -209,6 +221,240 @@ class ImageSearcher:
             "source": "Emergency Fallback"
         }
 
+    @staticmethod
+    def _categorize_aspect_ratio_tier(aspect_ratio: float) -> int:
+        """
+        [의약일보 요건 6] 종횡비 3단계 우선순위 티어 분류:
+        - Tier 1: 가로가 긴 이미지 (4:3 or 16:9, aspect_ratio >= 1.25)
+        - Tier 2: 1:1 정사각 이미지 (0.90 <= aspect_ratio <= 1.10)
+        - Tier 3: 세로가 긴 이미지 (aspect_ratio < 0.90) 및 기타 비정형
+        """
+        if aspect_ratio >= 1.25:
+            return 1
+        elif 0.90 <= aspect_ratio <= 1.10:
+            return 2
+        else:
+            return 3
+
+    def _search_image_medicaldaily(
+        self,
+        queries: list[str],
+        exclude_urls=None,
+        site_domain: str = "medicaldaily",
+        article_summary: str = None,
+        article_title: str = None,
+    ) -> dict:
+        """
+        의약일보(medicaldaily) 전용 이미지 검색 파이프라인:
+        - [요건 6] 종횡비 우선순위: 가로형(4:3 or 16:9) 1순위 -> 1:1 정사각 2순위 -> 세로형 3순위 (계층적 평가)
+        - [요건 7] 이미지 크기: 가로 1000px 이하 한정 (width <= 1000)
+        - 검색 소스 캐스케이드:
+          0순위: 의약일보(medicaldaily.co.kr) 자체 연관 기사 이미지
+          1순위: Pexels API
+          2순위: Wikimedia Commons API
+          3순위: Unsplash API
+        """
+        logger = get_domain_logger(site_domain)
+        best_candidate = None
+        best_candidate_meta = None
+
+        def _evaluate_tier_group(cands: list, source_label: str, query_str: str, tier_name: str):
+            nonlocal best_candidate, best_candidate_meta
+            if not cands:
+                return None
+            if article_summary and article_title:
+                eval_result = self.gatekeeper.evaluate_image_match(
+                    article_summary=article_summary,
+                    article_title=article_title,
+                    candidate_images=cands,
+                    site_domain=site_domain,
+                )
+                score = eval_result.get("score", 0.0)
+                if eval_result.get("is_acceptable") and eval_result.get("selected_image"):
+                    selected = eval_result["selected_image"]
+                    actual_source = selected.get("source", source_label)
+                    logger.info(
+                        f"[{site_domain}] [Image Gatekeeper Passed ({score}점, {tier_name})] "
+                        f"'{query_str}' {actual_source} 선정: {selected['url']}"
+                    )
+                    return {
+                        "url": selected["url"],
+                        "credit": selected["credit"],
+                        "gatekeeper_score": score,
+                        "gatekeeper_reason": eval_result.get("reason"),
+                        "source": actual_source,
+                    }
+                logger.warning(
+                    f"[{site_domain}] [Gatekeeper Rejected ({score}점, {tier_name})] '{query_str}' ({source_label}) 부적합 판정."
+                )
+                if eval_result.get("selected_image") and (
+                    best_candidate is None or score > best_candidate_meta.get("score", 0.0)
+                ):
+                    best_candidate = eval_result["selected_image"]
+                    best_candidate_meta = {
+                        "score": score,
+                        "reason": eval_result.get("reason"),
+                        "source": eval_result["selected_image"].get("source", source_label),
+                    }
+                return None
+            first = cands[0]
+            return {
+                "url": first["url"],
+                "credit": first["credit"],
+                "source": first.get("source", source_label),
+            }
+
+        def _evaluate_or_pick(candidates: list, source_label: str, query_str: str):
+            if not candidates:
+                return None
+
+            # [요건 6] 3단계 계층적 우선순위 평가:
+            # 1순위: 가로가 긴 이미지 (Tier 1: aspect_ratio >= 1.25)
+            # 2순위: 1:1 비율 이미지 (Tier 2: 0.90 <= aspect_ratio <= 1.10)
+            # 3순위: 세로가 긴 이미지 (Tier 3: aspect_ratio < 0.90) 및 기타
+            tier1 = [c for c in candidates if self._categorize_aspect_ratio_tier(float(c.get("aspect_ratio", 1.5))) == 1]
+            tier2 = [c for c in candidates if self._categorize_aspect_ratio_tier(float(c.get("aspect_ratio", 1.5))) == 2]
+            tier3 = [c for c in candidates if self._categorize_aspect_ratio_tier(float(c.get("aspect_ratio", 1.5))) == 3]
+
+            if tier1:
+                res = _evaluate_tier_group(tier1, source_label, query_str, "Tier 1: 가로형 우선")
+                if res:
+                    return res
+            if tier2:
+                res = _evaluate_tier_group(tier2, source_label, query_str, "Tier 2: 1:1 차선")
+                if res:
+                    return res
+            if tier3:
+                res = _evaluate_tier_group(tier3, source_label, query_str, "Tier 3: 세로형 최후선")
+                if res:
+                    return res
+            return None
+
+        # 한국어 쿼리(의약일보 내부 검색용)와 영문 쿼리(글로벌 스톡 API용) 분류
+        korean_queries = [q for q in queries if re.search(r"[가-힣]", q)]
+        english_queries = [q for q in queries if not re.search(r"[가-힣]", q)]
+        medi_search_queries = korean_queries + [q for q in english_queries if q not in korean_queries]
+        stock_search_queries = english_queries + [q for q in korean_queries if q not in english_queries]
+
+        # 0순위: 의약일보(medicaldaily.co.kr) 내부 연관 이미지 검색
+        for q in medi_search_queries:
+            logger.info(f"[{site_domain}] [0순위 의약일보 DB] Searching: '{q}'...")
+            medi_cands = self._search_medicaldaily_images(q, exclude_urls, site_domain)
+            res = _evaluate_or_pick(medi_cands, "MedicalDaily DB", q)
+            if res:
+                return res
+
+        # 1순위: Pexels API
+        if self.pexels_key and self.pexels_key not in ("your_pexels_api_key_here", ""):
+            for q in stock_search_queries:
+                logger.info(f"[{site_domain}] [1순위 Pexels] Searching: '{q}'...")
+                pex_cands = self._get_pexels_candidates(q, exclude_urls, site_domain)
+                res = _evaluate_or_pick(pex_cands, "Pexels", q)
+                if res:
+                    return res
+
+        # 2순위: Wikimedia Commons API
+        for q in stock_search_queries:
+            logger.info(f"[{site_domain}] [2순위 Wikimedia Commons] Searching: '{q}'...")
+            wiki_cands = self._search_wikimedia(q, exclude_urls, site_domain)
+            res = _evaluate_or_pick(wiki_cands, "Wikimedia Commons", q)
+            if res:
+                return res
+
+        # 3순위: Unsplash API
+        if self.unsplash_key and self.unsplash_key not in ("your_unsplash_access_key_here", ""):
+            for q in stock_search_queries:
+                logger.info(f"[{site_domain}] [3순위 Unsplash] Searching: '{q}'...")
+                un_cands = self._get_unsplash_candidates(q, exclude_urls, site_domain)
+                res = _evaluate_or_pick(un_cands, "Unsplash", q)
+                if res:
+                    return res
+
+        if best_candidate and best_candidate_meta:
+            logger.warning(
+                f"[{site_domain}] 0~3순위 전체 탐색에서 7.0점 이상 미달, 최고 점수({best_candidate_meta['score']}점) 채택: {best_candidate['url']}"
+            )
+            return {
+                "url": best_candidate["url"],
+                "credit": best_candidate["credit"],
+                "gatekeeper_score": best_candidate_meta["score"],
+                "gatekeeper_reason": best_candidate_meta["reason"],
+                "source": best_candidate_meta["source"],
+            }
+
+        sig = random.randint(1, 100000)
+        return {
+            "url": f"https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=1000&ar=16:9&fit=crop&sig={sig}",
+            "credit": "Photo on Unsplash",
+            "source": "Emergency Fallback",
+        }
+
+    def _search_medicaldaily_images(self, query: str, exclude_urls: list, site_domain: str = "medicaldaily") -> list:
+        """
+        의약일보(https://www.medicaldaily.co.kr/search?q=...)에서 연관 기사의 기존 이미지를 검색하여
+        가로 1000px 이하(width=1000) 이미지 후보 리스트를 반환합니다 (0순위).
+        """
+        from bs4 import BeautifulSoup
+
+        logger = get_domain_logger(site_domain or "medicaldaily")
+        clean_q = query.strip()
+        if not clean_q:
+            return []
+
+        search_url = f"https://www.medicaldaily.co.kr/search?q={urllib.parse.quote(clean_q)}"
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+
+        try:
+            req = urllib.request.Request(
+                search_url,
+                headers={"User-Agent": "Mozilla/5.0 (compatible; GlobalNewsDeskBot/1.0)"},
+            )
+            with urllib.request.urlopen(req, context=ctx, timeout=8) as response:
+                html_body = response.read().decode("utf-8", errors="ignore")
+                soup = BeautifulSoup(html_body, "html.parser")
+                candidates = []
+                seen_norms = set()
+
+                for idx, img in enumerate(soup.find_all("img")):
+                    src = str(img.get("src") or "").strip()
+                    if "images.medicaldaily.co.kr/data/images/full/" not in src:
+                        continue
+
+                    base_img_url = src.split("?")[0]
+                    v_match = re.search(r"[?&]v=(\d+)", src)
+                    target_width = 1000 if site_domain == "medicaldaily" else 1200
+                    if v_match:
+                        high_res_url = f"{base_img_url}?v={v_match.group(1)}&width={target_width}"
+                    else:
+                        high_res_url = f"{base_img_url}?width={target_width}"
+
+                    norm = self._normalize_image_url(high_res_url)
+                    if norm in seen_norms:
+                        continue
+                    if exclude_urls and norm in exclude_urls:
+                        continue
+
+                    seen_norms.add(norm)
+                    alt_text = str(img.get("alt") or "").strip()
+                    candidates.append({
+                        "id": f"medi_{idx}",
+                        "url": high_res_url,
+                        "thumb_url": src,
+                        "credit": "사진=의약일보 DB",
+                        "source": "MedicalDaily DB",
+                        "alt": alt_text,
+                        "aspect_ratio": 1.52,
+                    })
+                    if len(candidates) >= 5:
+                        break
+
+                return candidates
+        except Exception as e:
+            logger.warning(f"[{site_domain}] 의약일보 자체 이미지 검색 실패: {e}")
+            return []
+
     def _search_wikimedia(self, query: str, exclude_urls: list, site_domain: str) -> list:
         """
         Wikimedia Commons API를 호출하여 구글 SEO 규격(가로 1600px) 및 16:9 와이드 가로형 안전 라이선스 이미지 추출
@@ -220,7 +466,9 @@ class ImageSearcher:
         words = query.strip().split()
         search_term = " ".join(words[:2]) if len(words) > 2 else query.strip()
         
-        # 파라미터: 1600px 썸네일 자동 생성 및 메타데이터, 치수(dimensions), MIME 요청
+        # 파라미터: 썸네일 자동 생성 및 메타데이터, 치수(dimensions), MIME 요청
+        # [요건 7] 의약일보(medicaldaily)는 가로 1000px 이하(iiurlwidth=1000), 영문 매체는 기존 1280px 유지
+        wiki_target_width = 1000 if site_domain == "medicaldaily" else 1280
         params = {
             "action": "query",
             "format": "json",
@@ -229,7 +477,7 @@ class ImageSearcher:
             "gsrlimit": 30,  # 가로형 와이드 사진 발굴 확률을 높이기 위해 30개로 확장
             "prop": "imageinfo",
             "iiprop": "url|thumburl|extmetadata|dimensions|mime",
-            "iiurlwidth": 1280  # 구글 SEO 최적화 가로 1280px (1MB 이하 안전 규격) 실시간 렌더링
+            "iiurlwidth": wiki_target_width  # 의약일보 1000px / 영문 매체 1280px
         }
         
         headers = {
@@ -362,12 +610,15 @@ class ImageSearcher:
                     aspect_ratio = (orig_w / orig_h) if orig_h > 0 else 1.78
 
                     base_url = raw_url.split("?")[0]
+                    # [요건 7] 의약일보(medicaldaily)는 가로 1000px 이하로 한정
+                    target_w = 1000 if site_domain == "medicaldaily" else 1600
+                    target_w_vert = 1000 if site_domain == "medicaldaily" else 1280
                     # 인물 및 세로/정사각(비율 < 1.25): 원본 종횡비 보존 (얼굴/신체 잘림 방지)
                     # 일반 가로형(비율 >= 1.25): 구글 SEO 최적화 16:9 크롭 적용
                     if aspect_ratio < 1.25:
-                        img_url = f"{base_url}?w=1280&q=80&fit=max"
+                        img_url = f"{base_url}?w={target_w_vert}&q=80&fit=max"
                     else:
-                        img_url = f"{base_url}?w=1600&q=80&ar=16:9&fit=crop"
+                        img_url = f"{base_url}?w={target_w}&q=80&ar=16:9&fit=crop"
                         
                     norm = self._normalize_image_url(img_url)
                     if exclude_urls and norm in exclude_urls:
@@ -417,8 +668,12 @@ class ImageSearcher:
                     orig_h = int(photo.get("height", 0))
                     aspect_ratio = (orig_w / orig_h) if orig_h > 0 else 1.78
 
-                    # 가로 1880px 규격 대형 이미지 채택
-                    img_url = photo.get("src", {}).get("large2x") or photo.get("src", {}).get("large", "")
+                    # [요건 7] 의약일보(가로 1000px 이하): large (~940~1000px) 우선
+                    # 타 영문 매체(구글 Discover): large2x (~1880px) 우선
+                    if site_domain == "medicaldaily":
+                        img_url = photo.get("src", {}).get("large") or photo.get("src", {}).get("medium") or photo.get("src", {}).get("large2x", "")
+                    else:
+                        img_url = photo.get("src", {}).get("large2x") or photo.get("src", {}).get("large", "")
                     if not img_url:
                         continue
                         

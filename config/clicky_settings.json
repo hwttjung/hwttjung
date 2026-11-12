@@ -70,6 +70,11 @@
       "domain": "foodworldnews",
       "site_id": "101510032",
       "sitekey": "55dbb7ccdb9fbb20"
+    },
+    {
+      "domain": "medicaldaily",
+      "site_id": "101510035",
+      "sitekey": "medicaldaily_clicky_key"
     }
   ]
 }

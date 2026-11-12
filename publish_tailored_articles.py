@@ -81,6 +81,7 @@ DOMAINS_THEME = {
     "mobilenapps": "Cell phones, latest technology, consumer mobile applications, console/PC game releases, app patches, and digital culture trends.",
     "parentherald": "Parenting, family life, child-rearing, motherhood, fatherhood, baby care, and educational news.",
     "booksnreview": "Book reviews, new novel releases, publishing industry updates, author interviews, and literary analysis.",
+    "medicaldaily": "보건의료 정책, 병원·제약바이오 산업 경영 및 신약 임상·R&D, 의학·약학 최신 학술 논문, 국민 건강관리 및 라이프스타일 전문 뉴스 (의약일보 한국어 보도 전용).",
 }
 
 FALLBACK_FEED_KEYWORDS = {
@@ -97,7 +98,8 @@ FALLBACK_FEED_KEYWORDS = {
     "mobilenapps": ["tech", "wired", "personaltech", "technology", "verge", "arstechnica", "engadget", "krebsonsecurity"],
     "parentherald": ["edu", "teacher", "scholastic", "fatherly", "mother"],
     "booksnreview": ["books", "read", "novel", "author", "publish", "literary"],
-    "foodworldnews": ["dining", "wine", "food", "nutrition", "examine", "recipe", "cooking"]
+    "foodworldnews": ["dining", "wine", "food", "nutrition", "examine", "recipe", "cooking"],
+    "medicaldaily": ["health", "medical", "nejm", "lancet", "jama", "plos", "biopharma", "endpts", "nature", "medicine", "well"]
 }
 
 def get_primary_feed_keywords(domain_key, config_path="config/feed_keywords.json"):
@@ -482,7 +484,8 @@ def main():
         logger.error("[Error] GEMINI_API_KEY not found in .env.")
         return
         
-    sites = EnvLoader.get_sites_config(env)
+    include_receive_api = "--site" in sys.argv and "medicaldaily" in sys.argv
+    sites = EnvLoader.get_sites_config(env, include_receive_api=include_receive_api)
     if not sites:
         logger.error("[Error] No configured sites found.")
         return

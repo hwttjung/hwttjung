@@ -471,6 +471,249 @@ def test_process_end_to_end_with_contextual_link():
     assert "Read more:" in box.text
 
 
+def test_inject_external_link_korean_citation():
+    """
+    한국어 외신/출처 인용 구문("외신 보도에 따르면")을 100% 파이썬 단에서 탐색하여
+    class="external_red", rel="nofollow" 외부 링크를 정확히 1회 주입하는지 검증합니다.
+    """
+    html = (
+        "<p>미국 제약바이오 기업 뉴로스테릭스가 대규모 시리즈A 투자를 유치했다. "
+        "외신 보도에 따르면 이번 투자에는 글로벌 벤처캐피털들이 대거 참여한 것으로 확인됐다.</p>"
+        "<p>연구진은 조현병 치료제 임상에 본격 착수할 예정이다.</p>"
+    )
+    source_url = "https://www.bioworld.com/articles/neurosterix-launch"
+    result = LinkInjector.inject_external_link(html, source_url)
+
+    soup = BeautifulSoup(result, "html.parser")
+    links = soup.find_all("a")
+    assert len(links) == 1
+    ext_link = links[0]
+    assert ext_link.get("href") == source_url
+    assert "external_red" in ext_link.get("class", [])
+    assert "nofollow" in ext_link.get("rel", [])
+    assert ext_link.get("target") == "_blank"
+    assert ext_link.string == "외신 보도에 따르면"
+
+
+def test_inject_external_link_english_citation():
+    """
+    영문 출처 인용 구문("according to reports")을 100% 파이썬 단에서 정확히 1회 주입하는지 검증합니다.
+    """
+    html = (
+        "<p>The automotive industry is preparing for major changes. "
+        "According to reports from industry insiders, the company will invest $500M.</p>"
+    )
+    source_url = "https://www.reuters.com/business/autos"
+    result = LinkInjector.inject_external_link(html, source_url)
+
+    soup = BeautifulSoup(result, "html.parser")
+    links = soup.find_all("a")
+    assert len(links) == 1
+    assert links[0].get("href") == source_url
+    assert "external_red" in links[0].get("class", [])
+    assert "nofollow" in links[0].get("rel", [])
+    assert links[0].string == "According to reports"
+
+
+def test_inject_external_link_idempotency():
+    """
+    이미 본문에 외부 링크가 존재할 경우 중복 주입하지 않는 멱등성을 검증합니다.
+    """
+    html = (
+        '<p>Visit <a href="https://example.com" class="external_red" rel="nofollow">source</a> for details. '
+        '외신 보도에 따르면 추가 정보가 있다.</p>'
+    )
+    source_url = "https://www.reuters.com/news"
+    result = LinkInjector.inject_external_link(html, source_url)
+    soup = BeautifulSoup(result, "html.parser")
+    links = soup.find_all("a")
+    assert len(links) == 1
+    assert links[0].get("href") == "https://example.com"
+
+
+def test_inject_external_link_skip_forbidden_elements():
+    """
+    상단 요약 박스(md-summary-box) 내부나 헤딩(<h3>) 내부 텍스트는 외부 링크 주입 대상에서 제외되는지 검증합니다.
+    """
+    html = (
+        '<div class="md-summary-box"><p>외신 보도에 따르면 요약 내용입니다.</p></div>'
+        '<h3>외신 보도에 따르면 소제목입니다</h3>'
+        '<p>본문 문단입니다. 공식 발표에 따르면 이번 조치는 즉시 시행된다.</p>'
+    )
+    source_url = "https://www.fda.gov/news"
+    result = LinkInjector.inject_external_link(html, source_url)
+    soup = BeautifulSoup(result, "html.parser")
+
+    # summary-box나 h3 내부에는 a 태그가 없어야 함
+    assert soup.find("div", class_="md-summary-box").find("a") is None
+    assert soup.find("h3").find("a") is None
+
+    # 본문 p 태그에만 a 태그가 있어야 함
+    p_tags = soup.find_all("p")
+    body_p = [p for p in p_tags if not p.find_parent("div", class_="md-summary-box")]
+    assert len(body_p) == 1
+    a_tag = body_p[0].find("a")
+    assert a_tag is not None
+    assert a_tag.string == "공식 발표에 따르면"
+    assert a_tag.get("href") == source_url
+
+
+def test_inject_external_link_full_named_attribution_phrase():
+    """
+    첨부 이미지 표준과 일치하도록,
+    'CoStar에 따르면', 'HAMA의 2026년 업계 전망', 'CBRE의 2025년 숙박업 데이터에 따르면' 등
+    기관/출처명이 포함된 출처 구문 전체가 링크로 연결되는지 검증합니다.
+    """
+    source_url = "https://www.costar.com/report"
+
+    # 케이스 1: CoStar에 따르면
+    html1 = "<p>평균 객실 요금이 사상 최고치를 경신했으며, CoStar에 따르면 이러한 상승세는 전반적이다.</p>"
+    res1 = LinkInjector.inject_external_link(html1, source_url)
+    soup1 = BeautifulSoup(res1, "html.parser")
+    link1 = soup1.find("a")
+    assert link1 is not None
+    assert link1.string == "CoStar에 따르면"
+    assert link1.get("href") == source_url
+    assert "external_red" in link1.get("class", [])
+
+    # 케이스 2: HAMA의 2026년 업계 전망
+    html2 = "<p>협회장은 HAMA의 2026년 업계 전망에서 이러한 긴장감을 명확히 지적했다.</p>"
+    res2 = LinkInjector.inject_external_link(html2, source_url)
+    soup2 = BeautifulSoup(res2, "html.parser")
+    link2 = soup2.find("a")
+    assert link2 is not None
+    assert link2.string == "HAMA의 2026년 업계 전망"
+
+    # 케이스 3: CBRE의 2025년 숙박업 데이터에 따르면
+    html3 = "<p>CBRE의 2025년 숙박업 데이터에 따르면 미국 호텔 영업 수익은 증가했다.</p>"
+    res3 = LinkInjector.inject_external_link(html3, source_url)
+    soup3 = BeautifulSoup(res3, "html.parser")
+    link3 = soup3.find("a")
+    assert link3 is not None
+    assert link3.string == "CBRE의 2025년 숙박업 데이터에 따르면"
+
+
+def test_inject_external_link_reject_isolated_words():
+    """
+    '임상 시험', '데이터', '밝혔다' 등 출처 기관/매체명이 없는 단순 단어에는
+    외부 링크를 걸지 않고 기각(Zero-Link)하는지 검증합니다.
+    """
+    html = "<p>뉴로스테릭스는 차세대 후보물질의 임상 시험을 본격화하고 우수한 데이터를 확보했다고 밝혔다.</p>"
+    source_url = "https://endpoints.news/article"
+    res = LinkInjector.inject_external_link(html, source_url)
+    soup = BeautifulSoup(res, "html.parser")
+    assert len(soup.find_all("a")) == 0, "출처 명시 문구가 없는 단순 단어에는 외부 링크를 걸지 않아야 합니다."
+
+
+def test_inject_natural_inline_link_causal_context_verification():
+    """
+    제7가드레일 검증:
+    1. 인과 관계 표현(~에 힘입어, ~의 여파로, ~이후 등)이 포함된 문맥 앵커는 통과.
+    2. 인과 관계가 없는 단순 나열 문맥은 Zero-Link로 즉시 기각.
+    """
+    sister_articles = [{
+        "id": 1,
+        "title": "코벤피 FDA 승인 획득",
+        "url": "https://www.medicaldaily.co.kr/news/123000"
+    }]
+
+    # Case A: 인과 관계가 명확한 문맥 (통과)
+    html_pass = "<p>앞서 성공한 코벤피의 FDA 승인 이후 차세대 조현병 치료제 시장에 글로벌 자금이 대거 몰리고 있다.</p>"
+    ctx_pass = {
+        "target_article_id": 1,
+        "anchor_phrase": "코벤피의 FDA 승인 이후"
+    }
+    res_pass = LinkInjector.inject_natural_inline_link(
+        html_pass, ctx_pass, sister_articles, article_context="코벤피 조현병 FDA 승인"
+    )
+    soup_pass = BeautifulSoup(res_pass, "html.parser")
+    link_pass = soup_pass.find("a", attrs={"data-sys": "1"})
+    assert link_pass is not None
+    assert link_pass.string == "코벤피의 FDA 승인 이후"
+
+    # Case B: 인과 관계가 없는 단순 나열 (기각)
+    html_reject = "<p>한편 코벤피 FDA 승인 소식이 있었다. 그러나 오늘 행사는 별개로 진행되었다.</p>"
+    ctx_reject = {
+        "target_article_id": 1,
+        "anchor_phrase": "코벤피 FDA 승인"
+    }
+    res_reject = LinkInjector.inject_natural_inline_link(
+        html_reject, ctx_reject, sister_articles, article_context="코벤피 조현병 FDA 승인"
+    )
+    soup_reject = BeautifulSoup(res_reject, "html.parser")
+    assert soup_reject.find("a", attrs={"data-sys": "1"}) is None, "인과성 없는 단순 앵커는 기각되어야 합니다."
+
+
+def test_korean_external_link_multi_word_and_char_boundary():
+    """8어절 36자 정책 출처 문구 정상 주입 및 45자 이내 다중 복합 가드레일 검증"""
+    source_url = "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005285"
+    html = (
+        "<p>2026년 대한민국 의료 현장이 거대한 디지털 전환을 맞이하고 있다.</p>"
+        "<p>보건복지부의 2026년 만성질환 관리 디지털 전환 로드맵에 따르면, 향후 3년 내 1차 의료기관 참여가 대폭 확대된다.</p>"
+    )
+
+    injected = LinkInjector.inject_external_link(html, source_url)
+    soup = BeautifulSoup(injected, "html.parser")
+    ext_a = soup.find("a", class_="external_red")
+    assert ext_a is not None, "8어절 정책 로드맵 출처 문구에 외부 링크가 정상 주입되어야 합니다."
+    assert ext_a["href"] == source_url
+    assert ext_a.string == "보건복지부의 2026년 만성질환 관리 디지털 전환 로드맵에 따르면"
+
+
+def test_trend_and_precedent_inline_link_injection():
+    """[동향·경향·유사 사례] 마커 인라인 내부 링크 정상 주입 검증"""
+    sister_articles = [
+        {
+            "id": 1,
+            "article_id": 123613,
+            "title": "인도주의적 위기 속 폐렴구균 백신, 질병 부담 낮추는 최선의 전략",
+            "url": "https://www.medicaldaily.co.kr/news/123613"
+        }
+    ]
+
+    html = "<p>의학계에서는 이번 연구가 앞서 보고된 폐렴구균 백신 접종 확대 사례와 마찬가지로 예방 중심 패러다임과 궤를 같이한다고 평가한다.</p>"
+    ctx = {
+        "target_article_id": 1,
+        "anchor_phrase": "폐렴구균 백신 접종 확대 사례"
+    }
+
+    result = LinkInjector.inject_natural_inline_link(
+        html, ctx, sister_articles, article_context="예방 백신 의료 정책"
+    )
+    soup = BeautifulSoup(result, "html.parser")
+    link = soup.find("a", attrs={"data-sys": "1"})
+    assert link is not None
+    assert link["href"] == "https://www.medicaldaily.co.kr/news/123613"
+    assert link.string == "폐렴구균 백신 접종 확대 사례"
+
+
+def test_fallback_auto_match_internal_link():
+    """LLM이 contextual_link를 누락했을 때 2단계 파이썬 자동 매칭 안전망 동작 검증"""
+    sister_articles = [
+        {
+            "id": 1,
+            "article_id": 123613,
+            "title": "인도주의적 위기 속 폐렴구균 백신 접종 확대 전략",
+            "url": "https://www.medicaldaily.co.kr/news/123613"
+        }
+    ]
+
+    # 본문에 폐렴구균 백신 접종 키워드가 있으나 LLM이 contextual_link를 주지 않은 경우
+    html = (
+        "<p>성인 호흡기 질환 관리에서 예방 접종의 중요성이 날로 부각되고 있다.</p>"
+        "<p>전문가들은 고위험군 환자들에게 폐렴구균 백신 접종 확대를 선제적으로 권고해야 한다고 입을 모았다.</p>"
+    )
+
+    result = LinkInjector.inject_fallback_internal_link(html, sister_articles, site="medicaldaily")
+    soup = BeautifulSoup(result, "html.parser")
+    link = soup.find("a", attrs={"data-sys": "1"})
+    assert link is not None, "파이썬 자동 매칭에 의해 자사 기사 링크가 100% 주입되어야 합니다."
+    assert link["href"] == "https://www.medicaldaily.co.kr/news/123613"
+
+
+
+
+
 
 
 

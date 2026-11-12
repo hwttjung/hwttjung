@@ -45,7 +45,7 @@ def clean_old_generated_articles(directory="data/generated_articles", days=10):
     if removed_count > 0:
         logger.info(f"  [Auto Clean] Successfully removed {removed_count} old generated articles (older than {days} days) from {directory}.")
 
-def run_pipeline(source_file_path, target_sites=None, mode="tailored"):
+def run_pipeline(source_file_path, target_sites=None, mode="tailored", ignore_time_window=False):
     logger = get_domain_logger("general")
     logger.info("==================================================")
     logger.info(" Starting AI Article Generation & Publishing Pipeline")
@@ -73,7 +73,8 @@ def run_pipeline(source_file_path, target_sites=None, mode="tailored"):
         logger.warning("[Stop Publishing] STOP_PUBLISHING is active. Skipping the article generation & publishing pipeline.")
         return False
         
-    sites = EnvLoader.get_sites_config(env)
+    include_receive_api = bool(target_sites and "medicaldaily" in target_sites)
+    sites = EnvLoader.get_sites_config(env, include_receive_api=include_receive_api)
     
     if not sites:
         logger.error("[Error] No active sites configured in .env.")
@@ -114,18 +115,36 @@ def run_pipeline(source_file_path, target_sites=None, mode="tailored"):
         
         # Ingest API 사용 매체 리스트 (1~8번의 External API 대신 HTTP Basic Auth Ingest API를 사용하는 매체)
         INGEST_API_SITES = ["jobsnhire", "mobilenapps", "parentherald", "booksnreview"]
+        RECEIVE_ARTICLE_API_SITES = ["medicaldaily"]
         LOCAL_ONLY_SITES = [] # 실서버 승격 완료에 따라 로컬 전용 제한 제거
 
         from datetime import timedelta, timezone
-        
-        # [Daily Limit Guardrail] 각 매체당 하루 송출 기사 수 제한 (기본 5개)
-        daily_site_limit = int(env.get("DAILY_SITE_LIMIT", "5"))
+        kst = timezone(timedelta(hours=9))
+        now_kst = datetime.now(kst)
+
+        # [Operating Hours Guardrail] 의약일보(medicaldaily) KST 08:00~19:00 시간대 가드레일 (요건 3)
+        if site["domain_key"] == "medicaldaily":
+            start_hour = int(env.get("MEDICALDAILY_START_HOUR_KST", "8"))
+            end_hour = int(env.get("MEDICALDAILY_END_HOUR_KST", "19"))
+            skip_time_check = ignore_time_window or env.get("MEDICALDAILY_IGNORE_TIME_WINDOW", "false").strip().lower() in ("true", "1", "yes")
+            if not skip_time_check:
+                if not (start_hour <= now_kst.hour < end_hour):
+                    logger.warning(
+                        f"  [Skip Site] Skipping 'medicaldaily' outside operating hours: "
+                        f"Current KST {now_kst.strftime('%H:%M:%S')} (Allowed: {start_hour:02d}:00~{end_hour:02d}:00 KST)."
+                    )
+                    continue
+
+        # [Daily Limit Guardrail] 각 매체당 하루 송출 기사 수 제한 (기본 5개, 의약일보 50개)
+        if site["domain_key"] == "medicaldaily":
+            daily_site_limit = int(env.get("MEDICALDAILY_DAILY_LIMIT", "50"))
+        else:
+            daily_site_limit = int(env.get("DAILY_SITE_LIMIT", "5"))
         with dup_preventer._lock():
             history = dup_preventer._load_history()
         site_history = history.get(site["domain_key"], [])
         
-        kst = timezone(timedelta(hours=9))
-        today_kst = datetime.now(kst).strftime("%Y-%m-%d")
+        today_kst = now_kst.strftime("%Y-%m-%d")
         
         today_published_count = sum(1 for item in site_history if item.get("date") == today_kst)
         if today_published_count >= daily_site_limit:
@@ -231,7 +250,8 @@ def run_pipeline(source_file_path, target_sites=None, mode="tailored"):
                         current_source_content,
                         site["domain_key"],
                         allowed_categories,
-                        recommended_category=recommended_category
+                        recommended_category=recommended_category,
+                        source_url=cand_url
                     )
                     title = generated_article.get("title", "")
                     selected_cat = generated_article.get("selected_category", "")
@@ -370,6 +390,22 @@ def run_pipeline(source_file_path, target_sites=None, mode="tailored"):
             if err is None and pub_response:
                 pub_response["article_id"] = pub_response.get("a_id")
                 pub_response["url"] = pub_response.get("cms_url")
+        elif site["domain_key"] in RECEIVE_ARTICLE_API_SITES:
+            # 의약일보(medicaldaily.co.kr) 등 Bearer Token 기반 Receive-Article API 송출 분기
+            medi_mode = env.get("MEDICALDAILY_PUBLISH_MODE", "publish").strip().lower()
+            if medi_mode not in ("draft", "publish"):
+                medi_mode = "publish"
+            pub_response, err = publisher.publish_to_receive_article_api(
+                site,
+                generated_article,
+                img_data,
+                rss_link=source_rss_link,
+                mode=medi_mode,
+            )
+            if err is None and pub_response and pub_response.get("remote_id") is not None:
+                v_res, v_err = publisher.verify_receive_article_status(site, pub_response["remote_id"])
+                if v_err is None and isinstance(v_res, dict):
+                    logger.info(f"   [Receive-Article Verify GET] remote_id={pub_response['remote_id']} -> {v_res}")
         else:
             pub_response, err = publisher.publish(site, generated_article, img_data)
         

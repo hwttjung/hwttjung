@@ -26,7 +26,8 @@ DOMAIN_CONSTRAINTS = {
     "mobilenapps": "Cell phones, latest technology, consumer mobile applications, console/PC game releases, app patches, and digital culture trends.",
     "parentherald": "Parenting, family life, child-rearing, motherhood, fatherhood, baby care, and educational news.",
     "booksnreview": "Book reviews, new novel releases, publishing industry updates, author interviews, and literary analysis.",
-    "foodworldnews": "Food health news, culinary trends, food safety and recall notices, healthy gourmet recipes, and nutrition tips."
+    "foodworldnews": "Food health news, culinary trends, food safety and recall notices, healthy gourmet recipes, and nutrition tips.",
+    "medicaldaily": "보건의료 정책, 병원·제약바이오 산업 경영 및 신약 임상·R&D, 의학·약학 최신 학술 논문, 국민 건강관리 및 헬스 라이프스타일 전문 뉴스 (의약일보 한국어 보도 전용)."
 }
 
 class ArticleGenerator:
@@ -122,9 +123,79 @@ class ArticleGenerator:
         text_no_headings = re.sub(r'<h[1-6][^>]*>.*?</h[1-6]>', '', content_html, flags=re.DOTALL | re.IGNORECASE)
         # 잔여 HTML 태그 제거
         clean_text = re.sub(r'<[^>]+>', ' ', text_no_headings)
-        # 영문 단어 추출
-        words = re.findall(r"\b[A-Za-z0-9'-]+\b", clean_text)
+        # 영문 단어 및 한국어 어절 추출
+        words = re.findall(r"[가-힣A-Za-z0-9'-]+", clean_text)
         return len(words)
+
+    @staticmethod
+    def build_top_summary_box(summary_bullets: list, fallback_summary: str = "") -> str:
+        """
+        의약일보(medicaldaily) 기사 본문 최상단에 배치할 고밀도·임팩트 [핵심 요약] 박스를 생성합니다.
+        Q&A 섹션 대신 기사 상단에 핵심 팩트·수치·파급 효과를 길고 임팩트 있게 요약합니다.
+        """
+        cleaned_bullets = []
+        if isinstance(summary_bullets, list):
+            for b in summary_bullets:
+                text = str(b or "").strip()
+                if text:
+                    cleaned_bullets.append(text)
+
+        if not cleaned_bullets and fallback_summary:
+            sentences = [s.strip() for s in re.split(r'(?<=[.!?다])\s+', fallback_summary.strip()) if s.strip()]
+            cleaned_bullets = sentences[:3] if sentences else [fallback_summary.strip()]
+
+        if not cleaned_bullets:
+            return ""
+
+        li_items = []
+        for idx, item in enumerate(cleaned_bullets[:3]):
+            margin_b = "0" if idx == len(cleaned_bullets[:3]) - 1 else "8px"
+            li_items.append(
+                f'<li style="margin-bottom:{margin_b};line-height:1.7;word-break:keep-all;">{item}</li>'
+            )
+
+        box_style = (
+            "border:1px solid #c7d2fe;"
+            "background-color:#ffffff;"
+            "padding:16px 20px;"
+            "margin-top:0;"
+            "margin-bottom:24px;"
+            "border-radius:4px;"
+        )
+        title_style = (
+            "margin-top:0;"
+            "margin-bottom:10px;"
+            "font-weight:700;"
+            "font-size:15px;"
+            "color:#2563eb;"
+            "letter-spacing:-0.3px;"
+        )
+        ul_style = (
+            "margin-top:0;"
+            "margin-bottom:0;"
+            "padding-left:18px;"
+            "color:#1e293b;"
+            "font-size:14px;"
+        )
+        return (
+            f'<div class="md-summary-box" style="{box_style}">'
+            f'<p style="{title_style}">핵심 요약</p>'
+            f'<ul style="{ul_style}">{"".join(li_items)}</ul>'
+            f'</div>'
+        )
+
+    @staticmethod
+    def strip_qa_section_for_medicaldaily(content_html: str) -> str:
+        """
+        의약일보(medicaldaily) 본문에서 Q&A / FAQ 섹션(Key Questions Answered, 자주 묻는 질문 등)을 제거합니다.
+        """
+        if not content_html:
+            return ""
+        pattern = re.compile(
+            r'<h[234][^>]*>\s*(?:Key Questions Answered|자주 묻는 질문|핵심 Q&amp;A|핵심 Q&A|Q&amp;A).*',
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        return pattern.sub("", content_html).strip()
 
     @staticmethod
     def normalize_and_enforce_structure(content_html: str, target_domain: str = "general") -> tuple:
@@ -174,11 +245,12 @@ class ArticleGenerator:
 
         if len(tags) < 20:
             clean_text = re.sub(r'<[^>]+>', ' ', content_html or "")
-            words = re.findall(r"\b[A-Z][a-z]{3,}\b|\b[a-z]{4,}\b", clean_text)
+            words = re.findall(r"\b[A-Z][a-z]{3,}\b|\b[a-z]{4,}\b|[가-힣]{2,}", clean_text)
             stopwords = {
                 "this", "that", "with", "from", "have", "were", "been", "their", "there", 
                 "about", "which", "would", "could", "should", "article", "report", "news", 
-                "they", "will", "what", "more", "also", "into", "than", "then", "some"
+                "they", "will", "what", "more", "also", "into", "than", "then", "some",
+                "있는", "있다", "대한", "위해", "통해", "따르면", "경우", "이번", "관련", "밝혔다"
             }
             
             candidates = []
@@ -216,7 +288,7 @@ class ArticleGenerator:
                 return True
         return False
 
-    def generate(self, source_text, target_site_domain, available_categories, recommended_category=None, min_words=1200, max_tokens=None):
+    def generate(self, source_text, target_site_domain, available_categories, recommended_category=None, min_words=1200, max_tokens=None, source_url=None):
         if self._is_stop_publishing_active():
             from common.logger_setup import get_domain_logger
             logger = get_domain_logger(target_site_domain)
@@ -225,6 +297,11 @@ class ArticleGenerator:
 
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY is not set.")
+
+        if not source_url and source_text:
+            m_ref = re.search(r"Reference URL:\s*(https?://[^\s\n\r]+)", source_text)
+            if m_ref:
+                source_url = m_ref.group(1).strip()
             
         model_name = self.settings.get("ai_model", {}).get("model_name", "gemini-3.1-flash-lite")
         temperature = self.settings.get("ai_model", {}).get("temperature", 0.6)
@@ -275,7 +352,32 @@ CRITICAL FACT-CHECKING RULE: You must base the article STRICTLY on the facts pro
         sister_article_section = ""
         if enable_internal:
             try:
-                recent_arts = LinkInjector.load_related_articles(target_site_domain, limit=2)
+                # 소스 텍스트에서 주제 키워드 추출 (의약일보는 한국어 명사 추출 시맨틱 검색 적용)
+                topic_query = ""
+                if target_site_domain == "medicaldaily":
+                    ko_words = [
+                        w for w in re.findall(r"[가-힣]{2,}", source_text)
+                        if len(w) >= 2 and w not in {"의약일보", "기사", "보도", "뉴스", "기자", "밝혔다", "따르면", "연구", "대한", "통해", "위해", "있는"}
+                    ]
+                    if ko_words:
+                        topic_query = " ".join(ko_words[:4])
+                    else:
+                        orig_title_m = re.search(r"Original Title:\s*(.*)", source_text)
+                        if orig_title_m:
+                            topic_query = orig_title_m.group(1).strip()
+                else:
+                    orig_title_m = re.search(r"Original Title:\s*(.*)", source_text)
+                    if orig_title_m:
+                        topic_raw = orig_title_m.group(1).strip()
+                        topic_words = [
+                            w for w in re.findall(r"[A-Za-z]{4,}", topic_raw)
+                            if w.lower() not in {"novel", "shows", "phase", "trial", "study", "pulls", "taps", "with", "from", "that"}
+                        ]
+                        if topic_words:
+                            topic_query = " ".join(topic_words[:2])
+
+                pool_limit = 5 if target_site_domain == "medicaldaily" else 2
+                recent_arts = LinkInjector.load_related_articles(target_site_domain, limit=pool_limit, topic_query=topic_query)
                 for idx, r_art in enumerate(recent_arts, start=1):
                     sister_pool.append({
                         "id": idx,
@@ -301,7 +403,87 @@ RULES FOR SISTER ARTICLES (9:1 HIERARCHY MANDATE):
                 from common.logger_setup import get_domain_logger
                 get_domain_logger(target_site_domain).warning(f"Failed loading sister pool for prompt: {e}")
 
-        prompt = f"""
+        if target_site_domain == "medicaldaily":
+            sister_korean_section = ""
+            if prompt_sister_lines:
+                sister_korean_section = f"""
+# [자사(의약일보) 관련 기사 문맥 인용 지침 - 동향·경향·유사 사례 결합]
+현재 의약일보에 보도된 최근 관련 기사 목록입니다:
+{chr(10).join(prompt_sister_lines)}
+
+1. [동향·경향·유사 사례·배경] 4대 인용 프레임 적용:
+   - 위 기사 중 현재 주제(질환 관리, 제약바이오, 의료 기술, 보건 정책, 생활 건강 등)와 가장 관련 있는 1건을 선정하여, 본문 3~4번째 문단에 아래 4대 프레임 중 하나로 자연스럽게 1문장 언급하십시오.
+     * Frame A (업계 동향/추세): "국내외 보건·의료계에서도 최근 [앵커 문구] 흐름이 가속화되는 가운데..."
+     * Frame B (정책/학술 경향): "의학계에서는 이번 연구가 앞선 [앵커 문구]와 같은 예방 중심 패러다임과 궤를 같이한다고 평가한다."
+     * Frame C (유사 사례/예시): "이는 앞서 보고된 [앵커 문구] 사례와 마찬가지로, 환자 맞춤형 접근의 중요성을 시사한다."
+     * Frame D (배경/선행 보도): "전문가들은 지난 [앵커 문구] 당시 지적되었던 인프라 확충이 동반되어야 한다고 강조했다."
+2. 억지 대조/비교 인용 절대 금지:
+   - '대조적으로', '이와 달리', '반면에', '사례와 달리' 등 인위적이고 어색한 억지 대조는 절대로 사용하지 마십시오.
+3. 앵커 문구(anchor_phrase) 지정:
+   - 본문 내 실제 작성한 자연스러운 2~6어절 서술 문구를 JSON의 "contextual_link" -> "anchor_phrase"에 정확히 기입하십시오.
+   - 본문 HTML 안에 직접 <a> 태그를 작성하지 마십시오. (파이썬이 자동 치환합니다)
+"""
+            prompt = f"""
+당신은 대한민국 대표 보건의료·제약바이오·병원·학술 전문 언론사 **'의약일보(Medical Daily)'**의 수석 의학·보건 전문기자입니다.
+제공된 해외/국내 의학·보건·제약 뉴스 원문 팩트를 바탕으로, 한국 독자와 의료·제약 업계 관계자, 일반 국민이 깊이 있게 읽을 수 있는 **고품격 한국어 심층 기획 보도기사**를 작성하십시오.
+
+# [필수 시스템 제약사항]
+- 오늘 날짜: {current_date} (현재 연도: {current_year}년)
+- 매체 도메인: 의약일보 (medicaldaily.co.kr)
+- 허용된 분류(selected_category) 목록: [{categories_str}]
+  * 기사의 핵심 주제에 맞춰 '정책', '경영', '학술', '병원·제약', '라이프', '오피니언' 중 가장 적합한 분류 1개를 정확히 선택하십시오.
+  * 특히 '라이프' 분류는 국민 실생활 건강 상식, 건강 관리 팁, 식습관, 운동, 웰빙, 예방 의학을 집중 조명하는 핵심 분류입니다. 건강 상식·팁 및 생활 웰빙 뉴스인 경우 반드시 '라이프'로 분류하십시오.
+{sister_korean_section}
+# [의약일보 한국어 기사 작성 7대 원칙]
+1. **100% 한국어 전문 보도 문체**:
+   - 제목(title), 요약(summary), 상단 핵심 요약(top_summary_bullets), 본문(content), SEO 태그(seo_tags)는 모두 자연스럽고 격조 높은 한국어 언론 보도 문체(`~했다`, `~밝혔다`, `~분석됐다`, `~전망이다` 등 평서형 스트레이트/기획 기사체)로 작성하십시오.
+2. **하단 Q&A(자주 묻는 질문) 전면 배제 & 상단 [핵심 요약] 불릿 생성**:
+   - 본문 하단에 Q&A(`Key Questions Answered`, `자주 묻는 질문` 등) 섹션을 절대 넣지 마십시오.
+   - 대신 기사 상단 요약 박스에 들어갈 `top_summary_bullets` 배열(3~4개 항목)을 작성하십시오.
+   - 각 불릿 항목은 단순 단답형 한 줄이 아니라, **핵심 키워드 볼드 강조(`<strong>...</strong>`) + 구체적 수치·임상/정책 배경·의료 현장 및 시장 파급력을 담은 90~150자 내외의 길고 임팩트 있는 1~2문장**으로 밀도 있게 작성하십시오.
+3. **양괄식 리드 문단 (서두)**:
+   - 본문(`content`)의 첫 번째 `<p>` 문단 위에는 소제목(`<h3>`)을 두지 마십시오. 첫 문단에서 핵심 사건, 연구 기관/정부 부처, 주요 수치 및 의학적·사회적 함의를 명쾌하게 종합 제시하십시오.
+4. **기승전결 심층 서사 및 소제목(`<h3>`) 3~5개 구성**:
+   - 리드 문단 이후 `<h3>` 소제목을 3~5개 배치하여 (1) 연구·정책 배경과 발생 경위, (2) 구체적 임상 데이터·통계 수치 분석, (3) 보건의료계·제약바이오 산업 파급 효과 및 전문가 시각, (4) 향후 과제와 전망 순으로 깊이 있게 전개하십시오.
+   - 분량은 공백 포함 최소 2,500자 이상(한국어 600~1,000어절 이상)의 풍부한 심층 기사로 작성하십시오.
+5. **명확한 출처 명시 (In-Text Attribution - 필수 규칙)**:
+   - 본문 2~3번째 문단 중 하나에는 반드시 원문 소스를 제공한 해외/국내 언론사, 연구기관, 학술지(NEJM, Nature, Lancet 등), 또는 보건당국(FDA, CDC, WHO 등)의 명칭을 명시한 정규 인용 문구를 1회 자연스럽게 포함하십시오.
+   - [표준 인용 문구 형태]:
+     * 형태 1: `[기관/외신명] 보도에 따르면`, `[기관명] 발표에 따르면`, `[기관명] 통계 자료에 따르면` (예: "엔드포인츠뉴스(Endpoints News) 보도에 따르면", "미국 FDA 발표에 따르면", "로이터 통신 보도에 따르면", "외신 보도에 따르면")
+     * 형태 2: `[기관명]의 [연도/보고서/전망명]` (예: "HAMA의 2026년 업계 전망", "보건복지부의 2026년 필수의료 지원계획", "국립보건원의 최신 임상 보고서", "CBRE의 2025년 숙박업 데이터에 따르면")
+   - 원문에 없는 허위 수치나 사실을 날조하지 마십시오.
+6. **이미지 검색 쿼리 이원화 (`image_search_queries`)**:
+   - 0순위 의약일보 DB 검색을 위해 첫 번째·두 번째 원소에는 **한국어 핵심 주제어 2개**(예: `"건강검진"`, `"제약 임상시험"`)를 넣고, 1~3순위 글로벌 스톡(Pexels, Wikimedia, Unsplash) 검색을 위해 세 번째·네 번째 원소에는 **영문 핵심 검색어 2개**(예: `"medical researcher laboratory"`, `"clinical trial hospital"`)를 함께 배열로 작성하십시오.
+
+# Output Schema (반드시 순수 JSON만 출력):
+{{
+  "fact_check_rationale": "원문 팩트를 왜곡 없이 의약일보 독자 관점으로 재구성한 편집 근거 요약",
+  "title": "핵심 팩트와 수치가 살아있는 45자 이내의 한국어 헤드라인 (클릭베이트 금지)",
+  "summary": "기사의 핵심 내용을 압축한 150~200자 한국어 요약문",
+  "top_summary_bullets": [
+    "<strong>핵심 연구·정책 결론:</strong> 구체적인 임상 수치와 발표 기관, 핵심 발견 내용을 임팩트 있게 설명하는 1~2문장 요약",
+    "<strong>작용 기전 및 주요 데이터:</strong> 기존 치료법·제도 대비 개선된 지표와 안전성·유효성 근거를 상세히 짚어주는 1~2문장 요약",
+    "<strong>의료 현장 및 산업계 파급력:</strong> 환자 치료 가이드라인 변화나 제약·바이오 시장 및 보건 정책에 미칠 실질적 영향을 짚어주는 1~2문장 요약"
+  ],
+  "content": "<p>양괄식 첫 리드 문단...</p><p>도입 상세 설명 문단...</p><h3>첫 번째 소제목</h3><p>심층 본문...</p><h3>두 번째 소제목</h3><p>심층 본문...</p><h3>세 번째 소제목</h3><p>심층 본문...</p>",
+  "contextual_link": {{
+    "target_article_id": 1,
+    "anchor_phrase": "본문 내 정확히 등장하는 2~5어절 한국어 구문",
+    "rationale": "자사 기사와의 문맥적 연관성 설명 (연관성이 없으면 contextual_link 전체를 null로 설정)"
+  }},
+  "selected_category": "허용된 분류 중 1개 (예: 학술, 병원·제약, 정책, 경영, 라이프, 오피니언)",
+  "featured_persons": ["주요 인물명(영문 또는 한글)"],
+  "fallback_topic_keyword": "medical research",
+  "image_search_queries": ["한국어 핵심키워드1", "한국어 핵심키워드2", "english medical keyword 1", "english medical keyword 2"],
+  "search_keyword": "대표 한국어 핵심 키워드",
+  "seo_tags": "한국어태그1, 한국어태그2, 한국어태그3, 한국어태그4, 한국어태그5, 한국어태그6, 한국어태그7, 한국어태그8, 한국어태그9, 한국어태그10, 한국어태그11, 한국어태그12, 한국어태그13, 한국어태그14, 한국어태그15, 한국어태그16, 한국어태그17, 한국어태그18, 한국어태그19, 한국어태그20"
+}}
+
+# Source Article / Raw Text to Reconstruct:
+{source_text}
+"""
+        else:
+            prompt = f"""
 {self.prompt_instruction}
 
 ---
@@ -384,6 +566,8 @@ The current year is {current_year}. Make sure all time-specific statements, stat
                 
                 # --- [코드 레벨 결정론적 후처리 & 가드레일 (비용 최소화 및 정합성 보장)] ---
                 raw_content = generated_data.get("content", "")
+                if target_site_domain == "medicaldaily":
+                    raw_content = self.strip_qa_section_for_medicaldaily(raw_content)
                 norm_content, h_count = self.normalize_and_enforce_structure(raw_content, target_site_domain)
 
                 # --- [외·내부 인라인 하이퍼링크 주입 후처리 (매체별 분기)] ---
@@ -391,17 +575,29 @@ The current year is {current_year}. Make sure all time-specific statements, stat
                     enable_internal = True
                     enable_readmore = target_site_domain not in INGEST_API_SITES
                     contextual_link = generated_data.get("contextual_link")
+                    article_ctx = f"{generated_data.get('title', '')} {generated_data.get('summary', '')} {generated_data.get('search_keyword', '')}"
                     norm_content = LinkInjector.process(
                         html_content=norm_content,
                         site=target_site_domain,
+                        source_url=source_url,
                         contextual_link=contextual_link,
                         sister_articles=sister_pool,
                         enable_internal_links=enable_internal,
                         enable_readmore_box=enable_readmore,
+                        article_context=article_ctx,
                     )
                 except Exception as link_err:
                     from common.logger_setup import get_domain_logger
                     get_domain_logger(target_site_domain).warning(f"Link injection failed, using raw content: {link_err}")
+
+                # 의약일보(medicaldaily)의 경우 Q&A 대신 본문 최상단에 고밀도 [핵심 요약] 박스 배치
+                if target_site_domain == "medicaldaily" and "md-summary-box" not in norm_content:
+                    top_box = self.build_top_summary_box(
+                        generated_data.get("top_summary_bullets"),
+                        generated_data.get("summary", ""),
+                    )
+                    if top_box:
+                        norm_content = f"{top_box}\n{norm_content}"
 
                 word_count = self.count_body_words_excluding_headings(norm_content)
                 
@@ -615,9 +811,12 @@ The current year is {current_year}. Make sure all time-specific statements, stat
                 # --- [외·내부 인라인 하이퍼링크 주입 후처리 (매체별 분기)] ---
                 try:
                     enable_internal = target_site_domain not in INGEST_API_SITES
+                    m_ref = re.search(r"Reference URL:\s*(https?://[^\s\n\r]+)", source_text or "")
+                    trend_source_url = m_ref.group(1).strip() if m_ref else None
                     norm_content = LinkInjector.process(
                         html_content=norm_content,
                         site=target_site_domain,
+                        source_url=trend_source_url,
                         enable_internal_links=enable_internal,
                     )
                 except Exception as link_err:
